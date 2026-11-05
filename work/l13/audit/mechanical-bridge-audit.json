@@ -1,0 +1,1315 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "cases": [
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -261,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -258,
+        "y": 39,
+        "z": -495
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -258,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -258,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -258,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -258,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -258,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 0,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -497
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -477
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -239,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 0,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -482
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -221,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -495
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 0,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -497
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -517
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -269,
+        "y": 39,
+        "z": -514
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -514
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -514
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -514
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -514
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -514
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -512
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -291,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -495
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -497
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 1,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -497
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -477
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -269,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -480
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 1,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -482
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -251,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -254,
+        "y": 39,
+        "z": -525
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -254,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -254,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -254,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -254,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -254,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 2,
+      "gate": {
+        "x": -256,
+        "y": 39,
+        "z": -527
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -547
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -269,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -271,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 2,
+      "gate": {
+        "x": -271,
+        "y": 39,
+        "z": -542
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -291,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -525
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -288,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 2,
+      "gate": {
+        "x": -286,
+        "y": 39,
+        "z": -527
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -507
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -239,
+        "y": 39,
+        "z": -510
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -510
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -510
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -510
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -510
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -510
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -512
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -221,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -525
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "arrival": {
+        "x": -224,
+        "y": 39,
+        "z": -527
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 3,
+      "gate": {
+        "x": -226,
+        "y": 39,
+        "z": -527
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -547
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -239,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "arrival": {
+        "x": -241,
+        "y": 39,
+        "z": -544
+      }
+    },
+    {
+      "bridge": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+      "rootRotation": 3,
+      "gate": {
+        "x": -241,
+        "y": 39,
+        "z": -542
+      },
+      "status": "no_safe_platform_on_this_original_bridge"
+    }
+  ],
+  "safeByTemplate": {
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0": 12,
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1": 12,
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3": 12,
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5": 12,
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6": 12,
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7": 12,
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8": 12
+  },
+  "rejectedByTemplate": {
+    "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2": 12
+  },
+  "runtimeTested": false,
+  "scope": "Root plus direct bridge only; conservative processors; no random decorations, full assembly, player collision, multiplayer or restart acceptance"
+}

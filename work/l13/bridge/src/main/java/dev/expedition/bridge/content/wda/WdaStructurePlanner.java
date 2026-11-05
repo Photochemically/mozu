@@ -125,7 +125,8 @@ public final class WdaStructurePlanner {
                 if(!passages.isEmpty())rooms.add(new InteriorRoom(bounds,passages));
             }
         }
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms);
+        var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges);
     }
 
     private void validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

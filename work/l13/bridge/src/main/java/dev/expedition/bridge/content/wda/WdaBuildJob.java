@@ -97,7 +97,7 @@ final class WdaBuildJob {
                     if(plan.boarding())boarding=new WdaBoardingJob(world,portal,plan.island());
                     if(plan.entryMode().interior()) {
                         stage=Stage.INTERIOR_SITES;
-                        interior=new WdaInteriorSitesJob(world,plan.interiorRooms(),portal.selection().content().exits(),plan.entryMode()==DungeonSpec.EntryMode.START_DECK);
+                        interior=new WdaInteriorSitesJob(world,plan.interiorRooms(),portal.selection().content().exits(),plan.entryMode()==DungeonSpec.EntryMode.START_DECK,plan.gateBridges());
                     }
                     rewind();
                 }

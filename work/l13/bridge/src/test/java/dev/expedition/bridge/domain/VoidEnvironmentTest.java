@@ -8,10 +8,12 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class VoidEnvironmentTest {
-    @Test void surfaceProjectionAndUnadaptedOriginalPistonGatesFailBeforeGeneration() {
+    @Test void surfaceProjectionFailsAndMechanicalGatesRequireTheirDedicatedAdapter() {
         assertDoesNotThrow(()->AerialContentPolicy.validate("dungeons_arise:aviary","minecraft:jigsaw",false));
         assertThrows(IllegalArgumentException.class,()->AerialContentPolicy.validate("dungeons_arise:small_blimp","minecraft:jigsaw",true));
-        assertThrows(IllegalArgumentException.class,()->AerialContentPolicy.validate("dungeons_arise:mechanical_nest","minecraft:jigsaw",false));
+        assertDoesNotThrow(()->AerialContentPolicy.validate("dungeons_arise:mechanical_nest","minecraft:jigsaw",false));
+        assertTrue(AerialContentPolicy.needsGateBridge("dungeons_arise:mechanical_nest"));
+        assertFalse(AerialContentPolicy.needsGateBridge("dungeons_arise:aviary"));
         assertThrows(IllegalArgumentException.class,()->AerialContentPolicy.validate("dungeons_arise:future","other:unknown",false));
     }
     @Test void emptyBackgroundHasNoTerrainWritesOrInventedGroundBelowTheBuilding() {
@@ -30,7 +32,8 @@ class VoidEnvironmentTest {
         assertThrows(IllegalArgumentException.class,()->new DungeonSpec.Environment(96,8,6,24,IslandPlan.Surface.VOID,0,true,DungeonSpec.EntryMode.START_DECK));
     }
     @Test void aerialSelectionFixedArrivalAndExitsSurviveReadyReload() {
-        var spec=new DungeonSpec("test:air",DungeonSpec.Provider.WDA,"dungeons_arise:heavenly_rider",Set.of(4),1,
+        for(String target:List.of("dungeons_arise:heavenly_rider","dungeons_arise:mechanical_nest")) {
+        var spec=new DungeonSpec("test:air",DungeonSpec.Provider.WDA,target,Set.of(4),1,
                 new DungeonSpec.Environment(96,8,6,24,IslandPlan.Surface.VOID,0,false,DungeonSpec.EntryMode.START_DECK),1);
         assertEquals(spec,DungeonSpecJson.read(spec.id(),DungeonSpecJson.write(spec)));
         var p=new PortalRecord(UUID.randomUUID(),PortalKind.EXPLORATION,4,new PortalRecord.Site("minecraft:overworld",0,70,0),42);p.selectContent(new DungeonCatalog.Choice(4,spec));
@@ -40,5 +43,6 @@ class VoidEnvironmentTest {
         var loaded=ExpeditionSavedData.load(data.save(new CompoundTag())).get(p.id());
         assertEquals(p.selection(),loaded.selection());assertEquals(p.destination(),loaded.destination());assertEquals(p.exits(),loaded.exits());
         assertThrows(IllegalStateException.class,()->loaded.resolveWdaStartRoomArrival(arrival));
+        }
     }
 }

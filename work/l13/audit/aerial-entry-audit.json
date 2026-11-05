@@ -489,32 +489,32 @@
       "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
       "rotation": 0,
       "processorRulesConsidered": 7,
-      "status": "requires_original_gate_entry_adapter"
+      "status": "requires_connected_bridge_adapter_not_root_only_search"
     },
     {
       "structure": "mechanical_nest",
       "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
       "rotation": 1,
       "processorRulesConsidered": 7,
-      "status": "requires_original_gate_entry_adapter"
+      "status": "requires_connected_bridge_adapter_not_root_only_search"
     },
     {
       "structure": "mechanical_nest",
       "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
       "rotation": 2,
       "processorRulesConsidered": 7,
-      "status": "requires_original_gate_entry_adapter"
+      "status": "requires_connected_bridge_adapter_not_root_only_search"
     },
     {
       "structure": "mechanical_nest",
       "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
       "rotation": 3,
       "processorRulesConsidered": 7,
-      "status": "requires_original_gate_entry_adapter"
+      "status": "requires_connected_bridge_adapter_not_root_only_search"
     }
   ],
   "safeDeckCases": 44,
-  "pendingGateCases": 4,
+  "bridgeAdapterRequiredCases": 4,
   "runtimeAccepted": false,
   "formalPoolEnrollment": false,
   "scope": "Original root pieces with conservative processor outcomes; not full assembly, surrounding pieces, real collision, combat or restart acceptance"

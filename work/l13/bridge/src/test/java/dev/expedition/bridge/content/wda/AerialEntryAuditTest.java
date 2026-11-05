@@ -27,8 +27,7 @@ class AerialEntryAuditTest {
         try(var jar=new ZipFile("libs/DungeonsArise-1.20.x-2.1.58-release.jar")) {
             for(String id:List.of("aviary","heavenly_challenger","heavenly_conqueror","heavenly_rider","mechanical_nest")) {
                 var definition=json(jar,"data/dungeons_arise/worldgen/structure/"+id+".json");assertEquals("minecraft:jigsaw",definition.get("type").getAsString());assertFalse(definition.has("project_start_to_heightmap"));
-                if(id.equals("mechanical_nest"))assertThrows(IllegalArgumentException.class,()->AerialContentPolicy.validate("dungeons_arise:"+id,definition.get("type").getAsString(),definition.has("project_start_to_heightmap")));
-                else assertDoesNotThrow(()->AerialContentPolicy.validate("dungeons_arise:"+id,definition.get("type").getAsString(),definition.has("project_start_to_heightmap")));
+                assertDoesNotThrow(()->AerialContentPolicy.validate("dungeons_arise:"+id,definition.get("type").getAsString(),definition.has("project_start_to_heightmap")));
                 var pool=json(jar,"data/dungeons_arise/worldgen/template_pool/"+definition.get("start_pool").getAsString().split(":")[1]+".json");
                 for(var raw:pool.getAsJsonArray("elements")) {
                     var element=raw.getAsJsonObject().getAsJsonObject("element");assertEquals("rigid",element.get("projection").getAsString());String template=element.get("location").getAsString();
@@ -63,7 +62,7 @@ class AerialEntryAuditTest {
                         var search=new AerialSiteSearch(new InteriorRoom(bounds,List.of()),probe,List.of());int batches=0;
                         while(!search.complete() && batches++<200000)search.step(256);assertTrue(search.complete());
                         var row=new JsonObject();row.addProperty("structure",id);row.addProperty("template",template);row.addProperty("rotation",rotation);row.addProperty("processorRulesConsidered",rules.size());
-                        if(search.result().isEmpty()){missing.add(template+" rotation="+rotation);row.addProperty("status","requires_original_gate_entry_adapter");}
+                        if(search.result().isEmpty()){missing.add(template+" rotation="+rotation);row.addProperty("status","requires_connected_bridge_adapter_not_root_only_search");}
                         else {var site=search.result().orElseThrow();assertTrue(InteriorSiteSearch.clearPlatform(site,probe));row.add("arrival",new Gson().toJsonTree(site));}
                         rows.add(row);
                     }
@@ -71,11 +70,11 @@ class AerialEntryAuditTest {
             }
             assertTrue(json(jar,"data/dungeons_arise/worldgen/structure/small_blimp.json").has("project_start_to_heightmap"));
         }
-        report.add("cases",rows);report.addProperty("safeDeckCases",rows.size()-missing.size());report.addProperty("pendingGateCases",missing.size());report.addProperty("runtimeAccepted",false);report.addProperty("formalPoolEnrollment",false);
+        report.add("cases",rows);report.addProperty("safeDeckCases",rows.size()-missing.size());report.addProperty("bridgeAdapterRequiredCases",missing.size());report.addProperty("runtimeAccepted",false);report.addProperty("formalPoolEnrollment",false);
         report.addProperty("scope","Original root pieces with conservative processor outcomes; not full assembly, surrounding pieces, real collision, combat or restart acceptance");
         Files.createDirectories(Path.of("build/reports"));Files.writeString(Path.of("build/reports/aerial-entry-audit.json"),new GsonBuilder().setPrettyPrinting().create().toJson(report));
         assertEquals(48,rows.size());
         assertEquals(java.util.stream.IntStream.range(0,4).mapToObj(r->"dungeons_arise:mechanical_nest/mechanical_nest_start_0 rotation="+r).toList(),missing,
-                "Only the explicitly pending piston-gate start may lack a safe open-deck route; do not silently drop other candidates");
+                "Only the mechanical root requires its connected bridge adapter; do not silently drop other candidates");
     }
 }

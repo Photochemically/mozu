@@ -14,10 +14,14 @@ final class WdaInteriorSitesJob {
     private final int count;
     private RoomSiteSearch search;
     private final boolean aerial;
-    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial) {
+    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges) {
         if(rooms.isEmpty() || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
         remaining=new ArrayList<>(rooms);probe=new InteriorBlockProbe(world);dimension=world.dimension().location().toString();this.count=count;this.aerial=aerial;
-        search=search(remaining.remove(0));
+        if(gateBridges!=null) {
+            if(!aerial)throw new IllegalArgumentException("Gate bridge requires aerial placement");
+            remaining.remove(0); // Never fall back to the starting room behind the intact gates.
+            search=new MechanicalBridgeSiteSearch(gateBridges,probe);
+        } else search=search(remaining.remove(0));
     }
     boolean step(int budget,long nanos) {
         long started=System.nanoTime();int work=0;
@@ -25,7 +29,9 @@ final class WdaInteriorSitesJob {
             search.step(1);work++;
             if(!search.complete())continue;
             var site=search.result();
-            if(site.isEmpty() && selected.isEmpty())throw new IllegalStateException("Original starting room has no safe entry; refusing alternate room or tunnel");
+            if(site.isEmpty() && selected.isEmpty())throw new IllegalStateException("Original start approach has no safe entry; refusing a gate bypass, alternate room or tunnel");
+            if(search instanceof MechanicalBridgeSiteSearch bridge && site.isPresent())
+                remaining.removeIf(room->room.bounds().equals(bridge.selectedBridge().orElseThrow()));
             site.ifPresent(selected::add);
             if(selected.size()==count)return true;
             if(remaining.isEmpty())throw new IllegalStateException("Cannot place requested exits in distinct original rooms; refusing reduced exit count");

@@ -1,15 +1,15 @@
 {
   "date": "2026-11-05",
-  "scope": "Optional void background and original aerial deck entry; no terrain filling, native connected platforms, fixed persisted arrival;44 safe static cases plus4 explicit pending piston-gate cases",
+  "scope": "Mechanical nest original gate-side bridge entry: positioned native joints, connected flat bridge platform, fixed saved arrival; 84 safe and 12 explicitly rejected original bridge cases",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "aerial-entry-delivery-build.log",
+  "buildLog": "mechanical-bridge-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 313337,
-  "sha256": "5F7DCCB66587C51E7CA83F1809A0AC53355359D5EB375F472C645A9FAEBEF40D",
+  "bytes": 328383,
+  "sha256": "429A9BBA4D30AB457CAFE6477E9B661EB5C2C12BC5F6F382D96DE5AB7BA44725",
   "saveSchema": 5,
   "suites": [
     {
@@ -32,6 +32,12 @@
     },
     {
       "name": "dev.expedition.bridge.content.wda.AerialEntryAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.MechanicalBridgeAuditTest",
       "tests": 1,
       "failures": 0,
       "errors": 0
@@ -111,6 +117,12 @@
     {
       "name": "dev.expedition.bridge.domain.IslandPlanTest",
       "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.MechanicalBridgeSiteSearchTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -265,5 +277,6 @@
   "waterEnvironmentEvidence": "WATER_ENVIRONMENTS.md, wda-water-source-evidence.json;15 new tests incl actual vanilla tick inheritance and SRG mapping, no actual fluid/boat placement acceptance",
   "boardingEvidence": "ship-boarding-audit.json:3 surface ships x4 rotations=12 original joined main-shell cases; no random full assembly or real collision/player acceptance",
   "undergroundEntryEvidence": "underground-entry-audit.json:5 original starting templates x4 rotations=20 static cases; full random graph, extra exits, fluids, real collision and multiplayer restart still untested",
-  "aerialEntryEvidence": "aerial-entry-audit.json:48 root-piece rotation cases,44 safe deck sites,4 mechanical-nest gate cases remain unsupported; full random assemblies and runtime untested"
+  "aerialEntryEvidence": "aerial-entry-audit.json:48 root-only cases,44 safe decks and4 requiring the dedicated connected-bridge adapter; no full assembly or runtime acceptance",
+  "mechanicalBridgeEvidence": "mechanical-bridge-audit.json:8 direct bridge templates x3 root ports x4 rotations=96;84 safe platforms,12 short-terminator rejections; no random decoration/full assembly or runtime acceptance"
 }

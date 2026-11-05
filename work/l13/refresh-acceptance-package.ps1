@@ -10,6 +10,7 @@ foreach ($taskPath in @($taskDirectory,$taskTarget,$taskTemporary)) {
 $taskBuild = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'audit\build-summary.json') -Raw | ConvertFrom-Json
 $taskJar = Join-Path $PSScriptRoot ('bridge\build\libs\' + $taskBuild.jar)
 if ((Get-FileHash -LiteralPath $taskJar -Algorithm SHA256).Hash -ne $taskBuild.sha256) { throw 'Build receipt no longer matches JAR' }
+[IO.Directory]::CreateDirectory($taskDirectory) | Out-Null
 $taskEntries = [ordered]@{
     'README.md'='ACCEPTANCE_FIXTURES.md'
     'WDA_COMPLETENESS_STAGE1.md'='WDA_COMPLETENESS_STAGE1.md'
@@ -21,6 +22,7 @@ $taskEntries = [ordered]@{
     'SHIP_BOARDING.md'='SHIP_BOARDING.md'
     'UNDERGROUND_ENTRIES.md'='UNDERGROUND_ENTRIES.md'
     'AERIAL_ENVIRONMENTS.md'='AERIAL_ENVIRONMENTS.md'
+    'MECHANICAL_BRIDGE_ENTRY.md'='MECHANICAL_BRIDGE_ENTRY.md'
     'test-fixtures/expedition-development-world.json'='test-fixtures/expedition-development-world.json'
 }
 $taskStream = [IO.File]::Open($taskTemporary,[IO.FileMode]::Create)
@@ -45,7 +47,7 @@ Move-Item -LiteralPath $taskTemporary -Destination $taskTarget -Force
 $taskReceipt = [ordered]@{
     tests=($taskBuild.suites | Measure-Object -Property tests -Sum).Sum
     buildLog=$taskBuild.buildLog; jarBytes=$taskBuild.bytes; jarSha256=$taskBuild.sha256
-    helperPackage=$taskTarget; helperSha256=(Get-FileHash -LiteralPath $taskTarget -Algorithm SHA256).Hash
+    helperPackage='outputs/L13验收辅助/七类验收入口-准备包.zip'; helperSha256=(Get-FileHash -LiteralPath $taskTarget -Algorithm SHA256).Hash
     helperEntries=@($taskEntries.Keys); runtimeTested=$false; installed=$false
 }
 $taskReceipt | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $PSScriptRoot 'audit\acceptance-fixtures-artifact.json') -Encoding utf8

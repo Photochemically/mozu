@@ -37,7 +37,7 @@
 | surface | `grass`、`rock`、`water` 或 `void` | 草地／岩地／有实体底部与干岸的水域；void保留悬空原建筑，不生成地形 |
 | water_depth | `water`必填2～64整数；其他表层省略或0 | 水面第一层为first_free_y，海床第一层为first_free_y-water_depth；随选择快照保存，没有正式默认水深 |
 | boarding | 可选布尔值，默认false；仅water可为true | 完整原建筑放置后补建干岸至原船体的栈道；无合适路线时保留并隔离实例，不拆墙或换建筑 |
-| entry_mode | perimeter（默认）、start_room（要求rock）、start_deck（必须与void成对） | 分别使用岛缘、地下原通道、空中原平台；后两者在原起始组件进入、其他原组件选择额外出口。没有合适位置时拒绝开放 |
+| entry_mode | perimeter（默认）、start_room（要求rock）、start_deck（必须与void成对） | 分别使用岛缘、地下原通道、空中原平台；后两者通常在原起始组件进入，机械巢穴使用与原起始组件相连的闸门外桥面；其他原组件选择额外出口。没有合适位置时拒绝开放 |
 
 WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能当作所有大型建筑内部路线已完成。原生候选必须能解析到同标识的单 schematic 生成器与模板；不会把不支持的生成器默默替换成其他房间。新增建筑模组需要新增受检查的提供者，不能只伪造命名空间绕过接口约束。
 
@@ -55,4 +55,4 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 
 资源加载先校验整份新目录，再替换旧快照；非法条目使本次目录加载失败。尚未验证与整包 `/reload` 事件顺序的兼容性。开启目录不代表自然入口、战斗、奖励与保护系统都已完成，不能单独作为发布开关。
 
-空中 `void`／`start_deck` 的细则见[模块说明](AERIAL_ENVIRONMENTS.md)。仍保留旧环境字段格式，但first_free_y、padding、rim、foundation_depth在此模式下不生成地基；原建筑完整范围与16格隔离余量不变。机械巢穴原活塞闸门、小飞艇地表投影／梯段仍待专门适配，不会自动加入可用池。
+空中 `void`／`start_deck` 的细则见[模块说明](AERIAL_ENVIRONMENTS.md)。仍保留旧环境字段格式，但first_free_y、padding、rim、foundation_depth在此模式下不生成地基；原建筑完整范围与16格隔离余量不变。机械巢穴使用[专用桥侧入口](MECHANICAL_BRIDGE_ENTRY.md)，找不到合格原桥平台仍拒绝开放；小飞艇地表投影／梯段仍待专门适配，不会自动加入可用池。
