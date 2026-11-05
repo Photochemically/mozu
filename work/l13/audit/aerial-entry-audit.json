@@ -1,0 +1,521 @@
+{
+  "cases": [
+    {
+      "structure": "aviary",
+      "template": "dungeons_arise:aviary/aviary_part_13",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -249,
+        "y": 20,
+        "z": -495
+      }
+    },
+    {
+      "structure": "aviary",
+      "template": "dungeons_arise:aviary/aviary_part_13",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -296,
+        "y": 20,
+        "z": -495
+      }
+    },
+    {
+      "structure": "aviary",
+      "template": "dungeons_arise:aviary/aviary_part_13",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -296,
+        "y": 20,
+        "z": -542
+      }
+    },
+    {
+      "structure": "aviary",
+      "template": "dungeons_arise:aviary/aviary_part_13",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -216,
+        "y": 20,
+        "z": -542
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_2",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -230,
+        "y": 20,
+        "z": -501
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_2",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -264,
+        "y": 20,
+        "z": -488
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_2",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -282,
+        "y": 20,
+        "z": -523
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_2",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -248,
+        "y": 20,
+        "z": -536
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_3",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -253,
+        "y": 20,
+        "z": -501
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_3",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -264,
+        "y": 20,
+        "z": -507
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_3",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -259,
+        "y": 20,
+        "z": -523
+      }
+    },
+    {
+      "structure": "heavenly_challenger",
+      "template": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_3",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -248,
+        "y": 20,
+        "z": -517
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_0",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -230,
+        "y": 28,
+        "z": -491
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_0",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -277,
+        "y": 28,
+        "z": -486
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_0",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -282,
+        "y": 28,
+        "z": -533
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_0",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -235,
+        "y": 28,
+        "z": -538
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_1",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -252,
+        "y": 28,
+        "z": -491
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_1",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -277,
+        "y": 28,
+        "z": -508
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_1",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -260,
+        "y": 28,
+        "z": -533
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_1",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -235,
+        "y": 28,
+        "z": -516
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_2",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -229,
+        "y": 22,
+        "z": -510
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_2",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -257,
+        "y": 22,
+        "z": -486
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_2",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -283,
+        "y": 22,
+        "z": -514
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_2",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -255,
+        "y": 22,
+        "z": -538
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_3",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -253,
+        "y": 22,
+        "z": -510
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_3",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -257,
+        "y": 22,
+        "z": -508
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_3",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -259,
+        "y": 22,
+        "z": -514
+      }
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "template": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_3",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -255,
+        "y": 22,
+        "z": -516
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_0",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -226,
+        "y": 31,
+        "z": -495
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_0",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -278,
+        "y": 31,
+        "z": -486
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_0",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -286,
+        "y": 31,
+        "z": -529
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_0",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -234,
+        "y": 31,
+        "z": -538
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_1",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -254,
+        "y": 31,
+        "z": -494
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_1",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -279,
+        "y": 31,
+        "z": -508
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_1",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -258,
+        "y": 31,
+        "z": -530
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_1",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -233,
+        "y": 31,
+        "z": -516
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_2",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -249,
+        "y": 25,
+        "z": -494
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_2",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -266,
+        "y": 25,
+        "z": -499
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_2",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -263,
+        "y": 25,
+        "z": -530
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_2",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -246,
+        "y": 25,
+        "z": -525
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_3",
+      "rotation": 0,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -233,
+        "y": 25,
+        "z": -494
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_3",
+      "rotation": 1,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -266,
+        "y": 25,
+        "z": -495
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_3",
+      "rotation": 2,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -279,
+        "y": 25,
+        "z": -530
+      }
+    },
+    {
+      "structure": "heavenly_rider",
+      "template": "dungeons_arise:heavenly_rider/heavenly_rider_part_3",
+      "rotation": 3,
+      "processorRulesConsidered": 0,
+      "arrival": {
+        "x": -246,
+        "y": 25,
+        "z": -529
+      }
+    },
+    {
+      "structure": "mechanical_nest",
+      "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
+      "rotation": 0,
+      "processorRulesConsidered": 7,
+      "status": "requires_original_gate_entry_adapter"
+    },
+    {
+      "structure": "mechanical_nest",
+      "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
+      "rotation": 1,
+      "processorRulesConsidered": 7,
+      "status": "requires_original_gate_entry_adapter"
+    },
+    {
+      "structure": "mechanical_nest",
+      "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
+      "rotation": 2,
+      "processorRulesConsidered": 7,
+      "status": "requires_original_gate_entry_adapter"
+    },
+    {
+      "structure": "mechanical_nest",
+      "template": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
+      "rotation": 3,
+      "processorRulesConsidered": 7,
+      "status": "requires_original_gate_entry_adapter"
+    }
+  ],
+  "safeDeckCases": 44,
+  "pendingGateCases": 4,
+  "runtimeAccepted": false,
+  "formalPoolEnrollment": false,
+  "scope": "Original root pieces with conservative processor outcomes; not full assembly, surrounding pieces, real collision, combat or restart acceptance"
+}

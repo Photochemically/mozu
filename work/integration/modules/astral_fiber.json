@@ -1,0 +1,177 @@
+{
+  "id": "astral_fiber",
+  "title": "维度与星尘纤维",
+  "requires": [
+    "dimdoors",
+    "enigmaticlegacy",
+    "silentgear",
+    "create"
+  ],
+  "dependsOn": [],
+  "items": [
+    {
+      "id": "expedition_astral_fiber",
+      "name": "星纤维",
+      "texture": "expedition:item/astral_fiber"
+    }
+  ],
+  "binaryResources": {
+    "kubejs/assets/expedition/textures/item/astral_fiber.png": "assets/items/astral_fiber.png"
+  },
+  "recipes": {
+    "astral_fiber_weaving": {
+      "type": "dimdoors:shaped_tesselating",
+      "pattern": [
+        "SAS"
+      ],
+      "key": {
+        "S": {
+          "item": "dimdoors:stable_fabric"
+        },
+        "A": {
+          "item": "enigmaticlegacy:astral_dust"
+        }
+      },
+      "result": {
+        "item": "kubejs:expedition_astral_fiber",
+        "count": 2
+      },
+      "weavingtime": 400
+    },
+    "astral_fiber_mixing": {
+      "type": "create:mixing",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "dimdoors:stable_fabric"
+        },
+        {
+          "item": "dimdoors:stable_fabric"
+        },
+        {
+          "item": "enigmaticlegacy:astral_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:expedition_astral_fiber",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "materials": {
+    "astral_fiber": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:wood",
+      "availability": {
+        "tier": 3,
+        "categories": [
+          "organic",
+          "fiber"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "kubejs:expedition_astral_fiber"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.astral_fiber"
+      },
+      "stats": {
+        "binding": {
+          "durability": {
+            "mul1": 0.1
+          },
+          "magic_armor": {
+            "add": 1
+          }
+        },
+        "cord": {
+          "ranged_speed": {
+            "add": 0.1
+          },
+          "ranged_damage": {
+            "mul1": 0.04
+          }
+        }
+      },
+      "traits": {
+        "binding": [
+          {
+            "name": "silentgear:flexible",
+            "level": 4
+          }
+        ],
+        "cord": [
+          {
+            "name": "silentgear:flexible",
+            "level": 2
+          }
+        ]
+      },
+      "model": {
+        "binding/all": [
+          {
+            "texture": "silentgear:binding_generic",
+            "color": "#ADA6FF"
+          }
+        ],
+        "binding/part": [
+          {
+            "texture": "silentgear:binding",
+            "color": "#ADA6FF"
+          }
+        ],
+        "cord/all": [
+          {
+            "texture": "silentgear:bowstring_string",
+            "color": "#ADA6FF"
+          },
+          {
+            "texture": "silentgear:arrow",
+            "color": "#ADA6FF"
+          }
+        ],
+        "cord/part": [
+          {
+            "texture": "silentgear:bowstring",
+            "color": "#ADA6FF"
+          }
+        ],
+        "main/fragment": [
+          {
+            "texture": "silentgear:cloth",
+            "color": "#ADA6FF"
+          }
+        ]
+      }
+    }
+  },
+  "lang": {
+    "zh_cn": {
+      "material.expedition.astral_fiber": "星纤维"
+    },
+    "en_us": {
+      "material.expedition.astral_fiber": "Astral Fiber"
+    }
+  },
+  "tooltips": {
+    "kubejs:expedition_astral_fiber": [
+      "2 稳定构造 + 1 星尘 → 2 星纤维。",
+      "维度织造或加热搅拌；用于寂静装备绑带、弓弦。"
+    ],
+    "enigmaticlegacy:astral_dust": [
+      "远征联动：可与稳定构造制成星纤维。"
+    ]
+  },
+  "guidePages": [
+    "两次远征的交汇\n\n2 个稳定构造与 1 个星尘制成 2 个星纤维。\n\n可在维度门织造设备中按“稳定构造—星尘—稳定构造”排成一行，或在机械动力工作盆中加热搅拌。",
+    "星纤维的取舍\n\n星纤维用于寂静装备绑带、弓弦。\n\n绑带偏耐久和少量魔法护甲；弓弦兼顾速度与少量伤害。细丝仍有自己的幸运、护甲或伤害优势。\n\n星尘仍通过原路线获取。"
+  ]
+}

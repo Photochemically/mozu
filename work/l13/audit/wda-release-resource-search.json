@@ -1,0 +1,32 @@
+[
+  {
+    "version": "2.1.58-1.20.x",
+    "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/6hQpx5Tc/DungeonsArise-1.20.x-2.1.58-release.jar",
+    "sha512": "021BC9558AF43492C45C05874FA9F2E87F1E90298B70681F8D3B845716D29B4A5EAE57D06C3C4308FD7D7CD45194DEA513E78C891D1F546A8F5474ACC204153D",
+    "verified": true,
+    "missing": [
+      "data/dungeons_arise/structures/bandit_village/bandit_village_deco_3.nbt",
+      "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_6.nbt"
+    ]
+  },
+  {
+    "version": "2.1.57-1.20.1",
+    "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/wiCQJUDT/DungeonsArise-1.20.1-2.1.57-release.jar",
+    "sha512": "0719500250215DAD3ED9DD4976F125BF9B097A286CBD71B9EFA92571077B7A2ACD063810E666A8EA8B33FE80BFB1EEE7B515F0AB768F35E4DC87934BC224B3ED",
+    "verified": true,
+    "missing": [
+      "data/dungeons_arise/structures/bandit_village/bandit_village_deco_3.nbt",
+      "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_6.nbt"
+    ]
+  },
+  {
+    "version": "2.1.56-1.20.1",
+    "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/uFLIFUCI/DungeonsArise-1.20.1-2.1.56-beta.jar",
+    "sha512": "E0D4E279871DF2668D58E242A010B9290B64D4F9470AA13870A5C00BDC6F0B70946E15E94BE72767FF87220763159D1B24015CC9AF4E6F5B7393FCF2E9E6C43B",
+    "verified": true,
+    "missing": [
+      "data/dungeons_arise/structures/bandit_village/bandit_village_deco_3.nbt",
+      "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_6.nbt"
+    ]
+  }
+]

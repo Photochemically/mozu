@@ -1,0 +1,56 @@
+# Local credentials, IDE state and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+local.properties
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Downloaded runtimes, mod dependencies and build products
+**/.gradle/
+**/build/
+**/node_modules/
+work/l13/gradle-cache/
+work/l13/toolchain/
+work/l13/upstream/
+work/l13/bridge/libs/*.jar
+*.zip
+*.class
+*.jar
+!work/l13/bridge/gradle/wrapper/gradle-wrapper.jar
+
+# Production worlds, game logs, backups and installation receipts
+**/saves/
+**/world/
+**/logs/
+**/crash-reports/
+work/instance-backup*/
+**/安装记录.json
+outputs/联动试用版-*/安装内容/
+outputs/L13验收辅助/
+
+# Regenerate these third-party extracts from the exact local mod JARs.
+work/mod-audit/*
+!work/mod-audit/manifest.json
+work/l13/audit/*.index.txt
+work/l13/audit/*.txt
+work/l13/audit/*.properties
+work/l13/audit/dimdoors-5.4.4-1.20.1-forge.json
+work/l13/audit/DungeonsArise-1.20.x-2.1.58-release.json
+work/l13/audit/kubejs-forge-2001.6.5-build.26.json
+work/l13/audit/dimdoors-builtin-packs.json
+work/l13/audit/gradle-dependencies.log
+work/l13/audit/decompile-generation.log
+
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store

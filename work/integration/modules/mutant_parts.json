@@ -1,0 +1,94 @@
+{
+  "id": "mutant_parts",
+  "title": "突变肢骨杆件",
+  "requires": [
+    "mutantmonsters",
+    "silentgear"
+  ],
+  "dependsOn": [],
+  "materials": {
+    "mutant_bone": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:stone",
+      "availability": {
+        "tier": 3,
+        "categories": [
+          "organic"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "subs": {
+          "rod": {
+            "item": "mutantmonsters:mutant_skeleton_limb"
+          }
+        }
+      },
+      "name": {
+        "translate": "material.expedition.mutant_bone"
+      },
+      "stats": {
+        "rod": {
+          "durability": {
+            "mul1": 0.2
+          },
+          "melee_damage": {
+            "add": 1
+          },
+          "attack_speed": {
+            "add": -0.1
+          },
+          "ranged_damage": {
+            "add": 0.5
+          }
+        }
+      },
+      "traits": {
+        "rod": [
+          {
+            "name": "silentgear:sturdy",
+            "level": 1
+          },
+          {
+            "name": "silentgear:flexible",
+            "level": 2
+          }
+        ]
+      },
+      "model": {
+        "rod/all": [
+          {
+            "texture": "silentgear:rod_generic_lc",
+            "color": "#FCFBED"
+          }
+        ],
+        "rod/part": [
+          {
+            "texture": "silentgear:rod",
+            "color": "#FCFBED"
+          }
+        ]
+      }
+    }
+  },
+  "lang": {
+    "zh_cn": {
+      "material.expedition.mutant_bone": "突变肢骨"
+    },
+    "en_us": {
+      "material.expedition.mutant_bone": "Mutant Bone"
+    }
+  },
+  "tooltips": {
+    "mutantmonsters:mutant_skeleton_limb": [
+      "远征联动：可作寂静装备杆件，偏耐久与伤害，略降攻速。",
+      "仍可用于原生突变骷髅装备。"
+    ]
+  },
+  "guidePages": [
+    "强敌带回的杆件\n\n骷髅突变体肢骨可制作寂静装备杆件。\n\n侧重耐久和伤害，代价是少量攻速。它只作杆件，仍可制作原生突变装备。\n\n击败敌人后的特殊掉落流程保持原样。"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "status": "static_checks_passed",
+  "checks": [
+    "源码与发布文件一致；JSON、JavaScript 语法、路径和文件指纹通过",
+    "模块迁移保留第一阶段所有配方、材料和城市规则；覆盖范围仍限定在联动文件",
+    "新增配方和材料的物品引用在本地模组资源中有依据；自定义物品均已定义",
+    "新增配方沿用原生格式；数量、加热条件、模具与织造参数有效",
+    "暗金属新增加工与原有碎片、金属堆、粒、锭、块转换均守恒",
+    "两种星纤维加工消耗一致；神化增产保留核心材料成本与冒险模块条件",
+    "新材料限定部件种类；特性与属性来自已有材料系统；输入没有现成材料冲突",
+    "逐个关闭模块后仍可组装且没有缺失自定义物品；指南只收录启用模块页面",
+    "指南页格式、长度与更新标记有效；发布包不含运行探针"
+  ],
+  "counts": {
+    "files": 60,
+    "modules": 9,
+    "recipeJsons": 12,
+    "materials": 5,
+    "guidePages": 17
+  },
+  "limitation": "Only static checks. No Minecraft launch/reload, machine processing, combat, world generation or save roundtrip performed for v0.2.0."
+}

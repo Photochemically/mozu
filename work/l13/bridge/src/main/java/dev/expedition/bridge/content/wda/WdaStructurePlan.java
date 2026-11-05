@@ -1,0 +1,54 @@
+package dev.expedition.bridge.content.wda;
+
+import dev.expedition.bridge.domain.*;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.ChunkPos;
+import net.minecraft.world.level.levelgen.structure.*;
+import net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer;
+import net.minecraft.world.level.levelgen.structure.pools.JigsawJunction;
+import java.util.*;
+
+/** Owns a complete native piece graph. Relocation preserves the original elements, processors and junctions. */
+public final class WdaStructurePlan {
+    private final ResourceLocation id;
+    private StructureStart start;
+    private IslandPlan island;
+    private final boolean boarding;
+    private final DungeonSpec.EntryMode entryMode;
+    private List<InteriorRoom> interiorRooms;
+    private boolean relocated;
+    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms) {
+        this.id=id;this.start=start;this.island=island;this.boarding=boarding;this.entryMode=entryMode;this.interiorRooms=List.copyOf(rooms);
+    }
+    public ResourceLocation id() { return id; }
+    public StructureStart start() { return start; }
+    public IslandPlan island() { return island; }
+    public boolean boarding(){return boarding;}
+    public DungeonSpec.EntryMode entryMode(){return entryMode;}
+    public List<InteriorRoom> interiorRooms(){return interiorRooms;}
+    public void relocateTo(BlockBounds allocatedContent) {
+        if(relocated)throw new IllegalStateException("Plan already assigned to a pocket");
+        var original=island.completeBounds();
+        int x=Math.subtractExact(allocatedContent.minX(),original.minX());
+        int y=Math.subtractExact(allocatedContent.minY(),original.minY());
+        int z=Math.subtractExact(allocatedContent.minZ(),original.minZ());
+        if(!original.move(x,y,z).equals(allocatedContent))throw new IllegalArgumentException("Reservation changed content dimensions");
+        var pieces=start.getPieces();
+        for(var piece:pieces) {
+            var pool=(PoolElementStructurePiece)piece;
+            List<JigsawJunction> moved=new ArrayList<>();
+            for(var j:pool.getJunctions())moved.add(new JigsawJunction(Math.addExact(j.getSourceX(),x),
+                    Math.addExact(j.getSourceGroundY(),y),Math.addExact(j.getSourceZ(),z),j.getDeltaY(),j.getDestProjection()));
+            piece.move(x,y,z);
+            // Vanilla move() does NOT move junction coordinates.
+            pool.getJunctions().clear();moved.forEach(pool::addJunction);
+        }
+        // Rebuild to invalidate the cached bounds and keep the persisted start chunk inside our reservation.
+        var anchor=new ChunkPos(pieces.get(0).getBoundingBox().getCenter());
+        start=new StructureStart(start.getStructure(),anchor,0,new PiecesContainer(pieces));
+        island=island.move(x,y,z);interiorRooms=interiorRooms.stream().map(r->r.move(x,y,z)).toList();relocated=true;
+    }
+    static BlockBounds bounds(BoundingBox box) {
+        return new BlockBounds(box.minX(),box.minY(),box.minZ(),box.maxX(),box.maxY(),box.maxZ());
+    }
+}

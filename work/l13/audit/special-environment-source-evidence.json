@@ -1,0 +1,1778 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structures": [
+    {
+      "structure": "aviary",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": 50
+      },
+      "heightmap": null,
+      "templates": [
+        {
+          "id": "dungeons_arise:aviary/aviary_part_13",
+          "size": [
+            48,
+            32,
+            48
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 62323,
+          "blockCount": 73007,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:side_0_top",
+              "target": "dungeons_arise:side_1_top",
+              "pool": "dungeons_arise:eerie/aviary/aviary_main"
+            },
+            {
+              "pos": [
+                0,
+                0,
+                47
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:sandstone",
+              "name": "dungeons_arise:side_6_top",
+              "target": "dungeons_arise:side_7_top",
+              "pool": "dungeons_arise:eerie/aviary/aviary_main"
+            },
+            {
+              "pos": [
+                23,
+                0,
+                24
+              ],
+              "orientation": "down_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:side_19",
+              "target": "dungeons_arise:side_18",
+              "pool": "dungeons_arise:eerie/aviary/aviary_main"
+            },
+            {
+              "pos": [
+                47,
+                0,
+                0
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:sandstone",
+              "name": "dungeons_arise:side_2_top",
+              "target": "dungeons_arise:side_3_top",
+              "pool": "dungeons_arise:eerie/aviary/aviary_main"
+            },
+            {
+              "pos": [
+                47,
+                0,
+                47
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:side_4_top",
+              "target": "dungeons_arise:side_5_top",
+              "pool": "dungeons_arise:eerie/aviary/aviary_main"
+            },
+            {
+              "pos": [
+                33,
+                4,
+                0
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:aviary_creeper",
+              "target": "dungeons_arise:aviary_creeper",
+              "pool": "dungeons_arise:eerie/aviary/aviary_spawners"
+            },
+            {
+              "pos": [
+                35,
+                4,
+                9
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:aviary_creeper",
+              "target": "dungeons_arise:aviary_creeper",
+              "pool": "dungeons_arise:eerie/aviary/aviary_spawners"
+            },
+            {
+              "pos": [
+                5,
+                6,
+                6
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:aviary_skeleton",
+              "target": "dungeons_arise:aviary_skeleton",
+              "pool": "dungeons_arise:eerie/aviary/aviary_spawners"
+            },
+            {
+              "pos": [
+                23,
+                31,
+                24
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:side_21",
+              "target": "dungeons_arise:side_20",
+              "pool": "dungeons_arise:eerie/aviary/aviary_main"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "heavenly_challenger",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": 200
+      },
+      "heightmap": null,
+      "templates": [
+        {
+          "id": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_2",
+          "size": [
+            31,
+            48,
+            48
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 63078,
+          "blockCount": 71424,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:heavenly_challenger_side_9",
+              "target": "dungeons_arise:heavenly_challenger_side_8",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_main"
+            },
+            {
+              "pos": [
+                0,
+                0,
+                47
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:heavenly_challenger_side_6",
+              "target": "dungeons_arise:heavenly_challenger_side_7",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_main"
+            },
+            {
+              "pos": [
+                4,
+                0,
+                8
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                19,
+                0,
+                42
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                0,
+                0
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:heavenly_challenger_side_3",
+              "target": "dungeons_arise:heavenly_challenger_side_2",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_main"
+            },
+            {
+              "pos": [
+                19,
+                6,
+                16
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:spawners",
+              "target": "dungeons_arise:spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                25,
+                6,
+                27
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_mobs",
+              "target": "dungeons_arise:theater_mobs",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                26,
+                6,
+                23
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_mobs",
+              "target": "dungeons_arise:theater_mobs",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                6,
+                25
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_mobs",
+              "target": "dungeons_arise:theater_mobs",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                6,
+                29
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_mobs",
+              "target": "dungeons_arise:theater_mobs",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                16,
+                7,
+                33
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_spawners",
+              "target": "dungeons_arise:theater_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                9,
+                9
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:spawners",
+              "target": "dungeons_arise:spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                14,
+                12,
+                20
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                14,
+                22
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:spawners",
+              "target": "dungeons_arise:spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                21,
+                5
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:surface_spawners",
+              "target": "dungeons_arise:surface_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                29,
+                45
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:surface_spawners",
+              "target": "dungeons_arise:surface_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                30,
+                35,
+                29
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:surface_spawners",
+              "target": "dungeons_arise:surface_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_challenger/heavenly_challenger_part_3",
+          "size": [
+            30,
+            48,
+            48
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 61224,
+          "blockCount": 69120,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:heavenly_challenger_side_2",
+              "target": "dungeons_arise:heavenly_challenger_side_3",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_main"
+            },
+            {
+              "pos": [
+                10,
+                0,
+                42
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                25,
+                0,
+                8
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                3,
+                6,
+                23
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_mobs",
+              "target": "dungeons_arise:theater_mobs",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                4,
+                6,
+                27
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_mobs",
+              "target": "dungeons_arise:theater_mobs",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                9,
+                6,
+                16
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:spawners",
+              "target": "dungeons_arise:spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                13,
+                7,
+                33
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_spawners",
+              "target": "dungeons_arise:theater_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                4,
+                9,
+                2
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:theater_spawners",
+              "target": "dungeons_arise:theater_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            },
+            {
+              "pos": [
+                15,
+                12,
+                20
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_spawners"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "heavenly_conqueror",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": 200
+      },
+      "heightmap": null,
+      "templates": [
+        {
+          "id": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_0",
+          "size": [
+            32,
+            48,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 46431,
+          "blockCount": 49152,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                31
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_7",
+              "target": "dungeons_arise:heavenly_conqueror_side_6",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                0
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_1",
+              "target": "dungeons_arise:heavenly_conqueror_side_0",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                31,
+                8,
+                10
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:interior_spawners",
+              "target": "dungeons_arise:interior_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                13,
+                18,
+                11
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                31,
+                18,
+                23
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:exterior_spawners",
+              "target": "dungeons_arise:exterior_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                31,
+                27,
+                24
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:exterior_spawners",
+              "target": "dungeons_arise:exterior_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_1",
+          "size": [
+            32,
+            48,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 46649,
+          "blockCount": 49152,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_0",
+              "target": "dungeons_arise:heavenly_conqueror_side_1",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                31
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_3",
+              "target": "dungeons_arise:heavenly_conqueror_side_2",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                17,
+                18,
+                11
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_2",
+          "size": [
+            32,
+            48,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 45952,
+          "blockCount": 49152,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                31
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_4",
+              "target": "dungeons_arise:heavenly_conqueror_side_5",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_2",
+              "target": "dungeons_arise:heavenly_conqueror_side_3",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                23,
+                7,
+                3
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                10,
+                22,
+                26
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                4,
+                25,
+                15
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:interior_spawners",
+              "target": "dungeons_arise:interior_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_3",
+          "size": [
+            32,
+            48,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 45719,
+          "blockCount": 49152,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_6",
+              "target": "dungeons_arise:heavenly_conqueror_side_7",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                31
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_conqueror_side_5",
+              "target": "dungeons_arise:heavenly_conqueror_side_4",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+            },
+            {
+              "pos": [
+                6,
+                7,
+                4
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                31,
+                12,
+                13
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:interior_spawners",
+              "target": "dungeons_arise:interior_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                20,
+                22,
+                26
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:aerial_spawners",
+              "target": "dungeons_arise:aerial_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            },
+            {
+              "pos": [
+                26,
+                25,
+                15
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:interior_spawners",
+              "target": "dungeons_arise:interior_spawners",
+              "pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_spawners"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "heavenly_rider",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": 200
+      },
+      "heightmap": null,
+      "templates": [
+        {
+          "id": "dungeons_arise:heavenly_rider/heavenly_rider_part_0",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 31214,
+          "blockCount": 32768,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                31
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_7",
+              "target": "dungeons_arise:heavenly_rider_side_6",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                21,
+                0,
+                11
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted",
+              "target": "dungeons_arise:spawner_mounted",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                0
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_1",
+              "target": "dungeons_arise:heavenly_rider_side_0",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                31,
+                10,
+                26
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_husk",
+              "target": "dungeons_arise:spawner_husk",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                31,
+                15,
+                20
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted_melee",
+              "target": "dungeons_arise:spawner_mounted_melee",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                0,
+                31,
+                0
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_upwards_1",
+              "target": "dungeons_arise:heavenly_rider_side_upwards_0",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_top"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_rider/heavenly_rider_part_1",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 31572,
+          "blockCount": 32768,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_0",
+              "target": "dungeons_arise:heavenly_rider_side_1",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                9,
+                0,
+                11
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted",
+              "target": "dungeons_arise:spawner_mounted",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                31
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_3",
+              "target": "dungeons_arise:heavenly_rider_side_2",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_rider/heavenly_rider_part_2",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 30437,
+          "blockCount": 32768,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                31
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_4",
+              "target": "dungeons_arise:heavenly_rider_side_5",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_2",
+              "target": "dungeons_arise:heavenly_rider_side_3",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                19,
+                11,
+                17
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted",
+              "target": "dungeons_arise:spawner_mounted",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:heavenly_rider/heavenly_rider_part_3",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 30204,
+          "blockCount": 32768,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_6",
+              "target": "dungeons_arise:heavenly_rider_side_7",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                31
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:heavenly_rider_side_5",
+              "target": "dungeons_arise:heavenly_rider_side_4",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+            },
+            {
+              "pos": [
+                31,
+                2,
+                0
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted",
+              "target": "dungeons_arise:spawner_mounted",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                11,
+                11,
+                17
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted",
+              "target": "dungeons_arise:spawner_mounted",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                31,
+                18,
+                11
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted_melee",
+              "target": "dungeons_arise:spawner_mounted_melee",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            },
+            {
+              "pos": [
+                31,
+                23,
+                19
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:spawner_mounted",
+              "target": "dungeons_arise:spawner_mounted",
+              "pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_spawners"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "mechanical_nest",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": 190
+      },
+      "heightmap": null,
+      "templates": [
+        {
+          "id": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
+          "size": [
+            31,
+            48,
+            31
+          ],
+          "projection": "rigid",
+          "processors": "dungeons_arise:mechanical_nest_main",
+          "air": 22744,
+          "blockCount": 32841,
+          "joints": [
+            {
+              "pos": [
+                0,
+                23,
+                15
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:mechanical_nest_roofed_bridge_0",
+              "target": "dungeons_arise:mechanical_nest_roofed_bridge_1",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_bridges"
+            },
+            {
+              "pos": [
+                15,
+                23,
+                3
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+              "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_decorations"
+            },
+            {
+              "pos": [
+                15,
+                23,
+                30
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:mechanical_nest_roofed_bridge_0",
+              "target": "dungeons_arise:mechanical_nest_roofed_bridge_1",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_bridges"
+            },
+            {
+              "pos": [
+                24,
+                23,
+                24
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+              "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_decorations"
+            },
+            {
+              "pos": [
+                30,
+                23,
+                15
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:mechanical_nest_roofed_bridge_0",
+              "target": "dungeons_arise:mechanical_nest_roofed_bridge_1",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_bridges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "small_blimp",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": 100
+      },
+      "heightmap": "WORLD_SURFACE_WG",
+      "templates": [
+        {
+          "id": "dungeons_arise:small_blimp/small_blimp_ladders_0",
+          "size": [
+            2,
+            48,
+            1
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 0,
+          "blockCount": 50,
+          "joints": [
+            {
+              "pos": [
+                1,
+                0,
+                0
+              ],
+              "orientation": "down_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:ladders",
+              "target": "dungeons_arise:ladders",
+              "pool": "dungeons_arise:enigmatic/small_blimp/small_blimp_main"
+            },
+            {
+              "pos": [
+                1,
+                47,
+                0
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:ladders",
+              "target": "dungeons_arise:ladders",
+              "pool": "dungeons_arise:enigmatic/small_blimp/small_blimp_main"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "mushroom_mines",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": -8
+      },
+      "heightmap": "WORLD_SURFACE_WG",
+      "templates": [
+        {
+          "id": "dungeons_arise:mushroom_mines/mushroom_mines_part_0",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 15,
+          "blockCount": 5017,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                31
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_7",
+              "target": "dungeons_arise:mushroom_mines_side_6",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                0
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_1",
+              "target": "dungeons_arise:mushroom_mines_side_0",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                20,
+                21,
+                31
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                26,
+                21,
+                16
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_diamond",
+              "target": "dungeons_arise:armored_diamond",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                28,
+                21,
+                15
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                20,
+                26,
+                19
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                20,
+                26,
+                23
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                22,
+                26,
+                19
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                26,
+                26,
+                14
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                31,
+                26,
+                16
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                0,
+                31,
+                0
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_upwards_0",
+              "target": "dungeons_arise:mushroom_mines_side_upwards_1",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_top"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:mushroom_mines/mushroom_mines_part_1",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 2,
+          "blockCount": 5048,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_0",
+              "target": "dungeons_arise:mushroom_mines_side_1",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                31
+              ],
+              "orientation": "south_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_3",
+              "target": "dungeons_arise:mushroom_mines_side_2",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                19,
+                5,
+                27
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                14,
+                6,
+                24
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                16,
+                8,
+                30
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                19,
+                9,
+                31
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                8,
+                24,
+                22
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                11,
+                24,
+                21
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                13,
+                24,
+                27
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                14,
+                24,
+                23
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:mushroom_mines/mushroom_mines_part_2",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 14,
+          "blockCount": 6982,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                31
+              ],
+              "orientation": "west_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_5",
+              "target": "dungeons_arise:mushroom_mines_side_4",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_2",
+              "target": "dungeons_arise:mushroom_mines_side_3",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                20,
+                11,
+                3
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                22,
+                11,
+                4
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                10,
+                19,
+                10
+              ],
+              "orientation": "up_east",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            }
+          ]
+        },
+        {
+          "id": "dungeons_arise:mushroom_mines/mushroom_mines_part_3",
+          "size": [
+            32,
+            32,
+            32
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 19,
+          "blockCount": 10140,
+          "joints": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "orientation": "north_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_6",
+              "target": "dungeons_arise:mushroom_mines_side_7",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                31,
+                0,
+                31
+              ],
+              "orientation": "east_up",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:mushroom_mines_side_4",
+              "target": "dungeons_arise:mushroom_mines_side_5",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main"
+            },
+            {
+              "pos": [
+                22,
+                7,
+                8
+              ],
+              "orientation": "up_north",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                23,
+                7,
+                7
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                24,
+                7,
+                12
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_diamond",
+              "target": "dungeons_arise:armored_diamond",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                25,
+                7,
+                11
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                5,
+                17,
+                18
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                5,
+                17,
+                23
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                10,
+                17,
+                27
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:ranged_iron",
+              "target": "dungeons_arise:ranged_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                14,
+                17,
+                25
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:structure_void",
+              "name": "dungeons_arise:armored_diamond",
+              "target": "dungeons_arise:armored_diamond",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                8,
+                28,
+                16
+              ],
+              "orientation": "up_south",
+              "final": "minecraft:purple_terracotta",
+              "name": "dungeons_arise:armored_iron",
+              "target": "dungeons_arise:armored_iron",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                14,
+                28,
+                22
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:purple_terracotta",
+              "name": "dungeons_arise:armored_diamond",
+              "target": "dungeons_arise:armored_diamond",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            },
+            {
+              "pos": [
+                18,
+                28,
+                23
+              ],
+              "orientation": "up_west",
+              "final": "minecraft:purple_terracotta",
+              "name": "dungeons_arise:armored_diamond",
+              "target": "dungeons_arise:armored_diamond",
+              "pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_spawners"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "structure": "scorched_mines",
+      "type": "minecraft:jigsaw",
+      "startHeight": {
+        "absolute": -14
+      },
+      "heightmap": "WORLD_SURFACE_WG",
+      "templates": [
+        {
+          "id": "dungeons_arise:scorched_mines/scorched_mines_well_0",
+          "size": [
+            12,
+            20,
+            12
+          ],
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "air": 189,
+          "blockCount": 646,
+          "joints": [
+            {
+              "pos": [
+                5,
+                0,
+                5
+              ],
+              "orientation": "down_west",
+              "final": "minecraft:air",
+              "name": "dungeons_arise:scorched_mines_well",
+              "target": "dungeons_arise:scorched_mines_well",
+              "pool": "dungeons_arise:underworld/scorched_mines/scorched_mines_well"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "runtimeTested": false
+}

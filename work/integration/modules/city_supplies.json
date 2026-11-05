@@ -1,0 +1,1251 @@
+{
+  "id": "city_supplies",
+  "title": "城市与铁路补给",
+  "requires": [
+    "lostcities",
+    "create",
+    "immersiveengineering",
+    "tacz"
+  ],
+  "dependsOn": [],
+  "resources": {
+    "kubejs/data/expedition/loot_tables/city_bonus.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:copper_ingot",
+              "weight": 12,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_ingot",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "create:zinc_ingot",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "create:brass_ingot",
+              "weight": 4,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "immersiveengineering:ingot_steel",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tacz:ammo",
+              "weight": 4,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 10
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{AmmoId:\"tacz:9mm\"}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tacz:ammo",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 6
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{AmmoId:\"tacz:556x45\"}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/lostcities/chests/lostcitychest.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "lostcities:chests/lostcitychest"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/lostcities/chests/raildungeonchest.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "lostcities:chests/raildungeonchest"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:rail_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/buried_treasure.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/buried_treasure"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/desert_pyramid.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/desert_pyramid"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/end_city_treasure.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/end_city_treasure"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/igloo_chest.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/igloo_chest"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/jungle_temple.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/jungle_temple"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/jungle_temple_dispenser.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/jungle_temple_dispenser"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/pillager_outpost.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/pillager_outpost"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/shipwreck_supply.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/shipwreck_supply"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/shipwreck_treasure.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/shipwreck_treasure"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/simple_dungeon.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/simple_dungeon"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/spawn_bonus_chest.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/spawn_bonus_chest"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_corridor.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/stronghold_corridor"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_crossing.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/stronghold_crossing"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_library.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/stronghold_library"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/underwater_ruin_big.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/underwater_ruin_big"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/underwater_ruin_small.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/underwater_ruin_small"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_armorer.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_armorer"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_butcher.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_butcher"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_cartographer.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_cartographer"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_desert_house.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_desert_house"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_fisher.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_fisher"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_fletcher.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_fletcher"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_mason.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_mason"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_plains_house.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_plains_house"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_savanna_house.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_savanna_house"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_shepherd.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_shepherd"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_snowy_house.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_snowy_house"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_taiga_house.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_taiga_house"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_tannery.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_tannery"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_temple.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_temple"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_toolsmith.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_toolsmith"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_weaponsmith.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/village/village_weaponsmith"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/woodland_mansion.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/woodland_mansion"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "expedition:city_bonus"
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/expedition/loot_tables/rail_bonus.json": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "immersiveengineering:ingot_steel",
+              "weight": 7,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "immersiveengineering:plate_steel",
+              "weight": 6,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "create:brass_ingot",
+              "weight": 6,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "immersiveengineering:ingot_electrum",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "weight": 6,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tacz:ammo",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 6,
+                    "max": 12
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{AmmoId:\"tacz:9mm\"}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tacz:ammo",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 8
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{AmmoId:\"tacz:556x45\"}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/lostcities/lostcities/conditions/chestloot.json": {
+      "values": [
+        {
+          "factor": 8,
+          "value": "expedition:city_wrappers/lostcities/chests/lostcitychest",
+          "range": "4,100"
+        },
+        {
+          "factor": 8,
+          "value": "expedition:city_wrappers/lostcities/chests/lostcitychest",
+          "range": "-100,-3"
+        },
+        {
+          "factor": 20,
+          "value": "expedition:city_wrappers/lostcities/chests/raildungeonchest",
+          "inpart": "rail_dungeon1"
+        },
+        {
+          "factor": 20,
+          "value": "expedition:city_wrappers/lostcities/chests/raildungeonchest",
+          "inpart": "rail_dungeon2"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/buried_treasure"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/desert_pyramid"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/end_city_treasure"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/igloo_chest"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/jungle_temple"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/jungle_temple_dispenser"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/pillager_outpost"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/shipwreck_supply"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/shipwreck_treasure"
+        },
+        {
+          "factor": 30,
+          "value": "expedition:city_wrappers/minecraft/chests/simple_dungeon"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/spawn_bonus_chest"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/stronghold_corridor"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/stronghold_crossing"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/stronghold_library"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/underwater_ruin_big"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/underwater_ruin_small"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/woodland_mansion"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_armorer"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_butcher"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_cartographer"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_desert_house"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_fisher"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_fletcher"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_mason"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_plains_house"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_savanna_house"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_shepherd"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_snowy_house"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_taiga_house"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_tannery"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_temple"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_toolsmith"
+        },
+        {
+          "factor": 1,
+          "value": "expedition:city_wrappers/minecraft/chests/village/village_weaponsmith"
+        }
+      ]
+    }
+  },
+  "guidePages": [
+    "城市补给\n\n城市箱子保留原奖励，并有机会增加一份补给。\n\n一般建筑偏金属、火药和少量弹药；铁路偏工业物资。并非每个箱子必出。",
+    "城市生成\n\n需要在创建世界时启用失落城市相关预设，或进入已配置的城市维度。\n\n本版没有强制改变世界生成。奖励规则主要用于尚未生成奖励的箱子。"
+  ]
+}

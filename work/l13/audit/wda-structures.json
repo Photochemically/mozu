@@ -1,0 +1,653 @@
+[
+  {
+    "id": "abandoned_temple",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fortified/abandoned_temple/abandoned_temple_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/abandoned_temple_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {
+      "monster": {
+        "bounding_box": "full",
+        "spawns": [
+          {
+            "type": "minecraft:stray",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+          }
+        ]
+      }
+    },
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -2
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "aviary",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:eerie/aviary/aviary_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/aviary_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {
+      "monster": {
+        "bounding_box": "piece",
+        "spawns": [
+          {
+            "type": "minecraft:phantom",
+            "weight": 60,
+            "minCount": 2,
+            "maxCount": 3
+          }
+        ]
+      }
+    },
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 50
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "bandit_towers",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:bandit/bandit_towers/bandit_towers_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/bandit_towers_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 100,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 135
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "bandit_village",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:bandit/bandit_village/bandit_village_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/bandit_village_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "bathhouse",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:bathhouse/bathhouse_base",
+    "size": 5,
+    "biomes": "#dungeons_arise:has_structure/bathhouse_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_box",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "ceryneian_hind",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:desertic/ceryneian_hind/ceryneian_hind_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/ceryneian_hind_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -16
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "coliseum",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:prairie/coliseum/coliseum_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/coliseum_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -3
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_box",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "fishing_hut",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:prairie/fishing_hut/fishing_hut_main",
+    "size": 3,
+    "biomes": "#dungeons_arise:has_structure/fishing_hut_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -2
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "foundry",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:underworld/foundry/foundry_start",
+    "size": 6,
+    "biomes": "#dungeons_arise:has_structure/foundry_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 106,
+    "step": "underground_structures",
+    "start_height": {
+      "absolute": -10
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "giant_mushroom",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fungi/giant_mushroom/giant_mushroom_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/giant_mushroom_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -5
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "greenwood_pub",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:greenwood_pub/greenwood_pub_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/greenwood_pub_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -18
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "heavenly_challenger",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/heavenly_challenger_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 200
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "heavenly_conqueror",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/heavenly_conqueror_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 200
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "heavenly_rider",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/heavenly_rider_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 200
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "illager_campsite",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:campsites/illager_campsite/illager_campsite_start",
+    "size": 5,
+    "biomes": "#dungeons_arise:has_structure/illager_campsite_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "illager_corsair",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:aquatic/illager_corsair/illager_corsair_main",
+    "size": 5,
+    "biomes": "#dungeons_arise:has_structure/illager_corsair_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 128,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "illager_fort",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fortified/illager_fort/illager_fort_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/illager_fort_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -7
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "illager_galley",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:aquatic/illager_galley/illager_galley_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/illager_galley_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "illager_windmill",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:prairie/illager_windmill/illager_windmill_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/illager_windmill_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -2
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "infested_temple",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:haunted/infested_temple/infested_temple_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/infested_temple_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 104,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 54
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "jungle_tree_house",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:jungle/jungle_tree_house/jungle_tree_house_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/jungle_tree_house_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -5
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "keep_kayra",
+    "type": "dungeons_arise:generic_structures",
+    "start_pool": "dungeons_arise:keep_kayra/keep_kayra_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/keep_kayra_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 54
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "lighthouse",
+    "type": "dungeons_arise:generic_structures",
+    "start_pool": "dungeons_arise:enigmatic/lighthouse/lighthouse_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/lighthouse_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -1
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "mechanical_nest",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:mechanical_nest/mechanical_nest_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/mechanical_nest_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 125,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 190
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "merchant_campsite",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:campsites/merchant_campsite/merchant_campsite_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/merchant_campsite_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "mining_system",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:underworld/mining_system/mining_system_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/mining_system_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 104,
+    "step": "underground_structures",
+    "start_height": {
+      "absolute": 5
+    },
+    "terrain_adaptation": "bury",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "monastery",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fortified/monastery/monastery_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/monastery_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "mushroom_house",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fungi/mushroom_house/mushroom_house_start",
+    "size": 6,
+    "biomes": "#dungeons_arise:has_structure/mushroom_house_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "mushroom_mines",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/mushroom_mines_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -8
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "mushroom_village",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fungi/mushroom_village/mushroom_village_start",
+    "size": 6,
+    "biomes": "#dungeons_arise:has_structure/mushroom_village_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "plague_asylum",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:haunted/plague_asylum/plague_asylum_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/plague_asylum_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 104,
+    "step": "strongholds",
+    "start_height": {
+      "absolute": 0
+    },
+    "terrain_adaptation": "bury",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "scorched_mines",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:underworld/scorched_mines/scorched_mines_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/scorched_mines_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -14
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "shiraz_palace",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:desertic/shiraz_palace/shiraz_palace_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/shiraz_palace_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 16
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "small_blimp",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:enigmatic/small_blimp/small_blimp_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/small_blimp_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 100
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "small_prairie_house",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:prairie/small_prairie_house/small_prairie_house_start",
+    "size": 5,
+    "biomes": "#dungeons_arise:has_structure/small_prairie_house_biomes",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "thornborn_towers",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:fortified/thornborn_towers/thornborn_towers_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/thornborn_towers_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 104,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 130
+    },
+    "use_expansion_hack": false
+  },
+  {
+    "id": "typhon",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:aquatic/typhon/typhon_start",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/typhon_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 104,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -4
+    },
+    "project_start_to_heightmap": "OCEAN_FLOOR",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "undead_pirate_ship",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:aquatic/undead_pirate_ship/undead_pirate_ship_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/undead_pirate_ship_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "use_expansion_hack": false
+  },
+  {
+    "id": "wishing_well",
+    "type": "minecraft:jigsaw",
+    "start_pool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+    "size": 7,
+    "biomes": "#dungeons_arise:has_structure/wishing_well_biomes",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "max_distance_from_center": 114,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": -7
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+  }
+]

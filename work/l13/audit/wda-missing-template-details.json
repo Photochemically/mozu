@@ -1,0 +1,665 @@
+{
+  "sourceSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "scope": "Raw WDA 2.1.58 archive only; bridge substitutions reported separately in wda-substitution-evidence.json",
+  "cases": [
+    {
+      "missing": "dungeons_arise:bandit_village/bandit_village_deco_3",
+      "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_3.nbt",
+      "references": [
+        {
+          "poolFile": "data/dungeons_arise/worldgen/template_pool/bandit/bandit_village/bandit_village_houses.json",
+          "weight": 1,
+          "totalWeight": 23,
+          "entryCount": 23,
+          "fallback": "minecraft:empty",
+          "element": {
+            "location": "dungeons_arise:bandit_village/bandit_village_deco_3",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+          }
+        }
+      ],
+      "neighbors": [
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_0.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                0,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_1.nbt",
+          "size": [
+            7,
+            7,
+            7
+          ],
+          "spawners": [],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                0,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_10.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_tents"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                4,
+                2,
+                3
+              ],
+              "name": "dungeons_arise:assassin_spawners",
+              "target": "dungeons_arise:assassin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_11.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_normal"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                3,
+                1,
+                4
+              ],
+              "name": "dungeons_arise:hoglin_spawners",
+              "target": "dungeons_arise:hoglin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_12.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_tents"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                2,
+                2,
+                3
+              ],
+              "name": "dungeons_arise:assassin_spawners",
+              "target": "dungeons_arise:assassin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_13.nbt",
+          "size": [
+            7,
+            48,
+            7
+          ],
+          "spawners": [],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_2.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_normal"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                0,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "name": "dungeons_arise:hoglin_spawners",
+              "target": "dungeons_arise:hoglin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_4.nbt",
+          "size": [
+            7,
+            18,
+            7
+          ],
+          "spawners": [],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                0,
+                4
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_5.nbt",
+          "size": [
+            7,
+            18,
+            7
+          ],
+          "spawners": [],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                0,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                2,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:assassin_spawners",
+              "target": "dungeons_arise:assassin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_6.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_tents"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                1,
+                2,
+                4
+              ],
+              "name": "dungeons_arise:hoglin_spawners",
+              "target": "dungeons_arise:hoglin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_7.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_barrels"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_8.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            },
+            {
+              "pos": [
+                3,
+                2,
+                0
+              ],
+              "name": "dungeons_arise:hoglin_spawners",
+              "target": "dungeons_arise:hoglin_spawners",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_deco_9.nbt",
+          "size": [
+            7,
+            10,
+            7
+          ],
+          "spawners": [],
+          "containers": 1,
+          "lootTables": [
+            "dungeons_arise:chests/bandit_village/bandit_village_tents"
+          ],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                3
+              ],
+              "name": "dungeons_arise:streets_entrance",
+              "target": "dungeons_arise:streets_entrance",
+              "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets"
+            }
+          ]
+        }
+      ],
+      "exactOriginalRecovered": false
+    },
+    {
+      "missing": "dungeons_arise:mechanical_nest/mechanical_nest_spawner_6",
+      "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_6.nbt",
+      "references": [
+        {
+          "poolFile": "data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_spawners.json",
+          "weight": 2,
+          "totalWeight": 10,
+          "entryCount": 7,
+          "fallback": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "element": {
+            "location": "dungeons_arise:mechanical_nest/mechanical_nest_spawner_6",
+            "processors": "dungeons_arise:mechanical_nest_main",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+          }
+        }
+      ],
+      "neighbors": [
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_0.nbt",
+          "size": [
+            1,
+            2,
+            1
+          ],
+          "spawners": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "spawn": "minecraft:skeleton",
+              "potentials": [
+                {
+                  "weight": 1,
+                  "id": "minecraft:skeleton"
+                }
+              ]
+            }
+          ],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "target": "minecraft:",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_1.nbt",
+          "size": [
+            1,
+            2,
+            1
+          ],
+          "spawners": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "spawn": "minecraft:skeleton",
+              "potentials": [
+                {
+                  "weight": 1,
+                  "id": "minecraft:skeleton"
+                }
+              ]
+            }
+          ],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "target": "minecraft:",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_2.nbt",
+          "size": [
+            1,
+            2,
+            1
+          ],
+          "spawners": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "spawn": "minecraft:zombie",
+              "potentials": [
+                {
+                  "weight": 1,
+                  "id": "minecraft:zombie"
+                },
+                {
+                  "weight": 1,
+                  "id": "minecraft:zombie"
+                }
+              ]
+            }
+          ],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "target": "minecraft:",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_3.nbt",
+          "size": [
+            1,
+            2,
+            1
+          ],
+          "spawners": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "spawn": "minecraft:wither_skeleton",
+              "potentials": [
+                {
+                  "weight": 1,
+                  "id": "minecraft:wither_skeleton"
+                }
+              ]
+            }
+          ],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "target": "minecraft:",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_4.nbt",
+          "size": [
+            1,
+            2,
+            1
+          ],
+          "spawners": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "spawn": "minecraft:ravager",
+              "potentials": [
+                {
+                  "weight": 1,
+                  "id": "minecraft:ravager"
+                }
+              ]
+            }
+          ],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "target": "minecraft:",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners"
+            }
+          ]
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_5.nbt",
+          "size": [
+            1,
+            2,
+            1
+          ],
+          "spawners": [
+            {
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "spawn": "minecraft:skeleton",
+              "potentials": [
+                {
+                  "weight": 1,
+                  "id": "minecraft:skeleton"
+                }
+              ]
+            }
+          ],
+          "containers": 0,
+          "lootTables": [],
+          "connectors": [
+            {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+              "target": "minecraft:",
+              "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners"
+            }
+          ]
+        }
+      ],
+      "exactOriginalRecovered": false
+    }
+  ]
+}

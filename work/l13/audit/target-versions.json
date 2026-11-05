@@ -1,0 +1,23 @@
+[
+  {
+    "file": "dimdoors-5.4.4-1.20.1-forge.jar",
+    "sha256": "EE8193A36D07827E52D540A81D07460E3B47A0BDA6366ADEF1873D9B02A83B52",
+    "classes": 558,
+    "structures": 13,
+    "metadata": "modLoader = \"javafml\"\nloaderVersion = \"[45,)\"\n#issueTrackerURL = \"\"\nlicense = \"MIT\"\n\n[[mods]]\nmodId = \"dimdoors\"\nversion = \"5.4.4\"\ndisplayName = \"DimensionalDoors\"\nauthors = \"StevenRS11, SenseiKiwi, Zixiken, Waterpicker, Robijnvogel, ZombieHDGaming, Runemoro\"\ndescription = '''\nBend and twist reality, creating rifts, pocket dimensions, and much more\n'''\n#logoFile = \"\"\n\n[[dependencies.dimdoors]]\nmodId = \"forge\"\nmandatory = true\nversionRange = \"[45,)\"\nordering = \"NONE\"\nside = \"BOTH\"\n\n[[dependencies.dimdoors]]\nmodId = \"minecraft\"\nmandatory = true\nversionRange = \"[1.20.1,)\"\nordering = \"NONE\"\nside = \"BOTH\"\n\n[[dependencies.dimdoors]]\nmodId = \"architectury\"\nmandatory = true\nversionRange = \"[9.1.12,)\"\nordering = \"AFTER\"\nside = \"BOTH\"\n\n[[dependencies.dimdoors]]\nmodId = \"cloth_config\"\nmandatory = true\nversionRange = \"[11.1.106,)\"\nordering = \"AFTER\"\nside = \"BOTH\""
+  },
+  {
+    "file": "DungeonsArise-1.20.x-2.1.58-release.jar",
+    "sha256": "F8F1254DBE7ED7C1D5403F20361A36F0D0587C82B71313E3F427C7F1CE7C8A90",
+    "classes": 6,
+    "structures": 819,
+    "metadata": "modLoader=\"javafml\"\nloaderVersion=\"[41,)\"\nlicense=\"All Rights Reserved\"\n\n[[mods]]\nmodId=\"dungeons_arise\"\nversion=\"2.1.58-1.20.x\"\ndisplayName=\"When Dungeons Arise\"\ndisplayURL=\"https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise\"\nlogoFile=\"wda_logo.png\"\ncredits=\"Special thanks to MercyWhistles and Wyll for their contributions!\"\nauthors=\"Aurelj, DiamondTown and Zephyrusj\"\ndescription='''\nElegant - and likely dangerous - structures and roguelike dungeons to lose yourself in...\n'''\n\n[[dependencies.dungeons_arise]] #optional\nmodId=\"forge\"\nmandatory=true\nversionRange=\"[46,)\"\nordering=\"NONE\"\nside=\"SERVER\"\n\n[[dependencies.dungeons_arise]]\nmodId=\"minecraft\"\nmandatory=true\nversionRange=\"[1.20, 1.21)\"\nordering=\"NONE\"\nside=\"SERVER\""
+  },
+  {
+    "file": "kubejs-forge-2001.6.5-build.26.jar",
+    "sha256": "1769312192FBF9D72F45054BA61130523BFB471B5F480A4BFF8C210EC09400BB",
+    "classes": 831,
+    "structures": 0,
+    "metadata": "modLoader = \"javafml\"\nloaderVersion = \"[47,)\"\nissueTrackerURL = \"https://kubejs.com/support?source=kubejs&mc=2001&loader=forge\"\nlicense = \"GNU LGPLv3\"\n\n[[mods]]\nmodId = \"kubejs\"\nversion = \"2001.6.5-build.26\"\ndisplayName = \"KubeJS\"\nauthors = \"LatvianModder\"\ndescription = '''\nCustomize your modpack or server with JavaScript!\n'''\nlogoFile = \"kubejs_logo.png\"\nlicense = \"GNU LGPLv3\"\n\n[[dependencies.kubejs]]\nmodId = \"forge\"\nmandatory = true\nversionRange = \"[47.1.0,)\"\nordering = \"NONE\"\nside = \"BOTH\"\n\n[[dependencies.kubejs]]\nmodId = \"rhino\"\nmandatory = true\nversionRange = \"[2001.2.2-build.1,)\"\nordering = \"AFTER\"\nside = \"BOTH\"\n\n[[dependencies.kubejs]]\nmodId = \"architectury\"\nmandatory = true\nversionRange = \"[9.1.12,)\"\nordering = \"AFTER\"\nside = \"BOTH\"\n\n[[dependencies.kubejs]]\nmodId = \"jei\"\nmandatory = false\nversionRange = \"[1.0.0,)\"\nordering = \"AFTER\"\nside = \"BOTH\"\n\n[[dependencies.kubejs]]\nmodId = \"roughlyenoughitems\"\nmandatory = false\nversionRange = \"[9.1.572,)\"\nordering = \"AFTER\"\nside = \"BOTH\""
+  }
+]

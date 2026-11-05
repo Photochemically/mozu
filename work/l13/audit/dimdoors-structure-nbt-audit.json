@@ -1,0 +1,663 @@
+[
+  {
+    "path": "data/dimdoors/structures/bastion/treasure/houses/bastion_gateway.nbt",
+    "dimensions": [
+      5,
+      12,
+      10
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "id": "dimdoors:entrance_rift",
+        "data": {
+          "destination": {
+            "acceptedGroups": [
+              0
+            ],
+            "newRiftWeight": 1,
+            "weightMaximum": 300,
+            "coordFactor": 1,
+            "noLinkBack": 0,
+            "positiveDepthFactor": 160,
+            "type": "dimdoors:available_link",
+            "negativeDepthFactor": null,
+            "noLink": 0
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "locked": 0,
+        "Pos": [
+          2,
+          2,
+          4
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 33,
+        "Pos": [
+          4,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed_endstone.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 200,
+        "Pos": [
+          4,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed_mud.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 156,
+        "Pos": [
+          4,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed_prismarine.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 128,
+        "Pos": [
+          3,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed_quartz.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 68,
+        "Pos": [
+          3,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed_red_sandstone.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 6,
+        "Pos": [
+          3,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/enclosed_sandstone.nbt",
+    "dimensions": [
+      8,
+      6,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 108,
+        "Pos": [
+          3,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/end_gateway.schem",
+    "dimensions": [
+      5,
+      3,
+      3
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "acceptedGroups": [
+              0
+            ],
+            "newRiftWeight": 1,
+            "weightMaximum": 300,
+            "coordFactor": 1,
+            "noLinkBack": 0,
+            "positiveDepthFactor": 160,
+            "type": "dimdoors:available_link",
+            "negativeDepthFactor": "∞",
+            "noLink": 0
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "Pos": [
+          2,
+          0,
+          1
+        ],
+        "Id": "dimdoors:entrance_rift",
+        "locked": 0
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/ice_pillars.nbt",
+    "dimensions": [
+      9,
+      4,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 141,
+        "Pos": [
+          4,
+          1,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/limbo.nbt",
+    "dimensions": [
+      3,
+      2,
+      1
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 176,
+        "Pos": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/red_sandstone_pillars.nbt",
+    "dimensions": [
+      5,
+      5,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 69,
+        "Pos": [
+          2,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/sandstone_pillars.nbt",
+    "dimensions": [
+      5,
+      5,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 112,
+        "Pos": [
+          2,
+          2,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  },
+  {
+    "path": "data/dimdoors/structures/gateways/two_pillars.nbt",
+    "dimensions": [
+      9,
+      4,
+      11
+    ],
+    "goldBlocks": [],
+    "containers": [],
+    "hazards": [],
+    "rifts": [
+      {
+        "closing": 0,
+        "data": {
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          },
+          "destination": {
+            "id": 0,
+            "type": "dimdoors:id_marker"
+          },
+          "alwaysDelete": 0,
+          "forcedColor": 1,
+          "properties": {
+            "entranceWeight": 0,
+            "groups": [
+              0,
+              1
+            ],
+            "floatingWeight": 0,
+            "linksRemaining": 1,
+            "oneWay": 0
+          }
+        },
+        "size": 0,
+        "stablized": 0,
+        "id": "dimdoors:entrance_rift",
+        "locked": 0,
+        "updateTimer": 171,
+        "Pos": [
+          4,
+          1,
+          5
+        ]
+      }
+    ],
+    "entities": 0
+  }
+]

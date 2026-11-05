@@ -1,0 +1,3158 @@
+{
+  "planeZ": 44,
+  "minX": 0,
+  "maxX": 81,
+  "rowsBottomToTop": [
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##################################################################",
+    " #############  ##################################################################",
+    " #############  ##################################################################",
+    ".#############  ##################################################################",
+    ".#############  ##########################~~##....................................",
+    ".#############  ##########################..#.....................................",
+    " #############  #########################.........................................",
+    ".#############  ##############.......##...........................................",
+    " #############  #############.....................................................",
+    " #############  ###########.......................................................",
+    " #############  ###########.......................................................",
+    " #############  #######...........................................................",
+    " #############  #######...........................................................",
+    " #############  #######...........................................................",
+    " #############  #######...........................................................",
+    "  ###########   #######...........................................................",
+    "  ###########   #######...........................................................",
+    "  ###########   #######...........................................................",
+    "  ###########   #######...........................................................",
+    "  ###########    #######..........................................................",
+    "  ###########    ######...........................................................",
+    "  ###########    ######...........................................................",
+    "  ###########    ######...........................................................",
+    "   #########     #######..........................................................",
+    "  ###########    ######...........................................................",
+    "  ###########    ######..............................................#............",
+    "  ###########    ######..............................................#............",
+    "   #########     ######..............................................#............",
+    "   #########     ######..............................................#............",
+    "   #########     ######..............................................#............",
+    "   #########     ######.............................................##............",
+    "   #########     ######.............................................##............",
+    "  ###########    ########..........................................####...........",
+    "  ###########     #######                                #          ###           ",
+    "  ###########     #####                                  ##       #####           ",
+    "  ###########     #####                                 ####    #######           ",
+    "   #########      #####         #####                   ####   ####### ##     ##  ",
+    "   #########      ######       ########               ############################",
+    "   #########      #####       ##########            ##############################",
+    "  ###########     ################################################################",
+    "  ###########     ################################################################",
+    "  ###########     ################################################################"
+  ],
+  "legend": {
+    "#": "nonair other block",
+    "^": "stairs",
+    "=": "slab",
+    ".": "explicit air",
+    " ": "template omitted",
+    "~": "water"
+  },
+  "lowBlocks": [
+    {
+      "pos": [
+        1,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        10,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        11,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        12,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        13,
+        0,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        16,
+        0,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        17,
+        0,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        18,
+        0,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        19,
+        0,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        12,
+        1,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        13,
+        1,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        16,
+        1,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        1,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        1,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        1,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        10,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        11,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        12,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        13,
+        2,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        16,
+        2,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        2,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        2,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        2,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        3,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        5,
+        3,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        3,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        10,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        11,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        12,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        13,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        16,
+        3,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        3,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        3,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        3,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        10,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        11,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        12,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        13,
+        4,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        16,
+        4,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        17,
+        4,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        18,
+        4,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        19,
+        4,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        5,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        5,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        6,
+        6,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        6,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        12,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        13,
+        6,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        16,
+        6,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        17,
+        6,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        19,
+        6,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        5,
+        7,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        6,
+        7,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        7,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        11,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        12,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        13,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        16,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        17,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        18,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        19,
+        7,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        8,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        11,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        12,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        13,
+        8,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        16,
+        8,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        17,
+        8,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        18,
+        8,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        19,
+        8,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        4,
+        9,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        6,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        9,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        11,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        12,
+        9,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        13,
+        9,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        9,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        17,
+        9,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        18,
+        9,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        19,
+        9,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        4,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        5,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        6,
+        10,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        10,
+        10,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        11,
+        10,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        12,
+        10,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        13,
+        10,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        10,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        10,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        10,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        10,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        11,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        9,
+        11,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        11,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        12,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        13,
+        11,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        16,
+        11,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        11,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        11,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        11,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        3,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        12,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        11,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        12,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        13,
+        12,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        12,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        17,
+        12,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        18,
+        12,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        19,
+        12,
+        44
+      ],
+      "id": "minecraft:black_terracotta"
+    },
+    {
+      "pos": [
+        1,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        3,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        4,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        6,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        11,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        12,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        13,
+        13,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        13,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        17,
+        13,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        18,
+        13,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        19,
+        13,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        3,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        4,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        6,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        14,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        11,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        12,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        13,
+        14,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        14,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        17,
+        14,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        18,
+        14,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        19,
+        14,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        2,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        3,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        4,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        5,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        6,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        7,
+        15,
+        44
+      ],
+      "id": "minecraft:mud_bricks"
+    },
+    {
+      "pos": [
+        8,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        9,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        10,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        11,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        12,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        13,
+        15,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        16,
+        15,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        15,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        15,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        15,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        2,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        3,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        4,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        5,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        6,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        7,
+        16,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        9,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        10,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        11,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        12,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        13,
+        16,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        16,
+        16,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        16,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        16,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        16,
+        44
+      ],
+      "id": "minecraft:dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        3,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        4,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        6,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        11,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        12,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        13,
+        17,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        17,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        17,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        17,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        17,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        2,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        3,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        4,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        5,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        6,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        7,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        8,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        9,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        10,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        11,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        12,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        13,
+        18,
+        44
+      ],
+      "id": "minecraft:packed_mud"
+    },
+    {
+      "pos": [
+        16,
+        18,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        18,
+        44
+      ],
+      "id": "minecraft:dark_oak_planks"
+    },
+    {
+      "pos": [
+        18,
+        18,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        18,
+        44
+      ],
+      "id": "minecraft:stripped_dark_oak_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        2,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        3,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        4,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        5,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        6,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        7,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        8,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        9,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        10,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        11,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        12,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        13,
+        19,
+        44
+      ],
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "pos": [
+        16,
+        19,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        17,
+        19,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        18,
+        19,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        19,
+        19,
+        44
+      ],
+      "id": "minecraft:mangrove_wood",
+      "state": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        11,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        13,
+        44
+      ],
+      "id": "minecraft:air"
+    },
+    {
+      "pos": [
+        0,
+        15,
+        44
+      ],
+      "id": "minecraft:air"
+    }
+  ]
+}

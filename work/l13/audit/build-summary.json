@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-05",
+  "scope": "Optional void background and original aerial deck entry; no terrain filling, native connected platforms, fixed persisted arrival;44 safe static cases plus4 explicit pending piston-gate cases",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build",
+  "buildLog": "aerial-entry-delivery-build.log",
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 313337,
+  "sha256": "5F7DCCB66587C51E7CA83F1809A0AC53355359D5EB375F472C645A9FAEBEF40D",
+  "saveSchema": 5,
+  "suites": [
+    {
+      "name": "dev.expedition.bridge.content.NativeContentPolicyAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.NativeGeneratorPolicyTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.NativeHookContractTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.AerialEntryAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.ShipBoardingAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.TerrainHeightmapTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.UndergroundEntryAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.WaterGenerationHookTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.AcceptanceFixturesTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.DevelopmentWorldGateTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.PlanAuditReportTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.PlanningAuditArgumentsTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.AerialSiteSearchTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.BoardingRouteSearchTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.DungeonCatalogTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.InteriorSiteSearchTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.IslandPlanTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.NativeReservationTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.NativeRiftPlanTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.NaturalEntryPlanTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.NaturalGenerationRulesTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.PortalLifecycleTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.ReservationGeometryTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.ReturnAreaTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.StateAuditSnapshotTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.StructureIndexGridTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.TallPocketCompatibilityTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.TravelLedgerTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.VoidEnvironmentTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.WaterIslandTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.WaterTickBufferTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.WdaAliasDataTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.WdaKnownResourceGapsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.InteriorEntryPersistenceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.NativeLinksPersistenceTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.NaturalEntryPersistenceTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.PortalPersistenceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.SelectionPersistenceTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.TravelPersistenceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "offlineAuditToolTests": 3,
+  "testsRunForThisBuild": true,
+  "runtimeTested": false,
+  "installed": false,
+  "catalogEnabled": false,
+  "naturalEntrancesEnabled": false,
+  "offlineAuditToolTestsEvidence": "3 tests from preceding content-audit turn; not repeated for unchanged offline tool",
+  "tallPocketRuntimeCodecValidated": false,
+  "wdaAliasOfflineAudit": "wda-alias-audit.json: 4 repairs + 2 approved substitutes,39 structures,6 to0 missing references; runtime untested",
+  "acceptanceFixtures": 7,
+  "acceptanceMarkerAutomaticallyInstalled": false,
+  "keepKayraGroundEvidence": "keep-kayra-ground-evidence.json: test surface 65, original 250-high template retained; static route only",
+  "nativeReservationEvidence": "native-generation-hook-bytecode.txt, native-pocket-sizing-bytecode.txt, native-bounding-box-bytecode.txt; actual Forge mixin application untested",
+  "nativeDefinitionAudit": "native-content-policy.json: 125 schematics, 98 definition-policy passes; not 98 runtime-validated rooms; no auto enrollment",
+  "missingWdaTemplateDetails": "wda-missing-template-details.json: raw upstream gaps; wda-substitution-evidence.json: approved replacements,24/40 compatible parent connections; original contents not recovered",
+  "waterEnvironmentEvidence": "WATER_ENVIRONMENTS.md, wda-water-source-evidence.json;15 new tests incl actual vanilla tick inheritance and SRG mapping, no actual fluid/boat placement acceptance",
+  "boardingEvidence": "ship-boarding-audit.json:3 surface ships x4 rotations=12 original joined main-shell cases; no random full assembly or real collision/player acceptance",
+  "undergroundEntryEvidence": "underground-entry-audit.json:5 original starting templates x4 rotations=20 static cases; full random graph, extra exits, fluids, real collision and multiplayer restart still untested",
+  "aerialEntryEvidence": "aerial-entry-audit.json:48 root-piece rotation cases,44 safe deck sites,4 mechanical-nest gate cases remain unsupported; full random assemblies and runtime untested"
+}

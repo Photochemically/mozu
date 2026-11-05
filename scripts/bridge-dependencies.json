@@ -1,0 +1,25 @@
+{
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "java": 17,
+  "dependencies": [
+    {
+      "source": "dimdoors-5.4.4-1.20.1-forge.jar",
+      "target": "dimdoors-5.4.4.jar",
+      "sha256": "EE8193A36D07827E52D540A81D07460E3B47A0BDA6366ADEF1873D9B02A83B52",
+      "purpose": "compile and API/native-room contract tests"
+    },
+    {
+      "source": "architectury-9.2.14-forge.jar",
+      "target": "architectury-9.2.14.jar",
+      "sha256": "218B471D0B8A1F6CDA14CFC1BEB9EEB0DF54304500ACC6C5613D9B88EC65D9AF",
+      "purpose": "compile dependency"
+    },
+    {
+      "source": "DungeonsArise-1.20.x-2.1.58-release.jar",
+      "target": "DungeonsArise-1.20.x-2.1.58-release.jar",
+      "sha256": "F8F1254DBE7ED7C1D5403F20361A36F0D0587C82B71313E3F427C7F1CE7C8A90",
+      "purpose": "original resource and geometry tests"
+    }
+  ]
+}

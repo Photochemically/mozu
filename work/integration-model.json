@@ -1,0 +1,614 @@
+{
+  "recipes": {
+    "pistol_casings": {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:expedition_pistol_casing_batch"
+        }
+      ]
+    },
+    "rifle_casings": {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:expedition_rifle_casing_batch"
+        }
+      ]
+    },
+    "load_9mm": {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:expedition_pistol_casing_batch"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz:ammo",
+          "count": 30,
+          "nbt": {
+            "AmmoId": "tacz:9mm"
+          }
+        }
+      ]
+    },
+    "load_556": {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:expedition_rifle_casing_batch"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz:ammo",
+          "count": 18,
+          "nbt": {
+            "AmmoId": "tacz:556x45"
+          }
+        }
+      ]
+    }
+  },
+  "materials": {
+    "dark_metal": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:iron",
+      "availability": {
+        "tier": 2,
+        "categories": [
+          "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "born_in_chaos_v1:dark_metal_ingot"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.dark_metal"
+      },
+      "stats": {
+        "main": {
+          "durability": 650,
+          "armor_durability": 22,
+          "repair_value": 0.15,
+          "enchantment_value": 7,
+          "harvest_speed": 5,
+          "melee_damage": 4,
+          "magic_damage": 1,
+          "attack_speed": -0.25,
+          "armor": 18,
+          "armor/helmet": 3,
+          "armor/chestplate": 7,
+          "armor/leggings": 5,
+          "armor/boots": 3,
+          "armor_toughness": 2,
+          "magic_armor": 6,
+          "ranged_damage": 2,
+          "ranged_speed": -0.2,
+          "rarity": 40,
+          "charging_value": 0.8
+        },
+        "rod": {
+          "durability": {
+            "mul2": 0.25
+          },
+          "rarity": 40
+        }
+      },
+      "traits": {
+        "main": [
+          {
+            "name": "silentgear:malleable",
+            "level": 4
+          }
+        ],
+        "rod": [
+          {
+            "name": "silentgear:malleable",
+            "level": 4
+          }
+        ]
+      },
+      "model": {
+        "main/all": [
+          {
+            "texture": "silentgear:main_generic_hc",
+            "color": "#554963"
+          },
+          {
+            "texture": "silentgear:_highlight",
+            "color": "#554963"
+          }
+        ],
+        "main/fragment": [
+          {
+            "texture": "silentgear:metal",
+            "color": "#554963"
+          }
+        ],
+        "rod/all": [
+          {
+            "texture": "silentgear:rod_generic_hc",
+            "color": "#554963"
+          }
+        ],
+        "rod/part": [
+          {
+            "texture": "silentgear:rod",
+            "color": "#554963"
+          }
+        ]
+      }
+    },
+    "monster_hide": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:wood",
+      "availability": {
+        "tier": 2,
+        "categories": [
+          "organic",
+          "cloth"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "born_in_chaos_v1:monster_skin"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.monster_hide"
+      },
+      "stats": {
+        "grip": {
+          "repair_efficiency": {
+            "mul1": 0.15
+          },
+          "attack_speed": {
+            "add": 0.1
+          }
+        },
+        "lining": {}
+      },
+      "traits": {
+        "grip": [
+          {
+            "name": "silentgear:flexible",
+            "level": 3
+          }
+        ],
+        "lining": [
+          {
+            "name": "silentgear:flexible",
+            "level": 4
+          }
+        ]
+      },
+      "model": {
+        "main/fragment": [
+          {
+            "texture": "silentgear:cloth",
+            "color": "#6B6552"
+          }
+        ],
+        "grip/all": [
+          {
+            "texture": "silentgear:grip_wool",
+            "color": "#6B6552"
+          }
+        ],
+        "grip/part": [
+          {
+            "texture": "silentgear:grip",
+            "color": "#6B6552"
+          }
+        ],
+        "lining/part": [
+          {
+            "texture": "silentgear:lining_cloth",
+            "color": "#6B6552"
+          }
+        ]
+      }
+    },
+    "stable_fabric": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:wood",
+      "availability": {
+        "tier": 2,
+        "categories": [
+          "organic",
+          "fiber"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "dimdoors:stable_fabric"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.stable_fabric"
+      },
+      "stats": {
+        "binding": {
+          "durability": {
+            "mul1": 0.05
+          }
+        },
+        "cord": {
+          "ranged_speed": {
+            "add": 0.1
+          }
+        }
+      },
+      "traits": {
+        "binding": [
+          {
+            "name": "silentgear:flexible",
+            "level": 3
+          }
+        ],
+        "cord": [
+          {
+            "name": "silentgear:flexible",
+            "level": 2
+          }
+        ]
+      },
+      "model": {
+        "binding/all": [
+          {
+            "texture": "silentgear:binding_generic",
+            "color": "#B5A4E8"
+          }
+        ],
+        "binding/part": [
+          {
+            "texture": "silentgear:binding",
+            "color": "#B5A4E8"
+          }
+        ],
+        "cord/all": [
+          {
+            "texture": "silentgear:bowstring_string",
+            "color": "#B5A4E8"
+          },
+          {
+            "texture": "silentgear:arrow",
+            "color": "#B5A4E8"
+          }
+        ],
+        "cord/part": [
+          {
+            "texture": "silentgear:bowstring",
+            "color": "#B5A4E8"
+          }
+        ],
+        "main/fragment": [
+          {
+            "texture": "silentgear:cloth",
+            "color": "#B5A4E8"
+          }
+        ]
+      }
+    }
+  },
+  "routing": {
+    "lostcities:chests/lostcitychest": "expedition:city_wrappers/lostcities/chests/lostcitychest",
+    "lostcities:chests/raildungeonchest": "expedition:city_wrappers/lostcities/chests/raildungeonchest",
+    "minecraft:chests/buried_treasure": "expedition:city_wrappers/minecraft/chests/buried_treasure",
+    "minecraft:chests/desert_pyramid": "expedition:city_wrappers/minecraft/chests/desert_pyramid",
+    "minecraft:chests/end_city_treasure": "expedition:city_wrappers/minecraft/chests/end_city_treasure",
+    "minecraft:chests/igloo_chest": "expedition:city_wrappers/minecraft/chests/igloo_chest",
+    "minecraft:chests/jungle_temple": "expedition:city_wrappers/minecraft/chests/jungle_temple",
+    "minecraft:chests/jungle_temple_dispenser": "expedition:city_wrappers/minecraft/chests/jungle_temple_dispenser",
+    "minecraft:chests/pillager_outpost": "expedition:city_wrappers/minecraft/chests/pillager_outpost",
+    "minecraft:chests/shipwreck_supply": "expedition:city_wrappers/minecraft/chests/shipwreck_supply",
+    "minecraft:chests/shipwreck_treasure": "expedition:city_wrappers/minecraft/chests/shipwreck_treasure",
+    "minecraft:chests/simple_dungeon": "expedition:city_wrappers/minecraft/chests/simple_dungeon",
+    "minecraft:chests/spawn_bonus_chest": "expedition:city_wrappers/minecraft/chests/spawn_bonus_chest",
+    "minecraft:chests/stronghold_corridor": "expedition:city_wrappers/minecraft/chests/stronghold_corridor",
+    "minecraft:chests/stronghold_crossing": "expedition:city_wrappers/minecraft/chests/stronghold_crossing",
+    "minecraft:chests/stronghold_library": "expedition:city_wrappers/minecraft/chests/stronghold_library",
+    "minecraft:chests/underwater_ruin_big": "expedition:city_wrappers/minecraft/chests/underwater_ruin_big",
+    "minecraft:chests/underwater_ruin_small": "expedition:city_wrappers/minecraft/chests/underwater_ruin_small",
+    "minecraft:chests/woodland_mansion": "expedition:city_wrappers/minecraft/chests/woodland_mansion",
+    "minecraft:chests/village/village_armorer": "expedition:city_wrappers/minecraft/chests/village/village_armorer",
+    "minecraft:chests/village/village_butcher": "expedition:city_wrappers/minecraft/chests/village/village_butcher",
+    "minecraft:chests/village/village_cartographer": "expedition:city_wrappers/minecraft/chests/village/village_cartographer",
+    "minecraft:chests/village/village_desert_house": "expedition:city_wrappers/minecraft/chests/village/village_desert_house",
+    "minecraft:chests/village/village_fisher": "expedition:city_wrappers/minecraft/chests/village/village_fisher",
+    "minecraft:chests/village/village_fletcher": "expedition:city_wrappers/minecraft/chests/village/village_fletcher",
+    "minecraft:chests/village/village_mason": "expedition:city_wrappers/minecraft/chests/village/village_mason",
+    "minecraft:chests/village/village_plains_house": "expedition:city_wrappers/minecraft/chests/village/village_plains_house",
+    "minecraft:chests/village/village_savanna_house": "expedition:city_wrappers/minecraft/chests/village/village_savanna_house",
+    "minecraft:chests/village/village_shepherd": "expedition:city_wrappers/minecraft/chests/village/village_shepherd",
+    "minecraft:chests/village/village_snowy_house": "expedition:city_wrappers/minecraft/chests/village/village_snowy_house",
+    "minecraft:chests/village/village_taiga_house": "expedition:city_wrappers/minecraft/chests/village/village_taiga_house",
+    "minecraft:chests/village/village_tannery": "expedition:city_wrappers/minecraft/chests/village/village_tannery",
+    "minecraft:chests/village/village_temple": "expedition:city_wrappers/minecraft/chests/village/village_temple",
+    "minecraft:chests/village/village_toolsmith": "expedition:city_wrappers/minecraft/chests/village/village_toolsmith",
+    "minecraft:chests/village/village_weaponsmith": "expedition:city_wrappers/minecraft/chests/village/village_weaponsmith"
+  },
+  "selector": {
+    "values": [
+      {
+        "factor": 8,
+        "value": "expedition:city_wrappers/lostcities/chests/lostcitychest",
+        "range": "4,100"
+      },
+      {
+        "factor": 8,
+        "value": "expedition:city_wrappers/lostcities/chests/lostcitychest",
+        "range": "-100,-3"
+      },
+      {
+        "factor": 20,
+        "value": "expedition:city_wrappers/lostcities/chests/raildungeonchest",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 20,
+        "value": "expedition:city_wrappers/lostcities/chests/raildungeonchest",
+        "inpart": "rail_dungeon2"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/buried_treasure"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/desert_pyramid"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/end_city_treasure"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/igloo_chest"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/jungle_temple"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/jungle_temple_dispenser"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/pillager_outpost"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/shipwreck_supply"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/shipwreck_treasure"
+      },
+      {
+        "factor": 30,
+        "value": "expedition:city_wrappers/minecraft/chests/simple_dungeon"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/spawn_bonus_chest"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/stronghold_corridor"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/stronghold_crossing"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/stronghold_library"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/underwater_ruin_big"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/underwater_ruin_small"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/woodland_mansion"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_armorer"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_butcher"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_cartographer"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_desert_house"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_fisher"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_fletcher"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_mason"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_plains_house"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_savanna_house"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_shepherd"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_snowy_house"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_taiga_house"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_tannery"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_temple"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_toolsmith"
+      },
+      {
+        "factor": 1,
+        "value": "expedition:city_wrappers/minecraft/chests/village/village_weaponsmith"
+      }
+    ]
+  },
+  "book": {
+    "title": "远征与工坊",
+    "author": "联动指南",
+    "generation": 0,
+    "pages": [
+      "{\"text\":\"远征与工坊\\n\\n联动试用版 0.1.0\\n\\n探索带回材料，工业加工补给，装备支持下一次远征。\\n\\n本版保留原枪械伤害、手工弹药配方和原有获取路线。\"}",
+      "{\"text\":\"9mm 工业弹药\\n\\n1. 将 5 个铜锭放进工作盆。\\n2. 用机械动力动力辊压机压成手枪弹壳批次。\\n3. 用机械手消耗 1 个火药装填。\\n\\n产出：30 发 9mm。\"}",
+      "{\"text\":\"5.56 工业弹药\\n\\n1. 将铜锭压成铜板。\\n2. 工作盆中 5 个铜板压成步枪弹壳批次。\\n3. 机械手消耗 1 个火药装填。\\n\\n产出：18 发 5.56。\"}",
+      "{\"text\":\"为什么建设工厂\\n\\n相同铜与火药投入，工业路线比原手工配方多产 20%。\\n\\n自动化还有机器、动力、空间与加工时间的投入。少量用枪仍可手工制作。\"}",
+      "{\"text\":\"金属已经相通\\n\\n机械动力黄铜、沉浸工程钢和琥珀金已有寂静装备材料定义。\\n\\n机械动力还能加工沉浸工程钢板、钢丝。可混搭生产线。\"}",
+      "{\"text\":\"暗金属装备\\n\\nBorn in Chaos 暗金属锭现在可用于寂静装备主材和杆件。\\n\\n对比钢：更耐用，但加工速度、攻速或附魔适性有取舍。原生防具用途仍保留。\"}",
+      "{\"text\":\"怪物皮部件\\n\\n怪物皮可以制作寂静装备握柄或衬里。\\n\\n握柄偏向维修效率，原生装备也仍可使用这些皮。\\n\\n它不是通用护甲主材。\"}",
+      "{\"text\":\"维度纤维\\n\\n维度门的世界纤维可在原生织造设备中加工为稳定构造。\\n\\n稳定构造新增寂静装备绑带、弓弦用途。不会自动继承维度门原装备技能。\"}",
+      "{\"text\":\"城市补给\\n\\n城市箱子保留原奖励，并有机会增加一份补给。\\n\\n一般建筑偏金属、火药和少量弹药；铁路偏工业物资。并非每个箱子必出。\"}",
+      "{\"text\":\"城市生成\\n\\n需要在创建世界时启用失落城市相关预设，或进入已配置的城市维度。\\n\\n本版没有强制改变世界生成。奖励规则主要用于尚未生成奖励的箱子。\"}",
+      "{\"text\":\"后期养成\\n\\n神化的宝石、分解和重铸，以及诡厄巫法的原有路线继续保留。\\n\\n本版没有把枪械当作普通弓，也没有改写诅咒配方。\"}",
+      "{\"text\":\"补领与反馈\\n\\n用 1 本书和 1 个铜锭无序合成可补领本指南。\\n\\n测试时关注：弹药能否装填、新材料能否制件、城市箱子是否有补给。新增物品需要完整重启。\"}"
+    ]
+  },
+  "written": [
+    "kubejs/assets/expedition/lang/en_us.json",
+    "kubejs/assets/expedition/lang/zh_cn.json",
+    "kubejs/client_scripts/expedition_tooltips.js",
+    "kubejs/data/expedition/loot_tables/city_bonus.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/lostcities/chests/lostcitychest.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/lostcities/chests/raildungeonchest.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/buried_treasure.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/desert_pyramid.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/end_city_treasure.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/igloo_chest.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/jungle_temple.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/jungle_temple_dispenser.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/pillager_outpost.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/shipwreck_supply.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/shipwreck_treasure.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/simple_dungeon.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/spawn_bonus_chest.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_corridor.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_crossing.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_library.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/underwater_ruin_big.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/underwater_ruin_small.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_armorer.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_butcher.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_cartographer.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_desert_house.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_fisher.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_fletcher.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_mason.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_plains_house.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_savanna_house.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_shepherd.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_snowy_house.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_taiga_house.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_tannery.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_temple.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_toolsmith.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_weaponsmith.json",
+    "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/woodland_mansion.json",
+    "kubejs/data/expedition/loot_tables/rail_bonus.json",
+    "kubejs/data/expedition/recipes/load_556.json",
+    "kubejs/data/expedition/recipes/load_9mm.json",
+    "kubejs/data/expedition/recipes/pistol_casings.json",
+    "kubejs/data/expedition/recipes/rifle_casings.json",
+    "kubejs/data/expedition/silentgear_materials/dark_metal.json",
+    "kubejs/data/expedition/silentgear_materials/monster_hide.json",
+    "kubejs/data/expedition/silentgear_materials/stable_fabric.json",
+    "kubejs/data/lostcities/lostcities/conditions/chestloot.json",
+    "kubejs/server_scripts/expedition_guide.js",
+    "kubejs/startup_scripts/expedition_items.js"
+  ]
+}

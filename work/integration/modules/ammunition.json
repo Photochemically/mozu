@@ -1,0 +1,132 @@
+{
+  "id": "ammunition",
+  "title": "工业弹药",
+  "requires": [
+    "create",
+    "tacz"
+  ],
+  "dependsOn": [],
+  "items": [
+    {
+      "id": "expedition_pistol_casing_batch",
+      "name": "手枪弹壳批次",
+      "texture": "expedition:item/pistol_casing_batch"
+    },
+    {
+      "id": "expedition_rifle_casing_batch",
+      "name": "步枪弹壳批次",
+      "texture": "expedition:item/rifle_casing_batch"
+    }
+  ],
+  "binaryResources": {
+    "kubejs/assets/expedition/textures/item/pistol_casing_batch.png": "assets/items/pistol_casing_batch.png",
+    "kubejs/assets/expedition/textures/item/rifle_casing_batch.png": "assets/items/rifle_casing_batch.png"
+  },
+  "recipes": {
+    "pistol_casings": {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:ingots/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:expedition_pistol_casing_batch"
+        }
+      ]
+    },
+    "rifle_casings": {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        },
+        {
+          "tag": "forge:plates/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:expedition_rifle_casing_batch"
+        }
+      ]
+    },
+    "load_9mm": {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:expedition_pistol_casing_batch"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz:ammo",
+          "count": 30,
+          "nbt": {
+            "AmmoId": "tacz:9mm"
+          }
+        }
+      ]
+    },
+    "load_556": {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:expedition_rifle_casing_batch"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz:ammo",
+          "count": 18,
+          "nbt": {
+            "AmmoId": "tacz:556x45"
+          }
+        }
+      ]
+    }
+  },
+  "tooltips": {
+    "kubejs:expedition_pistol_casing_batch": [
+      "5 铜锭在工作盆压制。",
+      "机械手消耗 1 火药 → 30 发 9mm。"
+    ],
+    "kubejs:expedition_rifle_casing_batch": [
+      "5 铜板在工作盆压制。",
+      "机械手消耗 1 火药 → 18 发 5.56。"
+    ]
+  },
+  "guidePages": [
+    "9mm 工业弹药\n\n1. 将 5 个铜锭放进工作盆。\n2. 用机械动力动力辊压机压成手枪弹壳批次。\n3. 用机械手消耗 1 个火药装填。\n\n产出：30 发 9mm。",
+    "5.56 工业弹药\n\n1. 将铜锭压成铜板。\n2. 工作盆中 5 个铜板压成步枪弹壳批次。\n3. 机械手消耗 1 个火药装填。\n\n产出：18 发 5.56。",
+    "为什么建设工厂\n\n相同铜与火药投入，工业路线比原手工配方多产 20%。\n\n自动化还有机器、动力、空间与加工时间的投入。少量用枪仍可手工制作。"
+  ]
+}

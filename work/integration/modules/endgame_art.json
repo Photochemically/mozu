@@ -1,0 +1,9 @@
+{
+  "id": "endgame_art",
+  "title": "终局目标贴图预留（无物品或配方）",
+  "requires": [],
+  "dependsOn": [],
+  "binaryResources": {
+    "kubejs/assets/expedition/textures/item/endgame_goal.png": "assets/items/endgame_goal.png"
+  }
+}

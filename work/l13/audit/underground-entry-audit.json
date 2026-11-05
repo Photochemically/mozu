@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "template": "dungeons_arise:foundry/foundry_crossing_start_0",
+      "rotation": 0,
+      "passages": 8,
+      "arrival": {
+        "x": -159,
+        "y": -37,
+        "z": -305
+      }
+    },
+    {
+      "template": "dungeons_arise:foundry/foundry_crossing_start_0",
+      "rotation": 1,
+      "passages": 8,
+      "arrival": {
+        "x": -175,
+        "y": -37,
+        "z": -319
+      }
+    },
+    {
+      "template": "dungeons_arise:foundry/foundry_crossing_start_0",
+      "rotation": 2,
+      "passages": 8,
+      "arrival": {
+        "x": -189,
+        "y": -37,
+        "z": -335
+      }
+    },
+    {
+      "template": "dungeons_arise:foundry/foundry_crossing_start_0",
+      "rotation": 3,
+      "passages": 8,
+      "arrival": {
+        "x": -145,
+        "y": -37,
+        "z": -349
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_triple_0",
+      "rotation": 0,
+      "passages": 3,
+      "arrival": {
+        "x": -159,
+        "y": -31,
+        "z": -300
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_triple_0",
+      "rotation": 1,
+      "passages": 3,
+      "arrival": {
+        "x": -180,
+        "y": -31,
+        "z": -319
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_triple_0",
+      "rotation": 2,
+      "passages": 3,
+      "arrival": {
+        "x": -189,
+        "y": -31,
+        "z": -340
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_triple_0",
+      "rotation": 3,
+      "passages": 3,
+      "arrival": {
+        "x": -140,
+        "y": -31,
+        "z": -349
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_straight_0",
+      "rotation": 0,
+      "passages": 2,
+      "arrival": {
+        "x": -131,
+        "y": -31,
+        "z": -300
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_straight_0",
+      "rotation": 1,
+      "passages": 2,
+      "arrival": {
+        "x": -180,
+        "y": -31,
+        "z": -291
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_straight_0",
+      "rotation": 2,
+      "passages": 2,
+      "arrival": {
+        "x": -189,
+        "y": -31,
+        "z": -340
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_straight_0",
+      "rotation": 3,
+      "passages": 2,
+      "arrival": {
+        "x": -140,
+        "y": -31,
+        "z": -349
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_descent_0",
+      "rotation": 0,
+      "passages": 2,
+      "arrival": {
+        "x": -154,
+        "y": -24,
+        "z": -300
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_descent_0",
+      "rotation": 1,
+      "passages": 2,
+      "arrival": {
+        "x": -180,
+        "y": -24,
+        "z": -314
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_descent_0",
+      "rotation": 2,
+      "passages": 2,
+      "arrival": {
+        "x": -166,
+        "y": -24,
+        "z": -340
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_descent_0",
+      "rotation": 3,
+      "passages": 2,
+      "arrival": {
+        "x": -140,
+        "y": -24,
+        "z": -326
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_turn_0",
+      "rotation": 0,
+      "passages": 2,
+      "arrival": {
+        "x": -159,
+        "y": -31,
+        "z": -300
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_turn_0",
+      "rotation": 1,
+      "passages": 2,
+      "arrival": {
+        "x": -189,
+        "y": -31,
+        "z": -300
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_turn_0",
+      "rotation": 2,
+      "passages": 2,
+      "arrival": {
+        "x": -178,
+        "y": -31,
+        "z": -349
+      }
+    },
+    {
+      "template": "dungeons_arise:mining_system/mining_system_turn_0",
+      "rotation": 3,
+      "passages": 2,
+      "arrival": {
+        "x": -140,
+        "y": -31,
+        "z": -321
+      }
+    }
+  ],
+  "runtimeAccepted": false,
+  "formalPoolEnrollment": false,
+  "scope": "Five original starting pieces only; full random graph, additional exits, fluids, entities and actual collision still require runtime acceptance"
+}

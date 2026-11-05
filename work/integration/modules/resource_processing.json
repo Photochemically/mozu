@@ -1,0 +1,74 @@
+{
+  "id": "resource_processing",
+  "title": "暗金属工业加工",
+  "requires": [
+    "born_in_chaos_v1",
+    "create",
+    "immersiveengineering"
+  ],
+  "dependsOn": [],
+  "recipes": {
+    "dark_metal_pile_compacting": {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        },
+        {
+          "item": "born_in_chaos_v1:pieceofdarkmetal"
+        }
+      ],
+      "results": [
+        {
+          "item": "born_in_chaos_v1:pileof_dark_metal"
+        }
+      ]
+    },
+    "dark_metal_arc_smelting": {
+      "type": "immersiveengineering:arc_furnace",
+      "additives": [],
+      "energy": 51200,
+      "input": {
+        "item": "born_in_chaos_v1:pileof_dark_metal"
+      },
+      "results": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_ingot"
+        }
+      ],
+      "time": 100
+    }
+  },
+  "tooltips": {
+    "born_in_chaos_v1:pieceofdarkmetal": [
+      "远征联动：9 个碎片可在工作盆压成暗金属堆。"
+    ],
+    "born_in_chaos_v1:pileof_dark_metal": [
+      "远征联动：电弧炉冶炼为 1 个暗金属锭。"
+    ]
+  },
+  "guidePages": [
+    "战利品进入工厂\n\n9 个暗金属碎片在工作盆压制为 1 堆；沉浸工程电弧炉可将 1 堆炼成 1 锭。\n\n金属总量与原配方相同，适合接入自动加工线。暗金属仍需探索战斗获取。"
+  ]
+}

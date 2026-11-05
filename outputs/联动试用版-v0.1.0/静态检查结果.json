@@ -1,0 +1,12 @@
+{
+  "status": "static_checks_passed",
+  "checks": [
+    "All manifest paths remain inside package; JSON and JS parse; file hashes match",
+    "All provided core JARs match the actual instance",
+    "Both ammo routes yield exactly 20 percent more at equal copper/gunpowder; no reusable gunpowder",
+    "Three material inputs are distinct and do not collide with existing Silent Gear item ingredients",
+    "City selector preserves every factor and location constraint and routes only its own tables",
+    "Guide NBT pages are valid JSON and bounded for a book"
+  ],
+  "limitation": "Does not replace Minecraft loading, machine operation, combat or world-generation tests."
+}

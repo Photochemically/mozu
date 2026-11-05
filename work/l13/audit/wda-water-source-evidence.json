@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-04",
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "scope": "Original aquatic structure height queries and starting templates; not complete assembly or route validation",
+  "structures": [
+    {
+      "id": "dungeons_arise:illager_corsair",
+      "file": "data/dungeons_arise/worldgen/structure/illager_corsair.json",
+      "type": "minecraft:jigsaw",
+      "startPool": "dungeons_arise:aquatic/illager_corsair/illager_corsair_main",
+      "originalHeightmap": "WORLD_SURFACE_WG",
+      "startHeight": {
+        "absolute": 0
+      },
+      "originalPool": {
+        "name": "dungeons_arise:aquatic/illager_corsair/illager_corsair_main",
+        "fallback": "minecraft:empty",
+        "elements": [
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:illager_corsair/illager_corsair_part_0",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          },
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:illager_corsair/illager_corsair_part_1",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          }
+        ]
+      },
+      "startingTemplates": [
+        {
+          "id": "dungeons_arise:illager_corsair/illager_corsair_part_0",
+          "size": [
+            32,
+            48,
+            31
+          ]
+        },
+        {
+          "id": "dungeons_arise:illager_corsair/illager_corsair_part_1",
+          "size": [
+            31,
+            48,
+            31
+          ]
+        }
+      ],
+      "formalTierAssigned": false,
+      "formalEnvironmentAssigned": false,
+      "runtimeAccepted": false
+    },
+    {
+      "id": "dungeons_arise:illager_galley",
+      "file": "data/dungeons_arise/worldgen/structure/illager_galley.json",
+      "type": "minecraft:jigsaw",
+      "startPool": "dungeons_arise:aquatic/illager_galley/illager_galley_main",
+      "originalHeightmap": "WORLD_SURFACE_WG",
+      "startHeight": {
+        "absolute": 0
+      },
+      "originalPool": {
+        "name": "dungeons_arise:aquatic/illager_galley/illager_galley_main",
+        "fallback": "minecraft:empty",
+        "elements": [
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:illager_galley/illager_galley_part_0",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          },
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:illager_galley/illager_galley_part_1",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          }
+        ]
+      },
+      "startingTemplates": [
+        {
+          "id": "dungeons_arise:illager_galley/illager_galley_part_0",
+          "size": [
+            32,
+            48,
+            31
+          ]
+        },
+        {
+          "id": "dungeons_arise:illager_galley/illager_galley_part_1",
+          "size": [
+            31,
+            48,
+            31
+          ]
+        }
+      ],
+      "formalTierAssigned": false,
+      "formalEnvironmentAssigned": false,
+      "runtimeAccepted": false
+    },
+    {
+      "id": "dungeons_arise:undead_pirate_ship",
+      "file": "data/dungeons_arise/worldgen/structure/undead_pirate_ship.json",
+      "type": "minecraft:jigsaw",
+      "startPool": "dungeons_arise:aquatic/undead_pirate_ship/undead_pirate_ship_main",
+      "originalHeightmap": "WORLD_SURFACE_WG",
+      "startHeight": {
+        "absolute": 0
+      },
+      "originalPool": {
+        "name": "dungeons_arise:aquatic/undead_pirate_ship/undead_pirate_ship_main",
+        "fallback": "minecraft:empty",
+        "elements": [
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:undead_pirate_ship/undead_pirate_ship_part_0",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          },
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:undead_pirate_ship/undead_pirate_ship_part_1",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          }
+        ]
+      },
+      "startingTemplates": [
+        {
+          "id": "dungeons_arise:undead_pirate_ship/undead_pirate_ship_part_0",
+          "size": [
+            32,
+            48,
+            31
+          ]
+        },
+        {
+          "id": "dungeons_arise:undead_pirate_ship/undead_pirate_ship_part_1",
+          "size": [
+            31,
+            48,
+            31
+          ]
+        }
+      ],
+      "formalTierAssigned": false,
+      "formalEnvironmentAssigned": false,
+      "runtimeAccepted": false
+    },
+    {
+      "id": "dungeons_arise:typhon",
+      "file": "data/dungeons_arise/worldgen/structure/typhon.json",
+      "type": "minecraft:jigsaw",
+      "startPool": "dungeons_arise:aquatic/typhon/typhon_start",
+      "originalHeightmap": "OCEAN_FLOOR",
+      "startHeight": {
+        "absolute": -4
+      },
+      "originalPool": {
+        "name": "dungeons_arise:aquatic/typhon/typhon_start",
+        "fallback": "minecraft:empty",
+        "elements": [
+          {
+            "weight": 1,
+            "element": {
+              "location": "dungeons_arise:typhon/typhon_part_1",
+              "processors": "minecraft:empty",
+              "projection": "rigid",
+              "element_type": "minecraft:single_pool_element"
+            }
+          }
+        ]
+      },
+      "startingTemplates": [
+        {
+          "id": "dungeons_arise:typhon/typhon_part_1",
+          "size": [
+            48,
+            48,
+            48
+          ]
+        }
+      ],
+      "formalTierAssigned": false,
+      "formalEnvironmentAssigned": false,
+      "runtimeAccepted": false
+    }
+  ],
+  "waterTickDevelopmentMethod": "FlowingFluid.tick(Level,BlockPos,FluidState)",
+  "waterTickProductionMethod": "m_6292_",
+  "runtimeAccepted": false
+}

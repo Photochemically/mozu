@@ -1,0 +1,7 @@
+# Keep evidence hashes and generated-script comparisons stable across platforms.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve historical Gradle console output byte for byte.
+work/l13/audit/*.log -whitespace
+*.png binary
+*.jar binary
+*.zip binary

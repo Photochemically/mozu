@@ -1,0 +1,48 @@
+{
+  "checkedAtUtc": "2026-11-04T09:59:53.1328742Z",
+  "missingPathHistory": [
+    {
+      "path": "src/main/resources/data/dungeons_arise/structures/bandit_village/bandit_village_deco_3.nbt",
+      "commits": []
+    },
+    {
+      "path": "src/main/resources/data/dungeons_arise/structures/mechanical_nest/mechanical_nest_spawner_6.nbt",
+      "commits": []
+    },
+    {
+      "path": "src/main/resources/data/dungeons_arise/structures/thornborn_towers/thornborn_towers_hanging_bridge_2_medium_terminator.nbt",
+      "commits": []
+    },
+    {
+      "path": "src/main/resources/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_corridor_gears.json",
+      "commits": []
+    }
+  ],
+  "relatedAuthorRepositories": [
+    {
+      "full_name": "Aureljz/WhenDungeonsArise--Fabric",
+      "default_branch": "1.20.1",
+      "html_url": "https://github.com/Aureljz/WhenDungeonsArise--Fabric"
+    },
+    {
+      "full_name": "Aureljz/WhenDungeonsArise--Forge",
+      "default_branch": "master",
+      "html_url": "https://github.com/Aureljz/WhenDungeonsArise--Forge"
+    },
+    {
+      "full_name": "Aureljz/WhenDungeonsArise-Forge-main",
+      "default_branch": "master",
+      "html_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main"
+    },
+    {
+      "full_name": "Aureljz/WhenDungeonsArise-SevenSeas-Fabric",
+      "default_branch": "master",
+      "html_url": "https://github.com/Aureljz/WhenDungeonsArise-SevenSeas-Fabric"
+    },
+    {
+      "full_name": "Aureljz/WhenDungeonsArise-SevenSeas-Forge",
+      "default_branch": "master",
+      "html_url": "https://github.com/Aureljz/WhenDungeonsArise-SevenSeas-Forge"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="expedition_bridge"
+version="0.3.0-dev"
+displayName="Expedition Dimensional Doors Bridge"
+description='''Tiered pocket expeditions with persistent portals and extensible structure and encounter providers.'''
+
+[[dependencies.expedition_bridge]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.expedition_bridge]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.expedition_bridge]]
+modId="dimdoors"
+mandatory=true
+versionRange="[5.4.4]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.expedition_bridge]]
+modId="dungeons_arise"
+mandatory=true
+versionRange="[2.1.58-1.20.x]"
+ordering="AFTER"
+side="BOTH"

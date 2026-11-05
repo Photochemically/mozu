@@ -1,0 +1,40 @@
+[
+  {
+    "repo": "WhenDungeonsArise--Fabric",
+    "branch": "1.20.1",
+    "treeSha": "e66c2407cd2f0bda6c8d3520af12d619b42f17f4",
+    "truncated": false,
+    "totalPaths": 1414,
+    "matches": [
+      {
+        "path": "src/main/resources/data/dungeons_arise/structures/thornborn_towers/thornborn_towers_hanging_bridge_3_medium_terminator.nbt",
+        "sha": "807067eef001a7387c338c6c038155edce02e740",
+        "size": 430
+      },
+      {
+        "path": "src/main/resources/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_corridor_deco.json",
+        "sha": "ee6fe1f522229dc4a95d25fc5f90179662ad38a0",
+        "size": 3615
+      }
+    ]
+  },
+  {
+    "repo": "WhenDungeonsArise--Forge",
+    "branch": "master",
+    "treeSha": "159b590809bb2bf5e48e61fbc9dde2483e3b04f1",
+    "truncated": false,
+    "totalPaths": 1227,
+    "matches": [
+      {
+        "path": "src/main/resources/data/dungeons_arise/structures/thornborn_towers/thornborn_towers_hanging_bridge_3_medium_terminator.nbt",
+        "sha": "327ceaa8221a5edcf36392337d50c153445a9a0f",
+        "size": 430
+      },
+      {
+        "path": "src/main/resources/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_corridor_deco.json",
+        "sha": "dcc656a3d52306e97777f0cc0209858995af96c6",
+        "size": 3614
+      }
+    ]
+  }
+]

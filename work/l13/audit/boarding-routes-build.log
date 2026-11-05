@@ -1,0 +1,41 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava
+C:\Users\hp\Documents\Codex\2026-11-01\new-chat\work\l13\bridge\src\main\java\dev\expedition\bridge\ExpeditionBridge.java:32: ����: [removal] FMLJavaModLoadingContext �е� get() �ѹ�ʱ, �ұ��Ϊ��ɾ��
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(WdaAliasPacks::register);
+                                ^
+C:\Users\hp\Documents\Codex\2026-11-01\new-chat\work\l13\bridge\src\main\java\dev\expedition\bridge\ExpeditionBridge.java:33: ����: [removal] ModLoadingContext �е� get() �ѹ�ʱ, �ұ��Ϊ��ɾ��
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON,NaturalEntryConfig.SPEC,"expedition-bridge-common.toml");
+                         ^
+ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+ע: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+2 ������
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :jar
+> Task :downloadMcpConfig
+> Task :extractSrg UP-TO-DATE
+> Task :createMcpToSrg UP-TO-DATE
+> Task :reobfJar
+> Task :jarJar SKIPPED
+> Task :reobfJarJar SKIPPED
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+> Task :check
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 43s
+9 actionable tasks: 6 executed, 3 up-to-date

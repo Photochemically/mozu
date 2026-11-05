@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.expedition.bridge.domain.TallPocketCompatibilityTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-11-03T17:37:04" hostname="DESKTOP-GGJBTHK" time="0.001">
+  <properties/>
+  <testcase name="initializationError" classname="dev.expedition.bridge.domain.TallPocketCompatibilityTest" time="0.001">
+    <failure message="java.lang.ExceptionInInitializerError" type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52)
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:62)
+	at dev.expedition.bridge.domain.TallPocketCompatibilityTest.bootstrapVanillaRegistries(TallPocketCompatibilityTest.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Error computing listener list for net.minecraftforge.network.NetworkEvent
+	at net.minecraftforge.eventbus.api.EventListenerHelper.computeListenerList(EventListenerHelper.java:82)
+	at net.minecraftforge.eventbus.api.EventListenerHelper.lambda$getListenerListInternal$0(EventListenerHelper.java:56)
+	at net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:61)
+	at net.minecraftforge.eventbus.LockHelper.get(LockHelper.java:44)
+	at net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:39)
+	at net.minecraftforge.eventbus.api.EventListenerHelper.getListenerListInternal(EventListenerHelper.java:56)
+	at net.minecraftforge.eventbus.api.EventListenerHelper.getListenerList(EventListenerHelper.java:50)
+	at net.minecraftforge.eventbus.EventBus.addToListeners(EventBus.java:276)
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:252)
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:244)
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:199)
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:193)
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:187)
+	at net.minecraftforge.network.NetworkInstance.addListener(NetworkInstance.java:49)
+	at net.minecraftforge.network.simple.SimpleChannel.&lt;init&gt;(SimpleChannel.java:40)
+	at net.minecraftforge.network.simple.SimpleChannel.&lt;init&gt;(SimpleChannel.java:32)
+	at net.minecraftforge.network.NetworkRegistry$ChannelBuilder.simpleChannel(NetworkRegistry.java:429)
+	at net.minecraftforge.network.NetworkInitialization.getHandshakeChannel(NetworkInitialization.java:23)
+	at net.minecraftforge.network.NetworkConstants.&lt;clinit&gt;(NetworkConstants.java:43)
+	... 5 more
+Caused by: java.lang.NoSuchMethodException: net.minecraftforge.network.NetworkEvent.&lt;init&gt;()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3587)
+	at java.base/java.lang.Class.getConstructor(Class.java:2273)
+	at net.minecraftforge.eventbus.api.EventListenerHelper.computeListenerList(EventListenerHelper.java:75)
+	... 23 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[2026-11-03 19:36:57,797 Test worker WARN Advanced terminal features are not available in this environment
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

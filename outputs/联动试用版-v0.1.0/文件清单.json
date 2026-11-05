@@ -1,0 +1,205 @@
+{
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": "kubejs/assets/expedition/lang/en_us.json",
+      "sha256": "b8e1c0d9503ad07421be7dcefaa050a9b4fc6e6c294472385988136e56146934"
+    },
+    {
+      "path": "kubejs/assets/expedition/lang/zh_cn.json",
+      "sha256": "66c2f22cd59c6cad50de599ba469d557ed3a33a50b518e0bec88ac71e2d57d03"
+    },
+    {
+      "path": "kubejs/client_scripts/expedition_tooltips.js",
+      "sha256": "5629a6a55ecc71934d494a63ff53d44fd2bad5218300467a436a59ef996ab9aa"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_bonus.json",
+      "sha256": "0d8fc4bd277691751148d4dfcbf70d20c571ccba76fa517549d6dbfca02df5e9"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/lostcities/chests/lostcitychest.json",
+      "sha256": "70b7372ae1fc7c76f66933eed3435a78c36585994a45dc6e3ef45db8ad59c739"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/lostcities/chests/raildungeonchest.json",
+      "sha256": "74fe24057be5ed65c324906b963a0aaba9e7b05d9c01eec20fc1c4a986443402"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/buried_treasure.json",
+      "sha256": "6f8f4ca6adfbb02ad16607ba47470d7633efe01fa8a3bf08a3a5fcf3adf2dfef"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/desert_pyramid.json",
+      "sha256": "fc2c2f346374fe0e85e4c7b1bfb8a0d09507c92a8f4088e886a8234ce273a45b"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/end_city_treasure.json",
+      "sha256": "4db91106b7f64637692f62f837ed79b103cc4adddb183a4c0bbecd5b44542252"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/igloo_chest.json",
+      "sha256": "771ca34736c76a93065154e520fe1b76a69ff76a1c6011098a0980a1df1a8931"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/jungle_temple.json",
+      "sha256": "05f9df4a1074f997a552468b3e5a8c557587e1fbbe31a4ec85f82af6ebd4143c"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/jungle_temple_dispenser.json",
+      "sha256": "f8b8dd857113e316de499d1d6825ba8c10da60dadcc9a33ede9f885bbc9f9e69"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/pillager_outpost.json",
+      "sha256": "3f4ad6b0fc6605d168ba1fac1904ae40e87b446a7d616118426e4097b6a8cc39"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/shipwreck_supply.json",
+      "sha256": "c1e159eb6ef0aafd1d82e62834fddd1841dff551af71222b8d611bcab9b5656b"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/shipwreck_treasure.json",
+      "sha256": "740f179a6258120c8624c47e4a50bfb29d799c4fca9ab708eacf84ad789c16ef"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/simple_dungeon.json",
+      "sha256": "b324901988eb07e0d9dd61a4e6c5119143332ebb7433eae3433af5c9b133e61d"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/spawn_bonus_chest.json",
+      "sha256": "5fe56111bf95c4300e7251751257c82d4927da2d9e09b608bb6ef63b60b56cd8"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_corridor.json",
+      "sha256": "663c7ca497fac6b8e17dbbf768aaf115e8e24e7eca98f8689718951c238542fc"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_crossing.json",
+      "sha256": "3e6186ce8321bc4634aa01fa303e69813b61dd1a837d356dee83c1b4e404a8b3"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/stronghold_library.json",
+      "sha256": "6714b86df5ff93109dd4eab342596addeed3d8fd3a7fa2cf329810b749ac3d2c"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/underwater_ruin_big.json",
+      "sha256": "00bc0edcb273b4d140ad394eb8b17a7189e5d63ca34131333738d9df106e4f54"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/underwater_ruin_small.json",
+      "sha256": "7142c444b23bd349d8542f656ca3beafedf52445cd4a0ac175890de86bdd175b"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_armorer.json",
+      "sha256": "ea7762ad9728026b38b7d2f8c227a09decb33ecd81b5fbc9422f88c04e87057f"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_butcher.json",
+      "sha256": "9bf69b71383a6d4b27cbb14835f5b399ece3ce80594cd730d5915c94c433cc38"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_cartographer.json",
+      "sha256": "4d7182577f126aab6032b75c567afc0230cc67d4ad1fa3df047b3b19e00daa41"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_desert_house.json",
+      "sha256": "62cf05a1d7bd44b8d19a1e4cc49ec21d6ff180f4a1e95f026a984ff34302e749"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_fisher.json",
+      "sha256": "04cecbafd636fb855a6a1309635e2823754cfa8f05b96b9e5738865a8cf1c28b"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_fletcher.json",
+      "sha256": "a53040e382a7b57c7701515459f87221cbe08188c7c4fca44b8608bb4180dac7"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_mason.json",
+      "sha256": "d8dc469ec4cfc841f6c253f78bac4e979ffc47f4e32cad9a1aa222e636880d42"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_plains_house.json",
+      "sha256": "e88bb80205c89c7f7dbc95c7dc193ff6bdd63fa1638935540279ad2027b7c425"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_savanna_house.json",
+      "sha256": "1ae330e547f9b50ac2a63c4a4e4eb7243b4770d94c751d41f6bf1120de5051c4"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_shepherd.json",
+      "sha256": "b3bfb6b2fcaac4dfe058bd385ad53aa0c22c57618025aa79c29e91c7a2e335b2"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_snowy_house.json",
+      "sha256": "708c168b4212d6459ed28f1a39390848ab8d0c59d7ea41b6c50f4b35768d751c"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_taiga_house.json",
+      "sha256": "f5d83c997c24cb795106f4c4ad29844d25269280b31dacbddd19a51d66601860"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_tannery.json",
+      "sha256": "fa2d3054d0e811917d1bd088437f129be1dd6195105018b365260a7653f2669d"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_temple.json",
+      "sha256": "641fcbf8013270aff86c07bf00c57f4cb61749ad3972a4632c642f24ec22f25c"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_toolsmith.json",
+      "sha256": "34caeaf5ba4d83707ae3e7e3af6afb6d76f666f06737f2cb1baa57c681ad4df4"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/village/village_weaponsmith.json",
+      "sha256": "0ae17293006c03263f0d07e60d5874c0627f3ca494e7405864a6aee2ef3357b8"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/city_wrappers/minecraft/chests/woodland_mansion.json",
+      "sha256": "9cb58a22daba0dc694d3f5d6ed0f3bfcdbcdaca65adeb22fc67d5edc89729c83"
+    },
+    {
+      "path": "kubejs/data/expedition/loot_tables/rail_bonus.json",
+      "sha256": "c0e5b6f1e411fb1d274138f8d5e9e19d7c0712e92f0bc2c5b2ce5d8ffd1d6ab5"
+    },
+    {
+      "path": "kubejs/data/expedition/recipes/load_556.json",
+      "sha256": "437b7e89f56f94b393175bbb4ae7301c435ceb7a9cdd2d563383a6302187a9b2"
+    },
+    {
+      "path": "kubejs/data/expedition/recipes/load_9mm.json",
+      "sha256": "2a538865f767fce754d5ead015f97f649e350f95a22748cfd0d92bb3def4d2d6"
+    },
+    {
+      "path": "kubejs/data/expedition/recipes/pistol_casings.json",
+      "sha256": "820e578cee7a428b39a6232f28c7d68406063d968f8d75209eca86c8f3e1cc8a"
+    },
+    {
+      "path": "kubejs/data/expedition/recipes/rifle_casings.json",
+      "sha256": "80497a9ae9434de8a99f425b9f23d6cdca9e39cfa79969ab23cd47d5067f36a9"
+    },
+    {
+      "path": "kubejs/data/expedition/silentgear_materials/dark_metal.json",
+      "sha256": "f6cbba60e8ace7ea277346c2bb7b8efe0bcc5270c1604ccf5cfee4866ba5a107"
+    },
+    {
+      "path": "kubejs/data/expedition/silentgear_materials/monster_hide.json",
+      "sha256": "7e0c0242b8e452b3613eb81edb8f4fd68075a6dc710cf9f3cd354714ecdd8e2a"
+    },
+    {
+      "path": "kubejs/data/expedition/silentgear_materials/stable_fabric.json",
+      "sha256": "e38f1afa158a8e38404c152360a4d2de19817f70af407a3e576de430abd6fdc0"
+    },
+    {
+      "path": "kubejs/data/lostcities/lostcities/conditions/chestloot.json",
+      "sha256": "1fa7bacd031d9481d7e80c21e2d54bef227c26fa88fcb3b4e384f63dc6b098a2"
+    },
+    {
+      "path": "kubejs/server_scripts/expedition_guide.js",
+      "sha256": "e82c0e6c57f21292feabe8a6cc996c12288bf5a061c0a964c798e5b406c85963"
+    },
+    {
+      "path": "kubejs/startup_scripts/expedition_items.js",
+      "sha256": "4f51757407676732b253f1e7536175e8be4fc3f6362234e518464836d59cf95a"
+    }
+  ]
+}

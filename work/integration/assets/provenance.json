@@ -1,0 +1,41 @@
+{
+  "approvedByUser": true,
+  "originalBytesUnmodified": true,
+  "files": [
+    {
+      "source": "C:\\Users\\hp\\Downloads\\copper_ingot.png",
+      "destination": "work\\integration\\assets\\items\\pistol_casing_batch.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "8cce097bc0d8480540e3de05b9139bb7d3efe9f7d7aebb886cf097ff05d513f9"
+    },
+    {
+      "source": "C:\\Users\\hp\\Downloads\\copper_block.png",
+      "destination": "work\\integration\\assets\\items\\rifle_casing_batch.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "e04b6eef040f6166f4861153df0cff19c9a59408e4072426e6ff15bfbc2c1da4"
+    },
+    {
+      "source": "C:\\Users\\hp\\Downloads\\string.png",
+      "destination": "work\\integration\\assets\\items\\astral_fiber.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "2afd47d02fe23fefd2361e5436670fc1f83de6ca908aa87374d6c016d76c38e2"
+    },
+    {
+      "source": "C:\\Users\\hp\\Downloads\\eye_armor_trim_smithing_template.png",
+      "destination": "work\\integration\\assets\\items\\sigil_blank.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "b0f5a9c412e3d270886b0d3ca87961832628ea4486fb2429b71427cd3a1ddf36"
+    },
+    {
+      "source": "C:\\Users\\hp\\Downloads\\nether_star.png",
+      "destination": "work\\integration\\assets\\items\\endgame_goal.png",
+      "width": 16,
+      "height": 16,
+      "sha256": "7d081d8f5f307433c8db9c4e80185b58f44bbc131715f39d1e1b002e9a7ec4a6"
+    }
+  ]
+}

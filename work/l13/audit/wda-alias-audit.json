@@ -1,0 +1,298 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "aliases": [
+    {
+      "missing": "worldgen/template_pool/mechanical_nest/mechanical_nest_decoration.json",
+      "source": "worldgen/template_pool/mechanical_nest/mechanical_nest_decorations.json",
+      "pool": true
+    },
+    {
+      "missing": "structures/mechanical_nest/mechanical_nest_bridge_terminator_6_.nbt",
+      "source": "structures/mechanical_nest/mechanical_nest_bridge_terminator_6.nbt",
+      "pool": false
+    },
+    {
+      "missing": "structures/thornborn_towers/thornborn_towers_hanging_bridge_2_medium_terminator.nbt",
+      "source": "structures/thornborn_towers/thornborn_towers_hanging_bridge_3_medium_terminator.nbt",
+      "pool": false
+    },
+    {
+      "missing": "worldgen/template_pool/underworld/foundry/foundry_corridor_gears.json",
+      "source": "worldgen/template_pool/underworld/foundry/foundry_corridor_deco.json",
+      "pool": true
+    }
+  ],
+  "substitutions": [
+    {
+      "missing": "structures/bandit_village/bandit_village_deco_3.nbt",
+      "source": "structures/bandit_village/bandit_village_deco_0.nbt",
+      "sourceSha256": "61295310d71474a442e83ba03a803713e1ba4a2318c9271eca8c4951c8208a3e",
+      "pool": "worldgen/template_pool/bandit/bandit_village/bandit_village_houses.json",
+      "poolSha256": "29a71070756060a65c0531676cfe9efb8da5bb5c03e79d4b6846eb7cdb940643"
+    },
+    {
+      "missing": "structures/mechanical_nest/mechanical_nest_spawner_6.nbt",
+      "source": "structures/mechanical_nest/mechanical_nest_spawner_0.nbt",
+      "sourceSha256": "cbc852ac1e1d9008ea490e0b8980bdeb447782ca3e2136ab23a57ca871da739a",
+      "pool": "worldgen/template_pool/mechanical_nest/mechanical_nest_spawners.json",
+      "poolSha256": "5d0b4d05ebdad6ee224ba4553af61157342b319b5a7069e2bc1c1996dc75727c"
+    }
+  ],
+  "source": "installed_jar_plus_virtual_repair_and_substitute_overlay",
+  "runtimeAccepted": false,
+  "missingBefore": [
+    "pool:dungeons_arise:mechanical_nest/mechanical_nest_decoration",
+    "pool:dungeons_arise:underworld/foundry/foundry_corridor_gears",
+    "template:dungeons_arise:bandit_village/bandit_village_deco_3",
+    "template:dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_6_",
+    "template:dungeons_arise:mechanical_nest/mechanical_nest_spawner_6",
+    "template:dungeons_arise:thornborn_towers/thornborn_towers_hanging_bridge_2_medium_terminator"
+  ],
+  "missingAfter": [],
+  "structures": [
+    {
+      "id": "dungeons_arise:abandoned_temple",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:aviary",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:bandit_towers",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:bandit_village",
+      "missingBefore": [
+        "template:dungeons_arise:bandit_village/bandit_village_deco_3"
+      ],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:ceryneian_hind",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:coliseum",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:fishing_hut",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:foundry",
+      "missingBefore": [
+        "pool:dungeons_arise:underworld/foundry/foundry_corridor_gears"
+      ],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:giant_mushroom",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:greenwood_pub",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:illager_campsite",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:illager_corsair",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:illager_fort",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:illager_galley",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:illager_windmill",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:jungle_tree_house",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:keep_kayra",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:lighthouse",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:mechanical_nest",
+      "missingBefore": [
+        "pool:dungeons_arise:mechanical_nest/mechanical_nest_decoration",
+        "template:dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_6_",
+        "template:dungeons_arise:mechanical_nest/mechanical_nest_spawner_6"
+      ],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:merchant_campsite",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:mining_system",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:monastery",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:mushroom_house",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:mushroom_mines",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:mushroom_village",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:shiraz_palace",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:small_blimp",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:small_prairie_house",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
+      "missingBefore": [
+        "template:dungeons_arise:thornborn_towers/thornborn_towers_hanging_bridge_2_medium_terminator"
+      ],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:typhon",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:undead_pirate_ship",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    },
+    {
+      "id": "dungeons_arise:wishing_well",
+      "missingBefore": [],
+      "missingAfter": [],
+      "unsupportedAfter": []
+    }
+  ]
+}

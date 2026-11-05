@@ -1,0 +1,161 @@
+{
+  "id": "apotheosis_support",
+  "title": "神化辅助耗材",
+  "requires": [
+    "apotheosis",
+    "create",
+    "immersiveengineering"
+  ],
+  "dependsOn": [],
+  "items": [
+    {
+      "id": "expedition_sigil_blank",
+      "name": "符石坯片",
+      "texture": "expedition:item/sigil_blank"
+    }
+  ],
+  "binaryResources": {
+    "kubejs/assets/expedition/textures/item/sigil_blank.png": "assets/items/sigil_blank.png"
+  },
+  "recipes": {
+    "sigil_blank_pressing": {
+      "type": "create:pressing",
+      "conditions": [
+        {
+          "type": "apotheosis:module",
+          "module": "adventure"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "apotheosis:gem_fused_slate"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        }
+      ]
+    },
+    "sigil_blank_metal_press": {
+      "type": "immersiveengineering:metal_press",
+      "conditions": [
+        {
+          "type": "apotheosis:module",
+          "module": "adventure"
+        }
+      ],
+      "energy": 2400,
+      "input": {
+        "item": "apotheosis:gem_fused_slate"
+      },
+      "mold": "immersiveengineering:mold_plate",
+      "result": {
+        "item": "kubejs:expedition_sigil_blank"
+      }
+    },
+    "sigil_rebirth_mixing": {
+      "type": "create:mixing",
+      "conditions": [
+        {
+          "type": "apotheosis:module",
+          "module": "adventure"
+        }
+      ],
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "apotheosis:sigil_of_rebirth",
+          "count": 7
+        }
+      ]
+    },
+    "sigil_unnaming_mixing": {
+      "type": "create:mixing",
+      "conditions": [
+        {
+          "type": "apotheosis:module",
+          "module": "adventure"
+        }
+      ],
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "kubejs:expedition_sigil_blank"
+        },
+        {
+          "item": "minecraft:flint"
+        },
+        {
+          "item": "minecraft:flint"
+        },
+        {
+          "item": "minecraft:flint"
+        }
+      ],
+      "results": [
+        {
+          "item": "apotheosis:sigil_of_unnaming",
+          "count": 7
+        }
+      ]
+    }
+  },
+  "tooltips": {
+    "kubejs:expedition_sigil_blank": [
+      "1 宝石融合板岩经机械动力压制或金属冲压制成。",
+      "6 坯片 + 3 宝石粉/燧石，加热搅拌 → 7 新生/除名符石。"
+    ],
+    "apotheosis:gem_fused_slate": [
+      "远征联动：可压成符石坯片，接入工业制作。"
+    ]
+  },
+  "guidePages": [
+    "符石的工业准备\n\n1 个宝石融合板岩可由动力辊压机或装有板模具的金属冲压机制成 1 个符石坯片。\n\n板岩仍使用原来的宝石粉配方。压制不返还粉末，也不生产核心宝石。",
+    "辅助耗材量产\n\n工作盆加热搅拌：\n6 坯片 + 3 宝石粉 → 7 新生符石；\n6 坯片 + 3 燧石 → 7 除名符石。\n\n原手工配方同量材料产出 6 个。工业小幅增产，分解、重铸和宝石路线照常。"
+  ]
+}

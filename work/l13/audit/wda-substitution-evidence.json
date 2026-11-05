@@ -1,0 +1,1228 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "userAuthorized": true,
+  "runtimeAccepted": false,
+  "limitations": "Compatible existing parts, not recovered originals or full building placement evidence",
+  "cases": [
+    {
+      "missing": "structures/bandit_village/bandit_village_deco_3.nbt",
+      "source": "structures/bandit_village/bandit_village_deco_0.nbt",
+      "sourceSha256": "61295310d71474a442e83ba03a803713e1ba4a2318c9271eca8c4951c8208a3e",
+      "pool": "worldgen/template_pool/bandit/bandit_village/bandit_village_houses.json",
+      "poolSha256": "29a71070756060a65c0531676cfe9efb8da5bb5c03e79d4b6846eb7cdb940643",
+      "exactOriginalRecovered": false,
+      "compatibilitySubstitutionImplemented": true,
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "originalMissingWeight": 1,
+      "sourceOriginalWeight": 1,
+      "effectiveSourceWeight": 2,
+      "totalPoolWeight": 23,
+      "owningPoolUnchanged": true,
+      "element": {
+        "location": "dungeons_arise:bandit_village/bandit_village_deco_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      },
+      "connectors": [
+        {
+          "pos": [
+            0,
+            0,
+            3
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_streets",
+          "final_state": "minecraft:red_sand",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        }
+      ],
+      "matchingParents": [
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            0,
+            0,
+            3
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            0,
+            0,
+            4
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            0,
+            0,
+            5
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            0,
+            0,
+            6
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            0,
+            0,
+            7
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            2,
+            0,
+            3
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            2,
+            0,
+            4
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            2,
+            0,
+            5
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            2,
+            0,
+            6
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_0.nbt",
+          "pos": [
+            2,
+            0,
+            7
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            0,
+            0,
+            4
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            0,
+            0,
+            5
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            0,
+            0,
+            6
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            0,
+            0,
+            7
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            4,
+            0,
+            0
+          ],
+          "orientation": "north_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            5,
+            0,
+            0
+          ],
+          "orientation": "north_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_4.nbt",
+          "pos": [
+            6,
+            0,
+            0
+          ],
+          "orientation": "north_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            0,
+            0,
+            0
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            0,
+            0,
+            1
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            0,
+            0,
+            2
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            0,
+            0,
+            3
+          ],
+          "orientation": "west_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            6,
+            0,
+            8
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            6,
+            0,
+            9
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        },
+        {
+          "file": "data/dungeons_arise/structures/bandit_village/bandit_village_street_5.nbt",
+          "pos": [
+            6,
+            0,
+            10
+          ],
+          "orientation": "east_up",
+          "joint": "rollable",
+          "name": "dungeons_arise:streets_entrance",
+          "pool": "dungeons_arise:bandit/bandit_village/bandit_village_houses",
+          "final_state": "minecraft:spruce_planks",
+          "id": "minecraft:jigsaw",
+          "target": "dungeons_arise:streets_entrance"
+        }
+      ],
+      "containers": 0,
+      "spawners": []
+    },
+    {
+      "missing": "structures/mechanical_nest/mechanical_nest_spawner_6.nbt",
+      "source": "structures/mechanical_nest/mechanical_nest_spawner_0.nbt",
+      "sourceSha256": "cbc852ac1e1d9008ea490e0b8980bdeb447782ca3e2136ab23a57ca871da739a",
+      "pool": "worldgen/template_pool/mechanical_nest/mechanical_nest_spawners.json",
+      "poolSha256": "5d0b4d05ebdad6ee224ba4553af61157342b319b5a7069e2bc1c1996dc75727c",
+      "exactOriginalRecovered": false,
+      "compatibilitySubstitutionImplemented": true,
+      "size": [
+        1,
+        2,
+        1
+      ],
+      "originalMissingWeight": 2,
+      "sourceOriginalWeight": 1,
+      "effectiveSourceWeight": 3,
+      "totalPoolWeight": 10,
+      "owningPoolUnchanged": true,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_spawner_6",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      },
+      "connectors": [
+        {
+          "pos": [
+            0,
+            1,
+            0
+          ],
+          "orientation": "down_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "target": "minecraft:",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        }
+      ],
+      "matchingParents": [
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_0.nbt",
+          "pos": [
+            5,
+            6,
+            6
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_11_special.nbt",
+          "pos": [
+            14,
+            6,
+            6
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_2.nbt",
+          "pos": [
+            5,
+            6,
+            6
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_3.nbt",
+          "pos": [
+            5,
+            6,
+            6
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_6.nbt",
+          "pos": [
+            5,
+            6,
+            6
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_7.nbt",
+          "pos": [
+            14,
+            6,
+            6
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_bridge_9.nbt",
+          "pos": [
+            13,
+            6,
+            4
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_1.nbt",
+          "pos": [
+            3,
+            6,
+            15
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_10.nbt",
+          "pos": [
+            15,
+            6,
+            15
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_2.nbt",
+          "pos": [
+            15,
+            11,
+            13
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_4.nbt",
+          "pos": [
+            15,
+            6,
+            9
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_5.nbt",
+          "pos": [
+            15,
+            6,
+            4
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_5.nbt",
+          "pos": [
+            26,
+            6,
+            15
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_6.nbt",
+          "pos": [
+            6,
+            6,
+            24
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_6.nbt",
+          "pos": [
+            24,
+            6,
+            6
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_7.nbt",
+          "pos": [
+            21,
+            5,
+            10
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_7.nbt",
+          "pos": [
+            15,
+            11,
+            8
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_8.nbt",
+          "pos": [
+            24,
+            6,
+            6
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_crossing_9.nbt",
+          "pos": [
+            15,
+            5,
+            12
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_roof_1.nbt",
+          "pos": [
+            15,
+            1,
+            8
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_0.nbt",
+          "pos": [
+            13,
+            1,
+            10
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_0.nbt",
+          "pos": [
+            3,
+            6,
+            14
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_1.nbt",
+          "pos": [
+            15,
+            1,
+            10
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_1.nbt",
+          "pos": [
+            11,
+            10,
+            13
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_2.nbt",
+          "pos": [
+            15,
+            1,
+            10
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_3.nbt",
+          "pos": [
+            13,
+            1,
+            10
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_3.nbt",
+          "pos": [
+            2,
+            6,
+            10
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_4.nbt",
+          "pos": [
+            16,
+            1,
+            12
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_4.nbt",
+          "pos": [
+            14,
+            10,
+            10
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_5.nbt",
+          "pos": [
+            14,
+            1,
+            10
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_6.nbt",
+          "pos": [
+            12,
+            1,
+            10
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_7.nbt",
+          "pos": [
+            10,
+            1,
+            12
+          ],
+          "orientation": "up_east",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_7.nbt",
+          "pos": [
+            17,
+            6,
+            10
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_8.nbt",
+          "pos": [
+            12,
+            1,
+            10
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_rooms_9.nbt",
+          "pos": [
+            10,
+            1,
+            10
+          ],
+          "orientation": "up_west",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_towers_3.nbt",
+          "pos": [
+            25,
+            6,
+            3
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_towers_5.nbt",
+          "pos": [
+            15,
+            6,
+            2
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_towers_7_special.nbt",
+          "pos": [
+            23,
+            6,
+            8
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_towers_7_special.nbt",
+          "pos": [
+            23,
+            6,
+            36
+          ],
+          "orientation": "up_south",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        },
+        {
+          "file": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_towers_8_special.nbt",
+          "pos": [
+            5,
+            6,
+            14
+          ],
+          "orientation": "up_north",
+          "name": "dungeons_arise:mechanical_nest_spawners_normal_0",
+          "target": "dungeons_arise:mechanical_nest_spawners_normal_1",
+          "id": "minecraft:jigsaw",
+          "joint": "rollable",
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_spawners",
+          "final_state": "minecraft:air"
+        }
+      ],
+      "containers": 0,
+      "spawners": [
+        {
+          "SpawnData": {
+            "entity": {
+              "ArmorItems": [
+                {
+                  "id": "minecraft:diamond_boots",
+                  "Count": 1
+                },
+                {
+                  "id": "minecraft:diamond_leggings",
+                  "tag": {
+                    "Enchantments": [
+                      {
+                        "id": "minecraft:protection",
+                        "lvl": 3
+                      }
+                    ]
+                  },
+                  "Count": 1
+                },
+                {
+                  "id": "minecraft:diamond_chestplate",
+                  "Count": 1
+                },
+                {
+                  "id": "minecraft:player_head",
+                  "tag": {
+                    "SkullOwner": {
+                      "Properties": {
+                        "textures": [
+                          {
+                            "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE1OWE0ZjEwYmNmN2JiNTM5M2QxOTY4MTExNDk4OWVjNGIzMDU1NzFkNGJlOTk1MzY0Zjg0MTYwMDIxYTlmMiJ9fX0="
+                          }
+                        ]
+                      },
+                      "Id": [
+                        1392454002,
+                        -899986346,
+                        -1537440165,
+                        -1688964989
+                      ]
+                    }
+                  },
+                  "Count": 1
+                }
+              ],
+              "id": "minecraft:skeleton",
+              "ArmorDropChances": [
+                0,
+                0,
+                0,
+                0.08500000089406967
+              ],
+              "HandItems": [
+                {
+                  "id": "minecraft:diamond_sword",
+                  "Count": 1
+                },
+                {}
+              ],
+              "Health": 40,
+              "Attributes": [
+                {
+                  "Name": "generic.max_health",
+                  "Base": 40
+                },
+                {
+                  "Name": "generic.knockback_resistance",
+                  "Base": 0.5
+                },
+                {
+                  "Name": "generic.attack_damage",
+                  "Base": 16
+                }
+              ]
+            },
+            "custom_spawn_rules": {}
+          },
+          "MaxNearbyEntities": 6,
+          "MinSpawnDelay": 200,
+          "id": "minecraft:mob_spawner",
+          "SpawnPotentials": [
+            {
+              "weight": 1,
+              "data": {
+                "entity": {
+                  "ArmorItems": [
+                    {
+                      "id": "minecraft:diamond_boots",
+                      "Count": 1
+                    },
+                    {
+                      "id": "minecraft:diamond_leggings",
+                      "tag": {
+                        "Enchantments": [
+                          {
+                            "id": "minecraft:protection",
+                            "lvl": 3
+                          }
+                        ]
+                      },
+                      "Count": 1
+                    },
+                    {
+                      "id": "minecraft:diamond_chestplate",
+                      "Count": 1
+                    },
+                    {
+                      "id": "minecraft:player_head",
+                      "tag": {
+                        "SkullOwner": {
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE1OWE0ZjEwYmNmN2JiNTM5M2QxOTY4MTExNDk4OWVjNGIzMDU1NzFkNGJlOTk1MzY0Zjg0MTYwMDIxYTlmMiJ9fX0="
+                              }
+                            ]
+                          },
+                          "Id": [
+                            1392454002,
+                            -899986346,
+                            -1537440165,
+                            -1688964989
+                          ]
+                        }
+                      },
+                      "Count": 1
+                    }
+                  ],
+                  "HandItems": [
+                    {
+                      "id": "minecraft:diamond_sword",
+                      "Count": 1
+                    },
+                    {}
+                  ],
+                  "Health": 40,
+                  "id": "minecraft:skeleton",
+                  "Attributes": [
+                    {
+                      "Name": "generic.max_health",
+                      "Base": 40
+                    },
+                    {
+                      "Name": "generic.knockback_resistance",
+                      "Base": 0.5
+                    },
+                    {
+                      "Name": "generic.attack_damage",
+                      "Base": 16
+                    }
+                  ],
+                  "ArmorDropChances": [
+                    0,
+                    0,
+                    0,
+                    0.08500000089406967
+                  ]
+                },
+                "custom_spawn_rules": {}
+              }
+            }
+          ],
+          "SpawnRange": 4,
+          "MaxSpawnDelay": 800,
+          "RequiredPlayerRange": 16,
+          "SpawnCount": 4,
+          "Delay": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "field_guide",
+  "title": "指南与已有金属联动提示",
+  "requires": [
+    "create",
+    "immersiveengineering",
+    "silentgear"
+  ],
+  "dependsOn": [],
+  "guide": {
+    "title": "远征与工坊",
+    "author": "联动指南",
+    "intro": "远征与工坊\n\n联动试用版 {version}\n\n探索带回材料，工业加工补给，装备支持下一次远征。\n\n后续页面介绍本版启用的加工、装备与补给路线。",
+    "closing": "补领指南\n\n用 1 本书和 1 个铜锭无序合成可补领本版指南。\n\n更新后首次进入世界会获赠新版。旧书内容不会自动变化。\n\n新增物品需要完整重启才能加载。"
+  },
+  "tooltips": {
+    "create:brass_ingot": [
+      "联动提示：已有寂静装备材料定义。"
+    ],
+    "immersiveengineering:ingot_steel": [
+      "联动提示：寂静装备材料；机械动力可压板、切钢丝。"
+    ],
+    "immersiveengineering:ingot_electrum": [
+      "联动提示：已有寂静装备材料定义。"
+    ]
+  },
+  "guidePages": [
+    "金属已经相通\n\n机械动力黄铜、沉浸工程钢和琥珀金已有寂静装备材料定义。\n\n机械动力还能加工沉浸工程钢板、钢丝。可混搭生产线。"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "cases": [
+    {
+      "structure": "illager_corsair",
+      "rotation": 0,
+      "steps": 21,
+      "newSupports": 56,
+      "nativeDeckCells": 29,
+      "shore": {
+        "x": -3,
+        "y": 1,
+        "z": 1
+      },
+      "landing": {
+        "x": 17,
+        "y": 11,
+        "z": 1
+      }
+    },
+    {
+      "structure": "illager_corsair",
+      "rotation": 1,
+      "steps": 21,
+      "newSupports": 56,
+      "nativeDeckCells": 25,
+      "shore": {
+        "x": -1,
+        "y": 1,
+        "z": -3
+      },
+      "landing": {
+        "x": -1,
+        "y": 11,
+        "z": 17
+      }
+    },
+    {
+      "structure": "illager_corsair",
+      "rotation": 2,
+      "steps": 21,
+      "newSupports": 56,
+      "nativeDeckCells": 29,
+      "shore": {
+        "x": 3,
+        "y": 1,
+        "z": -1
+      },
+      "landing": {
+        "x": -17,
+        "y": 11,
+        "z": -1
+      }
+    },
+    {
+      "structure": "illager_corsair",
+      "rotation": 3,
+      "steps": 21,
+      "newSupports": 56,
+      "nativeDeckCells": 25,
+      "shore": {
+        "x": 1,
+        "y": 1,
+        "z": 3
+      },
+      "landing": {
+        "x": 1,
+        "y": 11,
+        "z": -17
+      }
+    },
+    {
+      "structure": "illager_galley",
+      "rotation": 0,
+      "steps": 29,
+      "newSupports": 80,
+      "nativeDeckCells": 9,
+      "shore": {
+        "x": 65,
+        "y": 1,
+        "z": 20
+      },
+      "landing": {
+        "x": 37,
+        "y": 5,
+        "z": 20
+      }
+    },
+    {
+      "structure": "illager_galley",
+      "rotation": 1,
+      "steps": 14,
+      "newSupports": 36,
+      "nativeDeckCells": 8,
+      "shore": {
+        "x": 3,
+        "y": 1,
+        "z": 36
+      },
+      "landing": {
+        "x": -10,
+        "y": 5,
+        "z": 36
+      }
+    },
+    {
+      "structure": "illager_galley",
+      "rotation": 2,
+      "steps": 29,
+      "newSupports": 80,
+      "nativeDeckCells": 9,
+      "shore": {
+        "x": -65,
+        "y": 1,
+        "z": -10
+      },
+      "landing": {
+        "x": -37,
+        "y": 5,
+        "z": -10
+      }
+    },
+    {
+      "structure": "illager_galley",
+      "rotation": 3,
+      "steps": 14,
+      "newSupports": 36,
+      "nativeDeckCells": 8,
+      "shore": {
+        "x": 33,
+        "y": 1,
+        "z": -36
+      },
+      "landing": {
+        "x": 20,
+        "y": 5,
+        "z": -36
+      }
+    },
+    {
+      "structure": "undead_pirate_ship",
+      "rotation": 0,
+      "steps": 28,
+      "newSupports": 77,
+      "nativeDeckCells": 8,
+      "shore": {
+        "x": 65,
+        "y": 1,
+        "z": 17
+      },
+      "landing": {
+        "x": 38,
+        "y": 11,
+        "z": 17
+      }
+    },
+    {
+      "structure": "undead_pirate_ship",
+      "rotation": 1,
+      "steps": 28,
+      "newSupports": 75,
+      "nativeDeckCells": 8,
+      "shore": {
+        "x": -13,
+        "y": 1,
+        "z": 65
+      },
+      "landing": {
+        "x": -13,
+        "y": 11,
+        "z": 38
+      }
+    },
+    {
+      "structure": "undead_pirate_ship",
+      "rotation": 2,
+      "steps": 28,
+      "newSupports": 75,
+      "nativeDeckCells": 9,
+      "shore": {
+        "x": -65,
+        "y": 1,
+        "z": -13
+      },
+      "landing": {
+        "x": -38,
+        "y": 11,
+        "z": -13
+      }
+    },
+    {
+      "structure": "undead_pirate_ship",
+      "rotation": 3,
+      "steps": 28,
+      "newSupports": 77,
+      "nativeDeckCells": 8,
+      "shore": {
+        "x": 17,
+        "y": 1,
+        "z": -65
+      },
+      "landing": {
+        "x": 17,
+        "y": 11,
+        "z": -38
+      }
+    }
+  ],
+  "runtimeAccepted": false,
+  "formalPoolEnrollment": false,
+  "scope": "Original joined main shells only; excludes random spawner/entity pieces, actual collision engine and player traversal"
+}

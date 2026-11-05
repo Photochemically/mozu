@@ -1,0 +1,111 @@
+{
+  "version": "0.2.1",
+  "switches": "build-time only; changing source config requires rebuilding and upgrading the complete package",
+  "modules": [
+    {
+      "id": "ammunition",
+      "title": "工业弹药",
+      "requires": [
+        "kubejs",
+        "create",
+        "tacz"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "monster_materials",
+      "title": "暗金属与怪物皮装备",
+      "requires": [
+        "kubejs",
+        "born_in_chaos_v1",
+        "silentgear"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "dimension_materials",
+      "title": "稳定构造装备",
+      "requires": [
+        "kubejs",
+        "dimdoors",
+        "silentgear"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "city_supplies",
+      "title": "城市与铁路补给",
+      "requires": [
+        "kubejs",
+        "lostcities",
+        "create",
+        "immersiveengineering",
+        "tacz"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "resource_processing",
+      "title": "暗金属工业加工",
+      "requires": [
+        "kubejs",
+        "born_in_chaos_v1",
+        "create",
+        "immersiveengineering"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "astral_fiber",
+      "title": "维度与星尘纤维",
+      "requires": [
+        "kubejs",
+        "dimdoors",
+        "enigmaticlegacy",
+        "silentgear",
+        "create"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "apotheosis_support",
+      "title": "神化辅助耗材",
+      "requires": [
+        "kubejs",
+        "apotheosis",
+        "create",
+        "immersiveengineering"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "mutant_parts",
+      "title": "突变肢骨杆件",
+      "requires": [
+        "kubejs",
+        "mutantmonsters",
+        "silentgear"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "field_guide",
+      "title": "指南与已有金属联动提示",
+      "requires": [
+        "kubejs",
+        "create",
+        "immersiveengineering",
+        "silentgear"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "endgame_art",
+      "title": "终局目标贴图预留（无物品或配方）",
+      "requires": [
+        "kubejs"
+      ],
+      "dependsOn": []
+    }
+  ]
+}

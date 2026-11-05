@@ -1,0 +1,644 @@
+{
+  "runtimeAcceptancePassed": false,
+  "definitionPolicyOnly": true,
+  "automaticPoolEnrollment": false,
+  "rooms": [
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/broken_pillars.schem",
+      "target": "dimdoors:classic/ruins/broken_pillars",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/buggy_top_entry.schem",
+      "target": "dimdoors:classic/ruins/buggy_top_entry",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/collapsed_single_tunnel.schem",
+      "target": "dimdoors:classic/ruins/collapsed_single_tunnel",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/crumbled_hall.schem",
+      "target": "dimdoors:classic/ruins/crumbled_hall",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/door_totem_ruins.schem",
+      "target": "dimdoors:classic/ruins/door_totem_ruins",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/exit_cube.schem",
+      "target": "dimdoors:classic/ruins/exit_cube",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/exit_ruins_with_hidden_door.schem",
+      "target": "dimdoors:classic/ruins/exit_ruins_with_hidden_door",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/heart_of_disorder.schem",
+      "target": "dimdoors:classic/ruins/heart_of_disorder",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/hot_suspense.schem",
+      "target": "dimdoors:classic/ruins/hot_suspense",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/jump_pass.schem",
+      "target": "dimdoors:classic/ruins/jump_pass",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/rope_bridge.schem",
+      "target": "dimdoors:classic/ruins/rope_bridge",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/ruins_oh_no.schem",
+      "target": "dimdoors:classic/ruins/ruins_oh_no",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_drop_hall.schem",
+      "target": "dimdoors:classic/ruins/simple_drop_hall",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_small_t.schem",
+      "target": "dimdoors:classic/ruins/simple_small_t",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_stairs_down.schem",
+      "target": "dimdoors:classic/ruins/simple_stairs_down",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_stairs_up.schem",
+      "target": "dimdoors:classic/ruins/simple_stairs_up",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_desert.schem",
+      "target": "dimdoors:classic/ruins/small_desert",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_exit_prison.schem",
+      "target": "dimdoors:classic/ruins/small_exit_prison",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_maze.schem",
+      "target": "dimdoors:classic/ruins/small_maze",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_pond.schem",
+      "target": "dimdoors:classic/ruins/small_pond",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/spiral_hallway.schem",
+      "target": "dimdoors:classic/ruins/spiral_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/transfer_tunnel.schem",
+      "target": "dimdoors:classic/ruins/transfer_tunnel",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/u_trap_right.schem",
+      "target": "dimdoors:classic/ruins/u_trap_right",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/u_turn_left.schem",
+      "target": "dimdoors:classic/ruins/u_turn_left",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/u_turn_right.schem",
+      "target": "dimdoors:classic/ruins/u_turn_right",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/abc.schem",
+      "target": "dimdoors:classic/ruins/unused/abc",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/anchored_descent.schem",
+      "target": "dimdoors:classic/ruins/unused/anchored_descent",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/arrow_hall.schem",
+      "target": "dimdoors:classic/ruins/unused/arrow_hall",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/azers_dungeon.schem",
+      "target": "dimdoors:classic/ruins/unused/azers_dungeon",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/diamond_tower_temple.schem",
+      "target": "dimdoors:classic/ruins/unused/diamond_tower_temple",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/fake_tnt_trap_a.schem",
+      "target": "dimdoors:classic/ruins/unused/fake_tnt_trap_a",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/unused/fake_tnt_trap_b.schem",
+      "target": "dimdoors:classic/ruins/unused/fake_tnt_trap_b",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_0.schem",
+      "target": "dimdoors:blank/blank_pocket_0",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_1.schem",
+      "target": "dimdoors:blank/blank_pocket_1",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_2.schem",
+      "target": "dimdoors:blank/blank_pocket_2",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_3.schem",
+      "target": "dimdoors:blank/blank_pocket_3",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_4.schem",
+      "target": "dimdoors:blank/blank_pocket_4",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_5.schem",
+      "target": "dimdoors:blank/blank_pocket_5",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_6.schem",
+      "target": "dimdoors:blank/blank_pocket_6",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/blank/blank_pocket_7.schem",
+      "target": "dimdoors:blank/blank_pocket_7",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/beach.schem",
+      "target": "dimdoors:dungeon/beach",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/break_block_boom.schem",
+      "target": "dimdoors:dungeon/break_block_boom",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/cage_monolithless.schem",
+      "target": "dimdoors:dungeon/cage_monolithless",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/chain_crossing.schem",
+      "target": "dimdoors:dungeon/chain_crossing",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/chain_t.schem",
+      "target": "dimdoors:dungeon/chain_t",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/decaying_chain_tunnel.schem",
+      "target": "dimdoors:dungeon/decaying_chain_tunnel",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/freeroam_empty_street.schem",
+      "target": "dimdoors:dungeon/freeroam_empty_street",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/freeroam_graveyard.schem",
+      "target": "dimdoors:dungeon/freeroam_graveyard",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/honey_parkour.schem",
+      "target": "dimdoors:dungeon/honey_parkour",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/jungle_riddle_fixed.schem",
+      "target": "dimdoors:dungeon/jungle_riddle_fixed",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom.schem",
+      "target": "dimdoors:dungeon/lantredom",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom_end.schem",
+      "target": "dimdoors:dungeon/lantredom_end",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom_red.schem",
+      "target": "dimdoors:dungeon/lantredom_red",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lava_trap.schem",
+      "target": "dimdoors:dungeon/lava_trap",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/line_walker.schem",
+      "target": "dimdoors:dungeon/line_walker",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/long_corridor.schem",
+      "target": "dimdoors:dungeon/long_corridor",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/mob_prison.schem",
+      "target": "dimdoors:dungeon/mob_prison",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/monolith_cage.schem",
+      "target": "dimdoors:dungeon/monolith_cage",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/party.schem",
+      "target": "dimdoors:dungeon/party",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/random_arrow_chance.schem",
+      "target": "dimdoors:dungeon/random_arrow_chance",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/returning_eye.schem",
+      "target": "dimdoors:dungeon/returning_eye",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/rising_hand.schem",
+      "target": "dimdoors:dungeon/rising_hand",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/river_road_twin_bridges.schem",
+      "target": "dimdoors:dungeon/river_road_twin_bridges",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_caged_warps.schem",
+      "target": "dimdoors:dungeon/ruins_caged_warps",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_camp_station.schem",
+      "target": "dimdoors:dungeon/ruins_camp_station",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_corrupted_endportal.schem",
+      "target": "dimdoors:dungeon/ruins_corrupted_endportal",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_deepslate_hub.schem",
+      "target": "dimdoors:dungeon/ruins_deepslate_hub",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_diamond_tnt_trap_a.schem",
+      "target": "dimdoors:dungeon/ruins_diamond_tnt_trap_a",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_diamond_tnt_trap_b.schem",
+      "target": "dimdoors:dungeon/ruins_diamond_tnt_trap_b",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_elevator_tnt_trap.schem",
+      "target": "dimdoors:dungeon/ruins_elevator_tnt_trap",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_fire_charge_timing.schem",
+      "target": "dimdoors:dungeon/ruins_fire_charge_timing",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_items4life.schem",
+      "target": "dimdoors:dungeon/ruins_items4life",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_lava_trap.schem",
+      "target": "dimdoors:dungeon/ruins_lava_trap",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_long_stairwell_down.schem",
+      "target": "dimdoors:dungeon/ruins_long_stairwell_down",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_mansion_combination_puzzle.schem",
+      "target": "dimdoors:dungeon/ruins_mansion_combination_puzzle",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_multiple_warppoints.schem",
+      "target": "dimdoors:dungeon/ruins_multiple_warppoints",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_pressure_plate_riddle.schem",
+      "target": "dimdoors:dungeon/ruins_pressure_plate_riddle",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_push_into_void_trap.schem",
+      "target": "dimdoors:dungeon/ruins_push_into_void_trap",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_simple_door.schem",
+      "target": "dimdoors:dungeon/ruins_simple_door",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_simple_door_trap.schem",
+      "target": "dimdoors:dungeon/ruins_simple_door_trap",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_simple_door_troll.schem",
+      "target": "dimdoors:dungeon/ruins_simple_door_troll",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_small_pressure_plate_maze.schem",
+      "target": "dimdoors:dungeon/ruins_small_pressure_plate_maze",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_sprike_traps.schem",
+      "target": "dimdoors:dungeon/ruins_sprike_traps",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_stairs_up_down_warp.schem",
+      "target": "dimdoors:dungeon/ruins_stairs_up_down_warp",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_stairwell_up.schem",
+      "target": "dimdoors:dungeon/ruins_stairwell_up",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_target_practise.schem",
+      "target": "dimdoors:dungeon/ruins_target_practise",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/schopophobia.schem",
+      "target": "dimdoors:dungeon/schopophobia",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/silverfish_bridge.schem",
+      "target": "dimdoors:dungeon/silverfish_bridge",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_deepslatebricks_hallway.schem",
+      "target": "dimdoors:dungeon/small_deepslatebricks_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_endbrick_hallway.schem",
+      "target": "dimdoors:dungeon/small_endbrick_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_ice_hallway.schem",
+      "target": "dimdoors:dungeon/small_ice_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_netherbricks_hallway.schem",
+      "target": "dimdoors:dungeon/small_netherbricks_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_prismarine_hallway.schem",
+      "target": "dimdoors:dungeon/small_prismarine_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_purpurbricks_hallway.schem",
+      "target": "dimdoors:dungeon/small_purpurbricks_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_red_sandstone_hallway.schem",
+      "target": "dimdoors:dungeon/small_red_sandstone_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_river.schem",
+      "target": "dimdoors:dungeon/small_river",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_sandstone_hallway.schem",
+      "target": "dimdoors:dungeon/small_sandstone_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/smile_6.schem",
+      "target": "dimdoors:dungeon/smile_6",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/stone_brick_bridge.schem",
+      "target": "dimdoors:dungeon/stone_brick_bridge",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/string_field.schem",
+      "target": "dimdoors:dungeon/string_field",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/trap_rib_tunnel.schem",
+      "target": "dimdoors:dungeon/trap_rib_tunnel",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/upwards_pillars.schem",
+      "target": "dimdoors:dungeon/upwards_pillars",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/upwards_t_treasure.schem",
+      "target": "dimdoors:dungeon/upwards_t_treasure",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_path_of_fear.schem",
+      "target": "dimdoors:dungeon/void_path_of_fear",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_railroad_a.schem",
+      "target": "dimdoors:dungeon/void_railroad_a",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_railroad_b.schem",
+      "target": "dimdoors:dungeon/void_railroad_b",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_why.schem",
+      "target": "dimdoors:dungeon/void_why",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_whyless.schem",
+      "target": "dimdoors:dungeon/void_whyless",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/waiting_room.schem",
+      "target": "dimdoors:dungeon/waiting_room",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/white_fabric_maze.schem",
+      "target": "dimdoors:dungeon/white_fabric_maze",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/example/purpur_hallway.schem",
+      "target": "dimdoors:example/purpur_hallway",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/lab_01.schem",
+      "target": "dimdoors:lab/lab_01",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/lab_experimentation.schem",
+      "target": "dimdoors:lab/lab_experimentation",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/lab_hallway.schem",
+      "target": "dimdoors:lab/lab_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/labfinal.schem",
+      "target": "dimdoors:lab/labfinal",
+      "status": "pending_adapter",
+      "reason": "Native addon needs a reviewed adapter"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/left_lab_hallway.schem",
+      "target": "dimdoors:lab/left_lab_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/reception.schem",
+      "target": "dimdoors:lab/reception",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/right_lab_hallway.schem",
+      "target": "dimdoors:lab/right_lab_hallway",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/telecommunication.schem",
+      "target": "dimdoors:lab/telecommunication",
+      "status": "missing_exact_generator"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/telecommunications.schem",
+      "target": "dimdoors:lab/telecommunications",
+      "status": "definition_policy_pass"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/myth/eden.schem",
+      "target": "dimdoors:myth/eden",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/myth/sewer.schem",
+      "target": "dimdoors:myth/sewer",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/myth/timoria.schem",
+      "target": "dimdoors:myth/timoria",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/nether/nether_farm.schem",
+      "target": "dimdoors:nether/nether_farm",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    },
+    {
+      "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/nether/nether_spawners.schem",
+      "target": "dimdoors:nether/nether_spawners",
+      "status": "pending_adapter",
+      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+    }
+  ],
+  "schematics": 125,
+  "definitionPolicyPasses": 98
+}

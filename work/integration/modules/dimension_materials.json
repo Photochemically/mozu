@@ -1,0 +1,112 @@
+{
+  "id": "dimension_materials",
+  "title": "稳定构造装备",
+  "requires": [
+    "dimdoors",
+    "silentgear"
+  ],
+  "dependsOn": [],
+  "materials": {
+    "stable_fabric": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:wood",
+      "availability": {
+        "tier": 2,
+        "categories": [
+          "organic",
+          "fiber"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "dimdoors:stable_fabric"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.stable_fabric"
+      },
+      "stats": {
+        "binding": {
+          "durability": {
+            "mul1": 0.05
+          }
+        },
+        "cord": {
+          "ranged_speed": {
+            "add": 0.1
+          }
+        }
+      },
+      "traits": {
+        "binding": [
+          {
+            "name": "silentgear:flexible",
+            "level": 3
+          }
+        ],
+        "cord": [
+          {
+            "name": "silentgear:flexible",
+            "level": 2
+          }
+        ]
+      },
+      "model": {
+        "binding/all": [
+          {
+            "texture": "silentgear:binding_generic",
+            "color": "#B5A4E8"
+          }
+        ],
+        "binding/part": [
+          {
+            "texture": "silentgear:binding",
+            "color": "#B5A4E8"
+          }
+        ],
+        "cord/all": [
+          {
+            "texture": "silentgear:bowstring_string",
+            "color": "#B5A4E8"
+          },
+          {
+            "texture": "silentgear:arrow",
+            "color": "#B5A4E8"
+          }
+        ],
+        "cord/part": [
+          {
+            "texture": "silentgear:bowstring",
+            "color": "#B5A4E8"
+          }
+        ],
+        "main/fragment": [
+          {
+            "texture": "silentgear:cloth",
+            "color": "#B5A4E8"
+          }
+        ]
+      }
+    }
+  },
+  "lang": {
+    "zh_cn": {
+      "material.expedition.stable_fabric": "稳定构造"
+    },
+    "en_us": {
+      "material.expedition.stable_fabric": "Stable Fabric"
+    }
+  },
+  "tooltips": {
+    "dimdoors:stable_fabric": [
+      "远征联动：可作寂静装备绑带、弓弦。"
+    ]
+  },
+  "guidePages": [
+    "维度纤维\n\n维度门的世界纤维可在原生织造设备中加工为稳定构造。\n\n稳定构造新增寂静装备绑带、弓弦用途。不会自动继承维度门原装备技能。"
+  ]
+}

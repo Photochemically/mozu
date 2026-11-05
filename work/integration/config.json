@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "guideVersion": "0.2.0",
+  "modules": {
+    "ammunition": true,
+    "monster_materials": true,
+    "dimension_materials": true,
+    "city_supplies": true,
+    "resource_processing": true,
+    "astral_fiber": true,
+    "apotheosis_support": true,
+    "mutant_parts": true,
+    "field_guide": true,
+    "endgame_art": true
+  }
+}

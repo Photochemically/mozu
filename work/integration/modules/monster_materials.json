@@ -1,0 +1,202 @@
+{
+  "id": "monster_materials",
+  "title": "暗金属与怪物皮装备",
+  "requires": [
+    "born_in_chaos_v1",
+    "silentgear"
+  ],
+  "dependsOn": [],
+  "materials": {
+    "dark_metal": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:iron",
+      "availability": {
+        "tier": 2,
+        "categories": [
+          "metal"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "born_in_chaos_v1:dark_metal_ingot"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.dark_metal"
+      },
+      "stats": {
+        "main": {
+          "durability": 650,
+          "armor_durability": 22,
+          "repair_value": 0.15,
+          "enchantment_value": 7,
+          "harvest_speed": 5,
+          "melee_damage": 4,
+          "magic_damage": 1,
+          "attack_speed": -0.25,
+          "armor": 18,
+          "armor/helmet": 3,
+          "armor/chestplate": 7,
+          "armor/leggings": 5,
+          "armor/boots": 3,
+          "armor_toughness": 2,
+          "magic_armor": 6,
+          "ranged_damage": 2,
+          "ranged_speed": -0.2,
+          "rarity": 40,
+          "charging_value": 0.8
+        },
+        "rod": {
+          "durability": {
+            "mul2": 0.25
+          },
+          "rarity": 40
+        }
+      },
+      "traits": {
+        "main": [
+          {
+            "name": "silentgear:malleable",
+            "level": 4
+          }
+        ],
+        "rod": [
+          {
+            "name": "silentgear:malleable",
+            "level": 4
+          }
+        ]
+      },
+      "model": {
+        "main/all": [
+          {
+            "texture": "silentgear:main_generic_hc",
+            "color": "#554963"
+          },
+          {
+            "texture": "silentgear:_highlight",
+            "color": "#554963"
+          }
+        ],
+        "main/fragment": [
+          {
+            "texture": "silentgear:metal",
+            "color": "#554963"
+          }
+        ],
+        "rod/all": [
+          {
+            "texture": "silentgear:rod_generic_hc",
+            "color": "#554963"
+          }
+        ],
+        "rod/part": [
+          {
+            "texture": "silentgear:rod",
+            "color": "#554963"
+          }
+        ]
+      }
+    },
+    "monster_hide": {
+      "type": "silentgear:standard",
+      "simple": true,
+      "harvest_tier": "minecraft:wood",
+      "availability": {
+        "tier": 2,
+        "categories": [
+          "organic",
+          "cloth"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+      },
+      "crafting_items": {
+        "main": {
+          "item": "born_in_chaos_v1:monster_skin"
+        }
+      },
+      "name": {
+        "translate": "material.expedition.monster_hide"
+      },
+      "stats": {
+        "grip": {
+          "repair_efficiency": {
+            "mul1": 0.15
+          },
+          "attack_speed": {
+            "add": 0.1
+          }
+        },
+        "lining": {}
+      },
+      "traits": {
+        "grip": [
+          {
+            "name": "silentgear:flexible",
+            "level": 3
+          }
+        ],
+        "lining": [
+          {
+            "name": "silentgear:flexible",
+            "level": 4
+          }
+        ]
+      },
+      "model": {
+        "main/fragment": [
+          {
+            "texture": "silentgear:cloth",
+            "color": "#6B6552"
+          }
+        ],
+        "grip/all": [
+          {
+            "texture": "silentgear:grip_wool",
+            "color": "#6B6552"
+          }
+        ],
+        "grip/part": [
+          {
+            "texture": "silentgear:grip",
+            "color": "#6B6552"
+          }
+        ],
+        "lining/part": [
+          {
+            "texture": "silentgear:lining_cloth",
+            "color": "#6B6552"
+          }
+        ]
+      }
+    }
+  },
+  "lang": {
+    "zh_cn": {
+      "material.expedition.dark_metal": "暗金属",
+      "material.expedition.monster_hide": "怪物皮"
+    },
+    "en_us": {
+      "material.expedition.dark_metal": "Dark Metal",
+      "material.expedition.monster_hide": "Monster Hide"
+    }
+  },
+  "tooltips": {
+    "born_in_chaos_v1:dark_metal_ingot": [
+      "远征联动：可作寂静装备主材、杆件；侧重耐用。"
+    ],
+    "born_in_chaos_v1:monster_skin": [
+      "远征联动：可作寂静装备握柄、衬里。"
+    ]
+  },
+  "guidePages": [
+    "暗金属装备\n\nBorn in Chaos 暗金属锭现在可用于寂静装备主材和杆件。\n\n对比钢：更耐用，但加工速度、攻速或附魔适性有取舍。原生防具用途仍保留。",
+    "怪物皮部件\n\n怪物皮可以制作寂静装备握柄或衬里。\n\n握柄偏向维修效率，原生装备也仍可使用这些皮。\n\n它不是通用护甲主材。"
+  ]
+}

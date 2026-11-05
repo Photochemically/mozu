@@ -1,0 +1,137 @@
+{
+  "sha": "5d173247111ba44ef34100258465deff3665bce4",
+  "node_id": "C_kwDOJx_O8NoAKDVkMTczMjQ3MTExYmE0NGVmMzQxMDAyNTg0NjVkZWZmMzY2NWJjZTQ",
+  "commit": {
+    "author": {
+      "name": "Aureljz",
+      "email": "catking060@gmail.com",
+      "date": "2024-06-01T01:02:07Z"
+    },
+    "committer": {
+      "name": "Aureljz",
+      "email": "catking060@gmail.com",
+      "date": "2024-06-01T01:02:07Z"
+    },
+    "message": "Reworked Kayra",
+    "tree": {
+      "sha": "1f28e45e7331df299a5146698906615f5822e02b",
+      "url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/git/trees/1f28e45e7331df299a5146698906615f5822e02b"
+    },
+    "url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/git/commits/5d173247111ba44ef34100258465deff3665bce4",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/commits/5d173247111ba44ef34100258465deff3665bce4",
+  "html_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/commit/5d173247111ba44ef34100258465deff3665bce4",
+  "comments_url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/commits/5d173247111ba44ef34100258465deff3665bce4/comments",
+  "author": {
+    "login": "Aureljz",
+    "id": 74840913,
+    "node_id": "MDQ6VXNlcjc0ODQwOTEz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/74840913?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Aureljz",
+    "html_url": "https://github.com/Aureljz",
+    "followers_url": "https://api.github.com/users/Aureljz/followers",
+    "following_url": "https://api.github.com/users/Aureljz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Aureljz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Aureljz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Aureljz/subscriptions",
+    "organizations_url": "https://api.github.com/users/Aureljz/orgs",
+    "repos_url": "https://api.github.com/users/Aureljz/repos",
+    "events_url": "https://api.github.com/users/Aureljz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Aureljz/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "Aureljz",
+    "id": 74840913,
+    "node_id": "MDQ6VXNlcjc0ODQwOTEz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/74840913?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Aureljz",
+    "html_url": "https://github.com/Aureljz",
+    "followers_url": "https://api.github.com/users/Aureljz/followers",
+    "following_url": "https://api.github.com/users/Aureljz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Aureljz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Aureljz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Aureljz/subscriptions",
+    "organizations_url": "https://api.github.com/users/Aureljz/orgs",
+    "repos_url": "https://api.github.com/users/Aureljz/repos",
+    "events_url": "https://api.github.com/users/Aureljz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Aureljz/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0b6aece177a96d196d925a44582ac12f6583fb25",
+      "url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/commits/0b6aece177a96d196d925a44582ac12f6583fb25",
+      "html_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/commit/0b6aece177a96d196d925a44582ac12f6583fb25"
+    }
+  ],
+  "stats": {
+    "total": 8,
+    "additions": 4,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "65cc8d7a61a83c01ed0cc951f32bb68cf71bf3d7",
+      "filename": "build.gradle",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/blob/5d173247111ba44ef34100258465deff3665bce4/build.gradle",
+      "raw_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/raw/5d173247111ba44ef34100258465deff3665bce4/build.gradle",
+      "contents_url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/contents/build.gradle?ref=5d173247111ba44ef34100258465deff3665bce4",
+      "patch": "@@ -10,7 +10,7 @@ apply plugin: 'net.minecraftforge.gradle'\n apply plugin: 'eclipse'\n apply plugin: 'maven-publish'\n \n-version = '2.1.57.1'\n+version = '2.1.58'\n group = 'net.aurelj.dungeons_arise' // http://maven.apache.org/guides/mini/guide-naming-conventions.html\n archivesBaseName = 'dungeons_arise'\n "
+    },
+    {
+      "sha": "c51b010c49642fdfb090e71ff98d7ae4372187ea",
+      "filename": "gradle.properties",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/blob/5d173247111ba44ef34100258465deff3665bce4/gradle.properties",
+      "raw_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/raw/5d173247111ba44ef34100258465deff3665bce4/gradle.properties",
+      "contents_url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/contents/gradle.properties?ref=5d173247111ba44ef34100258465deff3665bce4",
+      "patch": "@@ -12,4 +12,4 @@ loader_version_range=[47,)\n mapping_channel=official\n mapping_version=1.20.1\n \n-mod_version=2.1.56.1\n\\ No newline at end of file\n+mod_version=2.1.58\n\\ No newline at end of file"
+    },
+    {
+      "sha": "bf67051ebd4c62288d85c8a03888ae2c17b14e45",
+      "filename": "src/main/resources/META-INF/mods.toml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/blob/5d173247111ba44ef34100258465deff3665bce4/src%2Fmain%2Fresources%2FMETA-INF%2Fmods.toml",
+      "raw_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/raw/5d173247111ba44ef34100258465deff3665bce4/src%2Fmain%2Fresources%2FMETA-INF%2Fmods.toml",
+      "contents_url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/contents/src%2Fmain%2Fresources%2FMETA-INF%2Fmods.toml?ref=5d173247111ba44ef34100258465deff3665bce4",
+      "patch": "@@ -4,7 +4,7 @@ license=\"All Rights Reserved\"\n \n [[mods]]\n modId=\"dungeons_arise\"\n-version=\"2.1.57.1-1.20.1\"\n+version=\"2.1.58-1.20.x\"\n displayName=\"When Dungeons Arise\"\n displayURL=\"https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise\"\n logoFile=\"wda_logo.png\""
+    },
+    {
+      "sha": "ffab6d7f3ccb4104709ba65513a4d8906e272721",
+      "filename": "src/main/resources/data/dungeons_arise/worldgen/structure_set/minor_structures.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/blob/5d173247111ba44ef34100258465deff3665bce4/src%2Fmain%2Fresources%2Fdata%2Fdungeons_arise%2Fworldgen%2Fstructure_set%2Fminor_structures.json",
+      "raw_url": "https://github.com/Aureljz/WhenDungeonsArise-Forge-main/raw/5d173247111ba44ef34100258465deff3665bce4/src%2Fmain%2Fresources%2Fdata%2Fdungeons_arise%2Fworldgen%2Fstructure_set%2Fminor_structures.json",
+      "contents_url": "https://api.github.com/repos/Aureljz/WhenDungeonsArise-Forge-main/contents/src%2Fmain%2Fresources%2Fdata%2Fdungeons_arise%2Fworldgen%2Fstructure_set%2Fminor_structures.json?ref=5d173247111ba44ef34100258465deff3665bce4",
+      "patch": "@@ -26,7 +26,7 @@\n     }\n   ],\n   \"placement\": {\n-    \"salt\": 88371663,\n+    \"salt\": 342415935,\n     \"spacing\": 35,\n     \"separation\": 25,\n     \"type\": \"minecraft:random_spread\""
+    }
+  ]
+}

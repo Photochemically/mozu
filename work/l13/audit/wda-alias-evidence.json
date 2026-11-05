@@ -1,0 +1,89 @@
+{
+  "poolAlias": {
+    "missing": "mechanical_nest_decoration",
+    "source": "mechanical_nest_decorations",
+    "refCount": 1,
+    "examples": [
+      {
+        "template": "dungeons_arise:mechanical_nest/mechanical_nest_towers_1",
+        "pos": [
+          14,
+          12,
+          3
+        ],
+        "pool": "dungeons_arise:mechanical_nest/mechanical_nest_decoration",
+        "name": "dungeons_arise:mechanical_nest_deco_1_library",
+        "target": "dungeons_arise:mechanical_nest_deco_0_library",
+        "orientation": "west_up"
+      }
+    ],
+    "targets": [
+      "dungeons_arise:mechanical_nest_deco_0_library"
+    ],
+    "sourceElements": 88,
+    "sourceConnectorNames": [
+      "dungeons_arise:mechanical_nest_deco_0_garden",
+      "dungeons_arise:mechanical_nest_deco_0_library",
+      "dungeons_arise:mechanical_nest_deco_0_machines",
+      "dungeons_arise:mechanical_nest_deco_0_mechas"
+    ],
+    "allTargetsHaveMatches": true
+  },
+  "templateAlias": {
+    "missing": "mechanical_nest_bridge_terminator_6_",
+    "source": "mechanical_nest_bridge_terminator_6",
+    "size": [
+      10,
+      15,
+      13
+    ],
+    "jigsaws": [
+      {
+        "pos": [
+          0,
+          6,
+          6
+        ],
+        "pool": "dungeons_arise:mechanical_nest/mechanical_nest_bridges",
+        "name": "dungeons_arise:mechanical_nest_roofed_bridge_0",
+        "target": "minecraft:empty",
+        "orientation": "west_up"
+      }
+    ],
+    "fallbackConnectionEvidence": {
+      "refCount": 7,
+      "examples": [
+        {
+          "template": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+          "pos": [
+            17,
+            6,
+            6
+          ],
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_crossing",
+          "name": "minecraft:empty",
+          "target": "dungeons_arise:mechanical_nest_roofed_bridge_0",
+          "orientation": "east_up"
+        },
+        {
+          "template": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+          "pos": [
+            17,
+            6,
+            6
+          ],
+          "pool": "dungeons_arise:mechanical_nest/mechanical_nest_crossing",
+          "name": "minecraft:empty",
+          "target": "dungeons_arise:mechanical_nest_roofed_bridge_0",
+          "orientation": "east_up"
+        }
+      ],
+      "pools": [
+        {
+          "id": "dungeons_arise:mechanical_nest/mechanical_nest_crossing",
+          "fallback": "dungeons_arise:mechanical_nest/mechanical_nest_terminators"
+        }
+      ]
+    }
+  }
+}

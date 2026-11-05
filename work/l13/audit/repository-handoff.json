@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "purpose": "GitHub source handoff; no gameplay changes or Minecraft launch",
+  "baseRemoteCommit": "3d2f12329ceb1778af63ffbf6e2af620636a0597",
+  "bridge": {
+    "version": "0.3.0-dev",
+    "sourceFiles": 145,
+    "sourceTreeSha256": "07a58ad5c3036f66b35189cd1f2e659d7599deaa8017af63f831e7fbf90cf84f",
+    "sourceTreeHashMethod": "sorted repo-relative bridge tracked paths + NUL + raw bytes + NUL; excludes ignored build/cache/libs/logs",
+    "previousBuildReceipt": "build-summary.json",
+    "actualJUnitXmlTotals": {
+      "tests": 161,
+      "failures": 0,
+      "errors": 0
+    },
+    "jarReceiptSha256Matched": true,
+    "trackedBridgeBuildInputsNewerThanJar": [],
+    "gradleRerunThisHandoff": false,
+    "runtimeTested": false,
+    "installed": false
+  },
+  "handoffChecks": {
+    "kubejsStaticChecks": 9,
+    "kubejsPayloadFiles": 65,
+    "powershellParsedFiles": 3,
+    "dependencyFingerprintsVerified": 3,
+    "secretPatternFindings": 0,
+    "ignoredSensitiveAndBuildPathsChecked": true,
+    "freshStagedSourceCopy": {
+      "dependencyRestorePassed": true,
+      "resourceExtractorsPassed": 2,
+      "kubejsBuildPassed": true,
+      "kubejsStaticChecksPassed": 9,
+      "payloadFiles": 65,
+      "usedExistingLocalModJars": true,
+      "gradleRerun": false,
+      "minecraftLaunched": false
+    }
+  },
+  "remaining": "See NEXT_TASK.md; mechanical-nest bridge-side entry, full content/balance/L12/endgame and runtime acceptance pending",
+  "remoteVerification": "Compare local HEAD with origin/main after push; this receipt alone is not proof of a successful push"
+}

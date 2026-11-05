@@ -1,0 +1,2384 @@
+{
+  "template": "data/dungeons_arise/structures/keep_kayra/keep_kayra_main_0.nbt",
+  "size": [
+    163,
+    250,
+    163
+  ],
+  "levels": [
+    {
+      "y": 0,
+      "solid": 17069,
+      "air": 55,
+      "boundary": 12
+    },
+    {
+      "y": 1,
+      "solid": 17148,
+      "air": 42,
+      "boundary": 24
+    },
+    {
+      "y": 2,
+      "solid": 17143,
+      "air": 30,
+      "boundary": 24
+    },
+    {
+      "y": 3,
+      "solid": 17195,
+      "air": 44,
+      "boundary": 36
+    },
+    {
+      "y": 4,
+      "solid": 17114,
+      "air": 54,
+      "boundary": 24
+    },
+    {
+      "y": 5,
+      "solid": 17028,
+      "air": 6,
+      "boundary": 12
+    },
+    {
+      "y": 6,
+      "solid": 17043,
+      "air": 6,
+      "boundary": 24
+    },
+    {
+      "y": 7,
+      "solid": 16882,
+      "air": 18,
+      "boundary": 12
+    },
+    {
+      "y": 8,
+      "solid": 16878,
+      "air": 30,
+      "boundary": 12
+    },
+    {
+      "y": 9,
+      "solid": 16772,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 10,
+      "solid": 16772,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 11,
+      "solid": 16920,
+      "air": 30,
+      "boundary": 12
+    },
+    {
+      "y": 12,
+      "solid": 11648,
+      "air": 5235,
+      "boundary": 24
+    },
+    {
+      "y": 13,
+      "solid": 10869,
+      "air": 5846,
+      "boundary": 12
+    },
+    {
+      "y": 14,
+      "solid": 10081,
+      "air": 6514,
+      "boundary": 0
+    },
+    {
+      "y": 15,
+      "solid": 8759,
+      "air": 7940,
+      "boundary": 12
+    },
+    {
+      "y": 16,
+      "solid": 7754,
+      "air": 8821,
+      "boundary": 0
+    },
+    {
+      "y": 17,
+      "solid": 7368,
+      "air": 9179,
+      "boundary": 0
+    },
+    {
+      "y": 18,
+      "solid": 7244,
+      "air": 9237,
+      "boundary": 0
+    },
+    {
+      "y": 19,
+      "solid": 7225,
+      "air": 9312,
+      "boundary": 0
+    },
+    {
+      "y": 20,
+      "solid": 6810,
+      "air": 9639,
+      "boundary": 0
+    },
+    {
+      "y": 21,
+      "solid": 6546,
+      "air": 9873,
+      "boundary": 0
+    },
+    {
+      "y": 22,
+      "solid": 6175,
+      "air": 10260,
+      "boundary": 0
+    },
+    {
+      "y": 23,
+      "solid": 5974,
+      "air": 10301,
+      "boundary": 0
+    },
+    {
+      "y": 24,
+      "solid": 5624,
+      "air": 10731,
+      "boundary": 0
+    },
+    {
+      "y": 25,
+      "solid": 5475,
+      "air": 10888,
+      "boundary": 0
+    },
+    {
+      "y": 26,
+      "solid": 5243,
+      "air": 11026,
+      "boundary": 0
+    },
+    {
+      "y": 27,
+      "solid": 4557,
+      "air": 11240,
+      "boundary": 0
+    },
+    {
+      "y": 28,
+      "solid": 4539,
+      "air": 11334,
+      "boundary": 0
+    },
+    {
+      "y": 29,
+      "solid": 4583,
+      "air": 11156,
+      "boundary": 0
+    },
+    {
+      "y": 30,
+      "solid": 4577,
+      "air": 11108,
+      "boundary": 0
+    },
+    {
+      "y": 31,
+      "solid": 4780,
+      "air": 11031,
+      "boundary": 0
+    },
+    {
+      "y": 32,
+      "solid": 4615,
+      "air": 11130,
+      "boundary": 0
+    },
+    {
+      "y": 33,
+      "solid": 4660,
+      "air": 11179,
+      "boundary": 0
+    },
+    {
+      "y": 34,
+      "solid": 4528,
+      "air": 11209,
+      "boundary": 0
+    },
+    {
+      "y": 35,
+      "solid": 4530,
+      "air": 11167,
+      "boundary": 0
+    },
+    {
+      "y": 36,
+      "solid": 4497,
+      "air": 11127,
+      "boundary": 0
+    },
+    {
+      "y": 37,
+      "solid": 4622,
+      "air": 11132,
+      "boundary": 0
+    },
+    {
+      "y": 38,
+      "solid": 4579,
+      "air": 11125,
+      "boundary": 0
+    },
+    {
+      "y": 39,
+      "solid": 4517,
+      "air": 11202,
+      "boundary": 0
+    },
+    {
+      "y": 40,
+      "solid": 4589,
+      "air": 11138,
+      "boundary": 0
+    },
+    {
+      "y": 41,
+      "solid": 4314,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 42,
+      "solid": 4277,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 43,
+      "solid": 4805,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 44,
+      "solid": 5969,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 45,
+      "solid": 7127,
+      "air": 1,
+      "boundary": 0
+    },
+    {
+      "y": 46,
+      "solid": 9076,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 47,
+      "solid": 13575,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 48,
+      "solid": 13619,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 49,
+      "solid": 13544,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 50,
+      "solid": 13598,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 51,
+      "solid": 6210,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 52,
+      "solid": 4811,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 53,
+      "solid": 4345,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 54,
+      "solid": 3982,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 55,
+      "solid": 3958,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 56,
+      "solid": 3812,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 57,
+      "solid": 3614,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 58,
+      "solid": 3712,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 59,
+      "solid": 3866,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 60,
+      "solid": 3706,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 61,
+      "solid": 3634,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 62,
+      "solid": 3502,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 63,
+      "solid": 3578,
+      "air": 0,
+      "boundary": 0
+    },
+    {
+      "y": 64,
+      "solid": 3741,
+      "air": 0,
+      "boundary": 0
+    }
+  ],
+  "boundaryBlocks": [
+    {
+      "pos": [
+        0,
+        0,
+        39
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        49
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        113
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        123
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        36,
+        0,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        36,
+        0,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        46,
+        0,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        46,
+        0,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        116,
+        0,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        116,
+        0,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        126,
+        0,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        126,
+        0,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        39
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        40
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        48
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        49
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        113
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        114
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        122
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        123
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        36,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        36,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        37,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        37,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        45,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        45,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        46,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        46,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        116,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        116,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        117,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        117,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        125,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        125,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        126,
+        1,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        126,
+        1,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        40
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        41
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        47
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        48
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        114
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        115
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        121
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        122
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        37,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        37,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        45,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        45,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        117,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        117,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        125,
+        2,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        125,
+        2,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        38
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        39
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        41
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        47
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        49
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        50
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        112
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        113
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        115
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        121
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        123
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        124
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        35,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        35,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        36,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        36,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        46,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        46,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        47,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        47,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        115,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        115,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        116,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        116,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        126,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        126,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        127,
+        3,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        127,
+        3,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        38
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        42
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        46
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        50
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        112
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        116
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        120
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        124
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        35,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        35,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        47,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        47,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        115,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        115,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        127,
+        4,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        127,
+        4,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        43
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        45
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        117
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        119
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        5,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        5,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        5,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        5,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        5,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        5,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        5,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        5,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        42
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        43
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        45
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        46
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        116
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        117
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        119
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        120
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        6,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        6,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        42
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        46
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        116
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        120
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        7,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        7,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        7,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        7,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        7,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        7,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        7,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        7,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        41
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        47
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        115
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        121
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        8,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        8,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        8,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        8,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        8,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        8,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        8,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        8,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        11,
+        41
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        11,
+        47
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        11,
+        115
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        11,
+        121
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        11,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        38,
+        11,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        11,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        44,
+        11,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        11,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        118,
+        11,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        11,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        124,
+        11,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        42
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        43
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        45
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        46
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        116
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        117
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        119
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        120
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        39,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        43,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        119,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        12,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        123,
+        12,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        13,
+        43
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        13,
+        45
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        13,
+        117
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        13,
+        119
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        13,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        13,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        13,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        13,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        13,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        13,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        13,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        13,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        15,
+        43
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        15,
+        45
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        15,
+        117
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        0,
+        15,
+        119
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        15,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        40,
+        15,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        15,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        42,
+        15,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        15,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        120,
+        15,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        15,
+        0
+      ],
+      "id": "minecraft:spruce_wood"
+    },
+    {
+      "pos": [
+        122,
+        15,
+        162
+      ],
+      "id": "minecraft:spruce_wood"
+    }
+  ],
+  "lowDoors": [
+    {
+      "pos": [
+        116,
+        44,
+        35
+      ],
+      "id": "minecraft:birch_door",
+      "state": {
+        "hinge": "left",
+        "half": "lower",
+        "powered": "false",
+        "facing": "west",
+        "open": "false"
+      }
+    },
+    {
+      "pos": [
+        116,
+        44,
+        127
+      ],
+      "id": "minecraft:birch_door",
+      "state": {
+        "hinge": "right",
+        "half": "lower",
+        "powered": "false",
+        "facing": "west",
+        "open": "false"
+      }
+    },
+    {
+      "pos": [
+        116,
+        45,
+        35
+      ],
+      "id": "minecraft:birch_door",
+      "state": {
+        "hinge": "left",
+        "half": "upper",
+        "powered": "false",
+        "facing": "west",
+        "open": "false"
+      }
+    },
+    {
+      "pos": [
+        116,
+        45,
+        127
+      ],
+      "id": "minecraft:birch_door",
+      "state": {
+        "hinge": "right",
+        "half": "upper",
+        "powered": "false",
+        "facing": "west",
+        "open": "false"
+      }
+    }
+  ]
+}

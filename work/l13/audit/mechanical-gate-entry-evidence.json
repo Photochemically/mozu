@@ -1,0 +1,552 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "template": "data/dungeons_arise/structures/mechanical_nest/mechanical_nest_start_0.nbt",
+  "sourceCells": [
+    {
+      "pos": [
+        0,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:waxed_cut_copper_slab",
+        "Properties": {
+          "type": "top",
+          "waterlogged": "false"
+        }
+      }
+    },
+    {
+      "pos": [
+        0,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:spruce_planks"
+      }
+    },
+    {
+      "pos": [
+        0,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:jigsaw",
+        "Properties": {
+          "orientation": "west_up"
+        }
+      }
+    },
+    {
+      "pos": [
+        0,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        0,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        0,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:lever",
+        "Properties": {
+          "facing": "east",
+          "face": "ceiling",
+          "powered": "false"
+        }
+      }
+    },
+    {
+      "pos": [
+        1,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:waxed_cut_copper_slab",
+        "Properties": {
+          "type": "double",
+          "waterlogged": "false"
+        }
+      }
+    },
+    {
+      "pos": [
+        1,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:spruce_planks"
+      }
+    },
+    {
+      "pos": [
+        1,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        1,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        1,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        1,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_oak_stairs",
+        "Properties": {
+          "facing": "east",
+          "waterlogged": "false",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    },
+    {
+      "pos": [
+        2,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:sticky_piston",
+        "Properties": {
+          "facing": "up",
+          "extended": "false"
+        }
+      }
+    },
+    {
+      "pos": [
+        2,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        2,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:note_block",
+        "Properties": {
+          "powered": "false",
+          "instrument": "harp",
+          "note": "0"
+        }
+      }
+    },
+    {
+      "pos": [
+        2,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:note_block",
+        "Properties": {
+          "powered": "false",
+          "instrument": "bass",
+          "note": "0"
+        }
+      }
+    },
+    {
+      "pos": [
+        2,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:note_block",
+        "Properties": {
+          "powered": "false",
+          "instrument": "bass",
+          "note": "0"
+        }
+      }
+    },
+    {
+      "pos": [
+        2,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:sticky_piston",
+        "Properties": {
+          "facing": "down",
+          "extended": "false"
+        }
+      }
+    },
+    {
+      "pos": [
+        3,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:spruce_planks"
+      }
+    },
+    {
+      "pos": [
+        3,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_prismarine"
+      }
+    },
+    {
+      "pos": [
+        3,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        3,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        3,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        3,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_oak_stairs",
+        "Properties": {
+          "facing": "west",
+          "waterlogged": "false",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    },
+    {
+      "pos": [
+        4,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:spruce_planks"
+      }
+    },
+    {
+      "pos": [
+        4,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_prismarine"
+      }
+    },
+    {
+      "pos": [
+        4,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        4,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        4,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        4,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:lever",
+        "Properties": {
+          "facing": "west",
+          "face": "ceiling",
+          "powered": "false"
+        }
+      }
+    },
+    {
+      "pos": [
+        5,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:mud_bricks"
+      }
+    },
+    {
+      "pos": [
+        5,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_prismarine"
+      }
+    },
+    {
+      "pos": [
+        5,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        5,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        5,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        5,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        6,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        6,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_prismarine_slab",
+        "Properties": {
+          "type": "bottom",
+          "waterlogged": "true"
+        }
+      }
+    },
+    {
+      "pos": [
+        6,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        6,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        6,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        6,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        7,
+        21,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:dark_prismarine"
+      }
+    },
+    {
+      "pos": [
+        7,
+        22,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    {
+      "pos": [
+        7,
+        23,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        7,
+        24,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        7,
+        25,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    {
+      "pos": [
+        7,
+        26,
+        15
+      ],
+      "state": {
+        "Name": "minecraft:air"
+      }
+    }
+  ],
+  "reason": "Original sticky-piston/note-block gate at x2, levers above the passage; no original blocks removed or gate bypass implemented",
+  "adaptationPending": "Original bridge-side entry, outside the intact gate; requires connected full-piece placement review",
+  "runtimeTested": false
+}

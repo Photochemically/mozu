@@ -1,0 +1,23 @@
+{
+  "tests": 161.0,
+  "buildLog": "aerial-entry-delivery-build.log",
+  "jarBytes": 313337,
+  "jarSha256": "5F7DCCB66587C51E7CA83F1809A0AC53355359D5EB375F472C645A9FAEBEF40D",
+  "helperPackage": "C:\\Users\\hp\\Documents\\Codex\\2026-11-01\\new-chat\\outputs\\L13验收辅助\\七类验收入口-准备包.zip",
+  "helperSha256": "9FECF83BA7A5793BC8005BCFF05FCBBE20EAEE14AE77FFE25D9F3D276F499D72",
+  "helperEntries": [
+    "README.md",
+    "WDA_COMPLETENESS_STAGE1.md",
+    "WDA_RESOURCE_ALIASES.md",
+    "NATIVE_ROOM_RESERVATIONS.md",
+    "NATIVE_ROOM_ROUTES.md",
+    "WDA_TEMPLATE_GAPS.md",
+    "WATER_ENVIRONMENTS.md",
+    "SHIP_BOARDING.md",
+    "UNDERGROUND_ENTRIES.md",
+    "AERIAL_ENVIRONMENTS.md",
+    "test-fixtures/expedition-development-world.json"
+  ],
+  "runtimeTested": false,
+  "installed": false
+}
