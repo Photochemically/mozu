@@ -14,10 +14,13 @@ final class WdaInteriorSitesJob {
     private final int count;
     private RoomSiteSearch search;
     private final boolean aerial;
-    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder) {
-        if(rooms.isEmpty() && ladder==null || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
+    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine) {
+        if(rooms.isEmpty() && ladder==null && mine==null || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
         remaining=new ArrayList<>(rooms);probe=new InteriorBlockProbe(world);dimension=world.dimension().location().toString();this.count=count;this.aerial=aerial;
-        if(ladder!=null) {
+        if(mine!=null) {
+            if(gateBridges!=null || ladder!=null)throw new IllegalArgumentException("Conflicting entry adapters");
+            search=new MushroomMineSiteSearch(mine,probe);
+        } else if(ladder!=null) {
             if(gateBridges!=null)throw new IllegalArgumentException("Conflicting entry adapters");
             search=new BlimpLadderSiteSearch(ladder,new BlimpLadderProbe(world));
         } else if(gateBridges!=null) {

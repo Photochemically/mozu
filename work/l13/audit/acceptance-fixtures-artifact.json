@@ -1,10 +1,10 @@
 {
-  "tests": 176.0,
-  "buildLog": "blimp-ladder-build.log",
-  "jarBytes": 344263,
-  "jarSha256": "0F2613139F32936545BF42DC45CC1A146B582E73E9A98289A6F0119D4EF71740",
+  "tests": 183.0,
+  "buildLog": "mushroom-mine-build.log",
+  "jarBytes": 359580,
+  "jarSha256": "D33FC6E2C385C532E7D1DED84CF946107B6C2A2B4E2CC289D0CC9D39DD6D5204",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "86031AF4477762CAB60405640D796DED72A9A28B54D3CF25E7B45B6951334A2B",
+  "helperSha256": "A3BCC6574805432079D362896AFD3675171756DA4BE4CD5BD6C36CF29F8EF85F",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -18,6 +18,7 @@
     "AERIAL_ENVIRONMENTS.md",
     "MECHANICAL_BRIDGE_ENTRY.md",
     "SMALL_BLIMP_ENTRY.md",
+    "MUSHROOM_MINE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

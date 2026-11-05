@@ -294,3 +294,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 2026-11-05 小飞艇原梯链入口
 
 新增start_ladder、原图连接核对、最低梯子派生地面、分批真实方块检查、固定到达点及旧perimeter快照兼容。新增7项逻辑／保存测试与1项原NBT审查（12组合）；完整176项通过。JAR 344263字节，SHA-256 0F2613139F32936545BF42DC45CC1A146B582E73E9A98289A6F0119D4EF71740。未安装、未启动Minecraft；正式目录与自然入口关闭。几何、证据和运行边界见 SMALL_BLIMP_ENTRY.md，下一项为mushroom_mines稀疏空间与入口。
+
+## 2026-11-05 蘑菇矿井稀疏空间与地表入口
+
+新增start_mine，八个原组件完整图与接口核对，地基严格停在主体下方，施工后验证外部地面至原平台的一格步行路线；固定入口与旧快照兼容保留。新增6项逻辑／保存测试和1项原NBT审查（16组合），完整183项通过。原八件40364条方块记录，63条显式空气；原标称地表案例会填27777个省略位置。首次资源测试纠正part_4向下接口使用main池后完整重建通过。JAR 359580字节，SHA-256 D33FC6E2C385C532E7D1DED84CF946107B6C2A2B4E2CC289D0CC9D39DD6D5204。未安装、未实机；下一项scorched_mines原熔岩井口。

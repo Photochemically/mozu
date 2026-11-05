@@ -1,15 +1,15 @@
 {
   "date": "2026-11-05",
-  "scope": "Small blimp original ladder-foot entry: intact native ladder chain and both hull halves, derived ground, actual-block route checks, fixed arrival and legacy snapshot compatibility; 12 original NBT compositions",
+  "scope": "Mushroom mine sparse surface entry: all eight original cubes, ground strictly below the body, actual-block walk route, fixed saved exterior arrival; 16 composed original NBT cases",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "blimp-ladder-build.log",
+  "buildLog": "mushroom-mine-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 344263,
-  "sha256": "0F2613139F32936545BF42DC45CC1A146B582E73E9A98289A6F0119D4EF71740",
+  "bytes": 359580,
+  "sha256": "D33FC6E2C385C532E7D1DED84CF946107B6C2A2B4E2CC289D0CC9D39DD6D5204",
   "saveSchema": 5,
   "suites": [
     {
@@ -44,6 +44,12 @@
     },
     {
       "name": "dev.expedition.bridge.content.wda.MechanicalBridgeAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.MushroomMineAuditTest",
       "tests": 1,
       "failures": 0,
       "errors": 0
@@ -134,6 +140,12 @@
     },
     {
       "name": "dev.expedition.bridge.domain.MechanicalBridgeSiteSearchTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.MushroomMineTest",
       "tests": 6,
       "failures": 0,
       "errors": 0
@@ -291,5 +303,6 @@
   "undergroundEntryEvidence": "underground-entry-audit.json:5 original starting templates x4 rotations=20 static cases; full random graph, extra exits, fluids, real collision and multiplayer restart still untested",
   "aerialEntryEvidence": "aerial-entry-audit.json:48 root-only cases,44 safe decks and4 requiring the dedicated connected-bridge adapter; no full assembly or runtime acceptance",
   "mechanicalBridgeEvidence": "mechanical-bridge-audit.json:8 direct bridge templates x3 root ports x4 rotations=96;84 safe platforms,12 short-terminator rejections; no random decoration/full assembly or runtime acceptance",
-  "blimpLadderEvidence": "blimp-ladder-audit.json: 1/2/3 ladder segments plus both original hulls x4 rotations=12; all ground entries pass; original iron door retained; no native random generation, ladder stability, collision, extra-exit or runtime acceptance"
+  "blimpLadderEvidence": "blimp-ladder-audit.json: 1/2/3 ladder segments plus both original hulls x4 rotations=12; all ground entries pass; original iron door retained; no native random generation, ladder stability, collision, extra-exit or runtime acceptance",
+  "mushroomMineEvidence": "mushroom-mine-audit.json: 4 roots x4 rotations of all8 original cubes with native mob attachment block effects;16 ground-to-platform routes pass;27777 omitted cells would be filled by unadapted nominal ground; no native random generation or runtime acceptance"
 }

@@ -61,6 +61,7 @@ public final class WdaStructurePlanner {
         new DungeonSpec.Environment(environment.firstFreeY(),environment.padding(),environment.rim(),environment.foundationDepth(),environment.surface(),environment.waterDepth(),environment.boarding(),environment.entryMode());
         if(!id.getNamespace().equals("dungeons_arise"))throw new IllegalArgumentException("WDA provider only accepts WDA structures");
         BlimpLadderLayout.validateMode(id.toString(),environment.entryMode());
+        MushroomMineLayout.validateMode(id.toString(),environment.entryMode());
         var world=server.overworld();var target=server.getLevel(ModDimensions.DUNGEON);
         if(target==null)throw new IllegalStateException("Dungeon dimension unavailable");
         var registries=server.registryAccess();
@@ -105,13 +106,15 @@ public final class WdaStructurePlanner {
             }
         }
         var ladder=environment.entryMode()==DungeonSpec.EntryMode.START_LADDER?BlimpLadderPlanner.prepare(server,start,complete):null;
+        var mine=environment.entryMode()==DungeonSpec.EntryMode.START_MINE?MushroomMinePlanner.prepare(server,start,complete):null;
         // Generate the untouched native graph against the catalog height, then derive terrain UNDER its lowest ladder.
         // All blimp pieces are rigid: changing this background height cannot shift native piece placement.
-        var island=new IslandPlan(complete,ladder==null?environment.firstFreeY():ladder.foot().y(),environment.padding(),environment.rim(),
+        int groundY=mine!=null?mine.groundY():ladder!=null?ladder.foot().y():environment.firstFreeY();
+        var island=new IslandPlan(complete,groundY,environment.padding(),environment.rim(),
                 environment.foundationDepth(),environment.surface(),environment.waterDepth());
         List<InteriorRoom> rooms=new ArrayList<>();
         if(environment.entryMode().interior()) {
-            if(!aerial && ladder==null)InteriorRoom.requireRockCover(island);
+            if(!aerial && ladder==null && mine==null)InteriorRoom.requireRockCover(island);
             int index=0;
             for(var piece:start.getPieces()) {
                 var pool=(PoolElementStructurePiece)piece;var bounds=WdaStructurePlan.bounds(piece.getBoundingBox());
@@ -119,18 +122,18 @@ public final class WdaStructurePlanner {
                 if(pool.getElement().getProjection()==StructureTemplatePool.Projection.RIGID && bounds.width()>=5 && bounds.depth()>=5 && bounds.height()>=4) {
                     // Reading joints neither places templates nor consumes the generator's random stream.
                     for(var joint:pool.getElement().getShuffledJigsawBlocks(server.getStructureManager(),pool.getPosition(),pool.getRotation(),RandomSource.create(seed ^ index))) {
-                        if(joint.nbt()!=null && (aerial || joint.nbt().getString("final_state").equals("minecraft:air"))
+                        if(joint.nbt()!=null && (aerial || mine!=null || joint.nbt().getString("final_state").equals("minecraft:air"))
                                 && JigsawBlock.getFrontFacing(joint.state()).getAxis().isHorizontal()) {
                             var p=joint.pos();passages.add(new BoardingRouteSearch.Cell(p.getX(),p.getY(),p.getZ()));
                         }
                     }
                 }
-                if(index++==0 && passages.isEmpty() && ladder==null)throw new IllegalArgumentException("Starting piece has no audited horizontal passage; no substitute start room");
+                if(index++==0 && passages.isEmpty() && ladder==null && mine==null)throw new IllegalArgumentException("Starting piece has no audited horizontal passage; no substitute start room");
                 if(!passages.isEmpty())rooms.add(new InteriorRoom(bounds,passages));
             }
         }
         var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder);
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine);
     }
 
     private void validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

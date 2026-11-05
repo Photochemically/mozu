@@ -1,0 +1,203 @@
+{
+  "cases": [
+    {
+      "rootPart": 0,
+      "rotation": 0,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -446,
+        "y": 87,
+        "z": -274
+      }
+    },
+    {
+      "rootPart": 1,
+      "rotation": 0,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -446,
+        "y": 87,
+        "z": -274
+      }
+    },
+    {
+      "rootPart": 2,
+      "rotation": 0,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -446,
+        "y": 87,
+        "z": -274
+      }
+    },
+    {
+      "rootPart": 3,
+      "rotation": 0,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -446,
+        "y": 87,
+        "z": -274
+      }
+    },
+    {
+      "rootPart": 0,
+      "rotation": 1,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -538,
+        "y": 87,
+        "z": -234
+      }
+    },
+    {
+      "rootPart": 1,
+      "rotation": 1,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -538,
+        "y": 87,
+        "z": -234
+      }
+    },
+    {
+      "rootPart": 2,
+      "rotation": 1,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -538,
+        "y": 87,
+        "z": -234
+      }
+    },
+    {
+      "rootPart": 3,
+      "rotation": 1,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -538,
+        "y": 87,
+        "z": -234
+      }
+    },
+    {
+      "rootPart": 0,
+      "rotation": 2,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -578,
+        "y": 87,
+        "z": -326
+      }
+    },
+    {
+      "rootPart": 1,
+      "rotation": 2,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -578,
+        "y": 87,
+        "z": -326
+      }
+    },
+    {
+      "rootPart": 2,
+      "rotation": 2,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -578,
+        "y": 87,
+        "z": -326
+      }
+    },
+    {
+      "rootPart": 3,
+      "rotation": 2,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -578,
+        "y": 87,
+        "z": -326
+      }
+    },
+    {
+      "rootPart": 0,
+      "rotation": 3,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -486,
+        "y": 87,
+        "z": -366
+      }
+    },
+    {
+      "rootPart": 1,
+      "rotation": 3,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -486,
+        "y": 87,
+        "z": -366
+      }
+    },
+    {
+      "rootPart": 2,
+      "rotation": 3,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -486,
+        "y": 87,
+        "z": -366
+      }
+    },
+    {
+      "rootPart": 3,
+      "rotation": 3,
+      "originalMobAttachments": 66,
+      "terrainWrites": 178496,
+      "routeCells": 25,
+      "arrival": {
+        "x": -486,
+        "y": 87,
+        "z": -366
+      }
+    }
+  ],
+  "originalMainBlockEntries": 40364,
+  "explicitMainAir": 63,
+  "mobTemplateEntities": 3,
+  "omittedCellsFilledAtUnadaptedSurface": 27777,
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeTested": false,
+  "scope": "16 full eight-cube original NBT compositions with mob attachment block effects; no native random generation, entity spawn, player collision, extra exits, multiplayer or restart acceptance"
+}
