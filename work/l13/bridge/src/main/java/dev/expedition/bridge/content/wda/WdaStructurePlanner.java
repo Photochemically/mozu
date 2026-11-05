@@ -60,6 +60,7 @@ public final class WdaStructurePlanner {
         // Match catalog bounds even when a diagnostic command supplies values directly.
         new DungeonSpec.Environment(environment.firstFreeY(),environment.padding(),environment.rim(),environment.foundationDepth(),environment.surface(),environment.waterDepth(),environment.boarding(),environment.entryMode());
         if(!id.getNamespace().equals("dungeons_arise"))throw new IllegalArgumentException("WDA provider only accepts WDA structures");
+        BlimpLadderLayout.validateMode(id.toString(),environment.entryMode());
         var world=server.overworld();var target=server.getLevel(ModDimensions.DUNGEON);
         if(target==null)throw new IllegalStateException("Dungeon dimension unavailable");
         var registries=server.registryAccess();
@@ -103,11 +104,14 @@ public final class WdaStructurePlanner {
                         box.maxX(),Math.addExact(environment.firstFreeY(),height)-2,box.maxZ()));
             }
         }
-        var island=new IslandPlan(complete,environment.firstFreeY(),environment.padding(),environment.rim(),
+        var ladder=environment.entryMode()==DungeonSpec.EntryMode.START_LADDER?BlimpLadderPlanner.prepare(server,start,complete):null;
+        // Generate the untouched native graph against the catalog height, then derive terrain UNDER its lowest ladder.
+        // All blimp pieces are rigid: changing this background height cannot shift native piece placement.
+        var island=new IslandPlan(complete,ladder==null?environment.firstFreeY():ladder.foot().y(),environment.padding(),environment.rim(),
                 environment.foundationDepth(),environment.surface(),environment.waterDepth());
         List<InteriorRoom> rooms=new ArrayList<>();
         if(environment.entryMode().interior()) {
-            if(!aerial)InteriorRoom.requireRockCover(island);
+            if(!aerial && ladder==null)InteriorRoom.requireRockCover(island);
             int index=0;
             for(var piece:start.getPieces()) {
                 var pool=(PoolElementStructurePiece)piece;var bounds=WdaStructurePlan.bounds(piece.getBoundingBox());
@@ -121,12 +125,12 @@ public final class WdaStructurePlanner {
                         }
                     }
                 }
-                if(index++==0 && passages.isEmpty())throw new IllegalArgumentException("Starting piece has no audited horizontal passage; no substitute start room");
+                if(index++==0 && passages.isEmpty() && ladder==null)throw new IllegalArgumentException("Starting piece has no audited horizontal passage; no substitute start room");
                 if(!passages.isEmpty())rooms.add(new InteriorRoom(bounds,passages));
             }
         }
         var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges);
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder);
     }
 
     private void validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

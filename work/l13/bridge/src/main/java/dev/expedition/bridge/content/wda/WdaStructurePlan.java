@@ -17,12 +17,15 @@ public final class WdaStructurePlan {
     private final DungeonSpec.EntryMode entryMode;
     private List<InteriorRoom> interiorRooms;
     private MechanicalBridgeLayout gateBridges;
+    private BlimpLadderLayout ladder;
     private boolean relocated;
-    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges) {
+    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder) {
         if(entryMode==DungeonSpec.EntryMode.START_DECK && AerialContentPolicy.needsGateBridge(id.toString()) && gateBridges==null)
             throw new IllegalArgumentException("Mechanical aerial entry requires its original connected bridges");
         this.id=id;this.start=start;this.island=island;this.boarding=boarding;this.entryMode=entryMode;this.interiorRooms=List.copyOf(rooms);
         this.gateBridges=gateBridges;
+        if((entryMode==DungeonSpec.EntryMode.START_LADDER)!=(ladder!=null))throw new IllegalArgumentException("Missing or unexpected ladder route");
+        this.ladder=ladder;
     }
     public ResourceLocation id() { return id; }
     public StructureStart start() { return start; }
@@ -31,6 +34,7 @@ public final class WdaStructurePlan {
     public DungeonSpec.EntryMode entryMode(){return entryMode;}
     public List<InteriorRoom> interiorRooms(){return interiorRooms;}
     public MechanicalBridgeLayout gateBridges(){return gateBridges;}
+    public BlimpLadderLayout ladder(){return ladder;}
     public void relocateTo(BlockBounds allocatedContent) {
         if(relocated)throw new IllegalStateException("Plan already assigned to a pocket");
         var original=island.completeBounds();
@@ -53,6 +57,7 @@ public final class WdaStructurePlan {
         start=new StructureStart(start.getStructure(),anchor,0,new PiecesContainer(pieces));
         island=island.move(x,y,z);interiorRooms=interiorRooms.stream().map(r->r.move(x,y,z)).toList();
         if(gateBridges!=null)gateBridges=gateBridges.move(x,y,z);
+        if(ladder!=null)ladder=ladder.move(x,y,z);
         relocated=true;
     }
     static BlockBounds bounds(BoundingBox box) {

@@ -1,6 +1,6 @@
 # mozu：Minecraft 1.20.1 Forge 模组联动开发
 
-更新：2026-11-05。仓库：https://github.com/Photochemically/mozu 。当前阶段：L13 建筑环境与入口适配（新增机械巢穴桥侧入口）；L12 城市危险系统尚未实施。本仓库保存源码、配置、设计决策和验证证据，不是可以直接放进 mods 的完整整合包。
+更新：2026-11-05。仓库：https://github.com/Photochemically/mozu 。当前阶段：L13 建筑环境与入口适配（新增小飞艇原梯链入口）；L12 城市危险系统尚未实施。本仓库保存源码、配置、设计决策和验证证据，不是可以直接放进 mods 的完整整合包。
 
 ## 接力入口
 
@@ -24,7 +24,7 @@
 
 Minecraft 1.20.1、Forge 47.4.10、Java 17、Gradle 8.8、ForgeGradle 6.0.54。核心模组为 Dimensional Doors 5.4.4、WDA 2.1.58、KubeJS 2001.6.5-build.26、Architectury 9.2.14。完整既有模组版本/指纹见 `work/mod-audit/manifest.json`；WDA 等后加入目标见 `work/l13/audit/target-versions.json`，两个清单需要合看。
 
-原环境已安装联动脚本为 **0.2.1**；本次接力机器仅重建65个文件，未安装到游戏实例。正在开发桥接为 **0.3.0-dev，尚未安装、尚未实机验收**。正式候选池、自然入口开关保持关闭。桥接负责空间分配、原生/WDA 生成、入口与返回、参与者状态、存档；KubeJS 和数据包负责配方与可配置内容。配置格式 schema 1，实例存档 schema 5（兼容读取 1～5）。机械巢穴的 void/start_deck 使用实际原桥接口专门选址；桥段几何随完整建筑平移，固定到达点沿用既有存储。详见 [桥侧入口](work/l13/MECHANICAL_BRIDGE_ENTRY.md)。
+原环境已安装联动脚本为 **0.2.1**；本次接力机器仅重建65个文件，未安装到游戏实例。正在开发桥接为 **0.3.0-dev，尚未安装、尚未实机验收**。正式候选池、自然入口开关保持关闭。桥接负责空间分配、原生/WDA 生成、入口与返回、参与者状态、存档；KubeJS 和数据包负责配方与可配置内容。配置格式 schema 1，实例存档 schema 5（兼容读取 1～5）。机械巢穴的 void/start_deck 使用实际原桥接口专门选址；桥段几何随完整建筑平移，固定到达点沿用既有存储。详见 [桥侧入口](work/l13/MECHANICAL_BRIDGE_ENTRY.md)。小飞艇新增 dry/start_ladder 专用模式：依据实际最低梯子推导地面，保留完整梯链及两半船体，施工后检查原路线；固定到达点及旧快照兼容沿用 schema 5，见 [梯脚入口](work/l13/SMALL_BLIMP_ENTRY.md)。
 
 ## 已确定且必须保留的玩法边界
 

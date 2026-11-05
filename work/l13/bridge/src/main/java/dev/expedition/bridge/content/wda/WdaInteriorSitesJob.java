@@ -14,10 +14,13 @@ final class WdaInteriorSitesJob {
     private final int count;
     private RoomSiteSearch search;
     private final boolean aerial;
-    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges) {
-        if(rooms.isEmpty() || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
+    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder) {
+        if(rooms.isEmpty() && ladder==null || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
         remaining=new ArrayList<>(rooms);probe=new InteriorBlockProbe(world);dimension=world.dimension().location().toString();this.count=count;this.aerial=aerial;
-        if(gateBridges!=null) {
+        if(ladder!=null) {
+            if(gateBridges!=null)throw new IllegalArgumentException("Conflicting entry adapters");
+            search=new BlimpLadderSiteSearch(ladder,new BlimpLadderProbe(world));
+        } else if(gateBridges!=null) {
             if(!aerial)throw new IllegalArgumentException("Gate bridge requires aerial placement");
             remaining.remove(0); // Never fall back to the starting room behind the intact gates.
             search=new MechanicalBridgeSiteSearch(gateBridges,probe);

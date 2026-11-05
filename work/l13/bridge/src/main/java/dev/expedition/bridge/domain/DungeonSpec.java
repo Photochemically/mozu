@@ -7,7 +7,7 @@ public record DungeonSpec(String id,Provider provider,String target,Set<Integer>
                           Environment environment,int exits) {
     public enum Provider { WDA, NATIVE }
     public enum EntryMode {
-        PERIMETER, START_ROOM, START_DECK;
+        PERIMETER, START_ROOM, START_DECK, START_LADDER;
         public boolean interior(){return this!=PERIMETER;}
     }
     public record Environment(int firstFreeY,int padding,int rim,int foundationDepth,IslandPlan.Surface surface,int waterDepth,boolean boarding,EntryMode entryMode) {
@@ -31,6 +31,8 @@ public record DungeonSpec(String id,Provider provider,String target,Set<Integer>
                 throw new IllegalArgumentException("Start-room entry requires a rock environment without boarding");
             if((entryMode==EntryMode.START_DECK)!=(surface==IslandPlan.Surface.VOID))
                 throw new IllegalArgumentException("Void environment and start-deck entry must be used together");
+            if(entryMode==EntryMode.START_LADDER && (surface!=IslandPlan.Surface.GRASS && surface!=IslandPlan.Surface.ROCK || boarding))
+                throw new IllegalArgumentException("Ladder entry requires dry solid ground without water boarding");
         }
     }
     public DungeonSpec {
@@ -43,5 +45,7 @@ public record DungeonSpec(String id,Provider provider,String target,Set<Integer>
             throw new IllegalArgumentException("WDA needs explicit environment and 1..4 exits");
         if(provider==Provider.NATIVE && (!target.startsWith("dimdoors:") || environment!=null || exits!=0))
             throw new IllegalArgumentException("Native room retains all original exits and has no island");
+        // Old selected snapshots must still decode; strict small-blimp mode enforcement belongs to NEW planning.
+        if(provider==Provider.WDA && environment.entryMode()==EntryMode.START_LADDER)BlimpLadderLayout.validateMode(target,environment.entryMode());
     }
 }

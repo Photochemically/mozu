@@ -1,0 +1,139 @@
+{
+  "cases": [
+    {
+      "rotation": 0,
+      "ladderSegments": 1,
+      "climbBlocks": 53,
+      "requiredHeight": 129,
+      "arrival": {
+        "x": -200,
+        "y": 195,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 1,
+      "ladderSegments": 1,
+      "climbBlocks": 53,
+      "requiredHeight": 129,
+      "arrival": {
+        "x": -197,
+        "y": 195,
+        "z": 300
+      }
+    },
+    {
+      "rotation": 2,
+      "ladderSegments": 1,
+      "climbBlocks": 53,
+      "requiredHeight": 129,
+      "arrival": {
+        "x": -200,
+        "y": 195,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 3,
+      "ladderSegments": 1,
+      "climbBlocks": 53,
+      "requiredHeight": 129,
+      "arrival": {
+        "x": -203,
+        "y": 195,
+        "z": 300
+      }
+    },
+    {
+      "rotation": 0,
+      "ladderSegments": 2,
+      "climbBlocks": 101,
+      "requiredHeight": 177,
+      "arrival": {
+        "x": -200,
+        "y": 147,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 1,
+      "ladderSegments": 2,
+      "climbBlocks": 101,
+      "requiredHeight": 177,
+      "arrival": {
+        "x": -197,
+        "y": 147,
+        "z": 300
+      }
+    },
+    {
+      "rotation": 2,
+      "ladderSegments": 2,
+      "climbBlocks": 101,
+      "requiredHeight": 177,
+      "arrival": {
+        "x": -200,
+        "y": 147,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 3,
+      "ladderSegments": 2,
+      "climbBlocks": 101,
+      "requiredHeight": 177,
+      "arrival": {
+        "x": -203,
+        "y": 147,
+        "z": 300
+      }
+    },
+    {
+      "rotation": 0,
+      "ladderSegments": 3,
+      "climbBlocks": 149,
+      "requiredHeight": 225,
+      "arrival": {
+        "x": -200,
+        "y": 99,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 1,
+      "ladderSegments": 3,
+      "climbBlocks": 149,
+      "requiredHeight": 225,
+      "arrival": {
+        "x": -197,
+        "y": 99,
+        "z": 300
+      }
+    },
+    {
+      "rotation": 2,
+      "ladderSegments": 3,
+      "climbBlocks": 149,
+      "requiredHeight": 225,
+      "arrival": {
+        "x": -200,
+        "y": 99,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 3,
+      "ladderSegments": 3,
+      "climbBlocks": 149,
+      "requiredHeight": 225,
+      "arrival": {
+        "x": -203,
+        "y": 99,
+        "z": 300
+      }
+    }
+  ],
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeTested": false,
+  "scope": "12 composed original ladder + both hull cases; native generator, floating-ladder stability, player collision, live doors, spawner placement, extra exits and restart remain untested"
+}

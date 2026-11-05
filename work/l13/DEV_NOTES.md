@@ -290,3 +290,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 - Dedicated positioned-joint adapter accepts the original root and eight direct bridge variants, preserves all native pieces/gates/processors, searches only connected exterior bridge cells at gate height, retains 3x3/3-high clearance and 24-cell/5x5-span minimums. No new terrain writes, gate opening or alternate-room entry. Layout relocation joins existing fixed-arrival/save-schema5 flow.
 - 96 root/bridge/port/rotation combinations: 84 safe platform cases, 12 explicit rejections. Six new pure tests and one actual-resource audit; existing persistence case additionally covers the mechanical target. Root-only aerial audit remains44/4; the4 are not generic safe entries. Full random decoration/assembly and real collision remain untested.
 - Regenerated65 existing0.2.1 KubeJS files without deploying. Original game installation is historical, not a claim about this machine. No Minecraft launch, bridge install, production save edits, formal enrollment or natural-generation enabling. Next: small_blimp terrain-projected ladder/boarding route.
+
+## 2026-11-05 小飞艇原梯链入口
+
+新增start_ladder、原图连接核对、最低梯子派生地面、分批真实方块检查、固定到达点及旧perimeter快照兼容。新增7项逻辑／保存测试与1项原NBT审查（12组合）；完整176项通过。JAR 344263字节，SHA-256 0F2613139F32936545BF42DC45CC1A146B582E73E9A98289A6F0119D4EF71740。未安装、未启动Minecraft；正式目录与自然入口关闭。几何、证据和运行边界见 SMALL_BLIMP_ENTRY.md，下一项为mushroom_mines稀疏空间与入口。

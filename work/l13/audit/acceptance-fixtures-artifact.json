@@ -1,10 +1,10 @@
 {
-  "tests": 168.0,
-  "buildLog": "mechanical-bridge-build.log",
-  "jarBytes": 328383,
-  "jarSha256": "429A9BBA4D30AB457CAFE6477E9B661EB5C2C12BC5F6F382D96DE5AB7BA44725",
+  "tests": 176.0,
+  "buildLog": "blimp-ladder-build.log",
+  "jarBytes": 344263,
+  "jarSha256": "0F2613139F32936545BF42DC45CC1A146B582E73E9A98289A6F0119D4EF71740",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "6E19C67F1BAA32FCC36B80F77CC606E93E6757AFCDF2E22A383ED7168B31CB50",
+  "helperSha256": "86031AF4477762CAB60405640D796DED72A9A28B54D3CF25E7B45B6951334A2B",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -17,6 +17,7 @@
     "UNDERGROUND_ENTRIES.md",
     "AERIAL_ENVIRONMENTS.md",
     "MECHANICAL_BRIDGE_ENTRY.md",
+    "SMALL_BLIMP_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,
