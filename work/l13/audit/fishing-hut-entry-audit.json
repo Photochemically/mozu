@@ -1,0 +1,727 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "scope": "One original hut and optional aligned zombie spawner. Four rotations in six environments with 1..4 exits; swim, fishing combat and fluid updates require in-game testing.",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "spawner": false,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": false,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": true,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": true,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": false,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": false,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": true,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": true,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": false,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": false,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": true,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": true,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": false,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": false,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": false,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": true,
+      "surface": "GRASS",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": true,
+      "surface": "ROCK",
+      "waterDepth": 0,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 2,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": false,
+      "addedPlanks": 0,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "spawner": true,
+      "surface": "WATER",
+      "waterDepth": 3,
+      "boarding": true,
+      "addedPlanks": 1,
+      "originalBarrels": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

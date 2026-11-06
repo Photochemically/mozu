@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 22,
+    "originalTemplateEvidence": 23,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 17,
+    "resourceGraphOnly": 16,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -131,12 +131,12 @@
       "startPool": "dungeons_arise:prairie/fishing_hut/fishing_hut_main",
       "biomeSelector": "#dungeons_arise:has_structure/fishing_hut_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "干地／2～3 格浅水",
+      "entry": "perimeter 原码头双通道",
+      "level": "原模板",
+      "file": "audit/fishing-hut-entry-audit.json",
+      "label": "48 组岸线与刷怪件组合",
+      "remaining": "游泳上岸、钓竿僵尸、水流与双人重启",
       "runtimeAccepted": false
     },
     {

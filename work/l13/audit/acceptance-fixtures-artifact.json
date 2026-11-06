@@ -1,10 +1,10 @@
 {
-  "tests": 229.0,
-  "buildLog": "bathhouse-build.log",
-  "jarBytes": 483207,
-  "jarSha256": "CBF40DA5EAA9170C5583D819E861A378A4F4AA2E9DA43C300D4D94CD7037E8DF",
+  "tests": 235.0,
+  "buildLog": "fishing-hut-build.log",
+  "jarBytes": 493004,
+  "jarSha256": "BF0808D027C51E3A722FC34725416B4103DEB53DEAAD79CA5DEBC5980950374A",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "E5628C7622E21E68A90050B7166DF11CDCEA4349C0088501CDFA96CCEAD3044F",
+  "helperSha256": "373EC61D07CFB97E532A182688346C3BC86D3321B706DEFBA699BFD6AA2C5123",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -27,6 +27,7 @@
     "ILLAGER_CAMP_ENTRY.md",
     "GROUND_HOUSE_ENTRIES.md",
     "BATHHOUSE_ENTRY.md",
+    "FISHING_HUT_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

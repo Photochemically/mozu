@@ -53,7 +53,12 @@ class BathhouseAuditTest {
     private static class Model extends Terrain implements BathhouseRoute.Probe {
         final BathhouseLayout layout;
         final Set<Cell> added = new LinkedHashSet<>();
-        Model(Assembly sample) { super(sample.pieces); layout=sample.layout(); }
+        final IslandPlan reserved;
+        Model(Assembly sample) {
+            super(sample.pieces);
+            layout=sample.layout();
+            reserved=new IslandPlan(island.building().expand(12),Y,8,6,16,IslandPlan.Surface.GRASS);
+        }
         private boolean has(Cell p,String id) {
             return !blocked.contains(p) && placed.containsKey(p) && placed.get(p).id().equals("minecraft:"+id);
         }
@@ -84,12 +89,21 @@ class BathhouseAuditTest {
             assertTrue(added.add(p));
         }
         void survey(int exits) {
-            var route=new BathhouseRoute(layout,island,exits,this);
+            var route=new BathhouseRoute(layout,reserved,exits,this);
             for (int i=0;i<16000;i++) if (route.step()) return;
             fail("Route over budget");
         }
     }
     private static Cell cell(BlockPos p) { return new Cell(p.getX(),p.getY(),p.getZ()); }
+
+    @Test void nativeTerrainMarginIncludesTheScaffoldButLeavesTheOriginalWallIntact() throws Exception {
+        var model=new Model(assemble(templates("bathhouse"),4,3,1,Rotation.CLOCKWISE_90,false));
+        var landing=model.layout.at(31,9,15);
+        assertTrue(model.reserved.building().contains(landing.x(),landing.y(),landing.z()));
+        assertFalse(model.island.building().contains(landing.x(),landing.y(),landing.z()));
+        model.survey(4);
+        assertTrue(model.scaffold(landing.move(0,-1,0)));
+    }
 
     @Test void allNativeStacksFitInFourRotations() throws Exception {
         var templates=templates("bathhouse");
@@ -145,7 +159,7 @@ class BathhouseAuditTest {
         }
         assertEquals(templates.keySet(),used);
         var report=new LinkedHashMap<String,Object>();
-        report.put("wdaSha256",HASH); report.put("runtimeAccepted",false); report.put("stackRotations",672);
+        report.put("wdaSha256",HASH); report.put("runtimeAccepted",false); report.put("stackRotations",672); report.put("terrainAdaptationMargin",12);
         report.put("scope","96 representative original assemblies on modeled grass, 1..4 exits each. Source, flowing and waterlogged blocks are checked before fluid simulation. The occupied top_3 chest-conflict socket is separately rejected.");
         report.put("cases",cases);
         var file=Path.of("build/reports/bathhouse-entry-audit.json"); Files.createDirectories(file.getParent());
@@ -192,7 +206,7 @@ class BathhouseAuditTest {
         var bath=model.layout; var column=bath.at(31,9,15);
         var points=List.of(bath.at(25,9,15),bath.at(29,7,15),bath.at(27,8,14),bath.at(23,9,15),
                 new Cell(column.x(),Y-1,column.z()),column.move(0,-2,0),column.move(0,1,0),
-                cell(bath.waterSources().get(0)),model.island.perimeterSites(4).get(3));
+                cell(bath.waterSources().get(0)),model.reserved.perimeterSites(4).get(3));
         for (var p:points) {
             model.blocked.add(p);
             assertThrows(IllegalStateException.class,()->model.survey(4),"Block at "+p);
@@ -210,6 +224,7 @@ class BathhouseAuditTest {
             var def=json(zip,wg+"structure/bathhouse.json");
             assertEquals("minecraft:jigsaw",def.get("type").getAsString());
             assertEquals("WORLD_SURFACE_WG",def.get("project_start_to_heightmap").getAsString());
+            assertEquals("beard_box",def.get("terrain_adaptation").getAsString());
             assertEquals(0,def.getAsJsonObject("start_height").get("absolute").getAsInt());
             assertEquals("dungeons_arise:bathhouse/bathhouse_base",def.get("start_pool").getAsString());
             var rules=json(zip,wg+"processor_list/bathhouse_main.json").getAsJsonArray("processors");

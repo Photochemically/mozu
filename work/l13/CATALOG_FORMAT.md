@@ -74,3 +74,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 草原小屋和蘑菇小屋使用干地 perimeter。桥接按原件拼装结果核对两种草原门道、废墟机关或蘑菇屋云杉台阶，再检查岛缘出口到屋外的路线。[小屋入口与配置范围](GROUND_HOUSE_ENTRIES.md)。
 
 浴场 bathhouse 使用干地 perimeter。桥接在完整模板外从原岛面搭设垂直脚手架，按所选中层从西侧或东侧进门，保留原池水。已占用且会覆盖战利品箱的屋顶接口在规划时拒绝。见[浴场入口](BATHHOUSE_ENTRY.md)。
+
+渔屋 fishing_hut 使用 perimeter，支持干地或 water 水深 2、3。水域 boarding=true 在岸与可达原码头之间补一块橡木板；关闭时保留水道。更深水会使原云杉柱脚悬空。[渔屋入口与水线](FISHING_HUT_ENTRY.md)。

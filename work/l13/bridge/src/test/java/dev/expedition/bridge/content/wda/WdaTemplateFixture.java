@@ -20,7 +20,7 @@ final class WdaTemplateFixture {
     static final String HASH = "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90";
     static final int Y=96;
     record Block(BlockPos pos,String id,CompoundTag props,CompoundTag data) {}
-    record Template(String id,String resource,Set<String> pools,BlockPos size,List<Block> blocks,ListTag entities) {
+    record Template(String id,String resource,Set<String> pools,boolean legacy,BlockPos size,List<Block> blocks,ListTag entities) {
         boolean projected() { return id.startsWith("street_"); }
         Block joint(String target,Direction facing) {
             return blocks.stream().filter(b->b.data.getString("target").equals("dungeons_arise:"+target)
@@ -32,6 +32,7 @@ final class WdaTemplateFixture {
     static Map<String,Template> templates(String structure) throws IOException {
         var result=new HashMap<String,Template>();
         try (var zip=new ZipFile(JAR.toFile())) {
+            var elementTypes = new HashMap<String,String>();
             var pools = new HashMap<String,Set<String>>();
             String startPool=json(zip,"data/dungeons_arise/worldgen/structure/"+structure+".json").get("start_pool").getAsString();
             String poolPrefix="data/dungeons_arise/worldgen/template_pool/";
@@ -40,7 +41,11 @@ final class WdaTemplateFixture {
                 if (!entry.getName().startsWith(poolDir) || !entry.getName().endsWith(".json")) continue;
                 String pool="dungeons_arise:"+entry.getName().substring(poolPrefix.length(),entry.getName().length()-5);
                 for (var raw : json(zip,entry.getName()).getAsJsonArray("elements")) {
-                    var location=raw.getAsJsonObject().getAsJsonObject("element").get("location").getAsString();
+                    var element=raw.getAsJsonObject().getAsJsonObject("element");
+                    var location=element.get("location").getAsString();
+                    var type=element.get("element_type").getAsString();
+                    var previous=elementTypes.putIfAbsent(location,type);
+                    if (previous!=null && !previous.equals(type)) throw new IllegalStateException("Mixed pool element types for "+location);
                     pools.computeIfAbsent(location, ignored -> new HashSet<>()).add(pool);
                 }
             }
@@ -58,7 +63,8 @@ final class WdaTemplateFixture {
                     }
                     var id=e.getName().substring(prefix.length(),e.getName().length()-4);
                     var location="dungeons_arise:"+structure+"/"+structure+"_"+id;
-                    result.put(id,new Template(id,location,pools.getOrDefault(location,Set.of()),vector(n.getList("size",Tag.TAG_INT)),blocks,n.getList("entities",Tag.TAG_COMPOUND)));
+                    result.put(id,new Template(id,location,pools.getOrDefault(location,Set.of()),
+                            "minecraft:legacy_single_pool_element".equals(elementTypes.get(location)),vector(n.getList("size",Tag.TAG_INT)),blocks,n.getList("entities",Tag.TAG_COMPOUND)));
                 }
             }
         }
@@ -107,6 +113,7 @@ final class WdaTemplateFixture {
                         id=b.data.getString("final_state");
                         if (id.equals("minecraft:structure_void")) continue;
                     }
+                    if (p.template.legacy && id.equals("minecraft:air")) continue;
                     var pos=p.at(b.pos);
                     if (p.template.projected()) pos=new BlockPos(pos.getX(),Y-1+b.pos.getY(),pos.getZ());
                     var face=Direction.byName(b.props.getString("facing"));

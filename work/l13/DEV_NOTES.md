@@ -332,3 +332,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 浴场的基座、原门廊与屋顶冲突
 
 6 种基座、4 种中层、7 种屋顶均已按四个旋转拼装。96 组代表布局检查四种出口数量；3 种刷怪件、4 个方位另行验证原屋顶 3 号的箱子冲突。在干地原建筑外搭一列原版脚手架，原水源施工期间暂存水流更新。229 项 Java 测试通过。见[浴场原模板报告](audit/bathhouse-entry-audit.json)。
+
+## 渔屋岸线和浴场预留范围
+
+新增渔屋两条原码头通道，按实际可达岸边选择一条，接入木桶和屋内原走道。原版 StructureStart.getBoundingBox 调用 Structure.adjustBoundingBox，浴场 beard_box 会对原件边界使用 inflatedBy(12)。修正由此导致的脚手架误拒；渔屋使用默认 NONE。完整构建通过 235 项 Java 测试。见[渔屋原模板报告](audit/fishing-hut-entry-audit.json)。

@@ -1,6 +1,6 @@
 # mozu：Minecraft 1.20.1 Forge 模组联动开发
 
-更新：2026-11-06。仓库：https://github.com/Photochemically/mozu 。当前阶段：L13 建筑环境与入口适配（浴场的岛缘路线、原门廊与池水）；L12 城市危险系统尚未实施。本仓库保存源码、配置、设计决策和验证证据，不是可以直接放进 mods 的完整整合包。
+更新：2026-11-06。仓库：https://github.com/Photochemically/mozu 。当前阶段：L13 建筑环境与入口适配（渔屋的干岸／浅水通道与浴场预留范围修正）；L12 城市危险系统尚未实施。本仓库保存源码、配置、设计决策和验证证据，不是可以直接放进 mods 的完整整合包。
 
 ## 接力入口
 
@@ -26,7 +26,7 @@ Minecraft 1.20.1、Forge 47.4.10、Java 17、Gradle 8.8、ForgeGradle 6.0.54。�
 
 原环境已安装联动脚本为 **0.2.1**；本次接力机器仅重建65个文件，未安装到游戏实例。正在开发桥接为 **0.3.0-dev，尚未安装、尚未实机验收**。正式候选池、自然入口开关保持关闭。桥接负责空间分配、原生/WDA 生成、入口与返回、参与者状态、存档；KubeJS 和数据包负责配方与可配置内容。配置格式 schema 1，实例存档 schema 5（兼容读取 1～5）。机械巢穴的 void/start_deck 使用实际原桥接口专门选址；桥段几何随完整建筑平移，固定到达点沿用既有存储。详见 [桥侧入口](work/l13/MECHANICAL_BRIDGE_ENTRY.md)。小飞艇新增 dry/start_ladder 专用模式：依据实际最低梯子推导地面，保留完整梯链及两半船体，施工后检查原路线；固定到达点及旧快照兼容沿用 schema 5，见 [梯脚入口](work/l13/SMALL_BLIMP_ENTRY.md)。蘑菇矿井新增start_mine干地模式：核对完整八件主体，地基止于主体下方，按真实方块验证地面至原平台的步行路线；详见 [蘑菇矿井入口](work/l13/MUSHROOM_MINE_ENTRY.md)。灼热矿井新增rock/start_well：保留原井与四件大厅、原熔岩和下坠危险，地面降至原井口高度，入口设在井沿外；施工阶段暂存本实例水与熔岩tick，原图与入口检查完成后按预算释放。详见 [灼热矿井井沿入口](work/l13/SCORCHED_WELL_ENTRY.md)。typhon 使用 water/shore_dive，保留海床原高度和三个稀疏组件。玩家在干岸抵达，经水柱潜到原建筑外侧。水深与 1～4 处岸边出口随实例保存。详见 [typhon 海床与干岸入口](work/l13/TYPHON_DIVE_ENTRY.md)。
 
-灯塔根据原生生成高度推导施工地面，保留岛缘到原台阶和底层梯脚的路线，沿用现有出口和存档格式。详见[灯塔入口](work/l13/LIGHTHOUSE_ENTRY.md)。风车沿用原地表，按实际田地分布检查岛缘出口到两侧石阶的路线。详见[掠夺者风车入口](work/l13/WINDMILL_ENTRY.md)。商人营地沿用原地表，施工后逐顶核对帐篷和中央地图箱的可达性。详见[商人营地入口](work/l13/MERCHANT_CAMP_ENTRY.md)。掠夺者营地沿原土径检查帐篷与火圈外围，保留原信号营火和敌人装备。详见[掠夺者营地入口](work/l13/ILLAGER_CAMP_ENTRY.md)。草原小屋按完好与废墟两种原门道检查，蘑菇小屋沿原云杉台阶进入底层。详见[两座小屋入口](work/l13/GROUND_HOUSE_ENTRIES.md)。浴场从原基座旁搭脚手架到选中的西侧或东侧门廊，保留池水和屋顶战利品。详见[浴场入口](work/l13/BATHHOUSE_ENTRY.md)。各建筑当前的入口、证据与待验收项见[39 座 WDA 建筑入口覆盖表](work/l13/WDA_ENTRY_COVERAGE.md)。
+灯塔根据原生生成高度推导施工地面，保留岛缘到原台阶和底层梯脚的路线，沿用现有出口和存档格式。详见[灯塔入口](work/l13/LIGHTHOUSE_ENTRY.md)。风车沿用原地表，按实际田地分布检查岛缘出口到两侧石阶的路线。详见[掠夺者风车入口](work/l13/WINDMILL_ENTRY.md)。商人营地沿用原地表，施工后逐顶核对帐篷和中央地图箱的可达性。详见[商人营地入口](work/l13/MERCHANT_CAMP_ENTRY.md)。掠夺者营地沿原土径检查帐篷与火圈外围，保留原信号营火和敌人装备。详见[掠夺者营地入口](work/l13/ILLAGER_CAMP_ENTRY.md)。草原小屋按完好与废墟两种原门道检查，蘑菇小屋沿原云杉台阶进入底层。详见[两座小屋入口](work/l13/GROUND_HOUSE_ENTRIES.md)。浴场从原基座旁搭脚手架到选中的西侧或东侧门廊，保留池水和屋顶战利品。详见[浴场入口](work/l13/BATHHOUSE_ENTRY.md)。渔屋按水深和栈道配置从两条原码头通道进屋。详见[渔屋岸线](work/l13/FISHING_HUT_ENTRY.md)。各建筑当前的入口、证据与待验收项见[39 座 WDA 建筑入口覆盖表](work/l13/WDA_ENTRY_COVERAGE.md)。
 
 ## 已确定且必须保留的玩法边界
 

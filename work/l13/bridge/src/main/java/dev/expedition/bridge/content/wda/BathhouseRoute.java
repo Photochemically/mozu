@@ -31,8 +31,10 @@ final class BathhouseRoute {
         topFeet = bath.at(bath.east() ? 31 : -1, bath.east() ? 9 : 2, 15);
         var outside = bath.at(bath.east() ? 32 : -2, 0, 15);
         var approach = new Cell(outside.x(), bath.groundY(), outside.z());
-        if (island.firstFreeY() != bath.groundY() || island.building().contains(topFeet.x(), topFeet.y(), topFeet.z())) {
-            throw new IllegalStateException("Bathhouse approach must be outside the original pieces");
+        // The native beard_box extends 12 blocks past the wall. The porch coordinates come from the actual middle piece.
+        if (island.firstFreeY() != bath.groundY() || outside.x() < island.coreMinX() || outside.x() > island.coreMaxX()
+                || outside.z() < island.coreMinZ() || outside.z() > island.coreMaxZ()) {
+            throw new IllegalStateException("Bathhouse approach must meet the island core");
         }
         ground = new DryPerimeterRoute(island, exits, world, List.of(), List.of(approach),
                 p -> (p.x() != topFeet.x() || p.z() != topFeet.z()) && world.at(p.move(0,-1,0)) == Type.SUPPORT

@@ -17,7 +17,7 @@ final class DryPerimeterRoute {
     private final Set<Cell> alternatives;
     private final Set<Cell> seen = new HashSet<>();
     private final ArrayDeque<Cell> queue = new ArrayDeque<>();
-    private boolean reachedAlternative;
+    private Cell reachedApproach;
     private int surveyed;
 
     DryPerimeterRoute(IslandPlan island, int count, InteriorSiteSearch.Probe world,
@@ -38,6 +38,8 @@ final class DryPerimeterRoute {
         if (this.alternatives.isEmpty()) throw new IllegalStateException("No usable approach to the original structure");
     }
 
+    Cell reachedApproach() { return reachedApproach; }
+
     boolean step() {
         if (surveyed < exits.size()) {
             if (!InteriorSiteSearch.clearPlatform(exits.get(surveyed++), world))
@@ -48,8 +50,8 @@ final class DryPerimeterRoute {
         var p = queue.pollFirst();
         if (p == null) throw new IllegalStateException("No connected dry route to every requested exit and entrance");
         remaining.remove(p);
-        if (alternatives.contains(p)) reachedAlternative = true;
-        if (remaining.isEmpty() && reachedAlternative) return true;
+        if (reachedApproach == null && alternatives.contains(p)) reachedApproach = p;
+        if (remaining.isEmpty() && reachedApproach != null) return true;
         visit(p.move(1,0,0));
         visit(p.move(-1,0,0));
         visit(p.move(0,0,1));

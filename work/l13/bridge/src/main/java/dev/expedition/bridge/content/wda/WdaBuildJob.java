@@ -99,8 +99,7 @@ final class WdaBuildJob {
                         RandomSource.create(portal.seed() ^ chunk.toLong()),clip,chunk);
                 chunkPlacements++;
                 if(!advance()) {
-                    stage=plan.boarding()?Stage.BOARDING:Stage.INDEX;
-                    if(plan.boarding())boarding=new WdaBoardingJob(world,portal,plan.island());
+                    stage = Stage.INDEX;
                     if (plan.lighthouse() != null) {
                         stage = Stage.PERIMETER_ROUTE;
                         perimeterStep = new LighthouseRoute(plan.lighthouse(), plan.island(),
@@ -112,6 +111,9 @@ final class WdaBuildJob {
                     } else if (plan.perimeterLayout() != null) {
                         stage = Stage.PERIMETER_ROUTE;
                         perimeterStep = plan.perimeterLayout().survey(world, plan.island(), portal.selection().content().exits());
+                    } else if (plan.boarding()) {
+                        stage = Stage.BOARDING;
+                        boarding = new WdaBoardingJob(world,portal,plan.island());
                     } else if(plan.dive()!=null) {
                         stage=Stage.DIVE_SITES;
                         dive=new TyphonDiveSitesJob(world,plan.dive(),plan.island(),portal.selection().content().exits());
