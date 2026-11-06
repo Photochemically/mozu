@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-05",
-  "scope": "Mushroom mine sparse surface entry: all eight original cubes, ground strictly below the body, actual-block walk route, fixed saved exterior arrival; 16 composed original NBT cases",
+  "date": "2026-11-06",
+  "scope": "Scorched mine original lava-well approach, complete four-part hub contract, terrain below original mouth, fixed exterior arrival, construction water/lava staging; 16 composed original NBT cases",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "mushroom-mine-build.log",
+  "buildLog": "scorched-well-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 359580,
-  "sha256": "D33FC6E2C385C532E7D1DED84CF946107B6C2A2B4E2CC289D0CC9D39DD6D5204",
+  "bytes": 379333,
+  "sha256": "22EAB83136E236BDD263D60B0AA120FFC313A5716FC3CC1707ACD7500061CC0A",
   "saveSchema": 5,
   "suites": [
     {
@@ -43,6 +43,12 @@
       "errors": 0
     },
     {
+      "name": "dev.expedition.bridge.content.wda.FluidGenerationHookTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
       "name": "dev.expedition.bridge.content.wda.MechanicalBridgeAuditTest",
       "tests": 1,
       "failures": 0,
@@ -50,6 +56,12 @@
     },
     {
       "name": "dev.expedition.bridge.content.wda.MushroomMineAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.ScorchedWellAuditTest",
       "tests": 1,
       "failures": 0,
       "errors": 0
@@ -68,12 +80,6 @@
     },
     {
       "name": "dev.expedition.bridge.content.wda.UndergroundEntryAuditTest",
-      "tests": 1,
-      "failures": 0,
-      "errors": 0
-    },
-    {
-      "name": "dev.expedition.bridge.content.wda.WaterGenerationHookTest",
       "tests": 1,
       "failures": 0,
       "errors": 0
@@ -117,6 +123,12 @@
     {
       "name": "dev.expedition.bridge.domain.BoardingRouteSearchTest",
       "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.ConstructionFluidBufferTest",
+      "tests": 5,
       "failures": 0,
       "errors": 0
     },
@@ -193,6 +205,12 @@
       "errors": 0
     },
     {
+      "name": "dev.expedition.bridge.domain.ScorchedWellTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
       "name": "dev.expedition.bridge.domain.StateAuditSnapshotTest",
       "tests": 4,
       "failures": 0,
@@ -225,12 +243,6 @@
     {
       "name": "dev.expedition.bridge.domain.WaterIslandTest",
       "tests": 7,
-      "failures": 0,
-      "errors": 0
-    },
-    {
-      "name": "dev.expedition.bridge.domain.WaterTickBufferTest",
-      "tests": 3,
       "failures": 0,
       "errors": 0
     },
@@ -304,5 +316,7 @@
   "aerialEntryEvidence": "aerial-entry-audit.json:48 root-only cases,44 safe decks and4 requiring the dedicated connected-bridge adapter; no full assembly or runtime acceptance",
   "mechanicalBridgeEvidence": "mechanical-bridge-audit.json:8 direct bridge templates x3 root ports x4 rotations=96;84 safe platforms,12 short-terminator rejections; no random decoration/full assembly or runtime acceptance",
   "blimpLadderEvidence": "blimp-ladder-audit.json: 1/2/3 ladder segments plus both original hulls x4 rotations=12; all ground entries pass; original iron door retained; no native random generation, ladder stability, collision, extra-exit or runtime acceptance",
-  "mushroomMineEvidence": "mushroom-mine-audit.json: 4 roots x4 rotations of all8 original cubes with native mob attachment block effects;16 ground-to-platform routes pass;27777 omitted cells would be filled by unadapted nominal ground; no native random generation or runtime acceptance"
+  "mushroomMineEvidence": "mushroom-mine-audit.json: 4 roots x4 rotations of all8 original cubes with native mob attachment block effects;16 ground-to-platform routes pass;27777 omitted cells would be filled by unadapted nominal ground; no native random generation or runtime acceptance",
+  "scorchedWellEvidence": "scorched-well-audit.json: original well plus all four hub quarters, four rotations x four optional spawner choices =16; 280 original core lava blocks, open shaft and exterior approach preserved; no full native random graph, fluid simulation or runtime acceptance",
+  "constructionFluidEvidence": "ConstructionFluidBufferTest and FluidGenerationHookTest: fluid type/bounds selection, deduplication, release budget and failed scheduling retention, vanilla tick inheritance and dev/SRG hook contract. Source review confirms release uses current fluid and native lava delay; Forge injection, random fire and settling untested"
 }

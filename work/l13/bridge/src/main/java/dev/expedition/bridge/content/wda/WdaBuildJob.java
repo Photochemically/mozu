@@ -9,6 +9,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.levelgen.structure.BoundingBox;
 import net.minecraft.world.level.levelgen.structure.StructureStart;
 import net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer;
@@ -18,13 +19,13 @@ import java.util.List;
 
 /** Cooperative server-thread job. A native template/chunk call is indivisible, so the time budget is a soft limit. */
 final class WdaBuildJob {
-    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, INDEX, WATER_RELEASE, CONTENT_READY }
+    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, INDEX, FLUID_RELEASE, CONTENT_READY }
     final PortalRecord portal;
     final WdaStructurePlan plan;
     final ServerLevel world;
     private final IslandCursor island;
     private final IslandCursor water;
-    private final WaterTickBuffer waterTicks;
+    private final ConstructionFluidBuffer fluidTicks;
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
     private final int minChunkX,maxChunkX,minChunkZ,maxChunkZ;
@@ -37,7 +38,7 @@ final class WdaBuildJob {
     WdaBuildJob(ServerLevel world,PortalRecord portal,WdaStructurePlan plan) {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
         water=new IslandCursor(plan.island(),true);
-        waterTicks=new WaterTickBuffer(portal.destination().bounds());
+        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null,plan.well()!=null);
         var b=plan.island().building();
         minChunkX=Math.floorDiv(b.minX(),16);maxChunkX=Math.floorDiv(b.maxX(),16);
         minChunkZ=Math.floorDiv(b.minZ(),16);maxChunkZ=Math.floorDiv(b.maxZ(),16);
@@ -49,9 +50,10 @@ final class WdaBuildJob {
     long chunkPlacements() { return chunkPlacements; }
     long maxUnitNanos() { return maxUnitNanos; }
     List<PortalRecord.Site> interiorSites(){return interior==null?List.of():interior.sites();}
-    boolean deferWaterTick(BlockPos pos) {
-        return plan.island().waterDepth()>0 && waterTicks.defer(pos.getX(),pos.getY(),pos.getZ());
+    boolean deferFluidTick(BlockPos pos,FluidState fluid) {
+        return fluidTicks.defer(pos.getX(),pos.getY(),pos.getZ(),kind(fluid));
     }
+    private static ConstructionFluidBuffer.Kind kind(FluidState fluid){return fluid.is(FluidTags.WATER)?ConstructionFluidBuffer.Kind.WATER:fluid.is(FluidTags.LAVA)?ConstructionFluidBuffer.Kind.LAVA:ConstructionFluidBuffer.Kind.OTHER;}
 
     void step(int maxBlocks,long budgetNanos) {
         if(!world.getServer().isSameThread())throw new IllegalStateException("World writes off server thread");
@@ -98,7 +100,7 @@ final class WdaBuildJob {
                     if(plan.entryMode().interior()) {
                         stage=Stage.INTERIOR_SITES;
                         interior=new WdaInteriorSitesJob(world,plan.interiorRooms(),portal.selection().content().exits(),
-                                plan.entryMode()==DungeonSpec.EntryMode.START_DECK || plan.ladder()!=null || plan.mine()!=null,plan.gateBridges(),plan.ladder(),plan.mine());
+                                plan.entryMode()==DungeonSpec.EntryMode.START_DECK || plan.ladder()!=null || plan.mine()!=null,plan.gateBridges(),plan.ladder(),plan.mine(),plan.well());
                     }
                     rewind();
                 }
@@ -133,20 +135,20 @@ final class WdaBuildJob {
                             || !world.getBlockState(feet.below()).isFaceSturdy(world,feet.below(),Direction.UP)
                             || !world.getFluidState(feet.below()).isEmpty())
                         throw new IllegalStateException("Planned entry is obstructed; cannot release dungeon to transit");
-                    waterTicks.beginRelease();
-                    stage=Stage.WATER_RELEASE;
+                    fluidTicks.beginRelease();
+                    stage=Stage.FLUID_RELEASE;
                 }
                 return;
             }
-            if(stage==Stage.WATER_RELEASE) {
+            if(stage==Stage.FLUID_RELEASE) {
                 int released=0;
-                while(released<maxBlocks && waterTicks.remaining()>0 && (released==0 || System.nanoTime()-started<budgetNanos)) {
-                    released+=waterTicks.release(1,c->{
+                while(released<maxBlocks && fluidTicks.remaining()>0 && (released==0 || System.nanoTime()-started<budgetNanos)) {
+                    released+=fluidTicks.release(1,c->{
                         var pos=new BlockPos(c.x(),c.y(),c.z());var fluid=world.getFluidState(pos);
-                        if(fluid.is(FluidTags.WATER))world.scheduleTick(pos,fluid.getType(),1);
+                        if(fluidTicks.manages(kind(fluid)))world.scheduleTick(pos,fluid.getType(),fluid.is(FluidTags.LAVA)?fluid.getType().getTickDelay(world):1);
                     });
                 }
-                if(waterTicks.remaining()==0)stage=Stage.CONTENT_READY;
+                if(fluidTicks.remaining()==0)stage=Stage.CONTENT_READY;
             }
         } finally { maxUnitNanos=Math.max(maxUnitNanos,System.nanoTime()-started); }
     }

@@ -14,10 +14,13 @@ final class WdaInteriorSitesJob {
     private final int count;
     private RoomSiteSearch search;
     private final boolean aerial;
-    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine) {
-        if(rooms.isEmpty() && ladder==null && mine==null || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
+    WdaInteriorSitesJob(ServerLevel world,List<InteriorRoom> rooms,int count,boolean aerial,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well) {
+        if(rooms.isEmpty() && ladder==null && mine==null && well==null || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
         remaining=new ArrayList<>(rooms);probe=new InteriorBlockProbe(world);dimension=world.dimension().location().toString();this.count=count;this.aerial=aerial;
-        if(mine!=null) {
+        if(well!=null) {
+            if(gateBridges!=null || ladder!=null || mine!=null)throw new IllegalArgumentException("Conflicting entry adapters");
+            search=new ScorchedWellSiteSearch(well,new ScorchedWellProbe(world));
+        } else if(mine!=null) {
             if(gateBridges!=null || ladder!=null)throw new IllegalArgumentException("Conflicting entry adapters");
             search=new MushroomMineSiteSearch(mine,probe);
         } else if(ladder!=null) {

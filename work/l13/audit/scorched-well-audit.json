@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "rotation": 0,
+      "spawnerVariant": -1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -186,
+        "y": 94,
+        "z": 305
+      }
+    },
+    {
+      "rotation": 0,
+      "spawnerVariant": 0,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -186,
+        "y": 94,
+        "z": 305
+      }
+    },
+    {
+      "rotation": 0,
+      "spawnerVariant": 1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -186,
+        "y": 94,
+        "z": 305
+      }
+    },
+    {
+      "rotation": 0,
+      "spawnerVariant": 2,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -186,
+        "y": 94,
+        "z": 305
+      }
+    },
+    {
+      "rotation": 1,
+      "spawnerVariant": -1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -205,
+        "y": 94,
+        "z": 314
+      }
+    },
+    {
+      "rotation": 1,
+      "spawnerVariant": 0,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -205,
+        "y": 94,
+        "z": 314
+      }
+    },
+    {
+      "rotation": 1,
+      "spawnerVariant": 1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -205,
+        "y": 94,
+        "z": 314
+      }
+    },
+    {
+      "rotation": 1,
+      "spawnerVariant": 2,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -205,
+        "y": 94,
+        "z": 314
+      }
+    },
+    {
+      "rotation": 2,
+      "spawnerVariant": -1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -214,
+        "y": 94,
+        "z": 295
+      }
+    },
+    {
+      "rotation": 2,
+      "spawnerVariant": 0,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -214,
+        "y": 94,
+        "z": 295
+      }
+    },
+    {
+      "rotation": 2,
+      "spawnerVariant": 1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -214,
+        "y": 94,
+        "z": 295
+      }
+    },
+    {
+      "rotation": 2,
+      "spawnerVariant": 2,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -214,
+        "y": 94,
+        "z": 295
+      }
+    },
+    {
+      "rotation": 3,
+      "spawnerVariant": -1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -195,
+        "y": 94,
+        "z": 286
+      }
+    },
+    {
+      "rotation": 3,
+      "spawnerVariant": 0,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -195,
+        "y": 94,
+        "z": 286
+      }
+    },
+    {
+      "rotation": 3,
+      "spawnerVariant": 1,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -195,
+        "y": 94,
+        "z": 286
+      }
+    },
+    {
+      "rotation": 3,
+      "spawnerVariant": 2,
+      "nativeLavaBlocks": 280,
+      "groundY": 94,
+      "arrival": {
+        "x": -195,
+        "y": 94,
+        "z": 286
+      }
+    }
+  ],
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeTested": false,
+  "scope": "Original well + complete four-part hub, with zero or each of three spawner variants x4 rotations; no branch generation, fluid settling, safe descent, collision, multiplayer or restart acceptance"
+}

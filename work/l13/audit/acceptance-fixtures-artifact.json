@@ -1,10 +1,10 @@
 {
-  "tests": 183.0,
-  "buildLog": "mushroom-mine-build.log",
-  "jarBytes": 359580,
-  "jarSha256": "D33FC6E2C385C532E7D1DED84CF946107B6C2A2B4E2CC289D0CC9D39DD6D5204",
+  "tests": 192.0,
+  "buildLog": "scorched-well-build.log",
+  "jarBytes": 379333,
+  "jarSha256": "22EAB83136E236BDD263D60B0AA120FFC313A5716FC3CC1707ACD7500061CC0A",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "A3BCC6574805432079D362896AFD3675171756DA4BE4CD5BD6C36CF29F8EF85F",
+  "helperSha256": "C60B22BE6FBF753F94CE9B20228C6AD5C6396C4A666DB3C8F756F6807DB0A7C3",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -19,6 +19,7 @@
     "MECHANICAL_BRIDGE_ENTRY.md",
     "SMALL_BLIMP_ENTRY.md",
     "MUSHROOM_MINE_ENTRY.md",
+    "SCORCHED_WELL_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

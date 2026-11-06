@@ -32,9 +32,9 @@ public final class WdaBuildQueue {
     private final Map<MinecraftServer,Pending> pending=new IdentityHashMap<>();
     private WdaBuildQueue() {}
     public boolean busy(MinecraftServer server){return pending.containsKey(server);}
-    public boolean deferWaterTick(ServerLevel world,BlockPos pos) {
+    public boolean deferFluidTick(ServerLevel world,BlockPos pos,net.minecraft.world.level.material.FluidState state) {
         var item=pending.get(world.getServer());
-        return item!=null && item.job.world==world && item.job.deferWaterTick(pos);
+        return item!=null && item.job.world==world && item.job.deferFluidTick(pos,state);
     }
 
     /**

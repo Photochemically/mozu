@@ -12,10 +12,10 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 /** Prevent multi-tick construction from flooding a still unfinished hull. Never affects active/existing instances. */
 @Mixin(value=FlowingFluid.class,remap=false)
-public abstract class WaterGenerationMixin {
+public abstract class FluidGenerationMixin {
     @Inject(method={"tick","m_6292_"},at=@At("HEAD"),cancellable=true,require=1,allow=1,remap=false)
-    private void expedition$stageWater(Level level,BlockPos pos,FluidState state,CallbackInfo callback) {
-        if(level instanceof ServerLevel server && state.is(FluidTags.WATER)
-                && WdaBuildQueue.INSTANCE.deferWaterTick(server,pos))callback.cancel();
+    private void expedition$stageFluid(Level level,BlockPos pos,FluidState state,CallbackInfo callback) {
+        if(level instanceof ServerLevel server && (state.is(FluidTags.WATER) || state.is(FluidTags.LAVA))
+                && WdaBuildQueue.INSTANCE.deferFluidTick(server,pos,state))callback.cancel();
     }
 }
