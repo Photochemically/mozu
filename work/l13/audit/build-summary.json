@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-06",
-  "scope": "Fishing hut shoreline, original dock and encounter; bathhouse regression with the native terrain adaptation margin.",
+  "date": "2026-11-07",
+  "scope": "Wishing well dry slopes and submerged effect chamber, default and explicit no-effects start pools.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "fishing-hut-build.log",
+  "buildLog": "wishing-well-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 493004,
-  "sha256": "BF0808D027C51E3A722FC34725416B4103DEB53DEAAD79CA5DEBC5980950374A",
+  "bytes": 510443,
+  "sha256": "74C3E8A94DC5FD6EF1CAF7987F0D636D9FF86AB8F3D4C1F97B2800DF93DECB5F",
   "saveSchema": 5,
   "suites": [
     {
@@ -129,6 +129,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.WindmillAuditTest",
       "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.WishingWellAuditTest",
+      "tests": 5,
       "failures": 0,
       "errors": 0
     },
@@ -381,5 +387,6 @@
   "illagerCampEvidence": "illager-camp-entry-audit.json: 88 connected template examples, all 21 reachable templates and 100 tent interiors. All requested 1..4 exits, access to the outside of the four lit signal fires, original loot and enemy equipment audited. Native random generation, combat and multiplayer still pending.",
   "groundHouseEvidence": "prairie-house-entry-audit.json and mushroom-house-entry-audit.json: 8 prairie and 160 mushroom examples from original NBT, each surveyed with 1..4 exits. Grass island model, no game launch.",
   "bathhouseEvidence": "bathhouse-entry-audit.json: 672 core stacks with rotation, 96 route and loot samples, 12 chest collision cases. Route tests now use the native beard_box 12-block reservation margin. Runtime validation pending.",
-  "fishingHutEvidence": "fishing-hut-entry-audit.json: 48 combinations of rotation, optional encounter and dry/shallow environments. Four exit counts per combination. One plank only for explicit boarding. Native water movement and combat pending."
+  "fishingHutEvidence": "fishing-hut-entry-audit.json: 48 combinations of rotation, optional encounter and dry/shallow environments. Four exit counts per combination. One plank only for explicit boarding. Native water movement and combat pending.",
+  "wishingWellEvidence": "wishing-well-entry-audit.json: 160 default effect and 8 explicitly selected plain assemblies. All 1..4 exits, 19 sources and original cloud payloads checked. Actual jumping, entity persistence and effect application pending."
 }

@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。23 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，16 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。24 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，15 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -44,7 +44,7 @@ WDA 2.1.58 共 39 座建筑。23 座有原模板路线或入口几何证据，0 
 | thornborn_towers | jigsaw | 绝对 130 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对绝对起点、周边地形和原入口高差 |
 | typhon | jigsaw | OCEAN_FLOOR -4 | 海床与干岸 | shore_dive | 原模板 · [16 组完整三件](audit/typhon-dive-audit.json) | 气泡、供氧、上岸与埋藏宝箱 |
 | undead_pirate_ship | jigsaw | WORLD_SURFACE_WG 0 | 干岸水域 | boarding 栈道 | 原模板 · [4 组原主船体](audit/ship-boarding-audit.json) | 随机附属件、船舱、水线和登船碰撞 |
-| wishing_well | jigsaw | WORLD_SURFACE_WG -7 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
+| wishing_well | jigsaw | WORLD_SURFACE_WG -7 | 草地／岩地 | perimeter 原坡至井沿 | 原模板 · [168 组井底效果与坡道组合](audit/wishing-well-entry-audit.json) | 实机跳坡、下井效果、水流与双人重启 |
 
 机器可读表还记录起始池、群系选择器和每座建筑原有的资源缺口。[完整数据](audit/wda-entry-coverage.json)。
 

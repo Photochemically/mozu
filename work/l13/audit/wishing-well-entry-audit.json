@@ -1,0 +1,2360 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "terrainAdaptationMargin": 12,
+  "scope": "160 original effect assemblies and 8 explicit no-effects pool cases. Models dry grass/rock, native slopes and entity data before fluid simulation. Server tracking, status application and multiplayer pending.",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main_no_effects",
+      "childRotation": "absent",
+      "effect": "NONE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "SPEED",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "REGEN",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "WITHER",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "RESISTANCE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "NONE",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "CLOCKWISE_180",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "startPool": "dungeons_arise:prairie/wishing_well/wishing_well_main",
+      "childRotation": "COUNTERCLOCKWISE_90",
+      "effect": "HASTE",
+      "sources": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

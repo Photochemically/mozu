@@ -82,6 +82,9 @@ final class WdaTemplateFixture {
     }
 
     static Placed connect(Placed parent,Block socket,Template child,Direction inletFacing) {
+        return connect(parent,socket,child,inletFacing,parent.rotation());
+    }
+    static Placed connect(Placed parent,Block socket,Template child,Direction inletFacing,Rotation preferred) {
         var target=socket.data.getString("target");
         var inlet=child.blocks.stream().filter(b->b.data.getString("name").equals(target)
                 && b.props.getString("orientation").startsWith(inletFacing.getName()+"_")).findFirst().orElseThrow();
@@ -90,7 +93,7 @@ final class WdaTemplateFixture {
         boolean aligned=socket.data.getString("joint").equals("aligned");
         var top=parent.rotation.rotate(Direction.byName(socket.props.getString("orientation").split("_")[1]));
         var inletTop=Direction.byName(inlet.props.getString("orientation").split("_")[1]);
-        var rot=Arrays.stream(Rotation.values()).map(parent.rotation::getRotated)
+        var rot=Arrays.stream(Rotation.values()).map(preferred::getRotated)
                 .filter(r -> r.rotate(inletFacing)==facing.getOpposite() && (!aligned || r.rotate(inletTop)==top))
                 .findFirst().orElseThrow();
         var origin=parent.at(socket.pos).relative(facing).subtract(inlet.pos.rotate(rot));

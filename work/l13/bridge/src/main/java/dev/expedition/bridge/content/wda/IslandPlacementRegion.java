@@ -10,6 +10,7 @@ import net.minecraft.world.level.chunk.*;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.structure.BoundingBox;
 import java.util.List;
+import java.util.function.Consumer;
 
 /** Native template placement with a stable pre-building heightmap, even across separate ticks/chunk reloads. */
 final class IslandPlacementRegion extends WorldGenRegion {
@@ -19,8 +20,10 @@ final class IslandPlacementRegion extends WorldGenRegion {
     private final TerrainLevels levels;
     private final long instanceSeed;
     private final boolean voidTerrain;
-    IslandPlacementRegion(ServerLevel target,ChunkAccess center,BlockBounds reservation,BoundingBox clip,TerrainLevels levels,long seed,boolean voidTerrain) {
+    private final Consumer<Entity> afterAdded;
+    IslandPlacementRegion(ServerLevel target,ChunkAccess center,BlockBounds reservation,BoundingBox clip,TerrainLevels levels,long seed,boolean voidTerrain,Consumer<Entity> afterAdded) {
         super(target,List.of(center),ChunkStatus.FEATURES,0);
+        this.afterAdded=afterAdded;
         this.target=target;this.reservation=reservation;this.clip=clip;this.levels=levels;this.instanceSeed=seed;this.voidTerrain=voidTerrain;
     }
     @Override public int getHeight(Heightmap.Types type,int x,int z) { return TerrainHeightmap.height(levels,type,voidTerrain,target.getMinBuildHeight()); }
@@ -46,7 +49,9 @@ final class IslandPlacementRegion extends WorldGenRegion {
         return ensureCanWrite(pos) && target.destroyBlock(pos,drops,entity,recursion);
     }
     @Override public boolean addFreshEntity(Entity entity) {
-        return ensureCanWrite(entity.blockPosition()) && target.addFreshEntity(entity);
+        if (!ensureCanWrite(entity.blockPosition()) || !target.addFreshEntity(entity)) return false;
+        if (afterAdded!=null) afterAdded.accept(entity);
+        return true;
     }
     @Override public void addFreshEntityWithPassengers(Entity entity) {
         if(!ensureCanWrite(entity.blockPosition()))throw new IllegalStateException("Template entity outside placement chunk");
@@ -56,6 +61,10 @@ final class IslandPlacementRegion extends WorldGenRegion {
             if(!reservation.contains(p.getX(),p.getY(),p.getZ()))
                 throw new IllegalStateException("Template passenger escaped reserved space at "+p);
         });
-        target.addFreshEntityWithPassengers(entity);
+        if (afterAdded==null) target.addFreshEntityWithPassengers(entity);
+        else entity.getSelfAndPassengers().forEach(part -> {
+            if (!target.addFreshEntity(part)) throw new IllegalStateException("Server rejected a template entity");
+            afterAdded.accept(part);
+        });
     }
 }

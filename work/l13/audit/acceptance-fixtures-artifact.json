@@ -1,10 +1,10 @@
 {
-  "tests": 235.0,
-  "buildLog": "fishing-hut-build.log",
-  "jarBytes": 493004,
-  "jarSha256": "BF0808D027C51E3A722FC34725416B4103DEB53DEAAD79CA5DEBC5980950374A",
+  "tests": 240.0,
+  "buildLog": "wishing-well-build.log",
+  "jarBytes": 510443,
+  "jarSha256": "74C3E8A94DC5FD6EF1CAF7987F0D636D9FF86AB8F3D4C1F97B2800DF93DECB5F",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "373EC61D07CFB97E532A182688346C3BC86D3321B706DEFBA699BFD6AA2C5123",
+  "helperSha256": "7D6E7C00E1B434DE579FAEDAFBD4818DF516ABF7F8552BA71395C78D8D5DEEA7",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -28,6 +28,7 @@
     "GROUND_HOUSE_ENTRIES.md",
     "BATHHOUSE_ENTRY.md",
     "FISHING_HUT_ENTRY.md",
+    "WISHING_WELL_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

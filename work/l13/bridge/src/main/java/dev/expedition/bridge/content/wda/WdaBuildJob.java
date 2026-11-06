@@ -16,6 +16,9 @@ import net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.List;
+import java.util.ArrayList;
+import net.minecraft.world.entity.AreaEffectCloud;
+import net.minecraft.world.entity.Entity;
 import java.util.function.BooleanSupplier;
 
 /** Cooperative server-thread job. A native template/chunk call is indivisible, so the time budget is a soft limit. */
@@ -27,6 +30,7 @@ final class WdaBuildJob {
     private final IslandCursor island;
     private final IslandCursor water;
     private final ConstructionFluidBuffer fluidTicks;
+    private final List<WishingWellLayout.Cloud> wellClouds = new ArrayList<>();
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
     private TyphonDiveSitesJob dive;
@@ -42,7 +46,7 @@ final class WdaBuildJob {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
         water=new IslandCursor(plan.island(),true);
         fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || WindmillLayout.TARGET.equals(plan.id().toString())
-                || plan.perimeterLayout() instanceof BathhouseLayout,plan.well()!=null);
+                || plan.perimeterLayout() instanceof BathhouseLayout || plan.perimeterLayout() instanceof WishingWellLayout,plan.well()!=null);
         var b=plan.island().building();
         minChunkX=Math.floorDiv(b.minX(),16);maxChunkX=Math.floorDiv(b.maxX(),16);
         minChunkZ=Math.floorDiv(b.minZ(),16);maxChunkZ=Math.floorDiv(b.maxZ(),16);
@@ -58,6 +62,11 @@ final class WdaBuildJob {
         return fluidTicks.defer(pos.getX(),pos.getY(),pos.getZ(),kind(fluid));
     }
     private static ConstructionFluidBuffer.Kind kind(FluidState fluid){return fluid.is(FluidTags.WATER)?ConstructionFluidBuffer.Kind.WATER:fluid.is(FluidTags.LAVA)?ConstructionFluidBuffer.Kind.LAVA:ConstructionFluidBuffer.Kind.OTHER;}
+
+    private void recordWellEntity(Entity entity) {
+        if (!(entity instanceof AreaEffectCloud cloud)) throw new IllegalStateException("Unexpected wishing well entity");
+        wellClouds.add(WishingWellProbe.describe(cloud));
+    }
 
     void step(int maxBlocks,long budgetNanos) {
         if(!world.getServer().isSameThread())throw new IllegalStateException("World writes off server thread");
@@ -93,12 +102,16 @@ final class WdaBuildJob {
                 var clip=new BoundingBox(chunk.getMinBlockX(),world.getMinBuildHeight(),chunk.getMinBlockZ(),
                         chunk.getMaxBlockX(),world.getMaxBuildHeight()-1,chunk.getMaxBlockZ());
                 var region=new IslandPlacementRegion(world,world.getChunk(chunkX,chunkZ),portal.destination().bounds(),
-                        clip,plan.island().levels(),portal.seed(),!plan.island().hasTerrain());
+                        clip,plan.island().levels(),portal.seed(),!plan.island().hasTerrain(),
+                        plan.perimeterLayout() instanceof WishingWellLayout ? this::recordWellEntity : null);
                 // Keep native block entities, entities, processors, jigsaw replacement and afterPlace behavior.
                 plan.start().placeInChunk(region,world.structureManager(),world.getChunkSource().getGenerator(),
                         RandomSource.create(portal.seed() ^ chunk.toLong()),clip,chunk);
                 chunkPlacements++;
                 if(!advance()) {
+                    // A remote pocket can accept entities before they become visible to a spatial query.
+                    if (plan.perimeterLayout() instanceof WishingWellLayout well && !well.matchesClouds(wellClouds))
+                        throw new IllegalStateException("Original wishing well effect chamber changed");
                     stage = Stage.INDEX;
                     if (plan.lighthouse() != null) {
                         stage = Stage.PERIMETER_ROUTE;

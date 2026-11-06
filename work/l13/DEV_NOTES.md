@@ -336,3 +336,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 渔屋岸线和浴场预留范围
 
 新增渔屋两条原码头通道，按实际可达岸边选择一条，接入木桶和屋内原走道。原版 StructureStart.getBoundingBox 调用 Structure.adjustBoundingBox，浴场 beard_box 会对原件边界使用 inflatedBy(12)。修正由此导致的脚手架误拒；渔屋使用默认 NONE。完整构建通过 235 项 Java 测试。见[渔屋原模板报告](audit/fishing-hut-entry-audit.json)。
+
+## 许愿井
+
+原始垂直接口允许主体与效果件独立旋转。桥接按实际接口、地形预留和原坡位置检查拼装与路线。效果云在目标服务器接收模板实体时记录，避免远处口袋中的实体尚不可查询时误拒；放完全部区块后核对效果件与实体是否对应。240 项 Java 测试通过。见[原模板组合](audit/wishing-well-entry-audit.json)。

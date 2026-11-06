@@ -76,3 +76,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 浴场 bathhouse 使用干地 perimeter。桥接在完整模板外从原岛面搭设垂直脚手架，按所选中层从西侧或东侧进门，保留原池水。已占用且会覆盖战利品箱的屋顶接口在规划时拒绝。见[浴场入口](BATHHOUSE_ENTRY.md)。
 
 渔屋 fishing_hut 使用 perimeter，支持干地或 water 水深 2、3。水域 boarding=true 在岸与可达原码头之间补一块橡木板；关闭时保留水道。更深水会使原云杉柱脚悬空。[渔屋入口与水线](FISHING_HUT_ENTRY.md)。
+
+许愿井采用 grass 或 rock 的 perimeter，boarding 关闭。WDA 默认起始池要求完整效果件；显式重新指定其独立无效果池时才接受无云主体。[许愿井的起始池与井沿](WISHING_WELL_ENTRY.md)。
