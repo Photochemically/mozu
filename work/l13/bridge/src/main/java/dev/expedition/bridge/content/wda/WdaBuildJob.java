@@ -110,8 +110,7 @@ final class WdaBuildJob {
                                 portal.selection().content().exits(), new WindmillProbe(world))::step;
                     } else if (plan.camp() != null) {
                         stage = Stage.PERIMETER_ROUTE;
-                        perimeterStep = new MerchantCampRoute(plan.camp(), plan.island(),
-                                portal.selection().content().exits(), new MerchantCampProbe(world))::step;
+                        perimeterStep = plan.camp().survey(world, plan.island(), portal.selection().content().exits());
                     } else if(plan.dive()!=null) {
                         stage=Stage.DIVE_SITES;
                         dive=new TyphonDiveSitesJob(world,plan.dive(),plan.island(),portal.selection().content().exits());

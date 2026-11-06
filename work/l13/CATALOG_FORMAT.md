@@ -68,3 +68,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 掠夺者风车 illager_windmill 沿用干地 perimeter，关闭 boarding。草地开发案例地表为 96，原塔底为 93。沿用原生刚性塔身与 terrain_matching 农田，施工后检查所有指定出口到原石阶的旱路。详见[风车入口](WINDMILL_ENTRY.md)。
 
 商人营地 merchant_campsite 沿用干地 perimeter 和关闭的 boarding。草地案例为规划首个空层 96、地基深度 16。生成后检查所有指定出口、每顶原帐篷以及中央地图箱。见[商人营地入口](MERCHANT_CAMP_ENTRY.md)。
+
+掠夺者营地 illager_campsite 使用干地 perimeter，关闭 boarding。桥接沿实际地面搜索所有指定出口、原帐篷内部和火圈外的一处落脚点，保留围住地图箱的四处信号营火及原遭遇点。见[掠夺者营地](ILLAGER_CAMP_ENTRY.md)。

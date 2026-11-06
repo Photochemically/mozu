@@ -5,10 +5,12 @@ import dev.expedition.bridge.domain.InteriorBlockRules.Type;
 import dev.expedition.bridge.domain.InteriorSiteSearch;
 import dev.expedition.bridge.domain.IslandPlan;
 import java.util.*;
+import java.util.function.Predicate;
 
 /** All exits and required approaches must share dry ground with at least one alternative approach. */
 final class DryPerimeterRoute {
     private final IslandPlan island;
+    private final Predicate<Cell> walkable;
     private final InteriorSiteSearch.Probe world;
     private final List<Cell> exits;
     private final Set<Cell> remaining;
@@ -20,6 +22,13 @@ final class DryPerimeterRoute {
 
     DryPerimeterRoute(IslandPlan island, int count, InteriorSiteSearch.Probe world,
                       Collection<Cell> required, Collection<Cell> alternatives) {
+        this(island,count,world,required,alternatives,p -> world.at(p.move(0,-1,0)) == Type.SUPPORT
+                && world.at(p) == Type.AIR && world.at(p.move(0,1,0)) == Type.AIR);
+    }
+
+    DryPerimeterRoute(IslandPlan island, int count, InteriorSiteSearch.Probe world,
+                      Collection<Cell> required, Collection<Cell> alternatives, Predicate<Cell> walkable) {
+        this.walkable = walkable;
         this.island = island;
         this.world = world;
         exits = island.perimeterSites(count);
@@ -50,7 +59,7 @@ final class DryPerimeterRoute {
 
     private void visit(Cell p) {
         if (p.x() < island.coreMinX() || p.x() > island.coreMaxX() || p.z() < island.coreMinZ() || p.z() > island.coreMaxZ()) return;
-        if (seen.add(p) && world.at(p.move(0,-1,0)) == Type.SUPPORT && world.at(p) == Type.AIR && world.at(p.move(0,1,0)) == Type.AIR)
+        if (seen.add(p) && walkable.test(p))
             queue.addLast(p);
     }
 }

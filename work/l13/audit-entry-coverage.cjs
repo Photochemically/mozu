@@ -45,6 +45,7 @@ const keep = json('audit/keep-kayra-ground-evidence.json');
 if (keep.runtimeAccepted !== false || keep.wdaSha256 !== jar.sha256 || keep.reachableConservativeInteriorCells <= 0) throw Error('Castle evidence mismatch');
 record('keep_kayra','岩地（测试）','perimeter','原模板','audit/keep-kayra-ground-evidence.json','原主件低层路线','超高整座拼装、上下层实际通行和高度包');
 cases('illager_windmill','草地（测试）','perimeter 双侧石阶','windmill-entry','塔身与田地组合','原生随机田地、实际灌溉、战斗机关和双人重启');
+cases('illager_campsite','干地','perimeter 帐篷与火圈外围','illager-camp-entry','巡逻道路与营地组合','实际随机拼装、原敌人战斗、营火伤害和双人重启');
 cases('merchant_campsite','草地（测试）','perimeter 街道与帐篷','merchant-camp-entry','街道与帐篷组合','原生随机营地、开门交易、战利品和双人重启');
 
 const rows = names.map(file => {

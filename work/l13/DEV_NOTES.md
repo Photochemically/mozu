@@ -320,3 +320,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 商人营地原帐篷与中央地图箱
 
 投影街道与刚性帐篷使用原拼接高度，两个带门帐篷核对上下半扇，两个开放帐篷从中央栅栏旁进入。通用干地搜索与风车共用，施工后检查所有指定出口。新增 4 项测试，213 项完整构建通过。64 组原件组合覆盖 96 顶帐篷。见[模板检查记录](audit/merchant-camp-entry-audit.json)。
+
+## 掠夺者营地的帐篷、道路与营火
+
+两种营地共用干地连通搜索及原模板读取测试。掠夺者营地允许原土径和地毯通行，保留点燃的信号营火与原遭遇点。88 组原件组合包含 8 组无帐篷道路，20 组双帐篷布局。218 项完整构建通过。见[原件回执](audit/illager-camp-entry-audit.json)。

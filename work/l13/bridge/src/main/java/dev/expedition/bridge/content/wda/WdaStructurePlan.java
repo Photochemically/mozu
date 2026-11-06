@@ -22,9 +22,9 @@ public final class WdaStructurePlan {
     private ScorchedWellLayout well;
     private TyphonDiveLayout dive;
     private LighthouseLayout lighthouse;
-    private MerchantCampLayout camp;
+    private CampLayout camp;
     private boolean relocated;
-    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well,TyphonDiveLayout dive,LighthouseLayout lighthouse,MerchantCampLayout camp) {
+    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well,TyphonDiveLayout dive,LighthouseLayout lighthouse,CampLayout camp) {
         if(entryMode==DungeonSpec.EntryMode.START_DECK && AerialContentPolicy.needsGateBridge(id.toString()) && gateBridges==null)
             throw new IllegalArgumentException("Mechanical aerial entry requires its original connected bridges");
         this.id=id;this.start=start;this.island=island;this.boarding=boarding;this.entryMode=entryMode;this.interiorRooms=List.copyOf(rooms);
@@ -50,7 +50,7 @@ public final class WdaStructurePlan {
     public ScorchedWellLayout well(){return well;}
     public TyphonDiveLayout dive(){return dive;}
     public LighthouseLayout lighthouse() { return lighthouse; }
-    MerchantCampLayout camp() { return camp; }
+    CampLayout camp() { return camp; }
     public void relocateTo(BlockBounds allocatedContent) {
         if(relocated)throw new IllegalStateException("Plan already assigned to a pocket");
         var original=island.completeBounds();

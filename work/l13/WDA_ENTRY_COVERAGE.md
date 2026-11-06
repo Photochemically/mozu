@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。18 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，21 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。19 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，20 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -20,7 +20,7 @@ WDA 2.1.58 共 39 座建筑。18 座有原模板路线或入口几何证据，0 
 | heavenly_challenger | jigsaw | 绝对 200 | 悬空 | start_deck | 原模板 · [8 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |
 | heavenly_conqueror | jigsaw | 绝对 200 | 悬空 | start_deck | 原模板 · [16 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |
 | heavenly_rider | jigsaw | 绝对 200 | 悬空 | start_deck | 原模板 · [16 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |
-| illager_campsite | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
+| illager_campsite | jigsaw | WORLD_SURFACE_WG 0 | 干地 | perimeter 帐篷与火圈外围 | 原模板 · [88 组巡逻道路与营地组合](audit/illager-camp-entry-audit.json) | 实际随机拼装、原敌人战斗、营火伤害和双人重启 |
 | illager_corsair | jigsaw | WORLD_SURFACE_WG 0 | 干岸水域 | boarding 栈道 | 原模板 · [4 组原主船体](audit/ship-boarding-audit.json) | 随机附属件、船舱、水线和登船碰撞 |
 | illager_fort | jigsaw | WORLD_SURFACE_WG -7 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
 | illager_galley | jigsaw | WORLD_SURFACE_WG 0 | 干岸水域 | boarding 栈道 | 原模板 · [4 组原主船体](audit/ship-boarding-audit.json) | 随机附属件、船舱、水线和登船碰撞 |

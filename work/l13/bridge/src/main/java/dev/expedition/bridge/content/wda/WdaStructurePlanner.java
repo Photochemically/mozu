@@ -98,13 +98,14 @@ public final class WdaStructurePlanner {
         BlockBounds complete=WdaStructurePlan.bounds(start.getBoundingBox());
         boolean windmill = id.toString().equals(WindmillLayout.TARGET);
         boolean merchantCamp = id.toString().equals(MerchantCampLayout.TARGET);
+        boolean illagerCamp = id.toString().equals(IllagerCampLayout.TARGET);
         var perimeterPieces = new ArrayList<WdaTemplatePiece>();
         for(var piece:start.getPieces()) {
             if(!(piece instanceof PoolElementStructurePiece pool)
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp) {
+            if (windmill || merchantCamp || illagerCamp) {
                 if (pool.getElement().getClass() != SinglePoolElement.class || !tag.getString("processors").equals("minecraft:empty")
                         || !registries.registryOrThrow(Registries.PROCESSOR_LIST).get(ResourceLocation.parse("minecraft:empty")).list().isEmpty())
                     throw new IllegalArgumentException("Expected original unprocessed single pieces for " + id);
@@ -123,7 +124,9 @@ public final class WdaStructurePlanner {
             }
         }
         if (windmill) WindmillLayout.validate(perimeterPieces, environment);
-        var camp = merchantCamp ? MerchantCampLayout.inspect(perimeterPieces, environment) : null;
+        CampLayout camp = null;
+        if (merchantCamp) camp = MerchantCampLayout.inspect(perimeterPieces, environment);
+        if (illagerCamp) camp = IllagerCampLayout.inspect(perimeterPieces, environment);
         var ladder=environment.entryMode()==DungeonSpec.EntryMode.START_LADDER?BlimpLadderPlanner.prepare(server,start,complete):null;
         var mine=environment.entryMode()==DungeonSpec.EntryMode.START_MINE?MushroomMinePlanner.prepare(server,start,complete):null;
         var well=environment.entryMode()==DungeonSpec.EntryMode.START_WELL?ScorchedWellPlanner.prepare(server,start):null;

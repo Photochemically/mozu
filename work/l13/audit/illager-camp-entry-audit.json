@@ -1,0 +1,1767 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_0",
+        "pillager_normal_0",
+        "deco_0",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_1",
+        "pillager_multishot_0",
+        "deco_1",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_2",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_3",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_0",
+        "pillager_multishot_0",
+        "deco_1",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_1",
+        "vindicator_normal_0",
+        "deco_2",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_3",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_0",
+        "vindicator_normal_0",
+        "deco_2",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_1",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_3",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_0",
+        "pillager_normal_0",
+        "tent_1",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_1",
+        "pillager_multishot_0",
+        "tent_2",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "vindicator_normal_0",
+        "tent_2",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 2,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "pillager_normal_0",
+        "tent_3",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_3",
+        "pillager_multishot_0",
+        "tent_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_4",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_6_main",
+        "street_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_0",
+        "pillager_multishot_0",
+        "deco_1",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_1",
+        "vindicator_normal_0",
+        "deco_2",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_3",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_0",
+        "vindicator_normal_0",
+        "deco_2",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_1",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_3",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_0",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_1",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_3",
+        "pillager_multishot_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_0",
+        "pillager_multishot_0",
+        "tent_1",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_1",
+        "vindicator_normal_0",
+        "tent_2",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "pillager_normal_0",
+        "tent_2",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 2,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "pillager_multishot_0",
+        "tent_3",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_3",
+        "vindicator_normal_0",
+        "tent_0",
+        "deco_1",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_4",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_5",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_0",
+        "vindicator_normal_0",
+        "deco_2",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_1",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_3",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_0",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_1",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_3",
+        "pillager_multishot_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_0",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_1",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_3",
+        "vindicator_normal_0",
+        "deco_1",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_0",
+        "vindicator_normal_0",
+        "tent_1",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_1",
+        "pillager_normal_0",
+        "tent_2",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "pillager_multishot_0",
+        "tent_2",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 2,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "vindicator_normal_0",
+        "tent_3",
+        "deco_1",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_3",
+        "pillager_normal_0",
+        "tent_0",
+        "deco_2",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_4",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_6_main",
+        "street_5",
+        "pillager_normal_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_0",
+        "pillager_normal_0",
+        "deco_3",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_1",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_0",
+        "tent_3",
+        "pillager_multishot_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_0",
+        "pillager_multishot_0",
+        "deco_4",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_1",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_1",
+        "tent_3",
+        "vindicator_normal_0",
+        "deco_1",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_0",
+        "vindicator_normal_0",
+        "deco_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_1",
+        "pillager_normal_0",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "pillager_multishot_0",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_2",
+        "vindicator_normal_0",
+        "deco_1",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 1,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_2",
+        "tent_3",
+        "pillager_normal_0",
+        "deco_2",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 1,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_0",
+        "pillager_normal_0",
+        "tent_1",
+        "deco_6",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_1",
+        "pillager_multishot_0",
+        "tent_2",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "vindicator_normal_0",
+        "tent_2",
+        "deco_1",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "west",
+      "tentInteriors": 2,
+      "lootContainers": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_2",
+        "pillager_normal_0",
+        "tent_3",
+        "deco_2",
+        "vindicator_normal_0"
+      ],
+      "tentPort": "east",
+      "tentInteriors": 2,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_3",
+        "tent_3",
+        "pillager_multishot_0",
+        "tent_0",
+        "deco_3",
+        "pillager_normal_0"
+      ],
+      "tentPort": "south",
+      "tentInteriors": 2,
+      "lootContainers": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_4",
+        "deco_0",
+        "pillager_normal_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_6_main",
+        "street_5",
+        "pillager_multishot_0"
+      ],
+      "tentPort": "none",
+      "tentInteriors": 0,
+      "lootContainers": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "runtimeAccepted": false,
+  "scope": "Original connected template samples and encounter NBT. Routes reach each placed tent and the outside of the four lit signal fires. No world simulation, random generation rates, combat or chest-opening claim."
+}

@@ -6,8 +6,10 @@ import dev.expedition.bridge.domain.IslandPlan;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.Rotation;
 import java.util.*;
+import java.util.function.BooleanSupplier;
+import net.minecraft.server.level.ServerLevel;
 
-record MerchantCampLayout(Cell chest, List<Cell> chestApproaches, List<Tent> tents) {
+record MerchantCampLayout(Cell chest, List<Cell> chestApproaches, List<Tent> tents) implements CampLayout {
     static final String TARGET = "dungeons_arise:merchant_campsite";
     static final String PREFIX = TARGET + "/merchant_campsite_";
     private static final String ROOT = PREFIX + "street_4_main";
@@ -63,7 +65,11 @@ record MerchantCampLayout(Cell chest, List<Cell> chestApproaches, List<Tent> ten
         return new Cell(p.getX(),p.getY(),p.getZ());
     }
 
-    MerchantCampLayout move(int dx,int dy,int dz) {
+    @Override public BooleanSupplier survey(ServerLevel world, IslandPlan island, int exits) {
+        return new MerchantCampRoute(this,island,exits,new MerchantCampProbe(world))::step;
+    }
+
+    @Override public MerchantCampLayout move(int dx,int dy,int dz) {
         return new MerchantCampLayout(chest.move(dx,dy,dz),chestApproaches.stream().map(c->c.move(dx,dy,dz)).toList(),
                 tents.stream().map(t->new Tent(t.origin.offset(dx,dy,dz),t.rotation,t.aisle)).toList());
     }

@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 18,
+    "originalTemplateEvidence": 19,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 21,
+    "resourceGraphOnly": 20,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -245,12 +245,12 @@
       "startPool": "dungeons_arise:campsites/illager_campsite/illager_campsite_start",
       "biomeSelector": "#dungeons_arise:has_structure/illager_campsite_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "干地",
+      "entry": "perimeter 帐篷与火圈外围",
+      "level": "原模板",
+      "file": "audit/illager-camp-entry-audit.json",
+      "label": "88 组巡逻道路与营地组合",
+      "remaining": "实际随机拼装、原敌人战斗、营火伤害和双人重启",
       "runtimeAccepted": false
     },
     {

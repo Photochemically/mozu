@@ -1,10 +1,10 @@
 {
-  "tests": 213.0,
-  "buildLog": "merchant-camp-entry-build.log",
-  "jarBytes": 444379,
-  "jarSha256": "9F8B8466F1843AF6DF2CCDCE67A832D8D8AE4E5FB55B1441BB2372200D35EFC2",
+  "tests": 218.0,
+  "buildLog": "illager-camp-entry-build.log",
+  "jarBytes": 452843,
+  "jarSha256": "4EEBFAF96AED3C3862610A2962D50C94A7524908BE67D6D8B8CFDE2FCEB105A3",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "9D2DADEA651674234EB20ED1E1290472F02B912C83180F9F57991BDAB1BB2538",
+  "helperSha256": "D704BD57524560BBF1830978894FAE20AFC9F061D05C4AE42BBCCC36729FB9E2",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -24,6 +24,7 @@
     "LIGHTHOUSE_ENTRY.md",
     "WINDMILL_ENTRY.md",
     "MERCHANT_CAMP_ENTRY.md",
+    "ILLAGER_CAMP_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,
