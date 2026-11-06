@@ -1,15 +1,15 @@
 {
   "date": "2026-11-06",
-  "scope": "Scorched mine original lava-well approach, complete four-part hub contract, terrain below original mouth, fixed exterior arrival, construction water/lava staging; 16 composed original NBT cases",
+  "scope": "Typhon original three-piece seabed graph, dry shore arrival, underwater exterior approach, 1..4 shore exits, fixed saved water depth; actual NBT in four rotations and four example depths; explicit mode for read-only WDA planning commands",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "scorched-well-build.log",
+  "buildLog": "typhon-dive-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 379333,
-  "sha256": "22EAB83136E236BDD263D60B0AA120FFC313A5716FC3CC1707ACD7500061CC0A",
+  "bytes": 403607,
+  "sha256": "8958FC10A0B72D35F11E88146F6774A10212B2F226E66498A32036C5C5B2CFB1",
   "saveSchema": 5,
   "suites": [
     {
@@ -79,6 +79,12 @@
       "errors": 0
     },
     {
+      "name": "dev.expedition.bridge.content.wda.TyphonDiveAuditTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
       "name": "dev.expedition.bridge.content.wda.UndergroundEntryAuditTest",
       "tests": 1,
       "failures": 0,
@@ -104,7 +110,7 @@
     },
     {
       "name": "dev.expedition.bridge.diagnostics.PlanningAuditArgumentsTest",
-      "tests": 1,
+      "tests": 2,
       "failures": 0,
       "errors": 0
     },
@@ -235,6 +241,12 @@
       "errors": 0
     },
     {
+      "name": "dev.expedition.bridge.domain.TyphonDiveTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
       "name": "dev.expedition.bridge.domain.VoidEnvironmentTest",
       "tests": 4,
       "failures": 0,
@@ -318,5 +330,6 @@
   "blimpLadderEvidence": "blimp-ladder-audit.json: 1/2/3 ladder segments plus both original hulls x4 rotations=12; all ground entries pass; original iron door retained; no native random generation, ladder stability, collision, extra-exit or runtime acceptance",
   "mushroomMineEvidence": "mushroom-mine-audit.json: 4 roots x4 rotations of all8 original cubes with native mob attachment block effects;16 ground-to-platform routes pass;27777 omitted cells would be filled by unadapted nominal ground; no native random generation or runtime acceptance",
   "scorchedWellEvidence": "scorched-well-audit.json: original well plus all four hub quarters, four rotations x four optional spawner choices =16; 280 original core lava blocks, open shaft and exterior approach preserved; no full native random graph, fluid simulation or runtime acceptance",
-  "constructionFluidEvidence": "ConstructionFluidBufferTest and FluidGenerationHookTest: fluid type/bounds selection, deduplication, release budget and failed scheduling retention, vanilla tick inheritance and dev/SRG hook contract. Source review confirms release uses current fluid and native lava delay; Forge injection, random fire and settling untested"
+  "constructionFluidEvidence": "ConstructionFluidBufferTest and FluidGenerationHookTest: fluid type/bounds selection, deduplication, release budget and failed scheduling retention, vanilla tick inheritance and dev/SRG hook contract. Source review confirms release uses current fluid and native lava delay; Forge injection, random fire and settling untested",
+  "typhonDiveEvidence": "typhon-dive-audit.json: 3 original 48-cube templates, 124 magma blocks and 2 treasure chests; 4 rotations x depths 4/12/32/64, all requested 1..4 dry shore counts. No world execution, fluid/bubble physics, chest reachability, swimming or multiplayer restart acceptance."
 }

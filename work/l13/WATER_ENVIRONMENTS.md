@@ -21,7 +21,7 @@
 | illager_corsair | WORLD_SURFACE_WG | 0 | 需要水面模型；保留两个原起始模板的选择 |
 | illager_galley | WORLD_SURFACE_WG | 0 | 同上；登船点仍须按实际完整拼装检查 |
 | undead_pirate_ship | WORLD_SURFACE_WG | 0 | 同上；怪物、船舱和奖励尚未按五级规则适配 |
-| typhon | OCEAN_FLOOR | -4 | 必须保留海床查询，不能当作与水面船只相同的高度 |
+| typhon | OCEAN_FLOOR | -4 | 采用[干岸潜水入口](TYPHON_DIVE_ENTRY.md)，保留海床偏移，检查原结构外侧水道 |
 
 以上读取固定WDA 2.1.58原JAR，记录见 `audit/wda-water-source-evidence.json`。未修改原结构定义、拼装池、模板或正式权重；未将这四个结构自动加入任何等级。原版FluidStatus使用排他的水位阈值，水占据海床第一层至水面第一层之前，避免偏移一格。
 
@@ -33,7 +33,7 @@
 
 可在最终测试服进行只规划检查，例如：
 
-`/expedition audit wda dungeons_arise:typhon 12345 96 8 6 24 water 12`
+`/expedition audit wda dungeons_arise:typhon 12345 96 8 6 24 water 12 shore_dive`
 
 其中96、12等是说明用输入，不是已定正式水位／深度。命令不生成空间或建筑。现有七类验收入口未加入水域案例，最终测试地图需要补充海面与海床两类案例，再集中检查：水池初始不漏、岸边出入、船舱干燥与水线、登船路线、多帧拼装期间的水流、重进及正常重启后水深／宝箱不刷新，以及生成／释放水流时的服务器耗时。
 

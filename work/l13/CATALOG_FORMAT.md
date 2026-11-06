@@ -25,7 +25,7 @@
 | target | 资源标识 | WDA为 `dungeons_arise:<结构名>`；原生为 `dimdoors:<生成器路径>` |
 | tiers | 非空、无重复的1～5整数数组 | 可出现的等级；暂不提供擅自定案的分配表 |
 | weight | 1～1000000整数 | 在每个兼容等级内的相对权重，不是百分比 |
-| exits | WDA为1～4，原生为0 | WDA的perimeter模式按东、西、北、南选择岛缘出口，start_room／start_deck模式从起始房间和其他原房间选择，start_ladder使用梯脚主入口及其他原船体出口，start_mine使用已验证步行路线的地面入口及其他原组件出口，start_well使用原熔岩井沿外的地面入口及其他原地下房间出口；原生0表示自动审查原裂隙：保留有效内部连接、改接外部出口，不是无出口 |
+| exits | WDA为1～4，原生为0 | WDA的perimeter模式按东、西、北、南选择岛缘出口，start_room／start_deck模式从起始房间和其他原房间选择，start_ladder使用梯脚主入口及其他原船体出口，start_mine使用已验证步行路线的地面入口及其他原组件出口，start_well使用原熔岩井沿外的地面入口及其他原地下房间出口，shore_dive按要求使用1～4处原建筑外干岸出口；原生0表示自动审查原裂隙：保留有效内部连接、改接外部出口，不是无出口 |
 | environment | WDA必填，原生不允许 | 见下表；原生保留自带空间 |
 
 | environment字段 | 约束 | 含义 |
@@ -37,7 +37,7 @@
 | surface | `grass`、`rock`、`water` 或 `void` | 草地／岩地／有实体底部与干岸的水域；void保留悬空原建筑，不生成地形 |
 | water_depth | `water`必填2～64整数；其他表层省略或0 | 水面第一层为first_free_y，海床第一层为first_free_y-water_depth；随选择快照保存，没有正式默认水深 |
 | boarding | 可选布尔值，默认false；仅water可为true | 完整原建筑放置后补建干岸至原船体的栈道；无合适路线时保留并隔离实例，不拆墙或换建筑 |
-| entry_mode | perimeter（默认）、start_room（要求rock）、start_deck（必须与void成对）、start_ladder（仅小飞艇、grass/rock干地）、start_mine（仅蘑菇矿井、grass/rock干地）、start_well（仅灼热矿井、rock干地） | 依次使用岛缘、地下原通道、空中原平台、原梯脚、已验证步行路线的地面入口、原熔岩井沿外入口。机械巢穴专用原闸门外桥面；其他原组件选择额外出口。找不到全部要求位置时拒绝开放 |
+| entry_mode | perimeter（默认）、start_room（要求rock）、start_deck（必须与void成对）、start_ladder（仅小飞艇、grass/rock干地）、start_mine（仅蘑菇矿井、grass/rock干地）、start_well（仅灼热矿井、rock干地）、shore_dive（仅typhon、water且boarding=false） | 依次使用岛缘、地下原通道、空中原平台、原梯脚、已验证步行路线的地面入口、原熔岩井沿外入口、海床建筑干岸潜水入口。机械巢穴专用原闸门外桥面；其他原组件选择额外出口。找不到全部要求位置时拒绝开放 |
 
 WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能当作所有大型建筑内部路线已完成。原生候选必须能解析到同标识的单 schematic 生成器与模板；不会把不支持的生成器默默替换成其他房间。新增建筑模组需要新增受检查的提供者，不能只伪造命名空间绕过接口约束。
 
@@ -60,3 +60,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 蘑菇矿井的 `start_mine` 规则见[稀疏空间与地表入口](MUSHROOM_MINE_ENTRY.md)。原规划first_free_y仍供生成器使用，施工地面第一空层由完整主体最低Y推导，地基不进入任何原组件。新规划不允许用perimeter/start_room代替，旧快照仍可读取并保留既有位置。完整八件、原接口、真实路线和出口数量都必须通过后才开放。
 
 灼热矿井的 `start_well` 规则见[原熔岩井沿入口](SCORCHED_WELL_ENTRY.md)。保留原规划和全部组件坐标，施工地面第一空层取原井底加13；核对完整原井／四件大厅、原熔岩、井沿路线与竖井。施工暂存本实例水与熔岩tick，完工后按预算恢复；不删除危险或保证安全下井。新规划不允许用其他模式代替，旧快照可读；保存格式仍为5。
+
+海床建筑 typhon 使用 shore_dive。原件相对海床的偏移固定，水深须覆盖双格潜水路线（4～64）。环境从候选显式读取，正式值待定。主门和附加门都位于经过检查的干岸，施工后核对原危险和水道。详见[海床与干岸潜水入口](TYPHON_DIVE_ENTRY.md)。

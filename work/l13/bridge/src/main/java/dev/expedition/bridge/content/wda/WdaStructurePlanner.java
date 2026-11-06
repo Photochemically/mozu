@@ -63,6 +63,7 @@ public final class WdaStructurePlanner {
         BlimpLadderLayout.validateMode(id.toString(),environment.entryMode());
         MushroomMineLayout.validateMode(id.toString(),environment.entryMode());
         ScorchedWellLayout.validateMode(id.toString(),environment.entryMode());
+        TyphonDiveLayout.validateMode(id.toString(),environment.entryMode());
         var world=server.overworld();var target=server.getLevel(ModDimensions.DUNGEON);
         if(target==null)throw new IllegalStateException("Dungeon dimension unavailable");
         var registries=server.registryAccess();
@@ -113,8 +114,9 @@ public final class WdaStructurePlanner {
         int groundY=well!=null?well.groundY():mine!=null?mine.groundY():ladder!=null?ladder.foot().y():environment.firstFreeY();
         var island=new IslandPlan(complete,groundY,environment.padding(),environment.rim(),
                 environment.foundationDepth(),environment.surface(),environment.waterDepth());
+        var dive=environment.entryMode()==DungeonSpec.EntryMode.SHORE_DIVE?TyphonDivePlanner.prepare(server,start,island):null;
         List<InteriorRoom> rooms=new ArrayList<>();
-        if(environment.entryMode().interior()) {
+        if(environment.entryMode().interior() && dive==null) {
             if(!aerial && ladder==null && mine==null && well==null)InteriorRoom.requireRockCover(island);
             int index=0;
             for(var piece:start.getPieces()) {
@@ -134,7 +136,7 @@ public final class WdaStructurePlanner {
             }
         }
         var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well);
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive);
     }
 
     private void validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

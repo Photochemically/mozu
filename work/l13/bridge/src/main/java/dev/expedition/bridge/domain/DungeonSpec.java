@@ -7,7 +7,7 @@ public record DungeonSpec(String id,Provider provider,String target,Set<Integer>
                           Environment environment,int exits) {
     public enum Provider { WDA, NATIVE }
     public enum EntryMode {
-        PERIMETER, START_ROOM, START_DECK, START_LADDER, START_MINE, START_WELL;
+        PERIMETER, START_ROOM, START_DECK, START_LADDER, START_MINE, START_WELL, SHORE_DIVE;
         public boolean interior(){return this!=PERIMETER;}
     }
     public record Environment(int firstFreeY,int padding,int rim,int foundationDepth,IslandPlan.Surface surface,int waterDepth,boolean boarding,EntryMode entryMode) {
@@ -36,6 +36,7 @@ public record DungeonSpec(String id,Provider provider,String target,Set<Integer>
             if(entryMode==EntryMode.START_MINE && (surface!=IslandPlan.Surface.GRASS && surface!=IslandPlan.Surface.ROCK || boarding))
                 throw new IllegalArgumentException("Sparse mine entry requires dry ground without boarding");
             if(entryMode==EntryMode.START_WELL && (surface!=IslandPlan.Surface.ROCK || boarding))throw new IllegalArgumentException("Lava well entry requires dry rock ground");
+            if(entryMode==EntryMode.SHORE_DIVE && (surface!=IslandPlan.Surface.WATER || boarding || waterDepth<4))throw new IllegalArgumentException("Seabed shore entry requires water covering the original approach and no boarding");
         }
     }
     public DungeonSpec {
@@ -52,5 +53,6 @@ public record DungeonSpec(String id,Provider provider,String target,Set<Integer>
         if(provider==Provider.WDA && environment.entryMode()==EntryMode.START_LADDER)BlimpLadderLayout.validateMode(target,environment.entryMode());
         if(provider==Provider.WDA && environment.entryMode()==EntryMode.START_MINE)MushroomMineLayout.validateMode(target,environment.entryMode());
         if(provider==Provider.WDA && environment.entryMode()==EntryMode.START_WELL)ScorchedWellLayout.validateMode(target,environment.entryMode());
+        if(provider==Provider.WDA && environment.entryMode()==EntryMode.SHORE_DIVE)TyphonDiveLayout.validateMode(target,environment.entryMode());
     }
 }

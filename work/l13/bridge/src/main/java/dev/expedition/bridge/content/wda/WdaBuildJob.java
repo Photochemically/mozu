@@ -19,7 +19,7 @@ import java.util.List;
 
 /** Cooperative server-thread job. A native template/chunk call is indivisible, so the time budget is a soft limit. */
 final class WdaBuildJob {
-    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, INDEX, FLUID_RELEASE, CONTENT_READY }
+    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, INDEX, FLUID_RELEASE, CONTENT_READY }
     final PortalRecord portal;
     final WdaStructurePlan plan;
     final ServerLevel world;
@@ -28,6 +28,7 @@ final class WdaBuildJob {
     private final ConstructionFluidBuffer fluidTicks;
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
+    private TyphonDiveSitesJob dive;
     private final int minChunkX,maxChunkX,minChunkZ,maxChunkZ;
     private int chunkX,chunkZ;
     private Stage stage=Stage.ISLAND;
@@ -49,7 +50,7 @@ final class WdaBuildJob {
     long blocks() { return blocks; }
     long chunkPlacements() { return chunkPlacements; }
     long maxUnitNanos() { return maxUnitNanos; }
-    List<PortalRecord.Site> interiorSites(){return interior==null?List.of():interior.sites();}
+    List<PortalRecord.Site> interiorSites(){return dive!=null?dive.sites():interior==null?List.of():interior.sites();}
     boolean deferFluidTick(BlockPos pos,FluidState fluid) {
         return fluidTicks.defer(pos.getX(),pos.getY(),pos.getZ(),kind(fluid));
     }
@@ -97,7 +98,10 @@ final class WdaBuildJob {
                 if(!advance()) {
                     stage=plan.boarding()?Stage.BOARDING:Stage.INDEX;
                     if(plan.boarding())boarding=new WdaBoardingJob(world,portal,plan.island());
-                    if(plan.entryMode().interior()) {
+                    if(plan.dive()!=null) {
+                        stage=Stage.DIVE_SITES;
+                        dive=new TyphonDiveSitesJob(world,plan.dive(),plan.island(),portal.selection().content().exits());
+                    } else if(plan.entryMode().interior()) {
                         stage=Stage.INTERIOR_SITES;
                         interior=new WdaInteriorSitesJob(world,plan.interiorRooms(),portal.selection().content().exits(),
                                 plan.entryMode()==DungeonSpec.EntryMode.START_DECK || plan.ladder()!=null || plan.mine()!=null,plan.gateBridges(),plan.ladder(),plan.mine(),plan.well());
@@ -112,6 +116,10 @@ final class WdaBuildJob {
             }
             if(stage==Stage.INTERIOR_SITES) {
                 if(interior.step(256,budgetNanos)){stage=Stage.INDEX;rewind();}
+                return;
+            }
+            if(stage==Stage.DIVE_SITES) {
+                if(dive.step(256,budgetNanos)){stage=Stage.INDEX;rewind();}
                 return;
             }
             if(stage==Stage.INDEX) {
@@ -129,7 +137,7 @@ final class WdaBuildJob {
                 var chunk=world.getChunk(chunkX,chunkZ);
                 chunk.addReferenceForStructure(structure,anchorPos.toLong());chunk.setUnsaved(true);
                 if(!advance()) {
-                    if(interior!=null)portal.resolveWdaStartRoomArrival(interior.sites().get(0));
+                    if(interior!=null||dive!=null)portal.resolveWdaStartRoomArrival(interiorSites().get(0));
                     var a=portal.destination().arrival();var feet=new BlockPos(a.x(),a.y(),a.z());
                     if(!world.getBlockState(feet).isAir() || !world.getBlockState(feet.above()).isAir()
                             || !world.getBlockState(feet.below()).isFaceSturdy(world,feet.below(),Direction.UP)

@@ -7,7 +7,8 @@
 管理员权限等级至少2。命令仅调用原生结构规划器并输出报告，不分配口袋、不放置建筑、不创建入口、不传送玩家，因此不开放玩家主动制造探索地牢的途径。自然入口及候选目录不必启用。
 
 ```text
-/expedition audit wda <结构ID或all> <种子> <地表上方第一层Y> <平坦边距> <岛屿外缘> <地基厚度> <grass或rock>
+/expedition audit wda <结构ID或all> <种子> <地表上方第一层Y> <平坦边距> <岛屿外缘> <地基厚度> <grass、rock或void> [入口模式]
+/expedition audit wda <结构ID或all> <种子> <地表上方第一层Y> <平坦边距> <岛屿外缘> <地基厚度> water <水深> [入口模式]
 /expedition audit status
 /expedition audit cancel
 /expedition audit dimensions
@@ -18,7 +19,10 @@
 ```text
 /expedition audit wda dungeons_arise:lighthouse 12345 96 8 8 32 grass
 /expedition audit wda all 12345 96 8 8 32 grass
+/expedition audit wda dungeons_arise:typhon 12345 96 8 6 24 water 32 shore_dive
 ```
+
+2026-11-06 新增可选入口模式。grass、rock、water 省略时沿用 perimeter，void 对应 start_deck。专用建筑需显式提供匹配的入口模式，例如 typhon 的 shore_dive。all 使用同一环境逐项检查，模式不匹配的建筑会在报告中记录错误。命令树解析已通过静态测试，游戏内执行待验收。
 
 同一服务器一次一个检查任务，每刻规划最多一个结构。原生单次规划无法中途暂停，仍可能造成停顿；取消在下一项开始前生效。批量检查应放在测试服务器的验收时段，不承诺无卡顿。
 

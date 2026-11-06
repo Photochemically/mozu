@@ -1,10 +1,10 @@
 {
-  "tests": 192.0,
-  "buildLog": "scorched-well-build.log",
-  "jarBytes": 379333,
-  "jarSha256": "22EAB83136E236BDD263D60B0AA120FFC313A5716FC3CC1707ACD7500061CC0A",
+  "tests": 200.0,
+  "buildLog": "typhon-dive-build.log",
+  "jarBytes": 403607,
+  "jarSha256": "8958FC10A0B72D35F11E88146F6774A10212B2F226E66498A32036C5C5B2CFB1",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "C60B22BE6FBF753F94CE9B20228C6AD5C6396C4A666DB3C8F756F6807DB0A7C3",
+  "helperSha256": "38054D017E8FEC9C959B9F64560FCE8B033914682CF0E58C7D62CA0079BE7659",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -20,6 +20,7 @@
     "SMALL_BLIMP_ENTRY.md",
     "MUSHROOM_MINE_ENTRY.md",
     "SCORCHED_WELL_ENTRY.md",
+    "TYPHON_DIVE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

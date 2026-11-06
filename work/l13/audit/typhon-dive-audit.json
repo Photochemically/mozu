@@ -1,0 +1,283 @@
+{
+  "cases": [
+    {
+      "rotation": 0,
+      "waterDepth": 4,
+      "seabedFirstFreeY": 92,
+      "rootY": 87,
+      "highestOriginalBlockY": 120,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -176,
+        "y": 96,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 0,
+      "waterDepth": 12,
+      "seabedFirstFreeY": 84,
+      "rootY": 79,
+      "highestOriginalBlockY": 112,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -176,
+        "y": 96,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 0,
+      "waterDepth": 32,
+      "seabedFirstFreeY": 64,
+      "rootY": 59,
+      "highestOriginalBlockY": 92,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -176,
+        "y": 96,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 0,
+      "waterDepth": 64,
+      "seabedFirstFreeY": 32,
+      "rootY": 27,
+      "highestOriginalBlockY": 60,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 128,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -176,
+        "y": 96,
+        "z": 297
+      }
+    },
+    {
+      "rotation": 1,
+      "waterDepth": 4,
+      "seabedFirstFreeY": 92,
+      "rootY": 87,
+      "highestOriginalBlockY": 120,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -197,
+        "y": 96,
+        "z": 324
+      }
+    },
+    {
+      "rotation": 1,
+      "waterDepth": 12,
+      "seabedFirstFreeY": 84,
+      "rootY": 79,
+      "highestOriginalBlockY": 112,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -197,
+        "y": 96,
+        "z": 324
+      }
+    },
+    {
+      "rotation": 1,
+      "waterDepth": 32,
+      "seabedFirstFreeY": 64,
+      "rootY": 59,
+      "highestOriginalBlockY": 92,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -197,
+        "y": 96,
+        "z": 324
+      }
+    },
+    {
+      "rotation": 1,
+      "waterDepth": 64,
+      "seabedFirstFreeY": 32,
+      "rootY": 27,
+      "highestOriginalBlockY": 60,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 128,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -197,
+        "y": 96,
+        "z": 324
+      }
+    },
+    {
+      "rotation": 2,
+      "waterDepth": 4,
+      "seabedFirstFreeY": 92,
+      "rootY": 87,
+      "highestOriginalBlockY": 120,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -224,
+        "y": 96,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 2,
+      "waterDepth": 12,
+      "seabedFirstFreeY": 84,
+      "rootY": 79,
+      "highestOriginalBlockY": 112,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -224,
+        "y": 96,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 2,
+      "waterDepth": 32,
+      "seabedFirstFreeY": 64,
+      "rootY": 59,
+      "highestOriginalBlockY": 92,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -224,
+        "y": 96,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 2,
+      "waterDepth": 64,
+      "seabedFirstFreeY": 32,
+      "rootY": 27,
+      "highestOriginalBlockY": 60,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 128,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -224,
+        "y": 96,
+        "z": 303
+      }
+    },
+    {
+      "rotation": 3,
+      "waterDepth": 4,
+      "seabedFirstFreeY": 92,
+      "rootY": 87,
+      "highestOriginalBlockY": 120,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -203,
+        "y": 96,
+        "z": 276
+      }
+    },
+    {
+      "rotation": 3,
+      "waterDepth": 12,
+      "seabedFirstFreeY": 84,
+      "rootY": 79,
+      "highestOriginalBlockY": 112,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -203,
+        "y": 96,
+        "z": 276
+      }
+    },
+    {
+      "rotation": 3,
+      "waterDepth": 32,
+      "seabedFirstFreeY": 64,
+      "rootY": 59,
+      "highestOriginalBlockY": 92,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 104,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -203,
+        "y": 96,
+        "z": 276
+      }
+    },
+    {
+      "rotation": 3,
+      "waterDepth": 64,
+      "seabedFirstFreeY": 32,
+      "rootY": 27,
+      "highestOriginalBlockY": 60,
+      "waterSurfaceFirstFreeY": 96,
+      "requiredHeightWithMargin": 128,
+      "magmaBlocks": 124,
+      "chests": 2,
+      "shoreCountsChecked": "1,2,3,4",
+      "arrival": {
+        "x": -203,
+        "y": 96,
+        "z": 276
+      }
+    }
+  ],
+  "originalBlockEntries": 3898,
+  "omittedTemplateCells": 327878,
+  "explicitAirBlocks": 5,
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeTested": false,
+  "formalDepthAssigned": false,
+  "scope": "Complete three-piece original NBT composition and 1..4 dry shores at 4 rotations x4 illustrative depths; no native generation execution, waterlogging, bubble physics, drowning, treasure reachability, swimming or multiplayer/restart acceptance"
+}

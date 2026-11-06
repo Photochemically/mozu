@@ -7,6 +7,7 @@ import com.mojang.brigadier.context.CommandContext;
 import dev.expedition.bridge.ExpeditionBridge;
 import dev.expedition.bridge.content.wda.WdaStructurePlanner;
 import dev.expedition.bridge.domain.IslandPlan;
+import dev.expedition.bridge.domain.DungeonSpec;
 import net.minecraft.commands.*;
 import net.minecraft.commands.arguments.ResourceLocationArgument;
 import net.minecraft.core.registries.Registries;
@@ -30,9 +31,8 @@ public final class PlanningAuditCommands {
                        PlanAuditReport report,Path file,int next){}
     private final Map<MinecraftServer,Job> jobs=new IdentityHashMap<>();
     @SubscribeEvent public void register(RegisterCommandsEvent event) {
-        var depth=Commands.argument("depth",IntegerArgumentType.integer(4,128)).then(surface("grass")).then(surface("rock"))
-                .then(Commands.literal("water").then(Commands.argument("water_depth",IntegerArgumentType.integer(2,64))
-                        .executes(c->start(c,IslandPlan.Surface.WATER,IntegerArgumentType.getInteger(c,"water_depth")))));
+        var depth=Commands.argument("depth",IntegerArgumentType.integer(4,128)).then(surface("grass")).then(surface("rock")).then(surface("void"))
+                .then(Commands.literal("water").then(withModes(Commands.argument("water_depth",IntegerArgumentType.integer(2,64)),IslandPlan.Surface.WATER)));
         var rim=Commands.argument("rim",IntegerArgumentType.integer(1,64)).then(depth);
         var padding=Commands.argument("padding",IntegerArgumentType.integer(4,64)).then(rim);
         var height=Commands.argument("surface_y",IntegerArgumentType.integer(-63,319)).then(padding);
@@ -45,9 +45,15 @@ public final class PlanningAuditCommands {
                         .then(Commands.literal("cancel").executes(c->cancel(c.getSource())))));
     }
     private ArgumentBuilder<CommandSourceStack,?> surface(String name) {
-        return Commands.literal(name).executes(c->start(c,IslandPlan.Surface.valueOf(name.toUpperCase(Locale.ROOT)),0));
+        return withModes(Commands.literal(name),IslandPlan.Surface.valueOf(name.toUpperCase(Locale.ROOT)));
     }
-    private int start(CommandContext<CommandSourceStack> context,IslandPlan.Surface surface,int waterDepth) {
+    private ArgumentBuilder<CommandSourceStack,?> withModes(ArgumentBuilder<CommandSourceStack,?> branch,IslandPlan.Surface surface) {
+        var defaultMode=surface==IslandPlan.Surface.VOID?DungeonSpec.EntryMode.START_DECK:DungeonSpec.EntryMode.PERIMETER;
+        branch.executes(c->start(c,surface,defaultMode));
+        for(var mode:DungeonSpec.EntryMode.values())branch.then(Commands.literal(mode.name().toLowerCase(Locale.ROOT)).executes(c->start(c,surface,mode)));
+        return branch;
+    }
+    private int start(CommandContext<CommandSourceStack> context,IslandPlan.Surface surface,DungeonSpec.EntryMode mode) {
         var source=context.getSource();var server=source.getServer();
         if(jobs.containsKey(server)){source.sendFailure(Component.literal("已有规划检查正在运行。"));return 0;}
         try {
@@ -61,8 +67,9 @@ public final class PlanningAuditCommands {
             }
             if(ids.isEmpty())throw new IllegalArgumentException("没有可检查的WDA结构");
             long seed=LongArgumentType.getLong(context,"seed");
+            int waterDepth=surface==IslandPlan.Surface.WATER?IntegerArgumentType.getInteger(context,"water_depth"):0;
             var environment=new WdaStructurePlanner.Environment(IntegerArgumentType.getInteger(context,"surface_y"),IntegerArgumentType.getInteger(context,"padding"),
-                    IntegerArgumentType.getInteger(context,"rim"),IntegerArgumentType.getInteger(context,"depth"),surface,waterDepth);
+                    IntegerArgumentType.getInteger(context,"rim"),IntegerArgumentType.getInteger(context,"depth"),surface,waterDepth,false,mode);
             String runId=UUID.randomUUID().toString();
             var report=new PlanAuditReport(runId,ids.stream().map(ResourceLocation::toString).toList(),seed,environment);
             var file=server.getWorldPath(LevelResource.ROOT).resolve("expedition_reports/wda-plan-"+runId+".json");
