@@ -16,10 +16,11 @@ import net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.List;
+import java.util.function.BooleanSupplier;
 
 /** Cooperative server-thread job. A native template/chunk call is indivisible, so the time budget is a soft limit. */
 final class WdaBuildJob {
-    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, LIGHTHOUSE_ROUTE, INDEX, FLUID_RELEASE, CONTENT_READY }
+    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, PERIMETER_ROUTE, INDEX, FLUID_RELEASE, CONTENT_READY }
     final PortalRecord portal;
     final WdaStructurePlan plan;
     final ServerLevel world;
@@ -29,7 +30,7 @@ final class WdaBuildJob {
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
     private TyphonDiveSitesJob dive;
-    private LighthouseRoute lighthouseRoute;
+    private BooleanSupplier perimeterStep;
     private final int minChunkX,maxChunkX,minChunkZ,maxChunkZ;
     private int chunkX,chunkZ;
     private Stage stage=Stage.ISLAND;
@@ -40,7 +41,7 @@ final class WdaBuildJob {
     WdaBuildJob(ServerLevel world,PortalRecord portal,WdaStructurePlan plan) {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
         water=new IslandCursor(plan.island(),true);
-        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null,plan.well()!=null);
+        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || WindmillLayout.TARGET.equals(plan.id().toString()),plan.well()!=null);
         var b=plan.island().building();
         minChunkX=Math.floorDiv(b.minX(),16);maxChunkX=Math.floorDiv(b.maxX(),16);
         minChunkZ=Math.floorDiv(b.minZ(),16);maxChunkZ=Math.floorDiv(b.maxZ(),16);
@@ -100,9 +101,13 @@ final class WdaBuildJob {
                     stage=plan.boarding()?Stage.BOARDING:Stage.INDEX;
                     if(plan.boarding())boarding=new WdaBoardingJob(world,portal,plan.island());
                     if (plan.lighthouse() != null) {
-                        stage = Stage.LIGHTHOUSE_ROUTE;
-                        lighthouseRoute = new LighthouseRoute(plan.lighthouse(), plan.island(),
-                                portal.selection().content().exits(), new LighthouseProbe(world));
+                        stage = Stage.PERIMETER_ROUTE;
+                        perimeterStep = new LighthouseRoute(plan.lighthouse(), plan.island(),
+                                portal.selection().content().exits(), new LighthouseProbe(world))::step;
+                    } else if (WindmillLayout.TARGET.equals(plan.id().toString())) {
+                        stage = Stage.PERIMETER_ROUTE;
+                        perimeterStep = new WindmillRoute(WindmillLayout.fromRoot(plan.start()), plan.island(),
+                                portal.selection().content().exits(), new WindmillProbe(world))::step;
                     } else if(plan.dive()!=null) {
                         stage=Stage.DIVE_SITES;
                         dive=new TyphonDiveSitesJob(world,plan.dive(),plan.island(),portal.selection().content().exits());
@@ -127,9 +132,9 @@ final class WdaBuildJob {
                 if(dive.step(256,budgetNanos)){stage=Stage.INDEX;rewind();}
                 return;
             }
-            if (stage == Stage.LIGHTHOUSE_ROUTE) {
+            if (stage == Stage.PERIMETER_ROUTE) {
                 for (int n = 0; n < 256 && (n == 0 || System.nanoTime() - started < budgetNanos); n++) {
-                    if (lighthouseRoute.step()) { stage = Stage.INDEX; rewind(); break; }
+                    if (perimeterStep.getAsBoolean()) { stage = Stage.INDEX; rewind(); break; }
                 }
                 return;
             }

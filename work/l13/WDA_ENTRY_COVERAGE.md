@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。16 座有原模板路线或入口几何证据，2 座有开发案例且仍待核对原路线，21 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。17 座有原模板路线或入口几何证据，1 座有开发案例且仍待核对原路线，21 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -24,7 +24,7 @@ WDA 2.1.58 共 39 座建筑。16 座有原模板路线或入口几何证据，2 
 | illager_corsair | jigsaw | WORLD_SURFACE_WG 0 | 干岸水域 | boarding 栈道 | 原模板 · [4 组原主船体](audit/ship-boarding-audit.json) | 随机附属件、船舱、水线和登船碰撞 |
 | illager_fort | jigsaw | WORLD_SURFACE_WG -7 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
 | illager_galley | jigsaw | WORLD_SURFACE_WG 0 | 干岸水域 | boarding 栈道 | 原模板 · [4 组原主船体](audit/ship-boarding-audit.json) | 随机附属件、船舱、水线和登船碰撞 |
-| illager_windmill | jigsaw | WORLD_SURFACE_WG -2 | 草地（测试） | perimeter | 开发案例 · [warped_windmill](ACCEPTANCE_FIXTURES.md) | 原入口高差、实际拼装与出口 |
+| illager_windmill | jigsaw | WORLD_SURFACE_WG -2 | 草地（测试） | perimeter 双侧石阶 | 原模板 · [16 组塔身与田地组合](audit/windmill-entry-audit.json) | 原生随机田地、实际灌溉、战斗机关和双人重启 |
 | infested_temple | jigsaw | WORLD_SURFACE_WG 54 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对正高度偏移后的落脚处及原接近路线 |
 | jungle_tree_house | jigsaw | WORLD_SURFACE_WG -5 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
 | keep_kayra | WDA | 绝对 54 | 岩地（测试） | perimeter | 原模板 · [原主件低层路线](audit/keep-kayra-ground-evidence.json) | 超高整座拼装、上下层实际通行和高度包 |

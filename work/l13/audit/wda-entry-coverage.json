@@ -3,8 +3,8 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 16,
-    "fixtureOnly": 2,
+    "originalTemplateEvidence": 17,
+    "fixtureOnly": 1,
     "resourceGraphOnly": 21,
     "runtimeAccepted": 0
   },
@@ -310,11 +310,11 @@
       "biomeSelector": "#dungeons_arise:has_structure/illager_windmill_biomes",
       "originalMissingReferences": [],
       "environment": "草地（测试）",
-      "entry": "perimeter",
-      "level": "开发案例",
-      "file": "ACCEPTANCE_FIXTURES.md",
-      "label": "warped_windmill",
-      "remaining": "原入口高差、实际拼装与出口",
+      "entry": "perimeter 双侧石阶",
+      "level": "原模板",
+      "file": "audit/windmill-entry-audit.json",
+      "label": "16 组塔身与田地组合",
+      "remaining": "原生随机田地、实际灌溉、战斗机关和双人重启",
       "runtimeAccepted": false
     },
     {

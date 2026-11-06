@@ -1,10 +1,10 @@
 {
-  "tests": 205.0,
-  "buildLog": "lighthouse-entry-build.log",
-  "jarBytes": 420969,
-  "jarSha256": "8B798D6A62E00F377EBDE149C576C876572FBA897509B5EAB43BB6FFC1E24361",
+  "tests": 209.0,
+  "buildLog": "windmill-entry-build.log",
+  "jarBytes": 431534,
+  "jarSha256": "AC3464F95608C31675BA10E6435021938848023F8FF933BCFEB881C054564780",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "3DB7F1CBCB43E902227698DF7F5B4897B1B82C291CF58F5E239B284C49B48836",
+  "helperSha256": "FCF959977829EA21B8589AA1CD6D9F74653AD99BBC9B660DBFDD2632E14CDFBF",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -22,6 +22,7 @@
     "SCORCHED_WELL_ENTRY.md",
     "TYPHON_DIVE_ENTRY.md",
     "LIGHTHOUSE_ENTRY.md",
+    "WINDMILL_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

@@ -1,0 +1,311 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "templates": [
+        "part_0",
+        "part_1",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_1",
+        "vindicator_1"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_4",
+        "field_2",
+        "witch_2"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_3",
+        "field_4",
+        "field_3",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_1",
+        "vindicator_1"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_4",
+        "field_2",
+        "witch_2"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_3",
+        "field_4",
+        "field_3",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "templates": [
+        "part_0",
+        "part_1",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_1",
+        "vindicator_1"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_4",
+        "field_2",
+        "witch_2"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_3",
+        "field_4",
+        "field_3",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_1",
+        "vindicator_1"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_4",
+        "field_2",
+        "witch_2"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "templates": [
+        "part_0",
+        "part_1",
+        "field_0",
+        "field_3",
+        "field_4",
+        "field_3",
+        "pillager_0"
+      ],
+      "eachStairwayIndependentlyWithTwoExits": true,
+      "grassFirstFree": 96,
+      "rootY": 93,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "runtimeAccepted": false,
+  "scope": "Real tower/field/mob template records and flat field projection; selected attachment combinations, no native random generation, live entities, fluid update, redstone or collision simulation."
+}

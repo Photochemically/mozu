@@ -1,15 +1,15 @@
 {
   "date": "2026-11-06",
-  "scope": "Complete WDA entry coverage and lighthouse dry perimeter route: original two-piece tower, corrected background elevation, exits to the original stairway and ladder foot, native height guard and saved arrivals",
+  "scope": "Illager windmill rigid tower verification and read-only dry perimeter routes around original projected fields to the paired native stairs",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "lighthouse-entry-build.log",
+  "buildLog": "windmill-entry-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 420969,
-  "sha256": "8B798D6A62E00F377EBDE149C576C876572FBA897509B5EAB43BB6FFC1E24361",
+  "bytes": 431534,
+  "sha256": "AC3464F95608C31675BA10E6435021938848023F8FF933BCFEB881C054564780",
   "saveSchema": 5,
   "suites": [
     {
@@ -93,6 +93,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.UndergroundEntryAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.WindmillAuditTest",
+      "tests": 4,
       "failures": 0,
       "errors": 0
     },
@@ -339,5 +345,6 @@
   "constructionFluidEvidence": "ConstructionFluidBufferTest and FluidGenerationHookTest: fluid type/bounds selection, deduplication, release budget and failed scheduling retention, vanilla tick inheritance and dev/SRG hook contract. Source review confirms release uses current fluid and native lava delay; Forge injection, random fire and settling untested",
   "typhonDiveEvidence": "typhon-dive-audit.json: 3 original 48-cube templates, 124 magma blocks and 2 treasure chests; 4 rotations x depths 4/12/32/64, all requested 1..4 dry shore counts. No world execution, fluid/bubble physics, chest reachability, swimming or multiplayer restart acceptance.",
   "lighthouseEvidence": "lighthouse-entry-audit.json: both original templates x4 rotations x2 surfaces x2 planning heights, 1..4 exits each. Native custom height guard checked in actual class. In-game generation, upper traversal, redstone, collisions and multiplayer restart pending.",
-  "entryCoverage": "wda-entry-coverage.json and WDA_ENTRY_COVERAGE.md are generated from the pinned JAR and existing audit evidence. 39 distinct structures, no formal enrollment."
+  "entryCoverage": "wda-entry-coverage.json and WDA_ENTRY_COVERAGE.md are generated from the pinned JAR and existing audit evidence. 39 distinct structures, no formal enrollment.",
+  "windmillEvidence": "windmill-entry-audit.json: two rigid tower halves, selected native field and encounter attachments, four layouts x four rotations. Each verifies 1..4 exits and each staircase independently with two exits. Live growth, fluids, random layouts, combat, redstone and multiplayer pending."
 }

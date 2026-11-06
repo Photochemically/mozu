@@ -96,11 +96,20 @@ public final class WdaStructurePlanner {
                 server.getStructureManager(),seed,new ChunkPos(0,0),0,world,biome->true);
         if(!start.isValid())throw new IllegalStateException("Native generator returned no building for "+id);
         BlockBounds complete=WdaStructurePlan.bounds(start.getBoundingBox());
+        boolean windmill = id.toString().equals(WindmillLayout.TARGET);
+        var windmillPieces = new ArrayList<WindmillLayout.Piece>();
         for(var piece:start.getPieces()) {
             if(!(piece instanceof PoolElementStructurePiece pool)
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
-            validateElement(server,registries,pool.getElement());
+            var tag = validateElement(server,registries,pool.getElement());
+            if (windmill) {
+                if (pool.getElement().getClass() != SinglePoolElement.class || !tag.getString("processors").equals("minecraft:empty")
+                        || !registries.registryOrThrow(Registries.PROCESSOR_LIST).get(ResourceLocation.parse("minecraft:empty")).list().isEmpty())
+                    throw new IllegalArgumentException("Windmill requires its original unprocessed single pieces");
+                windmillPieces.add(new WindmillLayout.Piece(tag.getString("location"), pool.getPosition(), pool.getRotation(),
+                        WdaStructurePlan.bounds(pool.getBoundingBox()), pool.getElement().getProjection() == StructureTemplatePool.Projection.TERRAIN_MATCHING));
+            }
             if(aerial && pool.getElement().getProjection()!=StructureTemplatePool.Projection.RIGID)
                 throw new IllegalArgumentException("Terrain-matching aerial piece requires separate adaptation; no flattening or omission");
             // Terrain matching's native GravityProcessor replaces Y with heightmap - 1 + template local Y.
@@ -112,6 +121,7 @@ public final class WdaStructurePlanner {
                         box.maxX(),Math.addExact(environment.firstFreeY(),height)-2,box.maxZ()));
             }
         }
+        if (windmill) WindmillLayout.validate(windmillPieces, environment);
         var ladder=environment.entryMode()==DungeonSpec.EntryMode.START_LADDER?BlimpLadderPlanner.prepare(server,start,complete):null;
         var mine=environment.entryMode()==DungeonSpec.EntryMode.START_MINE?MushroomMinePlanner.prepare(server,start,complete):null;
         var well=environment.entryMode()==DungeonSpec.EntryMode.START_WELL?ScorchedWellPlanner.prepare(server,start):null;
@@ -146,7 +156,7 @@ public final class WdaStructurePlanner {
         return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive,lighthouse);
     }
 
-    private void validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {
+    private CompoundTag validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {
         var encoded=StructurePoolElement.CODEC.encodeStart(RegistryOps.create(NbtOps.INSTANCE,registries),element)
                 .getOrThrow(false,message->{throw new IllegalArgumentException(message);});
         if(!(encoded instanceof CompoundTag tag) || !tag.contains("processors",Tag.TAG_STRING))
@@ -161,5 +171,6 @@ public final class WdaStructurePlanner {
         if(processors==null)throw new IllegalArgumentException("Unresolved structure processors");
         for(var processor:processors.list())if(!(processor instanceof RuleProcessor))
             throw new IllegalArgumentException("Unaudited positional processor: "+processor.getClass().getName());
+        return tag;
     }
 }

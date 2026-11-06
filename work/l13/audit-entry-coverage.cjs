@@ -44,9 +44,8 @@ cases('lighthouse','草地／岩地','perimeter 原台阶','lighthouse-entry','�
 const keep = json('audit/keep-kayra-ground-evidence.json');
 if (keep.runtimeAccepted !== false || keep.wdaSha256 !== jar.sha256 || keep.reachableConservativeInteriorCells <= 0) throw Error('Castle evidence mismatch');
 record('keep_kayra','岩地（测试）','perimeter','原模板','audit/keep-kayra-ground-evidence.json','原主件低层路线','超高整座拼装、上下层实际通行和高度包');
-for (const [id,fixture] of [['merchant_campsite','oak_camp'],['illager_windmill','warped_windmill']]) {
-    record(id,'草地（测试）','perimeter','开发案例','ACCEPTANCE_FIXTURES.md',fixture,'原入口高差、实际拼装与出口');
-}
+cases('illager_windmill','草地（测试）','perimeter 双侧石阶','windmill-entry','塔身与田地组合','原生随机田地、实际灌溉、战斗机关和双人重启');
+record('merchant_campsite','草地（测试）','perimeter','开发案例','ACCEPTANCE_FIXTURES.md','oak_camp','原入口高差、实际拼装与出口');
 
 const rows = names.map(file => {
     const id = path.posix.basename(file,'.json'), fullId = 'dungeons_arise:'+id;

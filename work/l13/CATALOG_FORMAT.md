@@ -64,3 +64,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 海床建筑 typhon 使用 shore_dive。原件相对海床的偏移固定，水深须覆盖双格潜水路线（4～64）。环境从候选显式读取，正式值待定。主门和附加门都位于经过检查的干岸，施工后核对原危险和水道。详见[海床与干岸潜水入口](TYPHON_DIVE_ENTRY.md)。
 
 灯塔 lighthouse 使用 grass 或 rock、perimeter 和关闭的 boarding。firstFreeY 传给原生规划器。新实例施工采用实际塔底（规划首个空层减 2）推导地面以保留原台阶，出口和保存方式沿用岛缘规则。详见[灯塔入口](LIGHTHOUSE_ENTRY.md)。
+
+掠夺者风车 illager_windmill 沿用干地 perimeter，关闭 boarding。草地开发案例地表为 96，原塔底为 93。沿用原生刚性塔身与 terrain_matching 农田，施工后检查所有指定出口到原石阶的旱路。详见[风车入口](WINDMILL_ENTRY.md)。
