@@ -41,7 +41,8 @@ final class WdaBuildJob {
     WdaBuildJob(ServerLevel world,PortalRecord portal,WdaStructurePlan plan) {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
         water=new IslandCursor(plan.island(),true);
-        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || WindmillLayout.TARGET.equals(plan.id().toString()),plan.well()!=null);
+        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || WindmillLayout.TARGET.equals(plan.id().toString())
+                || plan.perimeterLayout() instanceof BathhouseLayout,plan.well()!=null);
         var b=plan.island().building();
         minChunkX=Math.floorDiv(b.minX(),16);maxChunkX=Math.floorDiv(b.maxX(),16);
         minChunkZ=Math.floorDiv(b.minZ(),16);maxChunkZ=Math.floorDiv(b.maxZ(),16);

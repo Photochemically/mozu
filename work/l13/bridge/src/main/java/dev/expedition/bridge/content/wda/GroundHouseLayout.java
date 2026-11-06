@@ -1,6 +1,5 @@
 package dev.expedition.bridge.content.wda;
 
-import dev.expedition.bridge.domain.BlockBounds;
 import dev.expedition.bridge.domain.BoardingRouteSearch.Cell;
 import dev.expedition.bridge.domain.DungeonSpec;
 import dev.expedition.bridge.domain.IslandPlan;
@@ -65,13 +64,13 @@ record GroundHouseLayout(Variant variant, BlockPos origin, Rotation rotation) im
         if (pieces.size() != 2 || !pieces.get(1).id().equals(PRAIRIE_PIECE + kind + "_0_top")) {
             throw new IllegalArgumentException("Prairie house needs its matching upper piece");
         }
-        checkFrame(root, root.origin(), root.rotation(), 12, 1, 16);
-        checkFrame(pieces.get(1), root.origin().above(), root.rotation(), 12, 17, 16);
+        root.requireFrame(root.origin(), root.rotation(), 12, 1, 16);
+        pieces.get(1).requireFrame(root.origin().above(), root.rotation(), 12, 17, 16);
         return new GroundHouseLayout(kind.equals("clean") ? Variant.CLEAN : Variant.RUINS, root.origin(), root.rotation());
     }
 
     private static GroundHouseLayout mushroom(WdaTemplatePiece root, List<WdaTemplatePiece> pieces) {
-        checkFrame(root, root.origin(), root.rotation(), 15, 8, 15);
+        root.requireFrame(root.origin(), root.rotation(), 15, 8, 15);
         var offset = new BlockPos(-8,0,-8).rotate(root.rotation()).offset(root.origin());
         var sockets = new HashMap<BlockPos, Direction>();
         addSockets(root, FLOORS.get(root.id()), sockets);
@@ -79,11 +78,11 @@ record GroundHouseLayout(Variant variant, BlockPos origin, Rotation rotation) im
         var spawners = new ArrayList<WdaTemplatePiece>();
         for (var piece : pieces.subList(1, pieces.size())) {
             if (CAPS.containsKey(piece.id()) && !hasCap) {
-                checkFrame(piece, offset.above(8), root.rotation(), 31, 31, 31);
+                piece.requireFrame(offset.above(8), root.rotation(), 31, 31, 31);
                 addSockets(piece, CAPS.get(piece.id()), sockets);
                 hasCap = true;
             } else if (piece.id().equals(ROOTS) && !hasRoots) {
-                checkFrame(piece, offset.below(13), root.rotation(), 31, 13, 31);
+                piece.requireFrame(offset.below(13), root.rotation(), 31, 13, 31);
                 hasRoots = true;
             } else if (SPAWNERS.contains(piece.id())) {
                 spawners.add(piece);
@@ -97,7 +96,7 @@ record GroundHouseLayout(Variant variant, BlockPos origin, Rotation rotation) im
             if (sockets.remove(piece.origin()) != piece.rotation().rotate(Direction.NORTH)) {
                 throw new IllegalArgumentException("Mushroom spawner does not fit an available native socket");
             }
-            checkFrame(piece, piece.origin(), piece.rotation(), 1, 2, 1);
+            piece.requireFrame(piece.origin(), piece.rotation(), 1, 2, 1);
         }
         return new GroundHouseLayout(Variant.MUSHROOM, root.origin(), root.rotation());
     }
@@ -106,15 +105,6 @@ record GroundHouseLayout(Variant variant, BlockPos origin, Rotation rotation) im
         for (var socket : sockets) {
             var position = new BlockPos(socket.x(), socket.y(), socket.z()).rotate(piece.rotation()).offset(piece.origin());
             available.put(position, piece.rotation().rotate(socket.top()));
-        }
-    }
-
-    private static void checkFrame(WdaTemplatePiece piece, BlockPos origin, Rotation rotation, int width, int height, int depth) {
-        var corner = new BlockPos(width - 1, height - 1, depth - 1).rotate(rotation).offset(origin);
-        var bounds = new BlockBounds(Math.min(origin.getX(), corner.getX()), origin.getY(), Math.min(origin.getZ(), corner.getZ()),
-                Math.max(origin.getX(), corner.getX()), corner.getY(), Math.max(origin.getZ(), corner.getZ()));
-        if (!piece.origin().equals(origin) || piece.rotation() != rotation || !bounds.equals(piece.bounds())) {
-            throw new IllegalArgumentException("Misaligned or resized original piece " + piece.id());
         }
     }
 

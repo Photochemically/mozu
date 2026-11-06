@@ -1,0 +1,1928 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "stackRotations": 672,
+  "scope": "96 representative original assemblies on modeled grass, 1..4 exits each. Source, flowing and waterlogged blocks are checked before fluid simulation. The occupied top_3 chest-conflict socket is separately rejected.",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_0",
+        "middle_0",
+        "top_0"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 13,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 12,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_0",
+        "middle_1",
+        "top_1"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 13,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_0",
+        "middle_2",
+        "top_2"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 13,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_0",
+        "middle_3",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 20,
+      "sources": 128,
+      "waterBlocks": 130,
+      "waterloggedBlocks": 53,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_1",
+        "middle_0",
+        "top_1"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_1",
+        "middle_1",
+        "top_2"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 12,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_1",
+        "middle_2",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 13,
+      "waterBlocks": 13,
+      "waterloggedBlocks": 0,
+      "lootContainers": 27,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_1",
+        "middle_3",
+        "top_4"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 19,
+      "sources": 125,
+      "waterBlocks": 127,
+      "waterloggedBlocks": 53,
+      "lootContainers": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_2",
+        "middle_0",
+        "top_2"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 12,
+      "sources": 12,
+      "waterBlocks": 12,
+      "waterloggedBlocks": 0,
+      "lootContainers": 14,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_2",
+        "middle_1",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 39,
+      "waterBlocks": 47,
+      "waterloggedBlocks": 24,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_2",
+        "middle_2",
+        "top_4"
+      ],
+      "spawners": 5,
+      "scaffoldHeight": 12,
+      "sources": 22,
+      "waterBlocks": 22,
+      "waterloggedBlocks": 0,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_2",
+        "middle_3",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 19,
+      "sources": 137,
+      "waterBlocks": 139,
+      "waterloggedBlocks": 53,
+      "lootContainers": 24,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_3",
+        "middle_0",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 9,
+      "waterBlocks": 9,
+      "waterloggedBlocks": 9,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_3",
+        "middle_1",
+        "top_4"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 14,
+      "sources": 24,
+      "waterBlocks": 32,
+      "waterloggedBlocks": 33,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_3",
+        "middle_2",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 10,
+      "waterBlocks": 10,
+      "waterloggedBlocks": 9,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_3",
+        "middle_3",
+        "top_6"
+      ],
+      "spawners": 7,
+      "scaffoldHeight": 21,
+      "sources": 122,
+      "waterBlocks": 124,
+      "waterloggedBlocks": 62,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_4",
+        "middle_0",
+        "top_4"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 7,
+      "sources": 6,
+      "waterBlocks": 6,
+      "waterloggedBlocks": 0,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_4",
+        "middle_1",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 7,
+      "sources": 24,
+      "waterBlocks": 32,
+      "waterloggedBlocks": 24,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_4",
+        "middle_2",
+        "top_6"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 7,
+      "sources": 7,
+      "waterBlocks": 7,
+      "waterloggedBlocks": 0,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_4",
+        "middle_3",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 53,
+      "lootContainers": 20,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_5",
+        "middle_0",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 22,
+      "sources": 6,
+      "waterBlocks": 6,
+      "waterloggedBlocks": 0,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_5",
+        "middle_1",
+        "top_6"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 22,
+      "sources": 21,
+      "waterBlocks": 29,
+      "waterloggedBlocks": 24,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_5",
+        "middle_2",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 22,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 26,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "stack": [
+        "base_5",
+        "middle_3",
+        "top_1"
+      ],
+      "spawners": 7,
+      "scaffoldHeight": 29,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 53,
+      "lootContainers": 24,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_0",
+        "top_1"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 13,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_1",
+        "top_2"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 13,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_2",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 13,
+      "sources": 13,
+      "waterBlocks": 13,
+      "waterloggedBlocks": 0,
+      "lootContainers": 27,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_3",
+        "top_4"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 20,
+      "sources": 125,
+      "waterBlocks": 127,
+      "waterloggedBlocks": 53,
+      "lootContainers": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_0",
+        "top_2"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 12,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_1",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 27,
+      "waterBlocks": 35,
+      "waterloggedBlocks": 24,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_2",
+        "top_4"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 12,
+      "sources": 10,
+      "waterBlocks": 10,
+      "waterloggedBlocks": 0,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_3",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 19,
+      "sources": 125,
+      "waterBlocks": 127,
+      "waterloggedBlocks": 53,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_0",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 21,
+      "waterBlocks": 21,
+      "waterloggedBlocks": 0,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_1",
+        "top_4"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 12,
+      "sources": 36,
+      "waterBlocks": 44,
+      "waterloggedBlocks": 24,
+      "lootContainers": 14,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_2",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 22,
+      "waterBlocks": 22,
+      "waterloggedBlocks": 0,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_3",
+        "top_6"
+      ],
+      "spawners": 7,
+      "scaffoldHeight": 19,
+      "sources": 134,
+      "waterBlocks": 136,
+      "waterloggedBlocks": 53,
+      "lootContainers": 26,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_0",
+        "top_4"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 14,
+      "sources": 6,
+      "waterBlocks": 6,
+      "waterloggedBlocks": 9,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_1",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 24,
+      "waterBlocks": 32,
+      "waterloggedBlocks": 33,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_2",
+        "top_6"
+      ],
+      "spawners": 5,
+      "scaffoldHeight": 14,
+      "sources": 7,
+      "waterBlocks": 7,
+      "waterloggedBlocks": 9,
+      "lootContainers": 31,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_3",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 21,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 62,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_0",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 7,
+      "sources": 6,
+      "waterBlocks": 6,
+      "waterloggedBlocks": 0,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_1",
+        "top_6"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 7,
+      "sources": 21,
+      "waterBlocks": 29,
+      "waterloggedBlocks": 24,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_2",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 7,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 26,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_3",
+        "top_1"
+      ],
+      "spawners": 7,
+      "scaffoldHeight": 14,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 53,
+      "lootContainers": 24,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_0",
+        "top_6"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 22,
+      "sources": 3,
+      "waterBlocks": 3,
+      "waterloggedBlocks": 0,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_1",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 22,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 12,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_2",
+        "top_1"
+      ],
+      "spawners": 5,
+      "scaffoldHeight": 22,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_3",
+        "top_2"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 29,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 53,
+      "lootContainers": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_0",
+        "middle_0",
+        "top_2"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 13,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_0",
+        "middle_1",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 13,
+      "sources": 27,
+      "waterBlocks": 35,
+      "waterloggedBlocks": 24,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_0",
+        "middle_2",
+        "top_4"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 13,
+      "sources": 10,
+      "waterBlocks": 10,
+      "waterloggedBlocks": 0,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_0",
+        "middle_3",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 20,
+      "sources": 125,
+      "waterBlocks": 127,
+      "waterloggedBlocks": 53,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_1",
+        "middle_0",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 9,
+      "waterBlocks": 9,
+      "waterloggedBlocks": 0,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_1",
+        "middle_1",
+        "top_4"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 12,
+      "sources": 24,
+      "waterBlocks": 32,
+      "waterloggedBlocks": 24,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_1",
+        "middle_2",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 10,
+      "waterBlocks": 10,
+      "waterloggedBlocks": 0,
+      "lootContainers": 27,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_1",
+        "middle_3",
+        "top_6"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 19,
+      "sources": 122,
+      "waterBlocks": 124,
+      "waterloggedBlocks": 53,
+      "lootContainers": 23,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_2",
+        "middle_0",
+        "top_4"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 12,
+      "sources": 18,
+      "waterBlocks": 18,
+      "waterloggedBlocks": 0,
+      "lootContainers": 14,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_2",
+        "middle_1",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 36,
+      "waterBlocks": 44,
+      "waterloggedBlocks": 24,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_2",
+        "middle_2",
+        "top_6"
+      ],
+      "spawners": 5,
+      "scaffoldHeight": 12,
+      "sources": 19,
+      "waterBlocks": 19,
+      "waterloggedBlocks": 0,
+      "lootContainers": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_2",
+        "middle_3",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 19,
+      "sources": 131,
+      "waterBlocks": 133,
+      "waterloggedBlocks": 53,
+      "lootContainers": 23,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_3",
+        "middle_0",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 6,
+      "waterBlocks": 6,
+      "waterloggedBlocks": 9,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_3",
+        "middle_1",
+        "top_6"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 14,
+      "sources": 21,
+      "waterBlocks": 29,
+      "waterloggedBlocks": 33,
+      "lootContainers": 17,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_3",
+        "middle_2",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 9,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_3",
+        "middle_3",
+        "top_1"
+      ],
+      "spawners": 8,
+      "scaffoldHeight": 21,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 62,
+      "lootContainers": 26,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_4",
+        "middle_0",
+        "top_6"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 7,
+      "sources": 3,
+      "waterBlocks": 3,
+      "waterloggedBlocks": 0,
+      "lootContainers": 15,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_4",
+        "middle_1",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 7,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 12,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_4",
+        "middle_2",
+        "top_1"
+      ],
+      "spawners": 5,
+      "scaffoldHeight": 7,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_4",
+        "middle_3",
+        "top_2"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 53,
+      "lootContainers": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_5",
+        "middle_0",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 22,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 12,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_5",
+        "middle_1",
+        "top_1"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 22,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_5",
+        "middle_2",
+        "top_2"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 22,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "stack": [
+        "base_5",
+        "middle_3",
+        "top_3"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 29,
+      "sources": 128,
+      "waterBlocks": 130,
+      "waterloggedBlocks": 53,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_0",
+        "top_3"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 13,
+      "sources": 9,
+      "waterBlocks": 9,
+      "waterloggedBlocks": 0,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_1",
+        "top_4"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 13,
+      "sources": 24,
+      "waterBlocks": 32,
+      "waterloggedBlocks": 24,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_2",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 13,
+      "sources": 10,
+      "waterBlocks": 10,
+      "waterloggedBlocks": 0,
+      "lootContainers": 27,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_0",
+        "middle_3",
+        "top_6"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 20,
+      "sources": 122,
+      "waterBlocks": 124,
+      "waterloggedBlocks": 53,
+      "lootContainers": 23,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_0",
+        "top_4"
+      ],
+      "spawners": 3,
+      "scaffoldHeight": 12,
+      "sources": 6,
+      "waterBlocks": 6,
+      "waterloggedBlocks": 0,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_1",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 24,
+      "waterBlocks": 32,
+      "waterloggedBlocks": 24,
+      "lootContainers": 13,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_2",
+        "top_6"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 12,
+      "sources": 7,
+      "waterBlocks": 7,
+      "waterloggedBlocks": 0,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_1",
+        "middle_3",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 19,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 53,
+      "lootContainers": 20,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_0",
+        "top_5"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 18,
+      "waterBlocks": 18,
+      "waterloggedBlocks": 0,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_1",
+        "top_6"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 12,
+      "sources": 33,
+      "waterBlocks": 41,
+      "waterloggedBlocks": 24,
+      "lootContainers": 18,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_2",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 12,
+      "sources": 16,
+      "waterBlocks": 16,
+      "waterloggedBlocks": 0,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_2",
+        "middle_3",
+        "top_1"
+      ],
+      "spawners": 8,
+      "scaffoldHeight": 19,
+      "sources": 131,
+      "waterBlocks": 133,
+      "waterloggedBlocks": 53,
+      "lootContainers": 27,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_0",
+        "top_6"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 14,
+      "sources": 3,
+      "waterBlocks": 3,
+      "waterloggedBlocks": 9,
+      "lootContainers": 17,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_1",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 14,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 33,
+      "lootContainers": 14,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_2",
+        "top_1"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 14,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 9,
+      "lootContainers": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_3",
+        "middle_3",
+        "top_2"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 21,
+      "sources": 119,
+      "waterBlocks": 121,
+      "waterloggedBlocks": 62,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_0",
+        "top_0"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 7,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 12,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_1",
+        "top_1"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 7,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_2",
+        "top_2"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 7,
+      "sources": 4,
+      "waterBlocks": 4,
+      "waterloggedBlocks": 0,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_4",
+        "middle_3",
+        "top_3"
+      ],
+      "spawners": 6,
+      "scaffoldHeight": 14,
+      "sources": 128,
+      "waterBlocks": 130,
+      "waterloggedBlocks": 53,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_0",
+        "top_1"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 22,
+      "sources": 0,
+      "waterBlocks": 0,
+      "waterloggedBlocks": 0,
+      "lootContainers": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_1",
+        "top_2"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 22,
+      "sources": 18,
+      "waterBlocks": 26,
+      "waterloggedBlocks": 24,
+      "lootContainers": 11,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_2",
+        "top_3"
+      ],
+      "spawners": 4,
+      "scaffoldHeight": 22,
+      "sources": 13,
+      "waterBlocks": 13,
+      "waterloggedBlocks": 0,
+      "lootContainers": 27,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "stack": [
+        "base_5",
+        "middle_3",
+        "top_4"
+      ],
+      "spawners": 0,
+      "scaffoldHeight": 29,
+      "sources": 125,
+      "waterBlocks": 127,
+      "waterloggedBlocks": 53,
+      "lootContainers": 19,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

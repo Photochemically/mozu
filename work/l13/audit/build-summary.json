@@ -1,15 +1,15 @@
 {
   "date": "2026-11-06",
-  "scope": "Dry perimeter entries at both prairie house variants and all mushroom house floors. Original doors, ruin trap, stair, attached spawners and loot retained.",
+  "scope": "Bathhouse dry perimeter and external scaffold to the original middle-floor porch. Preserve water and loot; reject the top_3 occupied socket that erases a chest.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "ground-houses-build.log",
+  "buildLog": "bathhouse-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 466891,
-  "sha256": "24ABF7E5CDE5C66CB90A83548735589B0CFBA8F44545929A5202C9E9923271DB",
+  "bytes": 483207,
+  "sha256": "CBF40DA5EAA9170C5583D819E861A378A4F4AA2E9DA43C300D4D94CD7037E8DF",
   "saveSchema": 5,
   "suites": [
     {
@@ -33,6 +33,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.AerialEntryAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.BathhouseAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -367,5 +373,6 @@
   "windmillEvidence": "windmill-entry-audit.json: two rigid tower halves, selected native field and encounter attachments, four layouts x four rotations. Each verifies 1..4 exits and each staircase independently with two exits. Live growth, fluids, random layouts, combat, redstone and multiplayer pending.",
   "merchantCampEvidence": "merchant-camp-entry-audit.json: 4 rotations x 4 street templates x 4 tent templates, 32 additional tents, all 1..4 exits per assembly. Original map chest, door halves and aisle clearance checked. Actual random generation, trading, opened loot and multiplayer remain pending.",
   "illagerCampEvidence": "illager-camp-entry-audit.json: 88 connected template examples, all 21 reachable templates and 100 tent interiors. All requested 1..4 exits, access to the outside of the four lit signal fires, original loot and enemy equipment audited. Native random generation, combat and multiplayer still pending.",
-  "groundHouseEvidence": "prairie-house-entry-audit.json and mushroom-house-entry-audit.json: 8 prairie and 160 mushroom examples from original NBT, each surveyed with 1..4 exits. Grass island model, no game launch."
+  "groundHouseEvidence": "prairie-house-entry-audit.json and mushroom-house-entry-audit.json: 8 prairie and 160 mushroom examples from original NBT, each surveyed with 1..4 exits. Grass island model, no game launch.",
+  "bathhouseEvidence": "bathhouse-entry-audit.json: 672 core stacks with rotation, routes and water/loot checks on 96 representative assemblies, 12 separately tested original chest collisions. Runtime validation pending."
 }

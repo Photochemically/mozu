@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。21 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，18 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。22 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，17 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -10,7 +10,7 @@ WDA 2.1.58 共 39 座建筑。21 座有原模板路线或入口几何证据，0 
 | aviary | jigsaw | 绝对 50 | 悬空 | start_deck | 原模板 · [4 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |
 | bandit_towers | jigsaw | 绝对 135 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对绝对起点、周边地形和原入口高差 |
 | bandit_village | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
-| bathhouse | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
+| bathhouse | jigsaw | WORLD_SURFACE_WG 0 | 干地／原池水 | perimeter 外侧脚手架与原门廊 | 原模板 · [96 组基座与门厅代表布局](audit/bathhouse-entry-audit.json) | 原生拼装与拒绝率、攀爬、池水恢复、多人重启 |
 | ceryneian_hind | jigsaw | WORLD_SURFACE_WG -16 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
 | coliseum | jigsaw | WORLD_SURFACE_WG -3 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
 | fishing_hut | jigsaw | WORLD_SURFACE_WG -2 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |

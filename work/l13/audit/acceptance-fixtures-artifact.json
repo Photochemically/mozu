@@ -1,10 +1,10 @@
 {
-  "tests": 223.0,
-  "buildLog": "ground-houses-build.log",
-  "jarBytes": 466891,
-  "jarSha256": "24ABF7E5CDE5C66CB90A83548735589B0CFBA8F44545929A5202C9E9923271DB",
+  "tests": 229.0,
+  "buildLog": "bathhouse-build.log",
+  "jarBytes": 483207,
+  "jarSha256": "CBF40DA5EAA9170C5583D819E861A378A4F4AA2E9DA43C300D4D94CD7037E8DF",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "757D5BCAE3A049AC1AA25472E7CFC614434C5B54952AED1C0000E5471F619A39",
+  "helperSha256": "E5628C7622E21E68A90050B7166DF11CDCEA4349C0088501CDFA96CCEAD3044F",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -26,6 +26,7 @@
     "MERCHANT_CAMP_ENTRY.md",
     "ILLAGER_CAMP_ENTRY.md",
     "GROUND_HOUSE_ENTRIES.md",
+    "BATHHOUSE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

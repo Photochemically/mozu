@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 21,
+    "originalTemplateEvidence": 22,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 18,
+    "resourceGraphOnly": 17,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -83,12 +83,12 @@
       "startPool": "dungeons_arise:bathhouse/bathhouse_base",
       "biomeSelector": "#dungeons_arise:has_structure/bathhouse_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "干地／原池水",
+      "entry": "perimeter 外侧脚手架与原门廊",
+      "level": "原模板",
+      "file": "audit/bathhouse-entry-audit.json",
+      "label": "96 组基座与门厅代表布局",
+      "remaining": "原生拼装与拒绝率、攀爬、池水恢复、多人重启",
       "runtimeAccepted": false
     },
     {
