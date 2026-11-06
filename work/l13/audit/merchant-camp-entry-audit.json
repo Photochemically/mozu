@@ -1,0 +1,1079 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_0",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0",
+        "iron_golem_normal_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_1",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_0",
+        "villager_normal_0",
+        "tent_1"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_1",
+        "villager_normal_0",
+        "tent_2"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_2",
+        "villager_normal_0",
+        "tent_3"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_2",
+        "tent_3",
+        "villager_normal_0",
+        "tent_0"
+      ],
+      "tentsChecked": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_0",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_1",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_2",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": [
+        "street_4_main",
+        "street_3",
+        "tent_3",
+        "villager_normal_0"
+      ],
+      "tentsChecked": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "runtimeAccepted": false,
+  "scope": "Original projected streets, rigid tents and encounter records. Selected compatible assemblies on flat ground; native random frequency, door interaction, trading, loot and multiplayer await game acceptance."
+}

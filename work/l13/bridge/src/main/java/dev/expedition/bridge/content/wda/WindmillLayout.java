@@ -17,14 +17,13 @@ record WindmillLayout(BlockPos origin, Rotation rotation) {
     static final String PREFIX = TARGET + "/illager_windmill_";
     private static final Set<String> FIELDS = Set.of("field_0", "field_1", "field_2", "field_3", "field_4");
     private static final Set<String> MOBS = Set.of("pillager_0", "vindicator_1", "witch_2");
-    record Piece(String id, BlockPos origin, Rotation rotation, BlockBounds bounds, boolean terrainMatching) {}
 
     static WindmillLayout fromRoot(StructureStart start) {
         var root = (PoolElementStructurePiece) start.getPieces().get(0);
         return new WindmillLayout(root.getPosition(), root.getRotation());
     }
 
-    static void validate(List<Piece> pieces, WdaStructurePlanner.Environment env) {
+    static void validate(List<WdaTemplatePiece> pieces, WdaStructurePlanner.Environment env) {
         if (env.entryMode() != DungeonSpec.EntryMode.PERIMETER || env.boarding()
                 || (env.surface() != IslandPlan.Surface.GRASS && env.surface() != IslandPlan.Surface.ROCK))
             throw new IllegalArgumentException("Windmill needs dry ground and perimeter exits");

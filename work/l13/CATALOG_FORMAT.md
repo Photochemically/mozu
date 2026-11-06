@@ -66,3 +66,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 灯塔 lighthouse 使用 grass 或 rock、perimeter 和关闭的 boarding。firstFreeY 传给原生规划器。新实例施工采用实际塔底（规划首个空层减 2）推导地面以保留原台阶，出口和保存方式沿用岛缘规则。详见[灯塔入口](LIGHTHOUSE_ENTRY.md)。
 
 掠夺者风车 illager_windmill 沿用干地 perimeter，关闭 boarding。草地开发案例地表为 96，原塔底为 93。沿用原生刚性塔身与 terrain_matching 农田，施工后检查所有指定出口到原石阶的旱路。详见[风车入口](WINDMILL_ENTRY.md)。
+
+商人营地 merchant_campsite 沿用干地 perimeter 和关闭的 boarding。草地案例为规划首个空层 96、地基深度 16。生成后检查所有指定出口、每顶原帐篷以及中央地图箱。见[商人营地入口](MERCHANT_CAMP_ENTRY.md)。

@@ -5,7 +5,7 @@ import dev.expedition.bridge.domain.InteriorBlockRules.Type;
 import dev.expedition.bridge.domain.InteriorSiteSearch;
 import dev.expedition.bridge.domain.IslandPlan;
 import net.minecraft.core.Direction;
-import java.util.ArrayDeque;
+import java.util.List;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -18,52 +18,26 @@ final class WindmillRoute {
     private final WindmillLayout mill;
     private final IslandPlan island;
     private final Probe world;
-    private final java.util.List<Cell> exits;
-    private final Set<Cell> pendingExits;
+    private final int exits;
     private final Set<Cell> approaches = new HashSet<>();
-    private final Set<Cell> seen = new HashSet<>();
-    private final ArrayDeque<Cell> queue = new ArrayDeque<>();
-    private boolean reachedStairs;
+    private DryPerimeterRoute ground;
     private int surveyed;
 
     WindmillRoute(WindmillLayout mill, IslandPlan island, int count, Probe world) {
         this.mill = mill;
         this.island = island;
         this.world = world;
-        exits = island.perimeterSites(count);
-        pendingExits = new HashSet<>(exits);
+        this.exits = count;
     }
 
     boolean step() {
-        if (surveyed < exits.size()) {
-            if (!InteriorSiteSearch.clearPlatform(exits.get(surveyed++), world))
-                throw new IllegalStateException("Windmill perimeter exit has no clear platform");
-            return false;
-        }
-        if (surveyed < exits.size() + 2) {
-            int dx = surveyed++ == exits.size() ? 1 : -1;
+        if (surveyed < 2) {
+            int dx = surveyed++ == 0 ? 1 : -1;
             if (openStairs(dx)) approaches.add(mill.at(dx == 1 ? 4 : 44, 3, 18));
-            if (surveyed == exits.size() + 2) {
-                if (approaches.isEmpty()) throw new IllegalStateException("Both original windmill stairways are obstructed");
-                visit(exits.get(0));
-            }
             return false;
         }
-        var p = queue.pollFirst();
-        if (p == null) throw new IllegalStateException("Windmill exits and original stairs have no connected dry route");
-        pendingExits.remove(p);
-        if (approaches.contains(p)) reachedStairs = true;
-        if (pendingExits.isEmpty() && reachedStairs) return true;
-        visit(p.move(1, 0, 0));
-        visit(p.move(-1, 0, 0));
-        visit(p.move(0, 0, 1));
-        visit(p.move(0, 0, -1));
-        return false;
-    }
-
-    private void visit(Cell p) {
-        if (p.x() < island.coreMinX() || p.x() > island.coreMaxX() || p.z() < island.coreMinZ() || p.z() > island.coreMaxZ()) return;
-        if (seen.add(p) && walkable(p)) queue.addLast(p);
+        if (ground == null) ground = new DryPerimeterRoute(island, exits, world, List.of(), approaches);
+        return ground.step();
     }
 
     private boolean openStairs(int dx) {

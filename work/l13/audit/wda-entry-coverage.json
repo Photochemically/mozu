@@ -3,8 +3,8 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 17,
-    "fixtureOnly": 1,
+    "originalTemplateEvidence": 18,
+    "fixtureOnly": 0,
     "resourceGraphOnly": 21,
     "runtimeAccepted": 0
   },
@@ -410,11 +410,11 @@
       "biomeSelector": "#dungeons_arise:has_structure/merchant_campsite_biomes",
       "originalMissingReferences": [],
       "environment": "草地（测试）",
-      "entry": "perimeter",
-      "level": "开发案例",
-      "file": "ACCEPTANCE_FIXTURES.md",
-      "label": "oak_camp",
-      "remaining": "原入口高差、实际拼装与出口",
+      "entry": "perimeter 街道与帐篷",
+      "level": "原模板",
+      "file": "audit/merchant-camp-entry-audit.json",
+      "label": "64 组街道与帐篷组合",
+      "remaining": "原生随机营地、开门交易、战利品和双人重启",
       "runtimeAccepted": false
     },
     {

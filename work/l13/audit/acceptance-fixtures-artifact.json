@@ -1,10 +1,10 @@
 {
-  "tests": 209.0,
-  "buildLog": "windmill-entry-build.log",
-  "jarBytes": 431534,
-  "jarSha256": "AC3464F95608C31675BA10E6435021938848023F8FF933BCFEB881C054564780",
+  "tests": 213.0,
+  "buildLog": "merchant-camp-entry-build.log",
+  "jarBytes": 444379,
+  "jarSha256": "9F8B8466F1843AF6DF2CCDCE67A832D8D8AE4E5FB55B1441BB2372200D35EFC2",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "FCF959977829EA21B8589AA1CD6D9F74653AD99BBC9B660DBFDD2632E14CDFBF",
+  "helperSha256": "9D2DADEA651674234EB20ED1E1290472F02B912C83180F9F57991BDAB1BB2538",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -23,6 +23,7 @@
     "TYPHON_DIVE_ENTRY.md",
     "LIGHTHOUSE_ENTRY.md",
     "WINDMILL_ENTRY.md",
+    "MERCHANT_CAMP_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

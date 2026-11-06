@@ -58,11 +58,11 @@ class WindmillAuditTest {
 
     private record Placed(Part part, BlockPos origin, Rotation rotation) {
         BlockPos at(BlockPos local) { return local.rotate(rotation).offset(origin); }
-        WindmillLayout.Piece piece() {
+        WdaTemplatePiece piece() {
             var end = at(part.size.offset(-1,-1,-1));
             var b = new BlockBounds(Math.min(origin.getX(),end.getX()), origin.getY(), Math.min(origin.getZ(),end.getZ()),
                     Math.max(origin.getX(),end.getX()), end.getY(), Math.max(origin.getZ(),end.getZ()));
-            return new WindmillLayout.Piece(WindmillLayout.PREFIX + part.id, origin, rotation, b, part.id.startsWith("field_"));
+            return new WdaTemplatePiece(WindmillLayout.PREFIX + part.id, origin, rotation, b, part.id.startsWith("field_"));
         }
     }
     private static Placed attach(Placed parent, Block socket, Part part, Block inlet, Rotation rotation) {
@@ -116,7 +116,7 @@ class WindmillAuditTest {
             var pieces = parts.stream().map(Placed::piece).toList();
             WindmillLayout.validate(pieces, ENV);
             mill = new WindmillLayout(parts.get(0).origin, parts.get(0).rotation);
-            var bounds = pieces.stream().map(WindmillLayout.Piece::bounds).reduce(IslandPlan::union).orElseThrow();
+            var bounds = pieces.stream().map(WdaTemplatePiece::bounds).reduce(IslandPlan::union).orElseThrow();
             island = new IslandPlan(bounds,SURFACE,8,6,24,IslandPlan.Surface.GRASS);
             for (var p : parts) for (var b : p.part.blocks) {
                 var where = cell(p.at(b.pos));
@@ -202,9 +202,9 @@ class WindmillAuditTest {
         var good = assembly(loadParts(),Rotation.COUNTERCLOCKWISE_90,1).stream().map(Placed::piece).toList();
         var root = good.get(0); var top = good.get(1); var field = good.get(2);
         assertThrows(IllegalArgumentException.class,()->WindmillLayout.validate(List.of(root),ENV));
-        var detached = new WindmillLayout.Piece(top.id(), top.origin().above(),top.rotation(),top.bounds().move(0,1,0),false);
+        var detached = new WdaTemplatePiece(top.id(), top.origin().above(),top.rotation(),top.bounds().move(0,1,0),false);
         assertThrows(IllegalArgumentException.class,()->WindmillLayout.validate(List.of(root,detached),ENV));
-        var rigidField = new WindmillLayout.Piece(field.id(),field.origin(),field.rotation(),field.bounds(),false);
+        var rigidField = new WdaTemplatePiece(field.id(),field.origin(),field.rotation(),field.bounds(),false);
         assertThrows(IllegalArgumentException.class,()->WindmillLayout.validate(List.of(root,top,rigidField),ENV));
         assertThrows(IllegalArgumentException.class,()->WindmillLayout.validate(good,new WdaStructurePlanner.Environment(97,8,6,24,IslandPlan.Surface.GRASS)));
         assertThrows(IllegalArgumentException.class,()->WindmillLayout.validate(good,new WdaStructurePlanner.Environment(96,8,6,24,IslandPlan.Surface.WATER,8)));
