@@ -64,6 +64,8 @@ public final class WdaStructurePlanner {
         MushroomMineLayout.validateMode(id.toString(),environment.entryMode());
         ScorchedWellLayout.validateMode(id.toString(),environment.entryMode());
         TyphonDiveLayout.validateMode(id.toString(),environment.entryMode());
+        boolean isLighthouse = id.toString().equals(LighthouseLayout.TARGET);
+        if (isLighthouse) LighthouseLayout.validateEnvironment(environment.surface(), environment.entryMode(), environment.boarding());
         var world=server.overworld();var target=server.getLevel(ModDimensions.DUNGEON);
         if(target==null)throw new IllegalStateException("Dungeon dimension unavailable");
         var registries=server.registryAccess();
@@ -78,6 +80,9 @@ public final class WdaStructurePlanner {
         if(type==null || !(type.toString().equals("minecraft:jigsaw") || type.toString().equals("dungeons_arise:generic_structures")))
             throw new IllegalArgumentException("Unsupported structure generator "+type);
         boolean aerial=environment.surface()==IslandPlan.Surface.VOID;
+        if (isLighthouse && !type.toString().equals("dungeons_arise:generic_structures")) {
+            throw new IllegalArgumentException("Lighthouse requires the native custom height check");
+        }
         if(aerial) {
             var encoded=Structure.DIRECT_CODEC.encodeStart(RegistryOps.create(NbtOps.INSTANCE,registries),structure)
                     .getOrThrow(false,message->{throw new IllegalArgumentException(message);});
@@ -110,8 +115,10 @@ public final class WdaStructurePlanner {
         var ladder=environment.entryMode()==DungeonSpec.EntryMode.START_LADDER?BlimpLadderPlanner.prepare(server,start,complete):null;
         var mine=environment.entryMode()==DungeonSpec.EntryMode.START_MINE?MushroomMinePlanner.prepare(server,start,complete):null;
         var well=environment.entryMode()==DungeonSpec.EntryMode.START_WELL?ScorchedWellPlanner.prepare(server,start):null;
+        var lighthouse = isLighthouse ? LighthousePlanner.prepare(server, start, environment.firstFreeY(), complete) : null;
         // Special rigid graphs retain every native coordinate; derive only their audited background ground height.
         int groundY=well!=null?well.groundY():mine!=null?mine.groundY():ladder!=null?ladder.foot().y():environment.firstFreeY();
+        if (lighthouse != null) groundY = lighthouse.groundY();
         var island=new IslandPlan(complete,groundY,environment.padding(),environment.rim(),
                 environment.foundationDepth(),environment.surface(),environment.waterDepth());
         var dive=environment.entryMode()==DungeonSpec.EntryMode.SHORE_DIVE?TyphonDivePlanner.prepare(server,start,island):null;
@@ -136,7 +143,7 @@ public final class WdaStructurePlanner {
             }
         }
         var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive);
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive,lighthouse);
     }
 
     private void validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

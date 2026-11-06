@@ -19,7 +19,7 @@ import java.util.List;
 
 /** Cooperative server-thread job. A native template/chunk call is indivisible, so the time budget is a soft limit. */
 final class WdaBuildJob {
-    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, INDEX, FLUID_RELEASE, CONTENT_READY }
+    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, LIGHTHOUSE_ROUTE, INDEX, FLUID_RELEASE, CONTENT_READY }
     final PortalRecord portal;
     final WdaStructurePlan plan;
     final ServerLevel world;
@@ -29,6 +29,7 @@ final class WdaBuildJob {
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
     private TyphonDiveSitesJob dive;
+    private LighthouseRoute lighthouseRoute;
     private final int minChunkX,maxChunkX,minChunkZ,maxChunkZ;
     private int chunkX,chunkZ;
     private Stage stage=Stage.ISLAND;
@@ -98,7 +99,11 @@ final class WdaBuildJob {
                 if(!advance()) {
                     stage=plan.boarding()?Stage.BOARDING:Stage.INDEX;
                     if(plan.boarding())boarding=new WdaBoardingJob(world,portal,plan.island());
-                    if(plan.dive()!=null) {
+                    if (plan.lighthouse() != null) {
+                        stage = Stage.LIGHTHOUSE_ROUTE;
+                        lighthouseRoute = new LighthouseRoute(plan.lighthouse(), plan.island(),
+                                portal.selection().content().exits(), new LighthouseProbe(world));
+                    } else if(plan.dive()!=null) {
                         stage=Stage.DIVE_SITES;
                         dive=new TyphonDiveSitesJob(world,plan.dive(),plan.island(),portal.selection().content().exits());
                     } else if(plan.entryMode().interior()) {
@@ -120,6 +125,12 @@ final class WdaBuildJob {
             }
             if(stage==Stage.DIVE_SITES) {
                 if(dive.step(256,budgetNanos)){stage=Stage.INDEX;rewind();}
+                return;
+            }
+            if (stage == Stage.LIGHTHOUSE_ROUTE) {
+                for (int n = 0; n < 256 && (n == 0 || System.nanoTime() - started < budgetNanos); n++) {
+                    if (lighthouseRoute.step()) { stage = Stage.INDEX; rewind(); break; }
+                }
                 return;
             }
             if(stage==Stage.INDEX) {

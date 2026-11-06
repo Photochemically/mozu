@@ -46,6 +46,15 @@ public record IslandPlan(BlockBounds building, int firstFreeY, int padding, int 
     }
     public int entryX() { return hasTerrain()?Math.addExact(building.maxX(), 3):building.minX(); }
     public int entryY() { return hasTerrain()?firstFreeY:building.minY(); }
+    /** Ordered east, west, north and south to match existing saved perimeter destinations. */
+    public java.util.List<BoardingRouteSearch.Cell> perimeterSites(int count) {
+        if (!hasTerrain() || count < 1 || count > 4) throw new IllegalArgumentException("Invalid perimeter exit count or environment");
+        int midX = building.minX() + (building.width() - 1) / 2;
+        return java.util.List.of(new BoardingRouteSearch.Cell(entryX(), firstFreeY, entryZ()),
+                new BoardingRouteSearch.Cell(building.minX() - 3, firstFreeY, entryZ()),
+                new BoardingRouteSearch.Cell(midX, firstFreeY, building.minZ() - 3),
+                new BoardingRouteSearch.Cell(midX, firstFreeY, building.maxZ() + 3)).subList(0, count);
+    }
     public int entryZ() { return hasTerrain()?building.minZ()+(building.depth()-1)/2:building.minZ(); }
     public boolean hasTerrain(){return surface!=Surface.VOID;}
 

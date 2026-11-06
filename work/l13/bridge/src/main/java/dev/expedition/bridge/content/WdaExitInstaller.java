@@ -18,13 +18,12 @@ public final class WdaExitInstaller {
     private record Exit(BlockPos pos,Direction facing){}
     public void install(MinecraftServer server,PortalRecord portal,IslandPlan island,int count) {
         if(!island.hasTerrain())throw new IllegalArgumentException("Void content needs validated original deck exits");
-        var b=island.building();int y=island.firstFreeY();
-        int midX=b.minX()+(b.width()-1)/2,midZ=b.minZ()+(b.depth()-1)/2;
-        var candidates=List.of(new Exit(new BlockPos(island.entryX(),y,island.entryZ()),Direction.WEST),
-                new Exit(new BlockPos(b.minX()-3,y,midZ),Direction.EAST),new Exit(new BlockPos(midX,y,b.minZ()-3),Direction.SOUTH),
-                new Exit(new BlockPos(midX,y,b.maxZ()+3),Direction.NORTH));
-        if(count<1 || count>4)throw new IllegalArgumentException("Invalid WDA exit count");
-        installSelected(server,portal,candidates.subList(0,count));
+        var directions = List.of(Direction.WEST, Direction.EAST, Direction.SOUTH, Direction.NORTH);
+        var candidates = new ArrayList<Exit>();
+        for (var site : island.perimeterSites(count)) {
+            candidates.add(new Exit(new BlockPos(site.x(), site.y(), site.z()), directions.get(candidates.size())));
+        }
+        installSelected(server,portal,candidates);
     }
     public void installInterior(MinecraftServer server,PortalRecord portal,List<PortalRecord.Site> sites) {
         if(portal.selection()==null || portal.selection().content().provider()!=DungeonSpec.Provider.WDA
