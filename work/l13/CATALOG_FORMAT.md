@@ -70,3 +70,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 商人营地 merchant_campsite 沿用干地 perimeter 和关闭的 boarding。草地案例为规划首个空层 96、地基深度 16。生成后检查所有指定出口、每顶原帐篷以及中央地图箱。见[商人营地入口](MERCHANT_CAMP_ENTRY.md)。
 
 掠夺者营地 illager_campsite 使用干地 perimeter，关闭 boarding。桥接沿实际地面搜索所有指定出口、原帐篷内部和火圈外的一处落脚点，保留围住地图箱的四处信号营火及原遭遇点。见[掠夺者营地](ILLAGER_CAMP_ENTRY.md)。
+
+草原小屋和蘑菇小屋使用干地 perimeter。桥接按原件拼装结果核对两种草原门道、废墟机关或蘑菇屋云杉台阶，再检查岛缘出口到屋外的路线。[小屋入口与配置范围](GROUND_HOUSE_ENTRIES.md)。

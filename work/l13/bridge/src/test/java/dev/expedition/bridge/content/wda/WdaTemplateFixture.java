@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.zip.ZipFile;
 import static org.junit.jupiter.api.Assertions.*;
 
-final class CampTemplateFixture {
+final class WdaTemplateFixture {
     static final Path JAR = Path.of("libs/DungeonsArise-1.20.x-2.1.58-release.jar");
     static final String HASH = "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90";
     static final int Y=96;
@@ -29,13 +29,15 @@ final class CampTemplateFixture {
     }
     private static BlockPos vector(ListTag v) { return new BlockPos(v.getInt(0),v.getInt(1),v.getInt(2)); }
     private static Cell cell(BlockPos p) { return new Cell(p.getX(),p.getY(),p.getZ()); }
-    static Map<String,Template> templates(String camp) throws IOException {
+    static Map<String,Template> templates(String structure) throws IOException {
         var result=new HashMap<String,Template>();
         try (var zip=new ZipFile(JAR.toFile())) {
             var pools = new HashMap<String,Set<String>>();
+            String startPool=json(zip,"data/dungeons_arise/worldgen/structure/"+structure+".json").get("start_pool").getAsString();
+            String poolPrefix="data/dungeons_arise/worldgen/template_pool/";
+            String poolDir=poolPrefix+startPool.substring(startPool.indexOf(':')+1,startPool.lastIndexOf('/')+1);
             for (var entry : Collections.list(zip.entries())) {
-                String poolPrefix="data/dungeons_arise/worldgen/template_pool/";
-                if (!entry.getName().startsWith(poolPrefix+"campsites/"+camp+"/") || !entry.getName().endsWith(".json")) continue;
+                if (!entry.getName().startsWith(poolDir) || !entry.getName().endsWith(".json")) continue;
                 String pool="dungeons_arise:"+entry.getName().substring(poolPrefix.length(),entry.getName().length()-5);
                 for (var raw : json(zip,entry.getName()).getAsJsonArray("elements")) {
                     var location=raw.getAsJsonObject().getAsJsonObject("element").get("location").getAsString();
@@ -43,7 +45,7 @@ final class CampTemplateFixture {
                 }
             }
             for (var e:Collections.list(zip.entries())) {
-                String prefix="data/dungeons_arise/structures/"+camp+"/"+camp+"_";
+                String prefix="data/dungeons_arise/structures/"+structure+"/"+structure+"_";
                 if (!e.getName().startsWith(prefix) || !e.getName().endsWith(".nbt")) continue;
                 try (var in=zip.getInputStream(e)) {
                     var n=NbtIo.readCompressed(in);
@@ -55,7 +57,7 @@ final class CampTemplateFixture {
                         blocks.add(new Block(vector(b.getList("pos",Tag.TAG_INT)),s.getString("Name"),s.getCompound("Properties"),b.getCompound("nbt")));
                     }
                     var id=e.getName().substring(prefix.length(),e.getName().length()-4);
-                    var location="dungeons_arise:"+camp+"/"+camp+"_"+id;
+                    var location="dungeons_arise:"+structure+"/"+structure+"_"+id;
                     result.put(id,new Template(id,location,pools.getOrDefault(location,Set.of()),vector(n.getList("size",Tag.TAG_INT)),blocks,n.getList("entities",Tag.TAG_COMPOUND)));
                 }
             }
@@ -79,14 +81,12 @@ final class CampTemplateFixture {
                 && b.props.getString("orientation").startsWith(inletFacing.getName()+"_")).findFirst().orElseThrow();
         assertTrue(child.pools.contains(socket.data.getString("pool")), "Child absent from original parent pool");
         var facing=parent.rotation.rotate(Direction.byName(socket.props.getString("orientation").split("_")[0]));
-        Rotation rot=parent.rotation;
-        if (facing.getAxis().isHorizontal()) rot=Arrays.stream(Rotation.values())
-                .filter(r->r.rotate(inletFacing)==facing.getOpposite()).findFirst().orElseThrow();
-        assertEquals(facing.getOpposite(),rot.rotate(inletFacing));
-        if (socket.data.getString("joint").equals("aligned")) {
-            assertEquals(parent.rotation.rotate(Direction.byName(socket.props.getString("orientation").split("_")[1])),
-                    rot.rotate(Direction.byName(inlet.props.getString("orientation").split("_")[1])));
-        }
+        boolean aligned=socket.data.getString("joint").equals("aligned");
+        var top=parent.rotation.rotate(Direction.byName(socket.props.getString("orientation").split("_")[1]));
+        var inletTop=Direction.byName(inlet.props.getString("orientation").split("_")[1]);
+        var rot=Arrays.stream(Rotation.values()).map(parent.rotation::getRotated)
+                .filter(r -> r.rotate(inletFacing)==facing.getOpposite() && (!aligned || r.rotate(inletTop)==top))
+                .findFirst().orElseThrow();
         var origin=parent.at(socket.pos).relative(facing).subtract(inlet.pos.rotate(rot));
         // Native Placer uses the first free height minus child connector Y if either end is terrain-matching.
         if (parent.template.projected() || child.projected()) origin=new BlockPos(origin.getX(),Y-inlet.pos.getY(),origin.getZ());

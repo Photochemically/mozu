@@ -10,7 +10,7 @@ import net.minecraft.server.level.ServerLevel;
 import java.util.*;
 import java.util.function.BooleanSupplier;
 
-record IllagerCampLayout(Cell mapChest, List<Cell> tentInteriors) implements CampLayout {
+record IllagerCampLayout(Cell mapChest, List<Cell> tentInteriors) implements PerimeterLayout {
     static final String TARGET = "dungeons_arise:illager_campsite";
     static final String PREFIX = TARGET + "/illager_campsite_";
     private static final String CENTER = "street_6_main";

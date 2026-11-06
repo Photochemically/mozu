@@ -99,13 +99,14 @@ public final class WdaStructurePlanner {
         boolean windmill = id.toString().equals(WindmillLayout.TARGET);
         boolean merchantCamp = id.toString().equals(MerchantCampLayout.TARGET);
         boolean illagerCamp = id.toString().equals(IllagerCampLayout.TARGET);
+        boolean groundHouse = id.toString().equals(GroundHouseLayout.PRAIRIE) || id.toString().equals(GroundHouseLayout.MUSHROOM);
         var perimeterPieces = new ArrayList<WdaTemplatePiece>();
         for(var piece:start.getPieces()) {
             if(!(piece instanceof PoolElementStructurePiece pool)
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp || illagerCamp) {
+            if (windmill || merchantCamp || illagerCamp || groundHouse) {
                 if (pool.getElement().getClass() != SinglePoolElement.class || !tag.getString("processors").equals("minecraft:empty")
                         || !registries.registryOrThrow(Registries.PROCESSOR_LIST).get(ResourceLocation.parse("minecraft:empty")).list().isEmpty())
                     throw new IllegalArgumentException("Expected original unprocessed single pieces for " + id);
@@ -124,9 +125,10 @@ public final class WdaStructurePlanner {
             }
         }
         if (windmill) WindmillLayout.validate(perimeterPieces, environment);
-        CampLayout camp = null;
-        if (merchantCamp) camp = MerchantCampLayout.inspect(perimeterPieces, environment);
-        if (illagerCamp) camp = IllagerCampLayout.inspect(perimeterPieces, environment);
+        PerimeterLayout perimeterLayout = null;
+        if (merchantCamp) perimeterLayout = MerchantCampLayout.inspect(perimeterPieces, environment);
+        if (illagerCamp) perimeterLayout = IllagerCampLayout.inspect(perimeterPieces, environment);
+        if (groundHouse) perimeterLayout = GroundHouseLayout.inspect(id.toString(), perimeterPieces, environment);
         var ladder=environment.entryMode()==DungeonSpec.EntryMode.START_LADDER?BlimpLadderPlanner.prepare(server,start,complete):null;
         var mine=environment.entryMode()==DungeonSpec.EntryMode.START_MINE?MushroomMinePlanner.prepare(server,start,complete):null;
         var well=environment.entryMode()==DungeonSpec.EntryMode.START_WELL?ScorchedWellPlanner.prepare(server,start):null;
@@ -158,7 +160,7 @@ public final class WdaStructurePlanner {
             }
         }
         var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive,lighthouse,camp);
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive,lighthouse,perimeterLayout);
     }
 
     private CompoundTag validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

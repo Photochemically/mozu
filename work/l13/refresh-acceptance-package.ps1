@@ -31,6 +31,7 @@ $taskEntries = [ordered]@{
     'WINDMILL_ENTRY.md'='WINDMILL_ENTRY.md'
     'MERCHANT_CAMP_ENTRY.md'='MERCHANT_CAMP_ENTRY.md'
     'ILLAGER_CAMP_ENTRY.md'='ILLAGER_CAMP_ENTRY.md'
+    'GROUND_HOUSE_ENTRIES.md'='GROUND_HOUSE_ENTRIES.md'
     'test-fixtures/expedition-development-world.json'='test-fixtures/expedition-development-world.json'
 }
 $taskStream = [IO.File]::Open($taskTemporary,[IO.FileMode]::Create)

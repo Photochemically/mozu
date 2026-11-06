@@ -1,10 +1,10 @@
 {
-  "tests": 218.0,
-  "buildLog": "illager-camp-entry-build.log",
-  "jarBytes": 452843,
-  "jarSha256": "4EEBFAF96AED3C3862610A2962D50C94A7524908BE67D6D8B8CFDE2FCEB105A3",
+  "tests": 223.0,
+  "buildLog": "ground-houses-build.log",
+  "jarBytes": 466891,
+  "jarSha256": "24ABF7E5CDE5C66CB90A83548735589B0CFBA8F44545929A5202C9E9923271DB",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "D704BD57524560BBF1830978894FAE20AFC9F061D05C4AE42BBCCC36729FB9E2",
+  "helperSha256": "757D5BCAE3A049AC1AA25472E7CFC614434C5B54952AED1C0000E5471F619A39",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -25,6 +25,7 @@
     "WINDMILL_ENTRY.md",
     "MERCHANT_CAMP_ENTRY.md",
     "ILLAGER_CAMP_ENTRY.md",
+    "GROUND_HOUSE_ENTRIES.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

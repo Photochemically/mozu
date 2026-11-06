@@ -12,7 +12,7 @@ import java.nio.file.*;
 import java.security.MessageDigest;
 import java.util.*;
 import java.util.zip.ZipFile;
-import static dev.expedition.bridge.content.wda.CampTemplateFixture.*;
+import static dev.expedition.bridge.content.wda.WdaTemplateFixture.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class IllagerCampAuditTest {

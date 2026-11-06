@@ -108,9 +108,9 @@ final class WdaBuildJob {
                         stage = Stage.PERIMETER_ROUTE;
                         perimeterStep = new WindmillRoute(WindmillLayout.fromRoot(plan.start()), plan.island(),
                                 portal.selection().content().exits(), new WindmillProbe(world))::step;
-                    } else if (plan.camp() != null) {
+                    } else if (plan.perimeterLayout() != null) {
                         stage = Stage.PERIMETER_ROUTE;
-                        perimeterStep = plan.camp().survey(world, plan.island(), portal.selection().content().exits());
+                        perimeterStep = plan.perimeterLayout().survey(world, plan.island(), portal.selection().content().exits());
                     } else if(plan.dive()!=null) {
                         stage=Stage.DIVE_SITES;
                         dive=new TyphonDiveSitesJob(world,plan.dive(),plan.island(),portal.selection().content().exits());

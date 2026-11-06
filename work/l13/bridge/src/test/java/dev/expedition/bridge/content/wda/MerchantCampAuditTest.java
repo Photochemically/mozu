@@ -18,7 +18,7 @@ import java.util.*;
 import java.util.zip.ZipFile;
 import static org.junit.jupiter.api.Assertions.*;
 
-import static dev.expedition.bridge.content.wda.CampTemplateFixture.*;
+import static dev.expedition.bridge.content.wda.WdaTemplateFixture.*;
 
 class MerchantCampAuditTest {
     private static final String POOLS = "data/dungeons_arise/worldgen/template_pool/campsites/merchant_campsite/";

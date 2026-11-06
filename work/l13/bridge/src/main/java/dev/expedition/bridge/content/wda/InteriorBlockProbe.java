@@ -1,7 +1,11 @@
 package dev.expedition.bridge.content.wda;
 
 import dev.expedition.bridge.domain.*;
+import dev.expedition.bridge.domain.BoardingRouteSearch.Cell;
 import net.minecraft.core.*;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -18,5 +22,12 @@ public final class InteriorBlockProbe implements InteriorSiteSearch.Probe {
                 !state.getFluidState().isEmpty(),state.hasBlockEntity());
         if(kind==InteriorBlockRules.Type.SUPPORT && !state.isFaceSturdy(world,pos,Direction.UP))return InteriorBlockRules.Type.BLOCKED;
         return kind;
+    }
+    public boolean spruceDoor(Cell p, Direction facing) {
+        var pos = new BlockPos(p.x(),p.y(),p.z());
+        var lower = world.getBlockState(pos);
+        var upper = world.getBlockState(pos.above());
+        return lower.is(Blocks.SPRUCE_DOOR) && lower.getValue(DoorBlock.HALF)==DoubleBlockHalf.LOWER
+                && lower.getValue(DoorBlock.FACING)==facing && lower.setValue(DoorBlock.HALF,DoubleBlockHalf.UPPER).equals(upper);
     }
 }

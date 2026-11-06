@@ -1,15 +1,15 @@
 {
   "date": "2026-11-06",
-  "scope": "Illager campsite dry perimeter, authentic signal fire ring and original encounter templates; allow patrol-only streets and retain every selected tent",
+  "scope": "Dry perimeter entries at both prairie house variants and all mushroom house floors. Original doors, ruin trap, stair, attached spawners and loot retained.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "illager-camp-entry-build.log",
+  "buildLog": "ground-houses-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 452843,
-  "sha256": "4EEBFAF96AED3C3862610A2962D50C94A7524908BE67D6D8B8CFDE2FCEB105A3",
+  "bytes": 466891,
+  "sha256": "24ABF7E5CDE5C66CB90A83548735589B0CFBA8F44545929A5202C9E9923271DB",
   "saveSchema": 5,
   "suites": [
     {
@@ -45,6 +45,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.FluidGenerationHookTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.GroundHouseAuditTest",
+      "tests": 5,
       "failures": 0,
       "errors": 0
     },
@@ -360,5 +366,6 @@
   "entryCoverage": "wda-entry-coverage.json and WDA_ENTRY_COVERAGE.md are generated from the pinned JAR and existing audit evidence. 39 distinct structures, no formal enrollment.",
   "windmillEvidence": "windmill-entry-audit.json: two rigid tower halves, selected native field and encounter attachments, four layouts x four rotations. Each verifies 1..4 exits and each staircase independently with two exits. Live growth, fluids, random layouts, combat, redstone and multiplayer pending.",
   "merchantCampEvidence": "merchant-camp-entry-audit.json: 4 rotations x 4 street templates x 4 tent templates, 32 additional tents, all 1..4 exits per assembly. Original map chest, door halves and aisle clearance checked. Actual random generation, trading, opened loot and multiplayer remain pending.",
-  "illagerCampEvidence": "illager-camp-entry-audit.json: 88 connected template examples, all 21 reachable templates and 100 tent interiors. All requested 1..4 exits, access to the outside of the four lit signal fires, original loot and enemy equipment audited. Native random generation, combat and multiplayer still pending."
+  "illagerCampEvidence": "illager-camp-entry-audit.json: 88 connected template examples, all 21 reachable templates and 100 tent interiors. All requested 1..4 exits, access to the outside of the four lit signal fires, original loot and enemy equipment audited. Native random generation, combat and multiplayer still pending.",
+  "groundHouseEvidence": "prairie-house-entry-audit.json and mushroom-house-entry-audit.json: 8 prairie and 160 mushroom examples from original NBT, each surveyed with 1..4 exits. Grass island model, no game launch."
 }

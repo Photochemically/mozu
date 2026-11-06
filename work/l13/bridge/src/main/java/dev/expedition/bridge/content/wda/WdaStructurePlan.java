@@ -22,9 +22,9 @@ public final class WdaStructurePlan {
     private ScorchedWellLayout well;
     private TyphonDiveLayout dive;
     private LighthouseLayout lighthouse;
-    private CampLayout camp;
+    private PerimeterLayout perimeterLayout;
     private boolean relocated;
-    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well,TyphonDiveLayout dive,LighthouseLayout lighthouse,CampLayout camp) {
+    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well,TyphonDiveLayout dive,LighthouseLayout lighthouse,PerimeterLayout perimeterLayout) {
         if(entryMode==DungeonSpec.EntryMode.START_DECK && AerialContentPolicy.needsGateBridge(id.toString()) && gateBridges==null)
             throw new IllegalArgumentException("Mechanical aerial entry requires its original connected bridges");
         this.id=id;this.start=start;this.island=island;this.boarding=boarding;this.entryMode=entryMode;this.interiorRooms=List.copyOf(rooms);
@@ -36,7 +36,7 @@ public final class WdaStructurePlan {
         if((entryMode==DungeonSpec.EntryMode.START_WELL)!=(well!=null))throw new IllegalArgumentException("Missing or unexpected original well route");this.well=well;
         if((entryMode==DungeonSpec.EntryMode.SHORE_DIVE)!=(dive!=null))throw new IllegalArgumentException("Missing or unexpected seabed approach");this.dive=dive;
         this.lighthouse = lighthouse;
-        this.camp = camp;
+        this.perimeterLayout = perimeterLayout;
     }
     public ResourceLocation id() { return id; }
     public StructureStart start() { return start; }
@@ -50,7 +50,7 @@ public final class WdaStructurePlan {
     public ScorchedWellLayout well(){return well;}
     public TyphonDiveLayout dive(){return dive;}
     public LighthouseLayout lighthouse() { return lighthouse; }
-    CampLayout camp() { return camp; }
+    PerimeterLayout perimeterLayout() { return perimeterLayout; }
     public void relocateTo(BlockBounds allocatedContent) {
         if(relocated)throw new IllegalStateException("Plan already assigned to a pocket");
         var original=island.completeBounds();
@@ -78,7 +78,7 @@ public final class WdaStructurePlan {
         if(well!=null)well=well.move(x,y,z);
         if(dive!=null)dive=dive.move(x,y,z);
         if (lighthouse != null) lighthouse = lighthouse.move(x, y, z);
-        if (camp != null) camp = camp.move(x,y,z);
+        if (perimeterLayout != null) perimeterLayout = perimeterLayout.move(x,y,z);
         relocated=true;
     }
     static BlockBounds bounds(BoundingBox box) {

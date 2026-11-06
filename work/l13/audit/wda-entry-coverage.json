@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 19,
+    "originalTemplateEvidence": 21,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 20,
+    "resourceGraphOnly": 18,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -457,12 +457,12 @@
       "startPool": "dungeons_arise:fungi/mushroom_house/mushroom_house_start",
       "biomeSelector": "#dungeons_arise:has_structure/mushroom_house_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "干地",
+      "entry": "perimeter 原云杉台阶",
+      "level": "原模板",
+      "file": "audit/mushroom-house-entry-audit.json",
+      "label": "160 组底层、菌盖与刷怪接口",
+      "remaining": "实际拼装、进屋碰撞、刷怪与双人重启",
       "runtimeAccepted": false
     },
     {
@@ -569,12 +569,12 @@
       "startPool": "dungeons_arise:prairie/small_prairie_house/small_prairie_house_start",
       "biomeSelector": "#dungeons_arise:has_structure/small_prairie_house_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "干地",
+      "entry": "perimeter 原门与废墟机关走道",
+      "level": "原模板",
+      "file": "audit/prairie-house-entry-audit.json",
+      "label": "8 组完好屋与废墟",
+      "remaining": "实际开门、红石时序、TNT 与双人重启",
       "runtimeAccepted": false
     },
     {

@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。19 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，20 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。21 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，18 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -33,14 +33,14 @@ WDA 2.1.58 共 39 座建筑。19 座有原模板路线或入口几何证据，0 
 | merchant_campsite | jigsaw | WORLD_SURFACE_WG 0 | 草地（测试） | perimeter 街道与帐篷 | 原模板 · [64 组街道与帐篷组合](audit/merchant-camp-entry-audit.json) | 原生随机营地、开门交易、战利品和双人重启 |
 | mining_system | jigsaw | 绝对 5 | 岩层 | start_room | 原模板 · [16 组起始房间](audit/underground-entry-audit.json) | 完整矿道、原机关和分散出口 |
 | monastery | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
-| mushroom_house | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
+| mushroom_house | jigsaw | WORLD_SURFACE_WG 0 | 干地 | perimeter 原云杉台阶 | 原模板 · [160 组底层、菌盖与刷怪接口](audit/mushroom-house-entry-audit.json) | 实际拼装、进屋碰撞、刷怪与双人重启 |
 | mushroom_mines | jigsaw | WORLD_SURFACE_WG -8 | 干地 | start_mine | 原模板 · [16 组八件主体](audit/mushroom-mine-audit.json) | 完整随机图拒绝率、原陷阱与岩坡碰撞 |
 | mushroom_village | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
 | plague_asylum | jigsaw | 绝对 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对绝对起点、周边地形和原入口高差 |
 | scorched_mines | jigsaw | WORLD_SURFACE_WG -14 | 岩地 | start_well | 原模板 · [16 组井与大厅](audit/scorched-well-audit.json) | 熔岩释放、随机支路和竖井下坠 |
 | shiraz_palace | jigsaw | WORLD_SURFACE_WG 16 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对正高度偏移后的落脚处及原接近路线 |
 | small_blimp | jigsaw | WORLD_SURFACE_WG 100 | 干地 | start_ladder | 原模板 · [12 组梯链／船体](audit/blimp-ladder-audit.json) | 实际悬梯稳定性、铁门及完整随机图 |
-| small_prairie_house | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
+| small_prairie_house | jigsaw | WORLD_SURFACE_WG 0 | 干地 | perimeter 原门与废墟机关走道 | 原模板 · [8 组完好屋与废墟](audit/prairie-house-entry-audit.json) | 实际开门、红石时序、TNT 与双人重启 |
 | thornborn_towers | jigsaw | 绝对 130 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对绝对起点、周边地形和原入口高差 |
 | typhon | jigsaw | OCEAN_FLOOR -4 | 海床与干岸 | shore_dive | 原模板 · [16 组完整三件](audit/typhon-dive-audit.json) | 气泡、供氧、上岸与埋藏宝箱 |
 | undead_pirate_ship | jigsaw | WORLD_SURFACE_WG 0 | 干岸水域 | boarding 栈道 | 原模板 · [4 组原主船体](audit/ship-boarding-audit.json) | 随机附属件、船舱、水线和登船碰撞 |

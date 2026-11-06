@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.function.BooleanSupplier;
 import net.minecraft.server.level.ServerLevel;
 
-record MerchantCampLayout(Cell chest, List<Cell> chestApproaches, List<Tent> tents) implements CampLayout {
+record MerchantCampLayout(Cell chest, List<Cell> chestApproaches, List<Tent> tents) implements PerimeterLayout {
     static final String TARGET = "dungeons_arise:merchant_campsite";
     static final String PREFIX = TARGET + "/merchant_campsite_";
     private static final String ROOT = PREFIX + "street_4_main";
