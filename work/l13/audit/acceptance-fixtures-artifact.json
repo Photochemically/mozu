@@ -1,10 +1,10 @@
 {
-  "tests": 245.0,
-  "buildLog": "giant-mushroom-build.log",
-  "jarBytes": 521790,
-  "jarSha256": "4CCE3C28E5860F3BF7D6A74D17D056FED8ABCF588F065D92A8BD4F82BB9F8A92",
+  "tests": 251.0,
+  "buildLog": "tree-house-build.log",
+  "jarBytes": 536263,
+  "jarSha256": "FA87850BEFEA8B67138E93D3373904DD6571C550583D5DC036DD6A08F1FA5E20",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "DBD3241DA0CC1D1CF168B66781B3270F55887387BDF43BC76FCDD3CF4EF596C4",
+  "helperSha256": "A96484935FAE99ACC6CA8F855F9CF238446AEC6CBFE1BB28F03DF46C86D0F2A5",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -30,6 +30,7 @@
     "FISHING_HUT_ENTRY.md",
     "WISHING_WELL_ENTRY.md",
     "GIANT_MUSHROOM_ENTRY.md",
+    "TREE_HOUSE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

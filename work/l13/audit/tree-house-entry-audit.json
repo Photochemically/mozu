@@ -1,0 +1,1032 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "encounterAssignments": 2048,
+  "scope": "64 source-NBT assemblies with both native starting pieces, four rotations, two dry surfaces and four inhabitant mixes. Checks original branch/leaf route to the first wooden platform. Actual generation, upper rooms, combat and persistence pending.",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "NONE",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "0_main",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 0,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "NONE",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "CLOCKWISE_180",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 0,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 2047,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 682,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "startingPiece": "1_roots",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "skeletonMask": 1365,
+      "islandGroundAdjustment": 16,
+      "platformRise": 18,
+      "entities": 11,
+      "lootContainers": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

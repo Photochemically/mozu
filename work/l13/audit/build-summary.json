@@ -1,15 +1,15 @@
 {
   "date": "2026-11-07",
-  "scope": "Giant mushroom complete red/twin assemblies, original stem approaches and native loot/encounters.",
+  "scope": "Jungle tree house root-dependent ground, original spiral to the first platform and eleven native inhabitants.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "giant-mushroom-build.log",
+  "buildLog": "tree-house-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 521790,
-  "sha256": "4CCE3C28E5860F3BF7D6A74D17D056FED8ABCF588F065D92A8BD4F82BB9F8A92",
+  "bytes": 536263,
+  "sha256": "FA87850BEFEA8B67138E93D3373904DD6571C550583D5DC036DD6A08F1FA5E20",
   "saveSchema": 5,
   "suites": [
     {
@@ -117,6 +117,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.TerrainHeightmapTest",
       "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.TreeHouseAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -395,5 +401,6 @@
   "bathhouseEvidence": "bathhouse-entry-audit.json: 672 core stacks with rotation, 96 route and loot samples, 12 chest collision cases. Route tests now use the native beard_box 12-block reservation margin. Runtime validation pending.",
   "fishingHutEvidence": "fishing-hut-entry-audit.json: 48 combinations of rotation, optional encounter and dry/shallow environments. Four exit counts per combination. One plank only for explicit boarding. Native water movement and combat pending.",
   "wishingWellEvidence": "wishing-well-entry-audit.json: 160 default effect and 8 explicitly selected plain assemblies. All 1..4 exits, 19 sources and original cloud payloads checked. Actual jumping, entity persistence and effect application pending.",
-  "giantMushroomEvidence": "giant-mushroom-entry-audit.json: 32 combinations of two complete forms, two ring assembly orders, four rotations and grass/rock. Each checks 1..4 exits, the first stem climb and original chest/spawner data. Native random assembly, upper traversal and multiplayer pending."
+  "giantMushroomEvidence": "giant-mushroom-entry-audit.json: 32 combinations of two complete forms, two ring assembly orders, four rotations and grass/rock. Each checks 1..4 exits, the first stem climb and original chest/spawner data. Native random assembly, upper traversal and multiplayer pending.",
+  "treeHouseEvidence": "tree-house-entry-audit.json: 64 source assemblies with both starting pieces, four rotations, two dry surfaces and four mob mixes, each checks 1..4 exits. All 2048 encounter assignments inspected. Native generation, collision, combat, upper rooms and persistence pending."
 }

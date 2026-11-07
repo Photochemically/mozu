@@ -344,3 +344,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 巨型蘑菇
 
 起始池的红色与双生主体使用不同的模板文件前缀。原模板测试读取器现按资源路径读取，以匹配全部十二块主体和两个遭遇件。运行时核对固定相对位置、旋转与尺寸，完整形态保留原战利品和骷髅刷怪 NBT。入口接到原菌柄首段。245 项 Java 测试通过。[原模板组合报告](audit/giant-mushroom-entry-audit.json)。
+
+## 丛林树屋
+
+原定义引用含主体和根部的 main 池。按实际主体推导施工地面，路线沿原树干和持久树叶通向第一层木平台。11 个实体附件使用原生 aligned 接口，复用模板实体接收回调核对类型与位置。251 项 Java 测试通过。[原模板组合报告](audit/tree-house-entry-audit.json)。

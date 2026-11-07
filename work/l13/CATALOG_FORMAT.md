@@ -80,3 +80,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 许愿井采用 grass 或 rock 的 perimeter，boarding 关闭。WDA 默认起始池要求完整效果件；显式重新指定其独立无效果池时才接受无云主体。[许愿井的起始池与井沿](WISHING_WELL_ENTRY.md)。
 
 巨型蘑菇 giant_mushroom 采用 grass 或 rock 的 perimeter，boarding 关闭。红色要求四件主体和一个原骷髅附件，双生要求八件主体和两个附件。地面出口连接首段原菌柄。[巨型蘑菇入口](GIANT_MUSHROOM_ENTRY.md)。
+
+丛林树屋 jungle_tree_house 使用 grass 或 rock 的 perimeter，boarding 关闭。施工地面为实际主体原点上方 6 格；若原生首件为根部，则相对目录名义地面增加 16 格。[丛林树屋的地面对齐](TREE_HOUSE_ENTRY.md)。

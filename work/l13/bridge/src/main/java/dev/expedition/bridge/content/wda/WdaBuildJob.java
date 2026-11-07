@@ -31,6 +31,7 @@ final class WdaBuildJob {
     private final IslandCursor water;
     private final ConstructionFluidBuffer fluidTicks;
     private final List<WishingWellLayout.Cloud> wellClouds = new ArrayList<>();
+    private final List<TreeHouseLayout.Spawn> treeInhabitants = new ArrayList<>();
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
     private TyphonDiveSitesJob dive;
@@ -68,6 +69,11 @@ final class WdaBuildJob {
         wellClouds.add(WishingWellProbe.describe(cloud));
     }
 
+    private void recordTreeEntity(Entity entity) {
+        var type = net.minecraft.core.registries.BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).toString();
+        treeInhabitants.add(new TreeHouseLayout.Spawn(entity.blockPosition(),type));
+    }
+
     void step(int maxBlocks,long budgetNanos) {
         if(!world.getServer().isSameThread())throw new IllegalStateException("World writes off server thread");
         if(maxBlocks<=0 || budgetNanos<=0)throw new IllegalArgumentException("Invalid generation budget");
@@ -103,7 +109,8 @@ final class WdaBuildJob {
                         chunk.getMaxBlockX(),world.getMaxBuildHeight()-1,chunk.getMaxBlockZ());
                 var region=new IslandPlacementRegion(world,world.getChunk(chunkX,chunkZ),portal.destination().bounds(),
                         clip,plan.island().levels(),portal.seed(),!plan.island().hasTerrain(),
-                        plan.perimeterLayout() instanceof WishingWellLayout ? this::recordWellEntity : null);
+                        plan.perimeterLayout() instanceof WishingWellLayout ? this::recordWellEntity
+                                : plan.perimeterLayout() instanceof TreeHouseLayout ? this::recordTreeEntity : null);
                 // Keep native block entities, entities, processors, jigsaw replacement and afterPlace behavior.
                 plan.start().placeInChunk(region,world.structureManager(),world.getChunkSource().getGenerator(),
                         RandomSource.create(portal.seed() ^ chunk.toLong()),clip,chunk);
@@ -112,6 +119,8 @@ final class WdaBuildJob {
                     // A remote pocket can accept entities before they become visible to a spatial query.
                     if (plan.perimeterLayout() instanceof WishingWellLayout well && !well.matchesClouds(wellClouds))
                         throw new IllegalStateException("Original wishing well effect chamber changed");
+                    if (plan.perimeterLayout() instanceof TreeHouseLayout tree && !tree.matchesEntities(treeInhabitants))
+                        throw new IllegalStateException("Original tree house inhabitants missing or misplaced");
                     stage = Stage.INDEX;
                     if (plan.lighthouse() != null) {
                         stage = Stage.PERIMETER_ROUTE;
