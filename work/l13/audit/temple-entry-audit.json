@@ -1,0 +1,2456 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "terrainAdaptationMargin": 12,
+  "scope": "144 source assemblies, both halls, all road/decor templates, four rotations and dry grass/rock. All requested exits, original loot and modeled native inhabitants. Actual random graph, scaffold physics, combat and persistence pending.",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 21,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 16,
+      "nativeEntities": 12,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 14,
+      "nativeEntities": 11,
+      "lootChests": 4,
+      "scaffoldBlocks": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "NONE",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "CLOCKWISE_180",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 0,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 1,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 0,
+      "decoration": 2,
+      "pieces": 22,
+      "nativeEntities": 16,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 0,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 1,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 1,
+      "decoration": 2,
+      "pieces": 17,
+      "nativeEntities": 14,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 0,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 1,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "variant": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "road": 2,
+      "decoration": 2,
+      "pieces": 15,
+      "nativeEntities": 13,
+      "lootChests": 4,
+      "scaffoldBlocks": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

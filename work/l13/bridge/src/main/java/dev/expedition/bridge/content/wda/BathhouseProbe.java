@@ -6,7 +6,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.Half;
 
 record BathhouseProbe(ServerLevel world, InteriorBlockProbe floors) implements BathhouseRoute.Probe {
@@ -31,17 +30,6 @@ record BathhouseProbe(ServerLevel world, InteriorBlockProbe floors) implements B
         return state.is(Blocks.DARK_OAK_TRAPDOOR) && state.getValue(TrapDoorBlock.HALF) == Half.TOP
                 && !state.getValue(TrapDoorBlock.OPEN) && state.getFluidState().isEmpty();
     }
-    private static BlockState supportedScaffold() {
-        return Blocks.SCAFFOLDING.defaultBlockState().setValue(ScaffoldingBlock.DISTANCE,0)
-                .setValue(ScaffoldingBlock.BOTTOM,false).setValue(ScaffoldingBlock.WATERLOGGED,false);
-    }
-    public boolean scaffold(Cell p) { return world.getBlockState(pos(p)).equals(supportedScaffold()); }
-    public void addScaffold(Cell p) {
-        var target = pos(p);
-        if (ScaffoldingBlock.getDistance(world,target) != 0) throw new IllegalStateException("Scaffold lost its support at " + p);
-        if (scaffold(p)) return;
-        if (!world.getBlockState(target).isAir() || !world.setBlock(target,supportedScaffold(),2|16)) {
-            throw new IllegalStateException("Cannot place bathhouse scaffold at " + p);
-        }
-    }
+    public boolean scaffold(Cell p) { return SupportedScaffold.present(world,pos(p)); }
+    public void addScaffold(Cell p) { SupportedScaffold.place(world,pos(p)); }
 }

@@ -348,3 +348,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 丛林树屋
 
 原定义引用含主体和根部的 main 池。按实际主体推导施工地面，路线沿原树干和持久树叶通向第一层木平台。11 个实体附件使用原生 aligned 接口，复用模板实体接收回调核对类型与位置。251 项 Java 测试通过。[原模板组合报告](audit/tree-house-entry-audit.json)。
+
+## 废弃神庙
+
+原定义使用两种主体与贴地道路。主体 0 从侧面下降到原五级石阶，主体 1 在墙外空格搭五格脚手架进入原大厅；放置前检查全部指定出口、原平台与四个战利品箱。浴场与神庙共用脚手架状态及支撑校验。144 组拼装覆盖全部 11 个模板，257 项 Java 测试通过。核对原生怪物数据时确认幻术师未设 PersistenceRequired、骷髅已设置，三类实体的双手均为空；原数据未修改。[原模板组合报告](audit/temple-entry-audit.json)。

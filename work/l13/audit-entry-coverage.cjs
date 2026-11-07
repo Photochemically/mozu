@@ -46,6 +46,7 @@ if (keep.runtimeAccepted !== false || keep.wdaSha256 !== jar.sha256 || keep.reac
 record('keep_kayra','岩地（测试）','perimeter','原模板','audit/keep-kayra-ground-evidence.json','原主件低层路线','超高整座拼装、上下层实际通行和高度包');
 cases('illager_windmill','草地（测试）','perimeter 双侧石阶','windmill-entry','塔身与田地组合','原生随机田地、实际灌溉、战斗机关和双人重启');
 cases('illager_campsite','干地','perimeter 帐篷与火圈外围','illager-camp-entry','巡逻道路与营地组合','实际随机拼装、原敌人战斗、营火伤害和双人重启');
+cases('abandoned_temple','草地／岩地','perimeter 原石阶／外侧脚手架','temple-entry','两种主体与道路灯饰','原生随机图、阶梯和脚手架、战斗与双人重启');
 cases('jungle_tree_house','草地／岩地，随首件对齐','perimeter 原树干至木平台','tree-house-entry','两种首件与敌人分布','原生拼装、实际跳跃、上层探索、战斗和双人重启');
 cases('giant_mushroom','草地／岩地','perimeter 原菌柄首段','giant-mushroom-entry','红色／双生主体与环形拼装','原生完整率、实际攀爬与登顶、战斗和双人重启');
 cases('wishing_well','草地／岩地','perimeter 原坡至井沿','wishing-well-entry','井底效果与坡道组合','实机跳坡、下井效果、水流与双人重启');

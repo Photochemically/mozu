@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 26,
+    "originalTemplateEvidence": 27,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 13,
+    "resourceGraphOnly": 12,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -17,12 +17,12 @@
       "startPool": "dungeons_arise:fortified/abandoned_temple/abandoned_temple_start",
       "biomeSelector": "#dungeons_arise:has_structure/abandoned_temple_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "草地／岩地",
+      "entry": "perimeter 原石阶／外侧脚手架",
+      "level": "原模板",
+      "file": "audit/temple-entry-audit.json",
+      "label": "144 组两种主体与道路灯饰",
+      "remaining": "原生随机图、阶梯和脚手架、战斗与双人重启",
       "runtimeAccepted": false
     },
     {

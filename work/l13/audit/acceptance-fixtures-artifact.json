@@ -1,10 +1,10 @@
 {
-  "tests": 251.0,
-  "buildLog": "tree-house-build.log",
-  "jarBytes": 536263,
-  "jarSha256": "FA87850BEFEA8B67138E93D3373904DD6571C550583D5DC036DD6A08F1FA5E20",
+  "tests": 257.0,
+  "buildLog": "temple-build.log",
+  "jarBytes": 548999,
+  "jarSha256": "16AF5E60D075E86C459A03D04A6FDA894A463B60D56297BCFE797AA9F0179BE1",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "A96484935FAE99ACC6CA8F855F9CF238446AEC6CBFE1BB28F03DF46C86D0F2A5",
+  "helperSha256": "4BABA14C05AA927EFA647C1068A47C01750C009089569FE3782A0AB64E5A12C8",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -31,6 +31,7 @@
     "WISHING_WELL_ENTRY.md",
     "GIANT_MUSHROOM_ENTRY.md",
     "TREE_HOUSE_ENTRY.md",
+    "ABANDONED_TEMPLE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

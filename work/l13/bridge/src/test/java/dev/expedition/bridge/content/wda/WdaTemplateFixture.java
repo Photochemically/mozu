@@ -21,7 +21,7 @@ final class WdaTemplateFixture {
     static final int Y=96;
     record Block(BlockPos pos,String id,CompoundTag props,CompoundTag data) {}
     record Template(String id,String resource,Set<String> pools,boolean legacy,BlockPos size,List<Block> blocks,ListTag entities) {
-        boolean projected() { return id.startsWith("street_"); }
+        boolean projected() { return id.startsWith("street_") || id.startsWith("abandoned_road_"); }
         Block joint(String target,Direction facing) {
             return blocks.stream().filter(b->b.data.getString("target").equals("dungeons_arise:"+target)
                     && b.props.getString("orientation").startsWith(facing.getName()+"_")).findFirst().orElseThrow();
