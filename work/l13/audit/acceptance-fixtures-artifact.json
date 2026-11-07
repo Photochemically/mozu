@@ -1,10 +1,10 @@
 {
-  "tests": 240.0,
-  "buildLog": "wishing-well-build.log",
-  "jarBytes": 510443,
-  "jarSha256": "74C3E8A94DC5FD6EF1CAF7987F0D636D9FF86AB8F3D4C1F97B2800DF93DECB5F",
+  "tests": 245.0,
+  "buildLog": "giant-mushroom-build.log",
+  "jarBytes": 521790,
+  "jarSha256": "4CCE3C28E5860F3BF7D6A74D17D056FED8ABCF588F065D92A8BD4F82BB9F8A92",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "7D6E7C00E1B434DE579FAEDAFBD4818DF516ABF7F8552BA71395C78D8D5DEEA7",
+  "helperSha256": "DBD3241DA0CC1D1CF168B66781B3270F55887387BDF43BC76FCDD3CF4EF596C4",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -29,6 +29,7 @@
     "BATHHOUSE_ENTRY.md",
     "FISHING_HUT_ENTRY.md",
     "WISHING_WELL_ENTRY.md",
+    "GIANT_MUSHROOM_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

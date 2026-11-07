@@ -1,0 +1,519 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "scope": "Two native forms assembled from original connectors in either ring order, four rotations and two dry surfaces. Verifies first climb and native encounter/loot placement. Upper traversal, random native generation and multiplayer pending.",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "clockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "red",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 5,
+      "riseAboveSurface": 5,
+      "lootChests": 1,
+      "skeletonSpawners": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "clockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "form": "twin",
+      "assemblyOrder": "counterclockwise",
+      "pieces": 10,
+      "riseAboveSurface": 6,
+      "lootChests": 2,
+      "skeletonSpawners": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

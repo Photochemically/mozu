@@ -46,6 +46,7 @@ if (keep.runtimeAccepted !== false || keep.wdaSha256 !== jar.sha256 || keep.reac
 record('keep_kayra','岩地（测试）','perimeter','原模板','audit/keep-kayra-ground-evidence.json','原主件低层路线','超高整座拼装、上下层实际通行和高度包');
 cases('illager_windmill','草地（测试）','perimeter 双侧石阶','windmill-entry','塔身与田地组合','原生随机田地、实际灌溉、战斗机关和双人重启');
 cases('illager_campsite','干地','perimeter 帐篷与火圈外围','illager-camp-entry','巡逻道路与营地组合','实际随机拼装、原敌人战斗、营火伤害和双人重启');
+cases('giant_mushroom','草地／岩地','perimeter 原菌柄首段','giant-mushroom-entry','红色／双生主体与环形拼装','原生完整率、实际攀爬与登顶、战斗和双人重启');
 cases('wishing_well','草地／岩地','perimeter 原坡至井沿','wishing-well-entry','井底效果与坡道组合','实机跳坡、下井效果、水流与双人重启');
 cases('fishing_hut','干地／2～3 格浅水','perimeter 原码头双通道','fishing-hut-entry','岸线与刷怪件组合','游泳上岸、钓竿僵尸、水流与双人重启');
 cases('bathhouse','干地／原池水','perimeter 外侧脚手架与原门廊','bathhouse-entry','基座与门厅代表布局','原生拼装与拒绝率、攀爬、池水恢复、多人重启');

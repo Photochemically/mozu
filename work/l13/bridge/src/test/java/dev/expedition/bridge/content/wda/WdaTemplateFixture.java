@@ -50,7 +50,7 @@ final class WdaTemplateFixture {
                 }
             }
             for (var e:Collections.list(zip.entries())) {
-                String prefix="data/dungeons_arise/structures/"+structure+"/"+structure+"_";
+                String prefix="data/dungeons_arise/structures/"+structure+"/";
                 if (!e.getName().startsWith(prefix) || !e.getName().endsWith(".nbt")) continue;
                 try (var in=zip.getInputStream(e)) {
                     var n=NbtIo.readCompressed(in);
@@ -61,8 +61,9 @@ final class WdaTemplateFixture {
                         var s=palette.getCompound(b.getInt("state"));
                         blocks.add(new Block(vector(b.getList("pos",Tag.TAG_INT)),s.getString("Name"),s.getCompound("Properties"),b.getCompound("nbt")));
                     }
-                    var id=e.getName().substring(prefix.length(),e.getName().length()-4);
-                    var location="dungeons_arise:"+structure+"/"+structure+"_"+id;
+                    var filename=e.getName().substring(prefix.length(),e.getName().length()-4);
+                    var id=filename.startsWith(structure+"_") ? filename.substring(structure.length()+1) : filename;
+                    var location="dungeons_arise:"+structure+"/"+filename;
                     result.put(id,new Template(id,location,pools.getOrDefault(location,Set.of()),
                             "minecraft:legacy_single_pool_element".equals(elementTypes.get(location)),vector(n.getList("size",Tag.TAG_INT)),blocks,n.getList("entities",Tag.TAG_COMPOUND)));
                 }

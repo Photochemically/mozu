@@ -64,6 +64,7 @@ public final class WdaStructurePlanner {
         MushroomMineLayout.validateMode(id.toString(),environment.entryMode());
         ScorchedWellLayout.validateMode(id.toString(),environment.entryMode());
         TyphonDiveLayout.validateMode(id.toString(),environment.entryMode());
+        boolean giantMushroom = id.toString().equals(GiantMushroomLayout.TARGET);
         boolean wishingWell = id.toString().equals(WishingWellLayout.TARGET);
         boolean fishingHut = id.toString().equals(FishingHutLayout.TARGET);
         boolean isLighthouse = id.toString().equals(LighthouseLayout.TARGET);
@@ -82,7 +83,7 @@ public final class WdaStructurePlanner {
         if(type==null || !(type.toString().equals("minecraft:jigsaw") || type.toString().equals("dungeons_arise:generic_structures")))
             throw new IllegalArgumentException("Unsupported structure generator "+type);
         boolean aerial=environment.surface()==IslandPlan.Surface.VOID;
-        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell) && !type.toString().equals("minecraft:jigsaw"))
+        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom) && !type.toString().equals("minecraft:jigsaw"))
             throw new IllegalArgumentException("Expected the original jigsaw generator for " + id);
         if (isLighthouse && !type.toString().equals("dungeons_arise:generic_structures")) {
             throw new IllegalArgumentException("Lighthouse requires the native custom height check");
@@ -114,7 +115,7 @@ public final class WdaStructurePlanner {
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || bath != null) {
+            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || bath != null) {
                 if (bath != null) bath.read(server, pool, tag);
                 else if (pool.getElement().getClass() != expectedPerimeterElement || !tag.getString("processors").equals("minecraft:empty")
                         || !registries.registryOrThrow(Registries.PROCESSOR_LIST).get(ResourceLocation.parse("minecraft:empty")).list().isEmpty())
@@ -138,6 +139,7 @@ public final class WdaStructurePlanner {
         if (merchantCamp) perimeterLayout = MerchantCampLayout.inspect(perimeterPieces, environment);
         if (illagerCamp) perimeterLayout = IllagerCampLayout.inspect(perimeterPieces, environment);
         if (groundHouse) perimeterLayout = GroundHouseLayout.inspect(id.toString(), perimeterPieces, environment);
+        if (giantMushroom) perimeterLayout = GiantMushroomLayout.inspect(perimeterPieces, environment);
         if (wishingWell) perimeterLayout = WishingWellLayout.inspect(wellPool, perimeterPieces, environment,
                 WishingWellLayout.sources(server, perimeterPieces.get(0).id()));
         if (fishingHut) perimeterLayout = FishingHutLayout.inspect(perimeterPieces, environment);

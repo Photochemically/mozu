@@ -340,3 +340,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 许愿井
 
 原始垂直接口允许主体与效果件独立旋转。桥接按实际接口、地形预留和原坡位置检查拼装与路线。效果云在目标服务器接收模板实体时记录，避免远处口袋中的实体尚不可查询时误拒；放完全部区块后核对效果件与实体是否对应。240 项 Java 测试通过。见[原模板组合](audit/wishing-well-entry-audit.json)。
+
+## 巨型蘑菇
+
+起始池的红色与双生主体使用不同的模板文件前缀。原模板测试读取器现按资源路径读取，以匹配全部十二块主体和两个遭遇件。运行时核对固定相对位置、旋转与尺寸，完整形态保留原战利品和骷髅刷怪 NBT。入口接到原菌柄首段。245 项 Java 测试通过。[原模板组合报告](audit/giant-mushroom-entry-audit.json)。
