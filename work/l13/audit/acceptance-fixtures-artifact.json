@@ -1,10 +1,10 @@
 {
-  "tests": 257.0,
-  "buildLog": "temple-build.log",
-  "jarBytes": 548999,
-  "jarSha256": "16AF5E60D075E86C459A03D04A6FDA894A463B60D56297BCFE797AA9F0179BE1",
+  "tests": 262.0,
+  "buildLog": "pub-build.log",
+  "jarBytes": 563734,
+  "jarSha256": "CA8C7FBB22C40094084F8F8016D37194CDB2060BE07A36DA00693A06AF21D1A4",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "4BABA14C05AA927EFA647C1068A47C01750C009089569FE3782A0AB64E5A12C8",
+  "helperSha256": "1D9CEFAB61940D86C2762228BC8B0D60879300073987C99B0E153604FB3E0649",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -32,6 +32,7 @@
     "GIANT_MUSHROOM_ENTRY.md",
     "TREE_HOUSE_ENTRY.md",
     "ABANDONED_TEMPLE_ENTRY.md",
+    "GREENWOOD_PUB_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

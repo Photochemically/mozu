@@ -84,3 +84,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 丛林树屋 jungle_tree_house 使用 grass 或 rock 的 perimeter，boarding 关闭。施工地面为实际主体原点上方 6 格；若原生首件为根部，则相对目录名义地面增加 16 格。[丛林树屋的地面对齐](TREE_HOUSE_ENTRY.md)。
 
 废弃神庙 abandoned_temple 使用 grass 或 rock 的 perimeter，boarding 关闭。根原点为名义地面首个空层减 3；原道路通过 terrain_matching 放在地面下一格，刚性灯饰与敌人沿原接口连接。入口为原石阶或墙外五格脚手架。[废弃神庙入口](ABANDONED_TEMPLE_ENTRY.md)。
+
+绿林酒馆 greenwood_pub 使用 grass 或 rock 的 perimeter，boarding 关闭。施工首个空层为实际主体原点加 20，比目录名义首个空层高一格；原图坐标保持不变。必须保留原地下首段楼梯，处理器严格匹配原三条规则。[绿林酒馆入口](GREENWOOD_PUB_ENTRY.md)。

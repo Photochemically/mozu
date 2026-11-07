@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。27 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，12 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。28 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，11 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -16,7 +16,7 @@ WDA 2.1.58 共 39 座建筑。27 座有原模板路线或入口几何证据，0 
 | fishing_hut | jigsaw | WORLD_SURFACE_WG -2 | 干地／2～3 格浅水 | perimeter 原码头双通道 | 原模板 · [48 组岸线与刷怪件组合](audit/fishing-hut-entry-audit.json) | 游泳上岸、钓竿僵尸、水流与双人重启 |
 | foundry | jigsaw | 绝对 -10 | 岩层 | start_room | 原模板 · [4 组起始房间](audit/underground-entry-audit.json) | 完整矿道、原机关和分散出口 |
 | giant_mushroom | jigsaw | WORLD_SURFACE_WG -5 | 草地／岩地 | perimeter 原菌柄首段 | 原模板 · [32 组红色／双生主体与环形拼装](audit/giant-mushroom-entry-audit.json) | 原生完整率、实际攀爬与登顶、战斗和双人重启 |
-| greenwood_pub | jigsaw | WORLD_SURFACE_WG -18 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
+| greenwood_pub | jigsaw | WORLD_SURFACE_WG -18 | 草地／岩地，入口地面升一格 | perimeter 原石阶与半砖 | 原模板 · [256 组家具与地下分支、墙材边界](audit/pub-entry-audit.json) | 原生随机图、阶梯半砖、村民刷怪与双人重启 |
 | heavenly_challenger | jigsaw | 绝对 200 | 悬空 | start_deck | 原模板 · [8 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |
 | heavenly_conqueror | jigsaw | 绝对 200 | 悬空 | start_deck | 原模板 · [16 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |
 | heavenly_rider | jigsaw | 绝对 200 | 悬空 | start_deck | 原模板 · [16 组起始平台](audit/aerial-entry-audit.json) | 完整图的平台连通、坠落与额外出口 |

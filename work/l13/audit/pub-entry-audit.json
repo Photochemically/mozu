@@ -1,0 +1,3596 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "scope": "256 source assemblies, all 34 reachable templates, native and fully weathered solid-material endpoints, 1..4 exits. Native random graph, collision, villagers, combat, deeper routes and persistence pending.",
+  "unusedTemplates": [
+    "furniture_1",
+    "hallway_1"
+  ],
+  "incompatibleFurnitureInlet": "furniture_17",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 28,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 33,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "weathered": false,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "weathered": true,
+      "pieces": 13,
+      "lootContainers": 30,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 8,
+      "weathered": false,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 8,
+      "weathered": true,
+      "pieces": 17,
+      "lootContainers": 34,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 9,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 9,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 49,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 10,
+      "weathered": false,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 10,
+      "weathered": true,
+      "pieces": 14,
+      "lootContainers": 39,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 11,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 11,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 12,
+      "weathered": false,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 12,
+      "weathered": true,
+      "pieces": 12,
+      "lootContainers": 22,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 13,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 13,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 21,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 14,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 14,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 29,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 15,
+      "weathered": false,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 15,
+      "weathered": true,
+      "pieces": 11,
+      "lootContainers": 25,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

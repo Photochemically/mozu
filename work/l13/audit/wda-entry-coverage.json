@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 27,
+    "originalTemplateEvidence": 28,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 12,
+    "resourceGraphOnly": 11,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -181,12 +181,12 @@
       "startPool": "dungeons_arise:greenwood_pub/greenwood_pub_main",
       "biomeSelector": "#dungeons_arise:has_structure/greenwood_pub_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "检查埋入地面的部分和原门道净空",
+      "environment": "草地／岩地，入口地面升一格",
+      "entry": "perimeter 原石阶与半砖",
+      "level": "原模板",
+      "file": "audit/pub-entry-audit.json",
+      "label": "256 组家具与地下分支、墙材边界",
+      "remaining": "原生随机图、阶梯半砖、村民刷怪与双人重启",
       "runtimeAccepted": false
     },
     {

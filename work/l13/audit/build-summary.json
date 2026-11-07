@@ -1,15 +1,15 @@
 {
   "date": "2026-11-07",
-  "scope": "Abandoned temple native stair entrance, supported exterior scaffold for the raised hall, and projected native roads.",
+  "scope": "Greenwood pub ground alignment, original stairs and half-slab entrance, native cellar attachment and material rules.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "temple-build.log",
+  "buildLog": "pub-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 548999,
-  "sha256": "16AF5E60D075E86C459A03D04A6FDA894A463B60D56297BCFE797AA9F0179BE1",
+  "bytes": 563734,
+  "sha256": "CA8C7FBB22C40094084F8F8016D37194CDB2060BE07A36DA00693A06AF21D1A4",
   "saveSchema": 5,
   "suites": [
     {
@@ -99,6 +99,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.MushroomMineAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.PubAuditTest",
+      "tests": 5,
       "failures": 0,
       "errors": 0
     },
@@ -409,5 +415,6 @@
   "wishingWellEvidence": "wishing-well-entry-audit.json: 160 default effect and 8 explicitly selected plain assemblies. All 1..4 exits, 19 sources and original cloud payloads checked. Actual jumping, entity persistence and effect application pending.",
   "giantMushroomEvidence": "giant-mushroom-entry-audit.json: 32 combinations of two complete forms, two ring assembly orders, four rotations and grass/rock. Each checks 1..4 exits, the first stem climb and original chest/spawner data. Native random assembly, upper traversal and multiplayer pending.",
   "treeHouseEvidence": "tree-house-entry-audit.json: 64 source assemblies with both starting pieces, four rotations, two dry surfaces and four mob mixes, each checks 1..4 exits. All 2048 encounter assignments inspected. Native generation, collision, combat, upper rooms and persistence pending.",
-  "templeEvidence": "temple-entry-audit.json: 144 source assemblies with both halls, four rotations, two dry surfaces, three roads and three decorations. Each checks 1..4 exits and four native chests; original mob payloads checked separately. Native random graph, collision, scaffold physics, combat, upper rooms and persistence pending."
+  "templeEvidence": "temple-entry-audit.json: 144 source assemblies with both halls, four rotations, two dry surfaces, three roads and three decorations. Each checks 1..4 exits and four native chests; original mob payloads checked separately. Native random graph, collision, scaffold physics, combat, upper rooms and persistence pending.",
+  "pubEvidence": "pub-entry-audit.json: 256 source assemblies, 34 reachable templates, four rotations, two dry surfaces, original and weathered solid-material endpoints; each checks 1..4 exits and generated native loot. Native random graphs, collision, villagers, spawners, deeper routes and persistence pending."
 }
