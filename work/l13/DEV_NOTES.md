@@ -356,3 +356,7 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 绿林酒馆
 
 保留全部原生坐标，按最低外台阶将施工地面抬高一格。路线从局部高度 20 经原石阶和半砖升到 26，核对地下首段楼梯、原处理器及全部已生成战利品容器。37 个模板中，两件未入池、一件家具入口不匹配；样例覆盖其余 34 件。262 项 Java 测试通过。[原模板组合报告](audit/pub-entry-audit.json)。
+
+## 蘑菇村庄
+
+保留 45 格主体和八种附属模板，检查刚性投影、原接口与不重叠范围。经桦木半砖坡到下层大厅，逐个核对附属门口。冻结施工期水流 tick，回调核对海龟；原处理器的红／棕蘑菇互换使用目标位置 predicate，浅灰羊毛按原规则转菌柄。268 项 Java 测试通过。[原模板组合报告](audit/village-entry-audit.json)。

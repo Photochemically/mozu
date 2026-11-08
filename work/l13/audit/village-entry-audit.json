@@ -1,0 +1,3272 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "socketCombinations": 384,
+  "scope": "192 non-overlapping source assemblies across all nine templates, four rotations, grass/rock and three attachment densities. All requested exits, each attached entrance, native half-slab slope, loot, water and spawner payloads checked. Native random graph, collision, fluid physics, combat and persistence pending.",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 0,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 5,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 1,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 2,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 6,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 8,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 3,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 14,
+      "waterSources": 13,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 4,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 13,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 9,
+      "waterSources": 6,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 5,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 12,
+      "waterSources": 19,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 5,
+      "waterSources": 5,
+      "spawners": 3,
+      "turtles": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 6,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 11,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "density": 0,
+      "houses": 1,
+      "lootContainers": 4,
+      "waterSources": 11,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "density": 1,
+      "houses": 4,
+      "lootContainers": 6,
+      "waterSources": 12,
+      "spawners": 3,
+      "turtles": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "variant": 7,
+      "density": 2,
+      "houses": 11,
+      "lootContainers": 10,
+      "waterSources": 18,
+      "spawners": 3,
+      "turtles": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

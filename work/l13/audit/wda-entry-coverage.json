@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 28,
+    "originalTemplateEvidence": 29,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 11,
+    "resourceGraphOnly": 10,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -489,12 +489,12 @@
       "startPool": "dungeons_arise:fungi/mushroom_village/mushroom_village_start",
       "biomeSelector": "#dungeons_arise:has_structure/mushroom_village_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "草地／岩地",
+      "entry": "perimeter 原半砖坡与各房屋",
+      "level": "原模板",
+      "file": "audit/village-entry-audit.json",
+      "label": "192 组主体、房屋及水池",
+      "remaining": "原生随机图、木门半砖、水流海龟、战斗与双人重启",
       "runtimeAccepted": false
     },
     {

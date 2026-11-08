@@ -1,15 +1,15 @@
 {
   "date": "2026-11-07",
-  "scope": "Greenwood pub ground alignment, original stairs and half-slab entrance, native cellar attachment and material rules.",
+  "scope": "Mushroom village native half-slab entrance, all generated house approaches, original water and turtle placement checks.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "pub-build.log",
+  "buildLog": "village-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 563734,
-  "sha256": "CA8C7FBB22C40094084F8F8016D37194CDB2060BE07A36DA00693A06AF21D1A4",
+  "bytes": 582556,
+  "sha256": "29DCA8580D02070EF71FBB5630D7CF239E62A5BA91AF2704BAFFABDB9BDF89AC",
   "saveSchema": 5,
   "suites": [
     {
@@ -147,6 +147,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.UndergroundEntryAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.VillageAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -416,5 +422,6 @@
   "giantMushroomEvidence": "giant-mushroom-entry-audit.json: 32 combinations of two complete forms, two ring assembly orders, four rotations and grass/rock. Each checks 1..4 exits, the first stem climb and original chest/spawner data. Native random assembly, upper traversal and multiplayer pending.",
   "treeHouseEvidence": "tree-house-entry-audit.json: 64 source assemblies with both starting pieces, four rotations, two dry surfaces and four mob mixes, each checks 1..4 exits. All 2048 encounter assignments inspected. Native generation, collision, combat, upper rooms and persistence pending.",
   "templeEvidence": "temple-entry-audit.json: 144 source assemblies with both halls, four rotations, two dry surfaces, three roads and three decorations. Each checks 1..4 exits and four native chests; original mob payloads checked separately. Native random graph, collision, scaffold physics, combat, upper rooms and persistence pending.",
-  "pubEvidence": "pub-entry-audit.json: 256 source assemblies, 34 reachable templates, four rotations, two dry surfaces, original and weathered solid-material endpoints; each checks 1..4 exits and generated native loot. Native random graphs, collision, villagers, spawners, deeper routes and persistence pending."
+  "pubEvidence": "pub-entry-audit.json: 256 source assemblies, 34 reachable templates, four rotations, two dry surfaces, original and weathered solid-material endpoints; each checks 1..4 exits and generated native loot. Native random graphs, collision, villagers, spawners, deeper routes and persistence pending.",
+  "villageEvidence": "village-entry-audit.json: 192 non-overlapping source assemblies with all nine templates, four rotations, two dry surfaces and three attachment densities; each checks 1..4 exits, all attached entrances, original loot, water and spawner payloads. All 384 original socket/house/rotation combinations and turtle transforms checked. Native random graph, collision, fluid physics, combat and persistence pending."
 }

@@ -32,6 +32,7 @@ final class WdaBuildJob {
     private final ConstructionFluidBuffer fluidTicks;
     private final List<WishingWellLayout.Cloud> wellClouds = new ArrayList<>();
     private final List<TreeHouseLayout.Spawn> treeInhabitants = new ArrayList<>();
+    private final List<BlockPos> villageTurtles = new ArrayList<>();
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
     private TyphonDiveSitesJob dive;
@@ -47,7 +48,7 @@ final class WdaBuildJob {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
         water=new IslandCursor(plan.island(),true);
         fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || WindmillLayout.TARGET.equals(plan.id().toString())
-                || plan.perimeterLayout() instanceof BathhouseLayout || plan.perimeterLayout() instanceof WishingWellLayout,plan.well()!=null);
+                || plan.perimeterLayout() instanceof VillageLayout || plan.perimeterLayout() instanceof BathhouseLayout || plan.perimeterLayout() instanceof WishingWellLayout,plan.well()!=null);
         var b=plan.island().building();
         minChunkX=Math.floorDiv(b.minX(),16);maxChunkX=Math.floorDiv(b.maxX(),16);
         minChunkZ=Math.floorDiv(b.minZ(),16);maxChunkZ=Math.floorDiv(b.maxZ(),16);
@@ -72,6 +73,11 @@ final class WdaBuildJob {
     private void recordTreeEntity(Entity entity) {
         var type = net.minecraft.core.registries.BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).toString();
         treeInhabitants.add(new TreeHouseLayout.Spawn(entity.blockPosition(),type));
+    }
+
+    private void recordVillageEntity(Entity entity) {
+        if (entity.getType()!=net.minecraft.world.entity.EntityType.TURTLE) throw new IllegalStateException("Unexpected original village inhabitant");
+        villageTurtles.add(entity.blockPosition());
     }
 
     void step(int maxBlocks,long budgetNanos) {
@@ -110,7 +116,8 @@ final class WdaBuildJob {
                 var region=new IslandPlacementRegion(world,world.getChunk(chunkX,chunkZ),portal.destination().bounds(),
                         clip,plan.island().levels(),portal.seed(),!plan.island().hasTerrain(),
                         plan.perimeterLayout() instanceof WishingWellLayout ? this::recordWellEntity
-                                : plan.perimeterLayout() instanceof TreeHouseLayout ? this::recordTreeEntity : null);
+                                : plan.perimeterLayout() instanceof TreeHouseLayout ? this::recordTreeEntity
+                                : plan.perimeterLayout() instanceof VillageLayout ? this::recordVillageEntity : null);
                 // Keep native block entities, entities, processors, jigsaw replacement and afterPlace behavior.
                 plan.start().placeInChunk(region,world.structureManager(),world.getChunkSource().getGenerator(),
                         RandomSource.create(portal.seed() ^ chunk.toLong()),clip,chunk);
@@ -121,6 +128,8 @@ final class WdaBuildJob {
                         throw new IllegalStateException("Original wishing well effect chamber changed");
                     if (plan.perimeterLayout() instanceof TreeHouseLayout tree && !tree.matchesEntities(treeInhabitants))
                         throw new IllegalStateException("Original tree house inhabitants missing or misplaced");
+                    if (plan.perimeterLayout() instanceof VillageLayout village && !village.matchesTurtles(villageTurtles))
+                        throw new IllegalStateException("Original village turtles missing or misplaced");
                     stage = Stage.INDEX;
                     if (plan.lighthouse() != null) {
                         stage = Stage.PERIMETER_ROUTE;
