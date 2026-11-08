@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 29,
+    "originalTemplateEvidence": 30,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 10,
+    "resourceGraphOnly": 9,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -67,12 +67,12 @@
       "originalMissingReferences": [
         "template:dungeons_arise:bandit_village/bandit_village_deco_3"
       ],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "草地／岩地",
+      "entry": "perimeter 原道路、台阶与外侧垫步",
+      "level": "原模板",
+      "file": "audit/bandit-entry-audit.json",
+      "label": "208 组单地块及八地块组合",
+      "remaining": "原生随机图、台阶碰撞、红沙水流、骑乘战斗与双人重启",
       "runtimeAccepted": false
     },
     {

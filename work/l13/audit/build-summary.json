@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-07",
-  "scope": "Mushroom village native half-slab entrance, all generated house approaches, original water and turtle placement checks.",
+  "date": "2026-11-08",
+  "scope": "Bandit village projected streets, original first-room routes, two outside steps, native water and encounter placement checks.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "village-build.log",
+  "buildLog": "bandit-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 582556,
-  "sha256": "29DCA8580D02070EF71FBB5630D7CF239E62A5BA91AF2704BAFFABDB9BDF89AC",
+  "bytes": 607052,
+  "sha256": "4F59195A508178F90816887F2FB83248421A45509D12489A6FFFAAFA17DEA026",
   "saveSchema": 5,
   "suites": [
     {
@@ -33,6 +33,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.AerialEntryAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.BanditAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -423,5 +429,6 @@
   "treeHouseEvidence": "tree-house-entry-audit.json: 64 source assemblies with both starting pieces, four rotations, two dry surfaces and four mob mixes, each checks 1..4 exits. All 2048 encounter assignments inspected. Native generation, collision, combat, upper rooms and persistence pending.",
   "templeEvidence": "temple-entry-audit.json: 144 source assemblies with both halls, four rotations, two dry surfaces, three roads and three decorations. Each checks 1..4 exits and four native chests; original mob payloads checked separately. Native random graph, collision, scaffold physics, combat, upper rooms and persistence pending.",
   "pubEvidence": "pub-entry-audit.json: 256 source assemblies, 34 reachable templates, four rotations, two dry surfaces, original and weathered solid-material endpoints; each checks 1..4 exits and generated native loot. Native random graphs, collision, villagers, spawners, deeper routes and persistence pending.",
-  "villageEvidence": "village-entry-audit.json: 192 non-overlapping source assemblies with all nine templates, four rotations, two dry surfaces and three attachment densities; each checks 1..4 exits, all attached entrances, original loot, water and spawner payloads. All 384 original socket/house/rotation combinations and turtle transforms checked. Native random graph, collision, fluid physics, combat and persistence pending."
+  "villageEvidence": "village-entry-audit.json: 192 non-overlapping source assemblies with all nine templates, four rotations, two dry surfaces and three attachment densities; each checks 1..4 exits, all attached entrances, original loot, water and spawner payloads. All 384 original socket/house/rotation combinations and turtle transforms checked. Native random graph, collision, fluid physics, combat and persistence pending.",
+  "banditEvidence": "bandit-entry-audit.json: 208 source assemblies (184 single-plot and 24 eight-plot), 31 reachable originals plus the approved deco_3 substitute, four rotations, two dry surfaces and each 1..4 exits. Native connector catalog, container/spawner payloads and entity transforms checked. Random graph, collision, sand/fluid physics, combat and persistence pending."
 }

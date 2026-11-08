@@ -1,10 +1,10 @@
 {
-  "tests": 268.0,
-  "buildLog": "village-build.log",
-  "jarBytes": 582556,
-  "jarSha256": "29DCA8580D02070EF71FBB5630D7CF239E62A5BA91AF2704BAFFABDB9BDF89AC",
+  "tests": 274.0,
+  "buildLog": "bandit-build.log",
+  "jarBytes": 607052,
+  "jarSha256": "4F59195A508178F90816887F2FB83248421A45509D12489A6FFFAAFA17DEA026",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "8CFC891309B9F3142585A8EEEF017ADC6FB727984CF4371361CB2D6D6D7AD698",
+  "helperSha256": "85121218EAB88820E7D6D21F91AE558385FA28FC0A8179E2DAFC40363FB3781D",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -34,6 +34,7 @@
     "ABANDONED_TEMPLE_ENTRY.md",
     "GREENWOOD_PUB_ENTRY.md",
     "MUSHROOM_VILLAGE_ENTRY.md",
+    "BANDIT_VILLAGE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

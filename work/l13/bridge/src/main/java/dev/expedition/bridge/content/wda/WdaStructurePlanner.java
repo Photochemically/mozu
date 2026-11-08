@@ -65,6 +65,7 @@ public final class WdaStructurePlanner {
         ScorchedWellLayout.validateMode(id.toString(),environment.entryMode());
         TyphonDiveLayout.validateMode(id.toString(),environment.entryMode());
         boolean village = id.toString().equals(VillageLayout.TARGET);
+        boolean bandit = id.toString().equals(BanditLayout.TARGET);
         boolean pub = id.toString().equals(PubLayout.TARGET);
         boolean temple = id.toString().equals(TempleLayout.TARGET);
         boolean treeHouse = id.toString().equals(TreeHouseLayout.TARGET);
@@ -87,7 +88,7 @@ public final class WdaStructurePlanner {
         if(type==null || !(type.toString().equals("minecraft:jigsaw") || type.toString().equals("dungeons_arise:generic_structures")))
             throw new IllegalArgumentException("Unsupported structure generator "+type);
         boolean aerial=environment.surface()==IslandPlan.Surface.VOID;
-        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village) && !type.toString().equals("minecraft:jigsaw"))
+        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit) && !type.toString().equals("minecraft:jigsaw"))
             throw new IllegalArgumentException("Expected the original jigsaw generator for " + id);
         if (isLighthouse && !type.toString().equals("dungeons_arise:generic_structures")) {
             throw new IllegalArgumentException("Lighthouse requires the native custom height check");
@@ -112,6 +113,7 @@ public final class WdaStructurePlanner {
         boolean illagerCamp = id.toString().equals(IllagerCampLayout.TARGET);
         boolean groundHouse = id.toString().equals(GroundHouseLayout.PRAIRIE) || id.toString().equals(GroundHouseLayout.MUSHROOM);
         var bath = id.toString().equals(BathhouseLayout.TARGET) ? new BathhousePlanner(registries) : null;
+        var banditPlanner = bandit ? new BanditPlanner() : null;
         var villagePlanner = village ? new VillagePlanner(registries) : null;
         var pubPlanner = pub ? new PubPlanner(registries) : null;
         var expectedPerimeterElement = fishingHut ? LegacySinglePoolElement.class : SinglePoolElement.class;
@@ -121,13 +123,14 @@ public final class WdaStructurePlanner {
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bath != null) {
+            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || bath != null) {
                 if (bath != null) bath.read(server, pool, tag);
                 else if (pubPlanner != null) pubPlanner.read(server,pool,tag);
                 else if (villagePlanner != null) villagePlanner.validate(pool,tag);
                 else if (pool.getElement().getClass() != expectedPerimeterElement || !tag.getString("processors").equals("minecraft:empty")
                         || !registries.registryOrThrow(Registries.PROCESSOR_LIST).get(ResourceLocation.parse("minecraft:empty")).list().isEmpty())
                     throw new IllegalArgumentException("Expected original unprocessed single pieces for " + id);
+                if (banditPlanner != null) banditPlanner.read(server,pool,tag);
                 perimeterPieces.add(new WdaTemplatePiece(tag.getString("location"), pool.getPosition(), pool.getRotation(),
                         WdaStructurePlan.bounds(pool.getBoundingBox()), pool.getElement().getProjection() == StructureTemplatePool.Projection.TERRAIN_MATCHING));
             }
@@ -147,6 +150,7 @@ public final class WdaStructurePlanner {
         if (merchantCamp) perimeterLayout = MerchantCampLayout.inspect(perimeterPieces, environment);
         if (illagerCamp) perimeterLayout = IllagerCampLayout.inspect(perimeterPieces, environment);
         if (groundHouse) perimeterLayout = GroundHouseLayout.inspect(id.toString(), perimeterPieces, environment);
+        if (banditPlanner != null) perimeterLayout = BanditLayout.inspect(perimeterPieces,environment,banditPlanner.features);
         if (village) perimeterLayout = VillageLayout.inspect(perimeterPieces,environment);
         if (pubPlanner != null) perimeterLayout = PubLayout.inspect(perimeterPieces,environment,pubPlanner.loot);
         if (temple) perimeterLayout = TempleLayout.inspect(perimeterPieces, environment);

@@ -1,0 +1,3127 @@
+{
+  "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "runtimeAccepted": false,
+  "scope": "208 source assemblies (184 single-plot and 24 eight-plot), 31 reachable original templates plus approved deco_3 substitute; all ten house entrances, thirteen decor approaches, terrain-matching roads and all native encounter types. Four rotations, grass/rock, 1-4 exits. Two outside steps preserve every original block. Random graph, collision, falling sand, fluid physics, combat and persistence pending.",
+  "cases": [
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_0",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_1",
+      "road": 4,
+      "pieces": 4,
+      "features": 18,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_10",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_11",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_12",
+      "road": 4,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_2",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_3",
+      "road": 0,
+      "pieces": 4,
+      "features": 5,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_4",
+      "road": 4,
+      "pieces": 4,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_5",
+      "road": 5,
+      "pieces": 5,
+      "features": 0,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_6",
+      "road": 0,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_7",
+      "road": 4,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_8",
+      "road": 5,
+      "pieces": 5,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "deco_9",
+      "road": 0,
+      "pieces": 4,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_0",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_1",
+      "road": 5,
+      "pieces": 4,
+      "features": 7,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_2",
+      "road": 0,
+      "pieces": 5,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_3",
+      "road": 4,
+      "pieces": 8,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_4",
+      "road": 5,
+      "pieces": 4,
+      "features": 2,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_5",
+      "road": 0,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_6",
+      "road": 4,
+      "pieces": 6,
+      "features": 4,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_7",
+      "road": 5,
+      "pieces": 5,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_8",
+      "road": 0,
+      "pieces": 6,
+      "features": 1,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "plot": "house_9",
+      "road": 4,
+      "pieces": 6,
+      "features": 2,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "NONE",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_90",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "CLOCKWISE_180",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "GRASS",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "NONE",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_90",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "CLOCKWISE_180",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "denseBatch": 0,
+      "plots": 8,
+      "pieces": 25,
+      "features": 34,
+      "addedSteps": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "denseBatch": 1,
+      "plots": 8,
+      "pieces": 27,
+      "features": 19,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "surface": "ROCK",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "denseBatch": 2,
+      "plots": 8,
+      "pieces": 34,
+      "features": 18,
+      "addedSteps": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

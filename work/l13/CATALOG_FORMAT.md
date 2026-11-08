@@ -88,3 +88,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 绿林酒馆 greenwood_pub 使用 grass 或 rock 的 perimeter，boarding 关闭。施工首个空层为实际主体原点加 20，比目录名义首个空层高一格；原图坐标保持不变。必须保留原地下首段楼梯，处理器严格匹配原三条规则。[绿林酒馆入口](GREENWOOD_PUB_ENTRY.md)。
 
 蘑菇村庄 mushroom_village 使用 grass 或 rock 的 perimeter，boarding 关闭。地面保持名义高度，主体原点低一格；各附属通过主体的 12 个原接口拼接。原半砖坡及全部生成房屋入口必须与指定出口连通。[蘑菇村庄入口](MUSHROOM_VILLAGE_ENTRY.md)。
+
+山贼村庄 bandit_village 使用 grass 或 rock 的 perimeter，boarding 关闭。道路保留 terrain_matching，地块与遭遇保留 rigid；不改变原池权重。检查原入口与全部外侧通路，house_1 和 house_4 各允许一块经过空位检查的外侧垫步。deco_3 沿用已批准替代。[山贼村庄入口](BANDIT_VILLAGE_ENTRY.md)。
