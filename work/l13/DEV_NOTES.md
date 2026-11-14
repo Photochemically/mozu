@@ -372,3 +372,12 @@ Fast-forwarded 19 remote commits to 5d4acb1 without conflicts. Added a complete 
 The locked archive contains 21 fort templates, not the 22 in the previous task note. Six added tests cover 72 complete hand-assembled native combinations, all four roots/rotations, two dry surfaces and 1..4 exits; missing/misaligned pieces, blocked access/loot/footings and entity mismatch reject. First compile failed on an ambiguous Block test import; explicit imports fixed it. Final full Gradle build passed 280 tests, zero failures/errors. Existing filterBlocks bytecode confirms state rotation, preventing a second rotation of connector orientations. No Minecraft start, bridge install, catalog enablement or natural-generation enablement.
 
 Coverage now 31 of 39 with original-template entry evidence, eight resource-only, zero runtime accepted. Native generator rejection rates, scaffold/step collision, all floors and buried rooms, combat and multiplayer save reload remain untested. Next: bandit_towers absolute-height environment and original access.
+
+## 2026-11-14 山贼高塔完整图与断桥接入
+
+- 新增 BanditTowersLayout/Planner/Route/Probe，接入 WdaStructurePlanner 与既有搬迁/分批施工/出口系统。原绝对起点 135 与 groundLevelDelta=1 经锁定 API 检查；首件 Y=134。最低实际组件决定岛面，避免稀疏空气被填土。
+- 原池及回退池、双向相邻接口、aligned 轴、所有塔层上下端和横桥端闭合检查；不补造缺失主体。原可选房间/空项和刷怪权重保留。
+- 仅在原断桥平台旁的空位设置有支撑脚手架，要求原门槛和两格内部净空、全部指定出口相通；检查原 LootTable、SpawnData、SpawnPotentials，施工中阻挡拒绝。
+- BanditTowersAuditTest 6 项，80 组双塔原件样例，26 模板、两种横桥、三种首件、四旋转、两种地面和 1～4 个出口。原件实体列表为空，敌人来自原刷怪设施；正式怪物模组联动仍未实现。
+- 首次 bandit-towers-build.log 是 Gradle 本机连接失败；bandit-towers-compile.log 编译成功但 285 项中 1 项因手工样例房间重叠覆盖容器而失败。样例加原生碰撞约束，保护不放宽；bandit-towers-focused.log 的 5 项通过。最终 bandit-towers-final-build.log 全套 286 项通过、build 成功（2m3s），无重复启动游戏。
+- JAR 644451 字节，SHA256 5CBA0193BB7BEA435B35F214A561A4AD37711823F08749762B7D4EB3A64B2E60。静态入口证据 32/39；0 实机。候选/自然入口关闭、桥接未安装，存档格式不变。下一批为 coliseum，未改任何既定玩法。

@@ -1,15 +1,15 @@
 {
   "date": "2026-11-14",
-  "scope": "Illager fort complete native shell, original rooms and encounters, exterior scaffold and preserved balcony threshold; static only",
+  "scope": "Bandit towers complete native graph, lowest-piece island ground, preserved broken bridge landing, spawner/loot checks; static only",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "fort-final-build.log",
+  "buildLog": "bandit-towers-final-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 625287,
-  "sha256": "4B2880B85BA0D7C4C48A8BAB8358C147FB63FA8F71D0FC44048F76E02D178708",
+  "bytes": 644451,
+  "sha256": "5CBA0193BB7BEA435B35F214A561A4AD37711823F08749762B7D4EB3A64B2E60",
   "saveSchema": 5,
   "suites": [
     {
@@ -38,6 +38,12 @@
     },
     {
       "name": "dev.expedition.bridge.content.wda.BanditAuditTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.BanditTowersAuditTest",
       "tests": 6,
       "failures": 0,
       "errors": 0
@@ -437,5 +443,6 @@
   "pubEvidence": "pub-entry-audit.json: 256 source assemblies, 34 reachable templates, four rotations, two dry surfaces, original and weathered solid-material endpoints; each checks 1..4 exits and generated native loot. Native random graphs, collision, villagers, spawners, deeper routes and persistence pending.",
   "villageEvidence": "village-entry-audit.json: 192 non-overlapping source assemblies with all nine templates, four rotations, two dry surfaces and three attachment densities; each checks 1..4 exits, all attached entrances, original loot, water and spawner payloads. All 384 original socket/house/rotation combinations and turtle transforms checked. Native random graph, collision, fluid physics, combat and persistence pending.",
   "banditEvidence": "bandit-entry-audit.json: 208 source assemblies (184 single-plot and 24 eight-plot), 31 reachable originals plus the approved deco_3 substitute, four rotations, two dry surfaces and each 1..4 exits. Native connector catalog, container/spawner payloads and entity transforms checked. Random graph, collision, sand/fluid physics, combat and persistence pending.",
-  "fortEvidence": "fort-entry-audit.json: 72 complete 8-piece shells, 15 room slots, all 21 original templates, four root choices/rotations and two dry surfaces. Each checks 1..4 exits; source loot and entity transforms retained. Native generator, collision, scaffold physics, upper/lower exploration, combat and multiplayer restart untested."
+  "fortEvidence": "fort-entry-audit.json: 72 complete 8-piece shells, 15 room slots, all 21 original templates, four root choices/rotations and two dry surfaces. Each checks 1..4 exits; source loot and entity transforms retained. Native generator, collision, scaffold physics, upper/lower exploration, combat and multiplayer restart untested.",
+  "banditTowersEvidence": "bandit-towers-entry-audit.json: 80 non-overlapping structural assemblies, two towers, both bridge types, all 26 templates, three roots and four rotations; each checks 1..4 exits. 6 focused Java tests. Native generator, whole interior traversal, scaffold physics, combat and multiplayer restart untested."
 }

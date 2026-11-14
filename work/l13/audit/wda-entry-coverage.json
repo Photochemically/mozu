@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 31,
+    "originalTemplateEvidence": 32,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 8,
+    "resourceGraphOnly": 7,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -49,12 +49,12 @@
       "startPool": "dungeons_arise:bandit/bandit_towers/bandit_towers_start",
       "biomeSelector": "#dungeons_arise:has_structure/bandit_towers_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "核对绝对起点、周边地形和原入口高差",
+      "environment": "草地／岩地，按完整图最低处派生",
+      "entry": "perimeter 支撑脚手架与原断桥平台",
+      "level": "原模板",
+      "file": "audit/bandit-towers-entry-audit.json",
+      "label": "80 组双塔、横桥、房间与原刷怪件",
+      "remaining": "原生完整率、脚手架碰撞、各层探索、刷怪和双人重启",
       "runtimeAccepted": false
     },
     {

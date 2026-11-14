@@ -47,6 +47,7 @@ record('keep_kayra','岩地（测试）','perimeter','原模板','audit/keep-kay
 cases('illager_windmill','草地（测试）','perimeter 双侧石阶','windmill-entry','塔身与田地组合','原生随机田地、实际灌溉、战斗机关和双人重启');
 cases('illager_campsite','干地','perimeter 帐篷与火圈外围','illager-camp-entry','巡逻道路与营地组合','实际随机拼装、原敌人战斗、营火伤害和双人重启');
 cases('bandit_village','草地／岩地','perimeter 原道路、台阶与外侧垫步','bandit-entry','单地块及八地块组合','原生随机图、台阶碰撞、红沙水流、骑乘战斗与双人重启');
+cases('bandit_towers','草地／岩地，按完整图最低处派生','perimeter 支撑脚手架与原断桥平台','bandit-towers-entry','双塔、横桥、房间与原刷怪件','原生完整率、脚手架碰撞、各层探索、刷怪和双人重启');
 cases('illager_fort','草地／岩地','perimeter 外侧脚手架与原通道','fort-entry','八件主体、房间与原敌人组合','原生完整率、脚手架和台阶、上下层探索、战斗与双人重启');
 cases('mushroom_village','草地／岩地','perimeter 原半砖坡与各房屋','village-entry','主体、房屋及水池','原生随机图、木门半砖、水流海龟、战斗与双人重启');
 cases('greenwood_pub','草地／岩地，入口地面升一格','perimeter 原石阶与半砖','pub-entry','家具与地下分支、墙材边界','原生随机图、阶梯半砖、村民刷怪与双人重启');

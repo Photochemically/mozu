@@ -1,0 +1,1237 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:bandit_towers",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 52,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 53,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 81,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 50,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 58,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 3,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 62,
+      "variant": 4,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 1
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 5,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 2
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 52,
+      "pieces": 65,
+      "variant": 6,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 0
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 52,
+      "variant": 7,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 1
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 53,
+      "pieces": 63,
+      "variant": 8,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 91,
+      "root": 2
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "scaffoldBlocks": 34,
+      "pieces": 49,
+      "variant": 9,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 109,
+      "root": 0
+    }
+  ],
+  "sourceTemplates": [
+    "base_terminator_0",
+    "crossing_0",
+    "crossing_1",
+    "crossing_2",
+    "crossing_3_bridge",
+    "crossing_4_bridge_mini",
+    "crossing_5",
+    "crossing_terminator_0",
+    "part_0",
+    "part_1",
+    "part_2",
+    "part_3",
+    "part_4",
+    "ranged_illager_0",
+    "ranged_skeleton_1",
+    "roof_terminator_0",
+    "skeleton_assassin_0",
+    "skeleton_assassin_1",
+    "skeleton_juggernaut_0",
+    "skeleton_juggernaut_1",
+    "skeleton_juggernaut_2",
+    "small_room_0",
+    "small_room_1",
+    "small_room_2",
+    "small_room_3",
+    "small_room_terminator_0"
+  ],
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "80 hand-assembled two-tower original-template graphs, both bridge lengths, three roots, four rotations and two island materials. Entrance reaches original bridge; complete internal exploration and native generation acceptance rate remain runtime checks."
+}

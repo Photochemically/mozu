@@ -92,3 +92,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 山贼村庄 bandit_village 使用 grass 或 rock 的 perimeter，boarding 关闭。道路保留 terrain_matching，地块与遭遇保留 rigid；不改变原池权重。检查原入口与全部外侧通路，house_1 和 house_4 各允许一块经过空位检查的外侧垫步。deco_3 沿用已批准替代。[山贼村庄入口](BANDIT_VILLAGE_ENTRY.md)。
 
 掠夺者堡垒 illager_fort 使用 grass 或 rock 的 perimeter，boarding 关闭。地面保持名义高度，底层主体原点低 8 格；要求完整八件主体和真实连接的原房间/敌人。原主体外的五格支撑脚手架接入可达的西侧或东侧原通道，检查全部指定出口。原池权重不变。[堡垒入口](ILLAGER_FORT_ENTRY.md)。
+
+山贼高塔 bandit_towers 使用 grass 或 rock 的 perimeter，boarding 关闭。原绝对起点 135，经原生 groundLevelDelta 后首件 Y=134；施工首个空层取全部原组件最低 Y，不填入稀疏模板空气。要求真实完整的塔身上下端和横桥连接；从安全断桥末端以支撑脚手架接入原平台。原房间空项、池权重及刷怪装备不变。[山贼高塔入口](BANDIT_TOWERS_ENTRY.md)。

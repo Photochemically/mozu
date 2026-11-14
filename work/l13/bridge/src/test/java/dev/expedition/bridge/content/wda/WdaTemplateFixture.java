@@ -42,6 +42,7 @@ final class WdaTemplateFixture {
                 String pool="dungeons_arise:"+entry.getName().substring(poolPrefix.length(),entry.getName().length()-5);
                 for (var raw : json(zip,entry.getName()).getAsJsonArray("elements")) {
                     var element=raw.getAsJsonObject().getAsJsonObject("element");
+                    if (element.get("element_type").getAsString().equals("minecraft:empty_pool_element")) continue;
                     var location=element.get("location").getAsString();
                     var type=element.get("element_type").getAsString();
                     var previous=elementTypes.putIfAbsent(location,type);
