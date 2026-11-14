@@ -1,0 +1,1112 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:illager_fort",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 0,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 1,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 2,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "root": 3,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 0,
+      "pieces": 139,
+      "lootAndDevices": 57,
+      "inhabitants": 116,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 1,
+      "pieces": 138,
+      "lootAndDevices": 56,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 2,
+      "pieces": 138,
+      "lootAndDevices": 55,
+      "inhabitants": 115,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 3,
+      "pieces": 136,
+      "lootAndDevices": 55,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 4,
+      "pieces": 136,
+      "lootAndDevices": 56,
+      "inhabitants": 113,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 0,
+      "roomVariantCycle": 5,
+      "pieces": 137,
+      "lootAndDevices": 56,
+      "inhabitants": 114,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 1,
+      "roomVariantCycle": 6,
+      "pieces": 134,
+      "lootAndDevices": 56,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 2,
+      "roomVariantCycle": 7,
+      "pieces": 135,
+      "lootAndDevices": 56,
+      "inhabitants": 112,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "root": 3,
+      "roomVariantCycle": 8,
+      "pieces": 134,
+      "lootAndDevices": 57,
+      "inhabitants": 111,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "sourceTemplates": [
+    "evoker_0",
+    "illusioner_0",
+    "part_0",
+    "part_1",
+    "part_2",
+    "part_3",
+    "part_4",
+    "part_5",
+    "part_6",
+    "part_7",
+    "pillager_0",
+    "room_0",
+    "room_1",
+    "room_2",
+    "room_3",
+    "room_4",
+    "room_5",
+    "room_6",
+    "room_7",
+    "room_8",
+    "vindicator_0"
+  ],
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "72 hand-assembled complete native shells with 15 optional room slots and original encounters; four root choices and rotations; entrance reaches the original balcony doorway, upper/lower-room exploration remains a runtime check"
+}

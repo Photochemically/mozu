@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 30,
+    "originalTemplateEvidence": 31,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 9,
+    "resourceGraphOnly": 8,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -277,12 +277,12 @@
       "startPool": "dungeons_arise:fortified/illager_fort/illager_fort_main",
       "biomeSelector": "#dungeons_arise:has_structure/illager_fort_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "检查埋入地面的部分和原门道净空",
+      "environment": "草地／岩地",
+      "entry": "perimeter 外侧脚手架与原通道",
+      "level": "原模板",
+      "file": "audit/fort-entry-audit.json",
+      "label": "72 组八件主体、房间与原敌人组合",
+      "remaining": "原生完整率、脚手架和台阶、上下层探索、战斗与双人重启",
       "runtimeAccepted": false
     },
     {

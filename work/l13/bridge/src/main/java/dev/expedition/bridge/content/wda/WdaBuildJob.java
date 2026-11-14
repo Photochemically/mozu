@@ -33,6 +33,7 @@ final class WdaBuildJob {
     private final List<WishingWellLayout.Cloud> wellClouds = new ArrayList<>();
     private final List<TreeHouseLayout.Spawn> treeInhabitants = new ArrayList<>();
     private final List<BanditLayout.Spawn> banditInhabitants = new ArrayList<>();
+    private final List<FortLayout.Spawn> fortInhabitants = new ArrayList<>();
     private final List<BlockPos> villageTurtles = new ArrayList<>();
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
@@ -86,6 +87,11 @@ final class WdaBuildJob {
         villageTurtles.add(entity.blockPosition());
     }
 
+    private void recordFortEntity(Entity entity) {
+        var type=net.minecraft.core.registries.BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).toString();
+        fortInhabitants.add(new FortLayout.Spawn(entity.blockPosition(),type));
+    }
+
     void step(int maxBlocks,long budgetNanos) {
         if(!world.getServer().isSameThread())throw new IllegalStateException("World writes off server thread");
         if(maxBlocks<=0 || budgetNanos<=0)throw new IllegalArgumentException("Invalid generation budget");
@@ -124,7 +130,8 @@ final class WdaBuildJob {
                         plan.perimeterLayout() instanceof WishingWellLayout ? this::recordWellEntity
                                 : plan.perimeterLayout() instanceof TreeHouseLayout ? this::recordTreeEntity
                                 : plan.perimeterLayout() instanceof VillageLayout ? this::recordVillageEntity
-                                : plan.perimeterLayout() instanceof BanditLayout ? this::recordBanditEntity : null);
+                                : plan.perimeterLayout() instanceof BanditLayout ? this::recordBanditEntity
+                                : plan.perimeterLayout() instanceof FortLayout ? this::recordFortEntity : null);
                 // Keep native block entities, entities, processors, jigsaw replacement and afterPlace behavior.
                 plan.start().placeInChunk(region,world.structureManager(),world.getChunkSource().getGenerator(),
                         RandomSource.create(portal.seed() ^ chunk.toLong()),clip,chunk);
@@ -137,6 +144,8 @@ final class WdaBuildJob {
                         throw new IllegalStateException("Original tree house inhabitants missing or misplaced");
                     if (plan.perimeterLayout() instanceof BanditLayout bandit && !bandit.matchesEntities(banditInhabitants))
                         throw new IllegalStateException("Original bandit inhabitants missing or misplaced");
+                    if (plan.perimeterLayout() instanceof FortLayout fort && !fort.matchesEntities(fortInhabitants))
+                        throw new IllegalStateException("Original fort inhabitants missing or misplaced");
                     if (plan.perimeterLayout() instanceof VillageLayout village && !village.matchesTurtles(villageTurtles))
                         throw new IllegalStateException("Original village turtles missing or misplaced");
                     stage = Stage.INDEX;

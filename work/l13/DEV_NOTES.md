@@ -364,3 +364,11 @@ Next: actual39WDA/native candidate audit, tier/weight/environment and exit-route
 ## 山贼村庄
 
 208 组源模板样例覆盖 31 个可达原模板和 1 个已批准替代，核对地面投影、全部连接元数据、每处入口及原战利品／刷怪数据。两种高台阶在模板外补一格垫步；按完整红沙柱检查稳定地基。水流暂存与原生实体回调沿用分批施工流程。首轮发现 house_2 检查路径进入家具，已收回到室内原通道；密集夹具的直接四向地块相交被正确拒绝，改为沿原道路外延后的八地块合法图。274 项 Java 测试通过。[组合报告](audit/bandit-entry-audit.json)。
+
+## 2026-11-14: integrate remote work and adapt illager fort
+
+Fast-forwarded 19 remote commits to 5d4acb1 without conflicts. Added a complete eight-piece fort shell validator with original socket graph checks, native optional rooms/encounters, per-instance relocation, original loot verification and entity-placement receipts. Kept the native ground level; one supported five-block scaffold outside the original shell reaches either original balcony threshold. Existing shared perimeter exit and save-schema-5 behavior retained.
+
+The locked archive contains 21 fort templates, not the 22 in the previous task note. Six added tests cover 72 complete hand-assembled native combinations, all four roots/rotations, two dry surfaces and 1..4 exits; missing/misaligned pieces, blocked access/loot/footings and entity mismatch reject. First compile failed on an ambiguous Block test import; explicit imports fixed it. Final full Gradle build passed 280 tests, zero failures/errors. Existing filterBlocks bytecode confirms state rotation, preventing a second rotation of connector orientations. No Minecraft start, bridge install, catalog enablement or natural-generation enablement.
+
+Coverage now 31 of 39 with original-template entry evidence, eight resource-only, zero runtime accepted. Native generator rejection rates, scaffold/step collision, all floors and buried rooms, combat and multiplayer save reload remain untested. Next: bandit_towers absolute-height environment and original access.

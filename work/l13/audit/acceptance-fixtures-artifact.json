@@ -1,10 +1,10 @@
 {
-  "tests": 274.0,
-  "buildLog": "bandit-build.log",
-  "jarBytes": 607052,
-  "jarSha256": "4F59195A508178F90816887F2FB83248421A45509D12489A6FFFAAFA17DEA026",
+  "tests": 280.0,
+  "buildLog": "fort-final-build.log",
+  "jarBytes": 625287,
+  "jarSha256": "4B2880B85BA0D7C4C48A8BAB8358C147FB63FA8F71D0FC44048F76E02D178708",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "85121218EAB88820E7D6D21F91AE558385FA28FC0A8179E2DAFC40363FB3781D",
+  "helperSha256": "ED507DB64CEA5A99A1384E6602F9F3F4FC842D931CA1835D7FB4B70EAC982AA8",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -35,6 +35,7 @@
     "GREENWOOD_PUB_ENTRY.md",
     "MUSHROOM_VILLAGE_ENTRY.md",
     "BANDIT_VILLAGE_ENTRY.md",
+    "ILLAGER_FORT_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,
