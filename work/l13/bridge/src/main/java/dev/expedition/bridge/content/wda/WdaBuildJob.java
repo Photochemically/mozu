@@ -33,6 +33,7 @@ final class WdaBuildJob {
     private final List<WishingWellLayout.Cloud> wellClouds = new ArrayList<>();
     private final List<TreeHouseLayout.Spawn> treeInhabitants = new ArrayList<>();
     private final List<BanditLayout.Spawn> banditInhabitants = new ArrayList<>();
+    private final List<ColiseumLayout.Spawn> coliseumInhabitants = new ArrayList<>();
     private final List<FortLayout.Spawn> fortInhabitants = new ArrayList<>();
     private final List<BlockPos> villageTurtles = new ArrayList<>();
     private WdaBoardingJob boarding;
@@ -87,6 +88,11 @@ final class WdaBuildJob {
         villageTurtles.add(entity.blockPosition());
     }
 
+    private void recordColiseumEntity(Entity entity) {
+        var type=net.minecraft.core.registries.BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).toString();
+        coliseumInhabitants.add(new ColiseumLayout.Spawn(entity.blockPosition(),type));
+    }
+
     private void recordFortEntity(Entity entity) {
         var type=net.minecraft.core.registries.BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).toString();
         fortInhabitants.add(new FortLayout.Spawn(entity.blockPosition(),type));
@@ -131,6 +137,7 @@ final class WdaBuildJob {
                                 : plan.perimeterLayout() instanceof TreeHouseLayout ? this::recordTreeEntity
                                 : plan.perimeterLayout() instanceof VillageLayout ? this::recordVillageEntity
                                 : plan.perimeterLayout() instanceof BanditLayout ? this::recordBanditEntity
+                                : plan.perimeterLayout() instanceof ColiseumLayout ? this::recordColiseumEntity
                                 : plan.perimeterLayout() instanceof FortLayout ? this::recordFortEntity : null);
                 // Keep native block entities, entities, processors, jigsaw replacement and afterPlace behavior.
                 plan.start().placeInChunk(region,world.structureManager(),world.getChunkSource().getGenerator(),
@@ -144,6 +151,8 @@ final class WdaBuildJob {
                         throw new IllegalStateException("Original tree house inhabitants missing or misplaced");
                     if (plan.perimeterLayout() instanceof BanditLayout bandit && !bandit.matchesEntities(banditInhabitants))
                         throw new IllegalStateException("Original bandit inhabitants missing or misplaced");
+                    if (plan.perimeterLayout() instanceof ColiseumLayout arena && !arena.matchesEntities(coliseumInhabitants))
+                        throw new IllegalStateException("Original coliseum inhabitants were not placed exactly");
                     if (plan.perimeterLayout() instanceof FortLayout fort && !fort.matchesEntities(fortInhabitants))
                         throw new IllegalStateException("Original fort inhabitants missing or misplaced");
                     if (plan.perimeterLayout() instanceof VillageLayout village && !village.matchesTurtles(villageTurtles))

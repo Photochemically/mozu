@@ -94,3 +94,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 掠夺者堡垒 illager_fort 使用 grass 或 rock 的 perimeter，boarding 关闭。地面保持名义高度，底层主体原点低 8 格；要求完整八件主体和真实连接的原房间/敌人。原主体外的五格支撑脚手架接入可达的西侧或东侧原通道，检查全部指定出口。原池权重不变。[堡垒入口](ILLAGER_FORT_ENTRY.md)。
 
 山贼高塔 bandit_towers 使用 grass 或 rock 的 perimeter，boarding 关闭。原绝对起点 135，经原生 groundLevelDelta 后首件 Y=134；施工首个空层取全部原组件最低 Y，不填入稀疏模板空气。要求真实完整的塔身上下端和横桥连接；从安全断桥末端以支撑脚手架接入原平台。原房间空项、池权重及刷怪装备不变。[山贼高塔入口](BANDIT_TOWERS_ENTRY.md)。
+
+斗兽场 coliseum 使用 grass 或 rock 的 perimeter，boarding 关闭。名义地面经原生 −3 偏移和 groundLevelDelta 后，主体原点低 4 格；施工首个空层为主体原点加 2，保留原拱廊地板上方空气。完整四象限、11 个骷髅附件和 1 个幻翼刷怪件均需实际存在；通过原拱门到达外圈拱廊，保留 beard_box 的完整预留范围。[斗兽场入口](COLISEUM_ENTRY.md)。

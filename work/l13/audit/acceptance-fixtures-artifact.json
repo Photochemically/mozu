@@ -1,10 +1,10 @@
 {
-  "tests": 286.0,
-  "buildLog": "bandit-towers-final-build.log",
-  "jarBytes": 644451,
-  "jarSha256": "5CBA0193BB7BEA435B35F214A561A4AD37711823F08749762B7D4EB3A64B2E60",
+  "tests": 292.0,
+  "buildLog": "coliseum-build.log",
+  "jarBytes": 658706,
+  "jarSha256": "FFFA7E9A597DADCE0D7B750C478575D91048C7C4830743EB3FCADCDBCC774629",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "DA0FB778A559AD0FE3A371650FEC2990117E0975D1E0C40161F3CD1CC4076CDA",
+  "helperSha256": "821E1E5AFBE2D8326AE67058105825C7C7254113992C5E1FF551862FF11C40F5",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -37,6 +37,7 @@
     "BANDIT_VILLAGE_ENTRY.md",
     "ILLAGER_FORT_ENTRY.md",
     "BANDIT_TOWERS_ENTRY.md",
+    "COLISEUM_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

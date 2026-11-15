@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-14",
-  "scope": "Bandit towers complete native graph, lowest-piece island ground, preserved broken bridge landing, spawner/loot checks; static only",
+  "date": "2026-11-15",
+  "scope": "Coliseum complete native quadrants and encounters, original arcade floor height and perimeter access; static only",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "bandit-towers-final-build.log",
+  "buildLog": "coliseum-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 644451,
-  "sha256": "5CBA0193BB7BEA435B35F214A561A4AD37711823F08749762B7D4EB3A64B2E60",
+  "bytes": 658706,
+  "sha256": "FFFA7E9A597DADCE0D7B750C478575D91048C7C4830743EB3FCADCDBCC774629",
   "saveSchema": 5,
   "suites": [
     {
@@ -57,6 +57,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.BlimpLadderAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.ColiseumAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -444,5 +450,6 @@
   "villageEvidence": "village-entry-audit.json: 192 non-overlapping source assemblies with all nine templates, four rotations, two dry surfaces and three attachment densities; each checks 1..4 exits, all attached entrances, original loot, water and spawner payloads. All 384 original socket/house/rotation combinations and turtle transforms checked. Native random graph, collision, fluid physics, combat and persistence pending.",
   "banditEvidence": "bandit-entry-audit.json: 208 source assemblies (184 single-plot and 24 eight-plot), 31 reachable originals plus the approved deco_3 substitute, four rotations, two dry surfaces and each 1..4 exits. Native connector catalog, container/spawner payloads and entity transforms checked. Random graph, collision, sand/fluid physics, combat and persistence pending.",
   "fortEvidence": "fort-entry-audit.json: 72 complete 8-piece shells, 15 room slots, all 21 original templates, four root choices/rotations and two dry surfaces. Each checks 1..4 exits; source loot and entity transforms retained. Native generator, collision, scaffold physics, upper/lower exploration, combat and multiplayer restart untested.",
-  "banditTowersEvidence": "bandit-towers-entry-audit.json: 80 non-overlapping structural assemblies, two towers, both bridge types, all 26 templates, three roots and four rotations; each checks 1..4 exits. 6 focused Java tests. Native generator, whole interior traversal, scaffold physics, combat and multiplayer restart untested."
+  "banditTowersEvidence": "bandit-towers-entry-audit.json: 80 non-overlapping structural assemblies, two towers, both bridge types, all 26 templates, three roots and four rotations; each checks 1..4 exits. 6 focused Java tests. Native generator, whole interior traversal, scaffold physics, combat and multiplayer restart untested.",
+  "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested."
 }

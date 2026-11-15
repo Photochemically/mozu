@@ -1,0 +1,497 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:coliseum",
+  "cases": [
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 0,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 1,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 2,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "islandFirstFreeY": 94,
+      "root": 3,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "spawners": 1,
+      "skeletons": 11,
+      "pieces": 16,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "sourceTemplates": [
+    "enemy_0",
+    "part_0",
+    "part_1",
+    "part_2",
+    "part_3",
+    "spawner_0"
+  ],
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "32 complete four-quadrant original-template assemblies, 11 skeletons and one phantom spawner. Four roots, four rotations, two surfaces and 1..4 exits. Route reaches original covered outer arcade; full stands/arena traversal remains a runtime check."
+}

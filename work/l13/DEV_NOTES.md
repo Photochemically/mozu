@@ -381,3 +381,12 @@ Coverage now 31 of 39 with original-template entry evidence, eight resource-only
 - BanditTowersAuditTest 6 项，80 组双塔原件样例，26 模板、两种横桥、三种首件、四旋转、两种地面和 1～4 个出口。原件实体列表为空，敌人来自原刷怪设施；正式怪物模组联动仍未实现。
 - 首次 bandit-towers-build.log 是 Gradle 本机连接失败；bandit-towers-compile.log 编译成功但 285 项中 1 项因手工样例房间重叠覆盖容器而失败。样例加原生碰撞约束，保护不放宽；bandit-towers-focused.log 的 5 项通过。最终 bandit-towers-final-build.log 全套 286 项通过、build 成功（2m3s），无重复启动游戏。
 - JAR 644451 字节，SHA256 5CBA0193BB7BEA435B35F214A561A4AD37711823F08749762B7D4EB3A64B2E60。静态入口证据 32/39；0 实机。候选/自然入口关闭、桥接未安装，存档格式不变。下一批为 coliseum，未改任何既定玩法。
+
+## 2026-11-15 斗兽场完整四象限与外圈拱廊
+
+- 新增 ColiseumLayout/Planner/Route/Probe，接入原结构规划、整体搬迁、分批施工和实体回调。要求四块 32×32×32 原主体、11 个 rollable 骷髅附件及中央 aligned 幻翼刷怪笼，缺件拒绝而不补造。
+- 原地表偏移 −3 加 groundLevelDelta=1 对应主体原点低 4 格。原模板没有显式空气；岛面首个空层取原点加 2，露出原 Y=1 拱廊地板，保留原建筑坐标。原 Structure.adjustBoundingBox 的 12 格扩展通过完整 start 范围保留。
+- 四座原拱门到外圈拱廊的地板、净空和 3×3 落脚检查，所有指定出口需连通；不修改原路线方块。实际施工回调核对原骷髅位置/种类/数量；开放前检查幻翼 SpawnData/SpawnPotentials。原六模板无箱子战利品表，本批不新增奖励。
+- ColiseumAuditTest 新增 6 项：32 组完整原件拼装、四种首件/旋转、两种地面、1～4 个出口、备用门/全阻挡、缺件/错位/旋转、刷怪数据改变、错误地面/环境、实体变种/缺失/重复及搬迁；全部通过。
+- 一次完整离线 build 成功（3m2s），全套 292 项测试、0 失败、0 错误。JAR 658706 字节，SHA256 FFFA7E9A597DADCE0D7B750C478575D91048C7C4830743EB3FCADCDBCC774629；构建证据 coliseum-build.log / build-summary.json。
+- 静态入口覆盖 33/39，0 实机验收；证据只到外圈拱廊，原生生成率、完整看台/场地路线、碰撞/战斗、多人和重启留待集中验收。正式开关关闭、桥接未安装，存档格式不变。下一批 monastery 共 20 份原模板。

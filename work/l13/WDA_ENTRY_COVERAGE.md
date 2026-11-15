@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。32 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，7 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。33 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，6 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -12,7 +12,7 @@ WDA 2.1.58 共 39 座建筑。32 座有原模板路线或入口几何证据，0 
 | bandit_village | jigsaw | WORLD_SURFACE_WG 0 | 草地／岩地 | perimeter 原道路、台阶与外侧垫步 | 原模板 · [208 组单地块及八地块组合](audit/bandit-entry-audit.json) | 原生随机图、台阶碰撞、红沙水流、骑乘战斗与双人重启 |
 | bathhouse | jigsaw | WORLD_SURFACE_WG 0 | 干地／原池水 | perimeter 外侧脚手架与原门廊 | 原模板 · [96 组基座与门厅代表布局](audit/bathhouse-entry-audit.json) | 原生拼装与拒绝率、攀爬、池水恢复、多人重启 |
 | ceryneian_hind | jigsaw | WORLD_SURFACE_WG -16 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 检查埋入地面的部分和原门道净空 |
-| coliseum | jigsaw | WORLD_SURFACE_WG -3 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
+| coliseum | jigsaw | WORLD_SURFACE_WG -3 | 草地／岩地，原拱廊地板 | perimeter 四座原拱门至外圈拱廊 | 原模板 · [32 组四件主体、原骷髅与幻翼刷怪件](audit/coliseum-entry-audit.json) | 原生完整率、实际拱门与看台/场地探索、战斗和双人重启 |
 | fishing_hut | jigsaw | WORLD_SURFACE_WG -2 | 干地／2～3 格浅水 | perimeter 原码头双通道 | 原模板 · [48 组岸线与刷怪件组合](audit/fishing-hut-entry-audit.json) | 游泳上岸、钓竿僵尸、水流与双人重启 |
 | foundry | jigsaw | 绝对 -10 | 岩层 | start_room | 原模板 · [4 组起始房间](audit/underground-entry-audit.json) | 完整矿道、原机关和分散出口 |
 | giant_mushroom | jigsaw | WORLD_SURFACE_WG -5 | 草地／岩地 | perimeter 原菌柄首段 | 原模板 · [32 组红色／双生主体与环形拼装](audit/giant-mushroom-entry-audit.json) | 原生完整率、实际攀爬与登顶、战斗和双人重启 |
