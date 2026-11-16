@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。33 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，6 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。34 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，5 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -32,7 +32,7 @@ WDA 2.1.58 共 39 座建筑。33 座有原模板路线或入口几何证据，0 
 | mechanical_nest | jigsaw | 绝对 190 | 悬空 | start_deck 原桥 | 原模板 · [96 组直接桥段（含拒绝样例）](audit/mechanical-bridge-audit.json) | 闸门和完整桥图的实际通行 |
 | merchant_campsite | jigsaw | WORLD_SURFACE_WG 0 | 草地（测试） | perimeter 街道与帐篷 | 原模板 · [64 组街道与帐篷组合](audit/merchant-camp-entry-audit.json) | 原生随机营地、开门交易、战利品和双人重启 |
 | mining_system | jigsaw | 绝对 5 | 岩层 | start_room | 原模板 · [16 组起始房间](audit/underground-entry-audit.json) | 完整矿道、原机关和分散出口 |
-| monastery | jigsaw | WORLD_SURFACE_WG 0 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 从原起始件核对地表、主入口与可达路线 |
+| monastery | jigsaw | WORLD_SURFACE_WG 0 | 草地／岩地，原底层地板 | perimeter 原通道／窗台脚手架 | 原模板 · [216 组27 种主楼、农园、翼楼与中立居民组合](audit/monastery-entry-audit.json) | 原生随机图、花坛与脚手架碰撞、水流、上层探索和双人重启 |
 | mushroom_house | jigsaw | WORLD_SURFACE_WG 0 | 干地 | perimeter 原云杉台阶 | 原模板 · [160 组底层、菌盖与刷怪接口](audit/mushroom-house-entry-audit.json) | 实际拼装、进屋碰撞、刷怪与双人重启 |
 | mushroom_mines | jigsaw | WORLD_SURFACE_WG -8 | 干地 | start_mine | 原模板 · [16 组八件主体](audit/mushroom-mine-audit.json) | 完整随机图拒绝率、原陷阱与岩坡碰撞 |
 | mushroom_village | jigsaw | WORLD_SURFACE_WG 0 | 草地／岩地 | perimeter 原半砖坡与各房屋 | 原模板 · [192 组主体、房屋及水池](audit/village-entry-audit.json) | 原生随机图、木门半砖、水流海龟、战斗与双人重启 |

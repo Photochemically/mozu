@@ -1,10 +1,10 @@
 {
-  "tests": 292.0,
-  "buildLog": "coliseum-build.log",
-  "jarBytes": 658706,
-  "jarSha256": "FFFA7E9A597DADCE0D7B750C478575D91048C7C4830743EB3FCADCDBCC774629",
+  "tests": 299.0,
+  "buildLog": "monastery-final-build.log",
+  "jarBytes": 681850,
+  "jarSha256": "EF2E1AAC28BD39DB0BD3139F6916BE3D1F036832D0A5BB23978A76BF9C3F6033",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "821E1E5AFBE2D8326AE67058105825C7C7254113992C5E1FF551862FF11C40F5",
+  "helperSha256": "A594B47064B714304EC125E624D6266539AE2EB3505C3D7C6D18DE1A8FEEB0E2",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -38,6 +38,7 @@
     "ILLAGER_FORT_ENTRY.md",
     "BANDIT_TOWERS_ENTRY.md",
     "COLISEUM_ENTRY.md",
+    "MONASTERY_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

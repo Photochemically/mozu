@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 33,
+    "originalTemplateEvidence": 34,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 6,
+    "resourceGraphOnly": 5,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -441,12 +441,12 @@
       "startPool": "dungeons_arise:fortified/monastery/monastery_start",
       "biomeSelector": "#dungeons_arise:has_structure/monastery_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "从原起始件核对地表、主入口与可达路线",
+      "environment": "草地／岩地，原底层地板",
+      "entry": "perimeter 原通道／窗台脚手架",
+      "level": "原模板",
+      "file": "audit/monastery-entry-audit.json",
+      "label": "216 组27 种主楼、农园、翼楼与中立居民组合",
+      "remaining": "原生随机图、花坛与脚手架碰撞、水流、上层探索和双人重启",
       "runtimeAccepted": false
     },
     {

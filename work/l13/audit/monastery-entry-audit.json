@@ -1,0 +1,3488 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:monastery",
+  "cases": [
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "GRASS",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "GRASS",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "NONE",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "NONE",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_90",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "CLOCKWISE_180",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 15,
+      "variant": 0,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 25,
+      "variant": 1,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 14,
+      "variant": 2,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 25,
+      "variant": 3,
+      "preservedFeatures": 16,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 4,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 5,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 14,
+      "variant": 6,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 7,
+      "preservedFeatures": 58,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 13,
+      "variant": 8,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 9,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 25,
+      "variant": 9,
+      "preservedFeatures": 8,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 10,
+      "preservedFeatures": 6,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 11,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 12,
+      "preservedFeatures": 14,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 13,
+      "preservedFeatures": 12,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 14,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 15,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 16,
+      "preservedFeatures": 48,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 17,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 14,
+      "variant": 18,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 19,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 13,
+      "variant": 20,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 8,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 24,
+      "variant": 21,
+      "preservedFeatures": 50,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "upper",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 22,
+      "preservedFeatures": 56,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 23,
+      "preservedFeatures": 100,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 13,
+      "variant": 24,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 7,
+      "bridgeInlet": "lower",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 23,
+      "variant": 25,
+      "preservedFeatures": 92,
+      "surface": "ROCK",
+      "scaffoldBlocks": 0
+    },
+    {
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inhabitants": 6,
+      "bridgeInlet": "none",
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 12,
+      "variant": 26,
+      "preservedFeatures": 134,
+      "surface": "ROCK",
+      "scaffoldBlocks": 5
+    }
+  ],
+  "sourceTemplates": [
+    "bridge_0",
+    "bridge_crossing",
+    "bridge_terminator",
+    "bridges_deco_0",
+    "corridor_0",
+    "corridor_crossing",
+    "corridor_terminator",
+    "corridors_deco_0",
+    "corridors_deco_1",
+    "corridors_deco_2",
+    "corridors_deco_3",
+    "deco_empty",
+    "iron_golem_normal_0",
+    "room_0",
+    "room_1",
+    "room_2",
+    "room_3_stairs",
+    "start",
+    "top_0",
+    "villager_normal_0"
+  ],
+  "windowCases": 64,
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "216 original-template assemblies covering all 27 main room choices, four rotations, two dry surfaces and 1..4 exits. Native random generation and complete upper-floor exploration remain runtime checks."
+}
