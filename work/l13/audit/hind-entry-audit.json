@@ -1,0 +1,270 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:ceryneian_hind",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "NONE",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "NONE",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "NONE",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "GRASS",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 96,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "pieces": 3,
+      "addedOrRemovedBlocks": 0,
+      "firstFreeY": 128,
+      "surface": "ROCK",
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "originalBlocksChecked": 4523,
+      "goldBlocks": 2,
+      "treasureDepth": 7
+    }
+  ],
+  "sourceTemplates": [
+    "part_0",
+    "part_1",
+    "part_2"
+  ],
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "16 complete original-template assemblies: four rotations, two dry surfaces and two planning heights; each checks 1..4 exits and all 4523 original non-jigsaw blocks. Access is beside all three exposed fossil sections; treasure remains buried. Native generation, collisions, excavation and persistence untested."
+}

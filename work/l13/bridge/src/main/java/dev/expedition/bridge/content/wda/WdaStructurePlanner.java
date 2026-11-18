@@ -67,6 +67,7 @@ public final class WdaStructurePlanner {
         boolean village = id.toString().equals(VillageLayout.TARGET);
         boolean bandit = id.toString().equals(BanditLayout.TARGET);
         boolean monastery = id.toString().equals(MonasteryLayout.TARGET);
+        boolean hind = id.toString().equals(HindLayout.TARGET);
         boolean coliseum = id.toString().equals(ColiseumLayout.TARGET);
         boolean towers = id.toString().equals(BanditTowersLayout.TARGET);
         boolean fort = id.toString().equals(FortLayout.TARGET);
@@ -92,7 +93,7 @@ public final class WdaStructurePlanner {
         if(type==null || !(type.toString().equals("minecraft:jigsaw") || type.toString().equals("dungeons_arise:generic_structures")))
             throw new IllegalArgumentException("Unsupported structure generator "+type);
         boolean aerial=environment.surface()==IslandPlan.Surface.VOID;
-        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || fort) && !type.toString().equals("minecraft:jigsaw"))
+        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || fort) && !type.toString().equals("minecraft:jigsaw"))
             throw new IllegalArgumentException("Expected the original jigsaw generator for " + id);
         if (isLighthouse && !type.toString().equals("dungeons_arise:generic_structures")) {
             throw new IllegalArgumentException("Lighthouse requires the native custom height check");
@@ -119,6 +120,7 @@ public final class WdaStructurePlanner {
         var bath = id.toString().equals(BathhouseLayout.TARGET) ? new BathhousePlanner(registries) : null;
         var banditPlanner = bandit ? new BanditPlanner() : null;
         var monasteryPlanner = monastery ? new MonasteryPlanner() : null;
+        var hindPlanner = hind ? new HindPlanner() : null;
         var coliseumPlanner = coliseum ? new ColiseumPlanner() : null;
         var towersPlanner = towers ? new BanditTowersPlanner() : null;
         var fortPlanner = fort ? new FortPlanner() : null;
@@ -131,7 +133,7 @@ public final class WdaStructurePlanner {
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || fort || bath != null) {
+            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || fort || bath != null) {
                 if (bath != null) bath.read(server, pool, tag);
                 else if (pubPlanner != null) pubPlanner.read(server,pool,tag);
                 else if (villagePlanner != null) villagePlanner.validate(pool,tag);
@@ -140,6 +142,7 @@ public final class WdaStructurePlanner {
                     throw new IllegalArgumentException("Expected original unprocessed single pieces for " + id);
                 if (banditPlanner != null) banditPlanner.read(server,pool,tag);
                 if (monasteryPlanner != null) monasteryPlanner.read(server,pool,tag,perimeterPieces.size());
+                if (hindPlanner != null) hindPlanner.read(server,pool,tag);
                 if (coliseumPlanner != null) coliseumPlanner.read(server,pool,tag);
                 if (towersPlanner != null) towersPlanner.read(server,pool,tag,perimeterPieces.size());
                 if (fortPlanner != null) fortPlanner.read(server,pool,tag,perimeterPieces.size());
@@ -164,6 +167,7 @@ public final class WdaStructurePlanner {
         if (groundHouse) perimeterLayout = GroundHouseLayout.inspect(id.toString(), perimeterPieces, environment);
         if (banditPlanner != null) perimeterLayout = BanditLayout.inspect(perimeterPieces,environment,banditPlanner.features);
         if (monasteryPlanner != null) perimeterLayout = MonasteryLayout.inspect(perimeterPieces,environment,monasteryPlanner.sockets,monasteryPlanner.features);
+        if (hindPlanner != null) perimeterLayout = HindLayout.inspect(perimeterPieces,environment,hindPlanner.features);
         if (coliseumPlanner != null) perimeterLayout = ColiseumLayout.inspect(perimeterPieces,environment,coliseumPlanner.devices);
         if (towersPlanner != null) perimeterLayout = BanditTowersLayout.inspect(perimeterPieces,environment,towersPlanner.sockets,towersPlanner.features);
         if (fortPlanner != null) perimeterLayout = FortLayout.inspect(perimeterPieces,environment,fortPlanner.sockets,fortPlanner.features);

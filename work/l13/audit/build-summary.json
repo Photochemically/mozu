@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-16",
-  "scope": "Monastery complete core and selected native wings, garden-preserving ground/window access and neutral inhabitants; static only",
+  "date": "2026-11-18",
+  "scope": "Ceryneian hind complete fossil, original burial and treasure, three-section dry access and incremental content verification; static only",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "monastery-final-build.log",
+  "buildLog": "hind-build.log",
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 681850,
-  "sha256": "EF2E1AAC28BD39DB0BD3139F6916BE3D1F036832D0A5BB23978A76BF9C3F6033",
+  "bytes": 694974,
+  "sha256": "7AB7E86FEEA40F8C88A977257DF78735E396C19FE00E1226A5BCDDE1509B9F3C",
   "saveSchema": 5,
   "suites": [
     {
@@ -93,6 +93,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.GroundHouseAuditTest",
       "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.HindAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -458,5 +464,6 @@
   "fortEvidence": "fort-entry-audit.json: 72 complete 8-piece shells, 15 room slots, all 21 original templates, four root choices/rotations and two dry surfaces. Each checks 1..4 exits; source loot and entity transforms retained. Native generator, collision, scaffold physics, upper/lower exploration, combat and multiplayer restart untested.",
   "banditTowersEvidence": "bandit-towers-entry-audit.json: 80 non-overlapping structural assemblies, two towers, both bridge types, all 26 templates, three roots and four rotations; each checks 1..4 exits. 6 focused Java tests. Native generator, whole interior traversal, scaffold physics, combat and multiplayer restart untested.",
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
-  "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested."
+  "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
+  "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested."
 }
