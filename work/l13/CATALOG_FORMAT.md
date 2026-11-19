@@ -102,3 +102,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 刻律涅牝鹿的尸骨 ceryneian_hind 使用 grass/rock 的 perimeter，boarding 关闭，保持名义岛面及原 −16 高度偏移。三件完整骨架必须存在；通路到各段露出骨架旁，不自动挖出原地下宝箱。分批核对 4523 条原非连接方块记录，保留旋转骨轴、黄金与原战利品。池文件内部 aquatic 名称不决定环境；原注册资源路径和群系为沙漠。[尸骨遗迹入口](HIND_ENTRY.md)。
 
 蚀败之楼 infested_temple 使用 grass/rock 的 perimeter，boarding 关闭。保留原高处根节点及完整四层外壳、12 层内部和选中房间/刷怪附件；背景首个空层取原基座加 1（名义值减 10）。经原西侧两级台阶进入底层外廊，不自动拆墙或改建内部通路。核对原宝箱和刷怪配置，实际随机图及完整上下层探索待验收。[蚀败之楼入口](INFESTED_TEMPLE_ENTRY.md)。
+
+瘟疫疯人院 `dungeons_arise:plague_asylum` 必须用 `rock/start_room`。原绝对起点及 bury 扩展保留，完整范围上方至少四格岩层；不套用地表入口。正式等级/权重与地表高度仍需另行配置，不因本批适配而自动纳入正式池。见 [地下原房间入口](PLAGUE_ASYLUM_ENTRY.md)。

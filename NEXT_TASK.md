@@ -1,15 +1,15 @@
-# 下一任务：瘟疫疯人院的地下生成与入口
+# 下一任务：繁花之宫的完整建筑与入口
 
-更新：2026-11-19。先读 PROJECT.md、PROGRESS.md、[蚀败之楼适配](work/l13/INFESTED_TEMPLE_ENTRY.md)及[建筑覆盖表](work/l13/WDA_ENTRY_COVERAGE.md)。
+更新：2026-11-19。先读 PROJECT.md、PROGRESS.md、[瘟疫疯人院适配](work/l13/PLAGUE_ASYLUM_ENTRY.md)和[建筑覆盖表](work/l13/WDA_ENTRY_COVERAGE.md)。
 
-1. 锁定 WDA 2.1.58 的 plague_asylum（瘟疫疯人院）目录有 33 份 NBT。原起始池 dungeons_arise:haunted/plague_asylum/plague_asylum_start，唯一首件 plague_asylum_corridor_4_crossing_pit；原定义绝对起点 0，没有 project_start_to_heightmap，size 7、最大中心距离 104、terrain_adaptation=bury、adapt_noise=false、生成阶段 strongholds。
-2. 先核对完整随机走廊、竖向/地下范围、房间/原机关/刷怪和实际入口。绝对起点不能等同于名义地面；不要套用蚀败之楼降低岛面 10 格的规则。保留 bury 对原边界的影响，核实厚岩层、原接近路线及完整空间范围。
-3. 根据原组件实现环境和入口，覆盖旋转、必要分支、1～4 个出口、缺件/错位/阻挡及原内容覆盖拒绝。优先静态/API 审查、对应测试和关键模块编译；不反复测试未改模块。每阶段更新交接、扫描敏感信息、提交推送并核对远程。
+1. 锁定 WDA 2.1.58 的 shiraz_palace（繁花之宫）：42 份 NBT；起始池 dungeons_arise:desertic/shiraz_palace/shiraz_palace_start，唯一起始件 shiraz_palace_part_13。原版 jigsaw，size 7、最大中心距离 114、WORLD_SURFACE_WG +16、adapt_noise=false、use_expansion_hack=false，未显式设置 terrain_adaptation（缺省 NONE）。
+2. 先核查完整主体、原连接图、实际入口/楼层、地基与环境高度，原怪物/战利品/流体等。+16 是原投影偏移，不能直接当岛面或入口高度；不要套用瘟疫疯人院的地下岩层策略。按原实际内容实现环境和入口，保留完整建筑。
+3. 覆盖原件旋转、必要分片和选中附件、1～4 个出口、阻挡、内容保留、搬迁及真实原生替换关系。关键模块编译及对应测试，避免重复未改代码的全量验证。每阶段更新交接文档、检查敏感信息、逐文件提交并推送，核对远程。
 
-当前最终构建 infested-final-build.log 成功：修正原生宝箱随机种子校验后，六项蚀败测试重测通过。其余 305 项由本轮完整 311 项回归保留，源文件输入指纹未变；快照见 infested-regression-audit.json，具体范围见 build-summary.json 的 validationMode/validationRuns。最新 JUnit XML 只有定向六项，不是全量记录丢失。本批原始日志仅本地保留，仓库保存结构化结果和指纹；回执日志名不是可下载文件。后续若运行新的全量验证，应更新/移除旧的分范围说明，不能继承过期 validationMode/validationRuns。
+当前代码最后完整验证：plague-final-build.log，build 成功，319 项 Java 测试、0 失败/错误；本批新增 8 项。build-summary.json 的 validationMode/validationRuns 已改为本次全量结果，不再沿用蚀败批次的 305+6 说明。原始日志本地保留；仓库以结构化回执和原模板报告接力。
 
-蚀败 24 组原件样例覆盖全部 46 模板、四层外壳、12 层内部及原房间/刷怪设施；各查 1～4 个出口，路线仅到原底层外廊。原内部石英边界、完整上下层通路、原生图完整率、战斗兼容与双人重启待验收。原版 StructureTemplate 首次放置容器会改写 LootTableSeed；不要拿它与模板常量比较或为通过检查主动重置。运行中的刷怪 Delay 同样不作为不可变配置。
+瘟疫疯人院 56 组原件图覆盖全部 33 模板、四旋转和 1～4 个出口；首件绝对 Y=-1，保留 bury 外扩 12 格与完整岩层。原 corridor_1_cells 已含默认病房，占位宝箱可被合法随机普通病房替换；七种普通病房必须完整写入 504 格，检查最终选中内容，不能把原生覆盖当成意外删箱，也不能放开任意覆盖。原宝箱随机种子和刷怪 Delay 继续允许原版变化。
 
-39 座 WDA 建筑中 36 座有原模板入口证据、3 座仅资源图审查、0 座游戏验收。剩余：plague_asylum（瘟疫疯人院）、shiraz_palace（繁花之宫）、thornborn_towers（荆棘城堡）。已有静态证据也不等于原生生成或游戏验收完成。
+WDA 入口静态证据 37/39，剩余 shiraz_palace（繁花之宫）、thornborn_towers（荆棘城堡）。0 座已实机验收，静态候选或模板覆盖不等于完整随机图已运行。
 
-正式五级目录、怪物模组联动与强化、首领最终死亡/一次性奖励、III+成长材料、保护与创建旁路、L12、终局合成仍未完成。维持既定规则，不启动游戏、不自动安装桥接、不打开正式候选池/自然入口开关，不修改生产存档。
+原生房间余项、正式五级目录、怪物模组联动/强化、首领最终死亡与一次性奖励、III+成长材料、保护/创建旁路、L12 和终局合成仍未完成。保持玩法决定，不启动游戏、不安装桥接、不打开正式候选/自然入口开关，不改生产存档。辅助包仅说明与开发标记，不能安装到正式世界。

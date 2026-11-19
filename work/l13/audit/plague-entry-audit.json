@@ -1,0 +1,1220 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:plague_asylum",
+  "cases": [
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 0,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 1,
+      "checkedFeatures": 21,
+      "completeBounds": {
+        "minX": -128,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 2,
+      "checkedFeatures": 16,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 3,
+      "checkedFeatures": 25,
+      "completeBounds": {
+        "minX": -145,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 31
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 4,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 26
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 5,
+      "checkedFeatures": 23,
+      "completeBounds": {
+        "minX": -128,
+        "minY": -13,
+        "minZ": 169,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 6,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -128,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 7,
+      "checkedFeatures": 20,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 8,
+      "checkedFeatures": 14,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 21
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 9,
+      "checkedFeatures": 29,
+      "completeBounds": {
+        "minX": -145,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 35
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 10,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 11,
+      "checkedFeatures": 27,
+      "completeBounds": {
+        "minX": -128,
+        "minY": -13,
+        "minZ": 169,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 24
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 12,
+      "checkedFeatures": 22,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "NONE",
+      "roomsWithPassages": 13,
+      "variant": 13,
+      "checkedFeatures": 18,
+      "completeBounds": {
+        "minX": -125,
+        "minY": -13,
+        "minZ": 175,
+        "maxX": -38,
+        "maxY": 28,
+        "maxZ": 266
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 0,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 1,
+      "checkedFeatures": 21,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 206,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 2,
+      "checkedFeatures": 16,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 3,
+      "checkedFeatures": 25,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 189,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 31
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 4,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 26
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 5,
+      "checkedFeatures": 23,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 206,
+        "maxX": -61,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 6,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 206,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 7,
+      "checkedFeatures": 20,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 8,
+      "checkedFeatures": 14,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 21
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 9,
+      "checkedFeatures": 29,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 189,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 35
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 10,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 11,
+      "checkedFeatures": 27,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 206,
+        "maxX": -61,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 24
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 12,
+      "checkedFeatures": 22,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 13,
+      "checkedFeatures": 18,
+      "completeBounds": {
+        "minX": -158,
+        "minY": -13,
+        "minZ": 209,
+        "maxX": -67,
+        "maxY": 28,
+        "maxZ": 296
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 0,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 1,
+      "checkedFeatures": 21,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -98,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 2,
+      "checkedFeatures": 16,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 3,
+      "checkedFeatures": 25,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -81,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 31
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 4,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 26
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 5,
+      "checkedFeatures": 23,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -98,
+        "maxY": 28,
+        "maxZ": 273
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 6,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -98,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 7,
+      "checkedFeatures": 20,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 8,
+      "checkedFeatures": 14,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 21
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 9,
+      "checkedFeatures": 29,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -81,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 35
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 10,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 11,
+      "checkedFeatures": 27,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -98,
+        "maxY": 28,
+        "maxZ": 273
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 24
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 12,
+      "checkedFeatures": 22,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "roomsWithPassages": 13,
+      "variant": 13,
+      "checkedFeatures": 18,
+      "completeBounds": {
+        "minX": -188,
+        "minY": -13,
+        "minZ": 176,
+        "maxX": -101,
+        "maxY": 28,
+        "maxZ": 267
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 0,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 1,
+      "checkedFeatures": 21,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 236
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 2,
+      "checkedFeatures": 16,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 3,
+      "checkedFeatures": 25,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 253
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 31
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 4,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 26
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 5,
+      "checkedFeatures": 23,
+      "completeBounds": {
+        "minX": -165,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 236
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 6,
+      "checkedFeatures": 24,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 236
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 7,
+      "checkedFeatures": 20,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 8,
+      "checkedFeatures": 14,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 21
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 9,
+      "checkedFeatures": 29,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 253
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 35
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 10,
+      "checkedFeatures": 19,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 11,
+      "checkedFeatures": 27,
+      "completeBounds": {
+        "minX": -165,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 236
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 24
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 12,
+      "checkedFeatures": 22,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 23
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "roomsWithPassages": 13,
+      "variant": 13,
+      "checkedFeatures": 18,
+      "completeBounds": {
+        "minX": -159,
+        "minY": -13,
+        "minZ": 146,
+        "maxX": -68,
+        "maxY": 28,
+        "maxZ": 233
+      },
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pieces": 22
+    }
+  ],
+  "sourceTemplates": [
+    "cell_normal_0",
+    "cell_normal_1",
+    "cell_normal_2",
+    "cell_normal_3",
+    "cell_normal_4",
+    "cell_normal_5",
+    "cell_normal_6",
+    "cell_security_0",
+    "cell_security_1",
+    "cell_security_2",
+    "cell_security_3",
+    "cell_security_4",
+    "corridor_0",
+    "corridor_1_cells",
+    "corridor_2_crossing",
+    "corridor_3_stairway",
+    "corridor_4_crossing_pit",
+    "evoker_fangs_0",
+    "passage_0",
+    "passage_1",
+    "passage_2",
+    "room_0",
+    "room_1_double",
+    "room_2_double",
+    "room_3_cells",
+    "room_4_pit",
+    "room_5_brews",
+    "room_6_water",
+    "skeleton_0",
+    "skeleton_1",
+    "skeleton_2_wither",
+    "witch_0",
+    "zombie_horde_0"
+  ],
+  "runtimeTested": false,
+  "nativeGeneratorExecuted": false,
+  "scope": "56 original-template graphs, all 33 resources, four rotations and 14 branch/decor cycles. Native-compatible selected branches, rock cover, start-room and 1..4 distinct-room exit selection. No route writes. Not an exhaustive native random generator or full dungeon traversal test."
+}

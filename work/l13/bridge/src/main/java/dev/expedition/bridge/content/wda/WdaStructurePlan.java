@@ -23,8 +23,9 @@ public final class WdaStructurePlan {
     private TyphonDiveLayout dive;
     private LighthouseLayout lighthouse;
     private PerimeterLayout perimeterLayout;
+    private PlagueLayout plague;
     private boolean relocated;
-    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well,TyphonDiveLayout dive,LighthouseLayout lighthouse,PerimeterLayout perimeterLayout) {
+    WdaStructurePlan(ResourceLocation id,StructureStart start,IslandPlan island,boolean boarding,DungeonSpec.EntryMode entryMode,List<InteriorRoom> rooms,MechanicalBridgeLayout gateBridges,BlimpLadderLayout ladder,MushroomMineLayout mine,ScorchedWellLayout well,TyphonDiveLayout dive,LighthouseLayout lighthouse,PerimeterLayout perimeterLayout,PlagueLayout plague) {
         if(entryMode==DungeonSpec.EntryMode.START_DECK && AerialContentPolicy.needsGateBridge(id.toString()) && gateBridges==null)
             throw new IllegalArgumentException("Mechanical aerial entry requires its original connected bridges");
         this.id=id;this.start=start;this.island=island;this.boarding=boarding;this.entryMode=entryMode;this.interiorRooms=List.copyOf(rooms);
@@ -37,6 +38,7 @@ public final class WdaStructurePlan {
         if((entryMode==DungeonSpec.EntryMode.SHORE_DIVE)!=(dive!=null))throw new IllegalArgumentException("Missing or unexpected seabed approach");this.dive=dive;
         this.lighthouse = lighthouse;
         this.perimeterLayout = perimeterLayout;
+        this.plague = plague;
     }
     public ResourceLocation id() { return id; }
     public StructureStart start() { return start; }
@@ -51,6 +53,7 @@ public final class WdaStructurePlan {
     public TyphonDiveLayout dive(){return dive;}
     public LighthouseLayout lighthouse() { return lighthouse; }
     PerimeterLayout perimeterLayout() { return perimeterLayout; }
+    PlagueLayout plague() { return plague; }
     public void relocateTo(BlockBounds allocatedContent) {
         if(relocated)throw new IllegalStateException("Plan already assigned to a pocket");
         var original=island.completeBounds();
@@ -79,6 +82,7 @@ public final class WdaStructurePlan {
         if(dive!=null)dive=dive.move(x,y,z);
         if (lighthouse != null) lighthouse = lighthouse.move(x, y, z);
         if (perimeterLayout != null) perimeterLayout = perimeterLayout.move(x,y,z);
+        if (plague != null) plague = plague.move(x,y,z);
         relocated=true;
     }
     static BlockBounds bounds(BoundingBox box) {

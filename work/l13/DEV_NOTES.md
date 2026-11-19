@@ -418,3 +418,13 @@ Coverage now 31 of 39 with original-template entry evidence, eight resource-only
 - 定向六项先通过（2m25s），随后完整回归 311 项通过（3m36s）。之后 javap 核查锁定 Forge 的 StructureTemplate.placeInWorld：首次放置 RandomizableContainerBlockEntity 时使用 RandomSource.nextLong 写入 LootTableSeed。删除了将随机种子误当模板常量的比较，增加变化种子允许案例；不改写种子、不重抽奖励。Delay 也保留原生计时行为。
 - 最终 build test --tests '*InfestedAuditTest' 成功（1m16s），改动后的六项通过。未重复未改模块的 305 项；其输入指纹与完整回归快照一致。infested-regression-audit.json 保留此前完整结果与指纹，build-summary.json 清楚区分保留回归/最新定向，共 311 个不同测试；最新 XML 仅包含六项。后续全量验证需要重写旧 validationMode/validationRuns。
 - JAR 712631 字节，SHA256 AB8259FC8DC0D0F334A4F7E6215659EB9E04E32CF681F8D10450202D86E2688F；核对七个新生产类，无 NBT/嵌套模组/开发标记打入 JAR。静态入口覆盖 36/39、0 实机；辅助包 35 份说明 + 1 标记，七类命令不变。正式开关关闭、桥接未安装。下一批 plague_asylum，33 模板、绝对高度 0、bury，需核对地下完整图和入口。
+
+## 2026-11-19 瘟疫疯人院：地下原图、原病房替换和分散出口
+
+- PlagueLayout/Planner/ContentCheck 接入原结构规划、搬迁、分批施工、原房间选址与水 tick 暂存。限制 rock/start_room；原 absolute=0 经 groundLevelDelta=1 得根 Y=-1，原 bury 预留各方向扩展 12 格，完整范围上方至少四层岩石，不套用地表规则。
+- 校验 33 种原组件尺寸、刚性投影、原 pool/name/target/朝向和已选图连通性。可选分支可依原空池终止，不强制补造；已选内容不删减。内容核对覆盖原 LootTable/固定物品、SpawnData/SpawnPotentials/数值配置及原水源。Delay 和 LootTableSeed 不误作常量。
+- 原走廊已含默认病房及两只占位宝箱。原随机普通病房会覆盖对应默认内容；七种普通病房完整写入 504 格。仅接受合法父接口内指定原占位宝箱的替换，并核对最终选中内容；稀疏改图或其他设备覆盖拒绝。无模板原件上传或独立改写建筑。
+- 首个落脚保留原起始房间，额外出口在不同原房间按远近分散；调用真实生产选址检查 1～4 个出口，不开挖、不减少数量。门安装前既有二次检查保留；存档 schema 5 无变化。
+- 八项新测试；56 组原件图（四旋转×14 分支循环），覆盖全部 33 模板，每组 21～35 件和 14～29 个最终内容点。原方块图前后不变、缺件/错位/重复/朝向、设备配置/药水/水源、默认病房覆盖、入口全阻挡、指定出口不足、岩层不足及搬迁均覆盖。未运行原生随机生成器，不证明完整跨房间或上下层无挖掘通行。
+- 初次编译成功、七项中四失败（原默认病房覆盖未处理）；加入原生覆盖规则与负例后，八项剩一失败（测试删除空发射器 Items 无实际变更）。改为明确替换物品并补水源等级负例。最终完整 build 成功（3m52s），319 项、0 失败/错误；原始日志仅本地保留。build-summary.json 替换此前分范围验证为本次全量。
+- JAR 729708 字节，SHA256 1DA700C892958746594AC1AEAAF521B9CD85F47F9517E39F58AC8D6ABEEA3CA7；五个瘟疫生产类已核对，无 NBT/嵌套模组/开发标记。入口静态证据 37/39、0 实机；辅助包 36 份说明 + 1 标记，七类快捷命令不变。正式开关关闭、未安装，原怪物参数保留但正式双人平衡尚未完成。下一批 shiraz_palace，42 模板、首件 part_13、地表偏移 +16。

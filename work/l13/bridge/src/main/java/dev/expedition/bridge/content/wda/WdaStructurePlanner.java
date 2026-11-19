@@ -69,6 +69,8 @@ public final class WdaStructurePlanner {
         boolean monastery = id.toString().equals(MonasteryLayout.TARGET);
         boolean hind = id.toString().equals(HindLayout.TARGET);
         boolean infested = id.toString().equals(InfestedLayout.TARGET);
+        boolean plague = id.toString().equals(PlagueLayout.TARGET);
+        if(plague) PlagueLayout.validateEnvironment(environment);
         boolean coliseum = id.toString().equals(ColiseumLayout.TARGET);
         boolean towers = id.toString().equals(BanditTowersLayout.TARGET);
         boolean fort = id.toString().equals(FortLayout.TARGET);
@@ -94,7 +96,7 @@ public final class WdaStructurePlanner {
         if(type==null || !(type.toString().equals("minecraft:jigsaw") || type.toString().equals("dungeons_arise:generic_structures")))
             throw new IllegalArgumentException("Unsupported structure generator "+type);
         boolean aerial=environment.surface()==IslandPlan.Surface.VOID;
-        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || fort) && !type.toString().equals("minecraft:jigsaw"))
+        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || plague || fort) && !type.toString().equals("minecraft:jigsaw"))
             throw new IllegalArgumentException("Expected the original jigsaw generator for " + id);
         if (isLighthouse && !type.toString().equals("dungeons_arise:generic_structures")) {
             throw new IllegalArgumentException("Lighthouse requires the native custom height check");
@@ -123,6 +125,7 @@ public final class WdaStructurePlanner {
         var monasteryPlanner = monastery ? new MonasteryPlanner() : null;
         var hindPlanner = hind ? new HindPlanner() : null;
         var infestedPlanner = infested ? new InfestedPlanner() : null;
+        var plaguePlanner = plague ? new PlaguePlanner() : null;
         var coliseumPlanner = coliseum ? new ColiseumPlanner() : null;
         var towersPlanner = towers ? new BanditTowersPlanner() : null;
         var fortPlanner = fort ? new FortPlanner() : null;
@@ -135,7 +138,7 @@ public final class WdaStructurePlanner {
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || fort || bath != null) {
+            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || plague || fort || bath != null) {
                 if (bath != null) bath.read(server, pool, tag);
                 else if (pubPlanner != null) pubPlanner.read(server,pool,tag);
                 else if (villagePlanner != null) villagePlanner.validate(pool,tag);
@@ -146,6 +149,7 @@ public final class WdaStructurePlanner {
                 if (monasteryPlanner != null) monasteryPlanner.read(server,pool,tag,perimeterPieces.size());
                 if (hindPlanner != null) hindPlanner.read(server,pool,tag);
                 if (infestedPlanner != null) infestedPlanner.read(server,pool,tag,perimeterPieces.size());
+                if (plaguePlanner != null) plaguePlanner.read(server,pool,tag,perimeterPieces.size());
                 if (coliseumPlanner != null) coliseumPlanner.read(server,pool,tag);
                 if (towersPlanner != null) towersPlanner.read(server,pool,tag,perimeterPieces.size());
                 if (fortPlanner != null) fortPlanner.read(server,pool,tag,perimeterPieces.size());
@@ -200,8 +204,12 @@ public final class WdaStructurePlanner {
         var island=new IslandPlan(complete,groundY,environment.padding(),environment.rim(),
                 environment.foundationDepth(),environment.surface(),environment.waterDepth());
         var dive=environment.entryMode()==DungeonSpec.EntryMode.SHORE_DIVE?TyphonDivePlanner.prepare(server,start,island):null;
+        var plagueLayout=plaguePlanner==null?null:PlagueLayout.inspect(perimeterPieces,environment,complete,plaguePlanner.sockets,plaguePlanner.features);
         List<InteriorRoom> rooms=new ArrayList<>();
-        if(environment.entryMode().interior() && dive==null) {
+        if(plagueLayout!=null) {
+            InteriorRoom.requireRockCover(island);
+            rooms.addAll(plagueLayout.rooms());
+        } else if(environment.entryMode().interior() && dive==null) {
             if(!aerial && ladder==null && mine==null && well==null)InteriorRoom.requireRockCover(island);
             int index=0;
             for(var piece:start.getPieces()) {
@@ -221,7 +229,7 @@ public final class WdaStructurePlanner {
             }
         }
         var gateBridges=aerial && AerialContentPolicy.needsGateBridge(id.toString())?MechanicalBridgePlanner.prepare(server,start):null;
-        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive,lighthouse,perimeterLayout);
+        return new WdaStructurePlan(id,start,island,environment.boarding(),environment.entryMode(),rooms,gateBridges,ladder,mine,well,dive,lighthouse,perimeterLayout,plagueLayout);
     }
 
     private CompoundTag validateElement(MinecraftServer server,RegistryAccess registries,StructurePoolElement element) {

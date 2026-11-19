@@ -1,16 +1,16 @@
 {
   "date": "2026-11-19",
-  "scope": "Infested temple complete shell, twelve floors and selected rooms/spawners, original western stairs and lower hall access; static only",
+  "scope": "Plague asylum original underground graph, dense native cell replacement, original loot/traps/spawners/water, start room and distributed exits; static only",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
-  "buildTask": "build test --tests '*InfestedAuditTest'",
-  "buildLog": "infested-final-build.log",
+  "buildTask": "build",
+  "buildLog": "plague-final-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 712631,
-  "sha256": "AB8259FC8DC0D0F334A4F7E6215659EB9E04E32CF681F8D10450202D86E2688F",
+  "bytes": 729708,
+  "sha256": "1DA700C892958746594AC1AEAAF521B9CD85F47F9517E39F58AC8D6ABEEA3CA7",
   "saveSchema": 5,
   "suites": [
     {
@@ -142,6 +142,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.MushroomMineAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.PlagueAuditTest",
+      "tests": 8,
       "failures": 0,
       "errors": 0
     },
@@ -473,29 +479,15 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "305 unchanged test results retained from the full 311-test regression; corrected six-test infested suite rebuilt and rerun. Hash confirms other src inputs unchanged. Counts are unique tests, not the size of the final filtered run.",
+  "validationMode": "Full 319-test regression and build on current source. Replaces the earlier infested retained-plus-focused validation scope.",
   "validationRuns": [
     {
-      "buildLog": "infested-build.log",
-      "sourceReport": "infested-regression-audit.json",
-      "executedTests": 311,
-      "retainedTests": 305
-    },
-    {
-      "buildLog": "infested-final-build.log",
-      "executedTests": 6,
-      "retainedTests": 6,
-      "changedSourceSha256": [
-        {
-          "path": "work/l13/bridge/src/main/java/dev/expedition/bridge/content/wda/InfestedLayout.java",
-          "sha256": "29ea9214ba3dfb0a582d5e3daaeaebf9dccb78fd3b2d542172876fcf6a6c9994"
-        },
-        {
-          "path": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/InfestedAuditTest.java",
-          "sha256": "a1084e10787f052ff83a2311752260c6ae65516471304a3cf941a910371f7d03"
-        }
-      ]
+      "buildLog": "plague-final-build.log",
+      "executedTests": 319,
+      "failures": 0,
+      "errors": 0
     }
   ],
-  "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested."
+  "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested.",
+  "plagueEvidence": "plague-entry-audit.json: 56 original-template graphs (four rotations x14 branch/decor cycles), all 33 templates, 21..35 selected pieces, 14..29 final content checks and 1..4 distinct-room exits. Native absolute start -1 and bury expansion preserved. Dense normal cells retain native replacement of the default corridor cell; no route writes. Native random generation, complete traversal, collision/combat, fluid behavior, performance and multiplayer restart remain untested."
 }

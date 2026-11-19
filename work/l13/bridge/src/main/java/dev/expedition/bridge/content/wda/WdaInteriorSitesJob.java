@@ -9,7 +9,7 @@ import java.util.*;
 final class WdaInteriorSitesJob {
     private final List<InteriorRoom> remaining;
     private final List<Cell> selected=new ArrayList<>();
-    private final InteriorBlockProbe probe;
+    private final InteriorSiteSearch.Probe probe;
     private final String dimension;
     private final int count;
     private RoomSiteSearch search;
@@ -31,6 +31,12 @@ final class WdaInteriorSitesJob {
             remaining.remove(0); // Never fall back to the starting room behind the intact gates.
             search=new MechanicalBridgeSiteSearch(gateBridges,probe);
         } else search=search(remaining.remove(0));
+    }
+    /** Plain underground path, also exercised with original-template fixtures. */
+    WdaInteriorSitesJob(List<InteriorRoom> rooms,int count,InteriorSiteSearch.Probe probe,String dimension) {
+        if(rooms.isEmpty() || count<1 || count>4)throw new IllegalArgumentException("Missing interior rooms or invalid exit count");
+        remaining=new ArrayList<>(rooms);this.probe=probe;this.dimension=dimension;this.count=count;this.aerial=false;
+        search=search(remaining.remove(0));
     }
     boolean step(int budget,long nanos) {
         long started=System.nanoTime();int work=0;

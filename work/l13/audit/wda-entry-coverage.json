@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 36,
+    "originalTemplateEvidence": 37,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 3,
+    "resourceGraphOnly": 2,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -505,12 +505,12 @@
       "startPool": "dungeons_arise:haunted/plague_asylum/plague_asylum_start",
       "biomeSelector": "#dungeons_arise:has_structure/plague_asylum_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "核对绝对起点、周边地形和原入口高差",
+      "environment": "厚岩层",
+      "entry": "start_room 原地下房间",
+      "level": "原模板",
+      "file": "audit/plague-entry-audit.json",
+      "label": "56 组地下分支、病房与原设备组合",
+      "remaining": "原生完整图、跨房间/上下层通行、陷阱水流与双人重启",
       "runtimeAccepted": false
     },
     {

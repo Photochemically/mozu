@@ -23,7 +23,7 @@ import java.util.function.BooleanSupplier;
 
 /** Cooperative server-thread job. A native template/chunk call is indivisible, so the time budget is a soft limit. */
 final class WdaBuildJob {
-    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, PERIMETER_ROUTE, INDEX, FLUID_RELEASE, CONTENT_READY }
+    enum Stage { ISLAND, WATER, STRUCTURE, BOARDING, INTERIOR_SITES, DIVE_SITES, PERIMETER_ROUTE, PLAGUE_CONTENT, INDEX, FLUID_RELEASE, CONTENT_READY }
     final PortalRecord portal;
     final WdaStructurePlan plan;
     final ServerLevel world;
@@ -39,6 +39,7 @@ final class WdaBuildJob {
     private final List<BlockPos> villageTurtles = new ArrayList<>();
     private WdaBoardingJob boarding;
     private WdaInteriorSitesJob interior;
+    private PlagueContentCheck plagueCheck;
     private TyphonDiveSitesJob dive;
     private BooleanSupplier perimeterStep;
     private final int minChunkX,maxChunkX,minChunkZ,maxChunkZ;
@@ -51,7 +52,7 @@ final class WdaBuildJob {
     WdaBuildJob(ServerLevel world,PortalRecord portal,WdaStructurePlan plan) {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
         water=new IslandCursor(plan.island(),true);
-        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || WindmillLayout.TARGET.equals(plan.id().toString())
+        fluidTicks=new ConstructionFluidBuffer(portal.destination().bounds(),plan.island().waterDepth()>0 || plan.well()!=null || plan.plague()!=null || WindmillLayout.TARGET.equals(plan.id().toString())
                 || plan.perimeterLayout() instanceof MonasteryLayout || plan.perimeterLayout() instanceof BanditLayout || plan.perimeterLayout() instanceof VillageLayout || plan.perimeterLayout() instanceof BathhouseLayout || plan.perimeterLayout() instanceof WishingWellLayout,plan.well()!=null);
         var b=plan.island().building();
         minChunkX=Math.floorDiv(b.minX(),16);maxChunkX=Math.floorDiv(b.maxX(),16);
@@ -167,7 +168,10 @@ final class WdaBuildJob {
                     if (plan.perimeterLayout() instanceof VillageLayout village && !village.matchesTurtles(villageTurtles))
                         throw new IllegalStateException("Original village turtles missing or misplaced");
                     stage = Stage.INDEX;
-                    if (plan.lighthouse() != null) {
+                    if (plan.plague() != null) {
+                        stage=Stage.PLAGUE_CONTENT;
+                        plagueCheck=new PlagueContentCheck(plan.plague(),world);
+                    } else if (plan.lighthouse() != null) {
                         stage = Stage.PERIMETER_ROUTE;
                         perimeterStep = new LighthouseRoute(plan.lighthouse(), plan.island(),
                                 portal.selection().content().exits(), new LighthouseProbe(world))::step;
@@ -195,6 +199,15 @@ final class WdaBuildJob {
             }
             if(stage==Stage.BOARDING) {
                 if(boarding.step(256,budgetNanos)){stage=Stage.INDEX;rewind();}
+                return;
+            }
+            if(stage==Stage.PLAGUE_CONTENT) {
+                for(int n=0;n<256 && (n==0 || System.nanoTime()-started<budgetNanos);n++) {
+                    if(plagueCheck.step()) {
+                        interior=new WdaInteriorSitesJob(plan.interiorRooms(),portal.selection().content().exits(),new InteriorBlockProbe(world),world.dimension().location().toString());
+                        stage=Stage.INTERIOR_SITES;break;
+                    }
+                }
                 return;
             }
             if(stage==Stage.INTERIOR_SITES) {
