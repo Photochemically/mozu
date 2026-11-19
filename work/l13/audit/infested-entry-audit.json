@@ -1,0 +1,441 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:infested_temple",
+  "cases": [
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "NONE",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "NONE",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "NONE",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "NONE",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "NONE",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "NONE",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "CLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "CLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_180",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_180",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "CLOCKWISE_180",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_180",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "CLOCKWISE_180",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "CLOCKWISE_180",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "GRASS"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 0,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 129,
+      "floorVariantCycle": 1,
+      "floors": 12,
+      "pieces": 157,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    },
+    {
+      "containersAndSpawners": 128,
+      "floorVariantCycle": 2,
+      "floors": 12,
+      "pieces": 156,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "islandFirstFreeY": 86,
+      "rooms": 32,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "surface": "ROCK"
+    }
+  ],
+  "sourceTemplates": [
+    "base_part_0",
+    "base_part_1",
+    "base_part_2",
+    "base_part_3",
+    "base_part_4",
+    "base_part_5",
+    "base_part_6",
+    "base_part_7",
+    "cave_spider_0",
+    "cave_spider_1",
+    "inner_part_0",
+    "inner_top_0",
+    "layout_part_0_top",
+    "layout_part_1_middle",
+    "layout_part_2_middle",
+    "layout_part_3_base",
+    "level_0",
+    "level_1",
+    "level_2",
+    "main_part_0",
+    "main_part_1",
+    "main_part_2",
+    "main_part_3",
+    "main_part_4",
+    "main_part_5",
+    "main_part_6",
+    "main_part_7",
+    "room_0",
+    "room_1",
+    "room_2",
+    "room_3",
+    "room_4",
+    "room_5",
+    "room_6",
+    "room_7",
+    "room_8",
+    "skeleton_0",
+    "top_part_0",
+    "top_part_1",
+    "top_part_2",
+    "top_part_3",
+    "top_part_4",
+    "top_part_5",
+    "top_part_6",
+    "top_part_7",
+    "wither_skeleton_0"
+  ],
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "24 complete original-template assemblies with four shell tiers, twelve floors, 32 selected rooms and original spawners. All 46 templates, four rotations, three floor cycles, two surfaces and 1..4 exits. Static route reaches the original lower outer hall; native generator and full interior/upper traversal remain runtime checks."
+}

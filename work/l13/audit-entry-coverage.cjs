@@ -50,6 +50,7 @@ cases('bandit_village','草地／岩地','perimeter 原道路、台阶与外侧�
 cases('coliseum','草地／岩地，原拱廊地板','perimeter 四座原拱门至外圈拱廊','coliseum-entry','四件主体、原骷髅与幻翼刷怪件','原生完整率、实际拱门与看台/场地探索、战斗和双人重启');
 cases('monastery','草地／岩地，原底层地板','perimeter 原通道／窗台脚手架','monastery-entry','27 种主楼、农园、翼楼与中立居民组合','原生随机图、花坛与脚手架碰撞、水流、上层探索和双人重启');
 cases('ceryneian_hind','草地／岩地，保留原埋藏高度','perimeter 三段原尸骨旁的地面路线','hind-entry','完整三段、原黄金与埋藏宝箱','原生生成、实际地面碰撞、发掘开箱、负载和双人重启');
+cases('infested_temple','草地／岩地，按原基座对齐','perimeter 原西侧台阶至底层外廊','infested-entry','四层外壳、12 层内部及原房间/刷怪件','原生完整率、实际台阶和内部/上层通行、原战斗和双人重启');
 cases('bandit_towers','草地／岩地，按完整图最低处派生','perimeter 支撑脚手架与原断桥平台','bandit-towers-entry','双塔、横桥、房间与原刷怪件','原生完整率、脚手架碰撞、各层探索、刷怪和双人重启');
 cases('illager_fort','草地／岩地','perimeter 外侧脚手架与原通道','fort-entry','八件主体、房间与原敌人组合','原生完整率、脚手架和台阶、上下层探索、战斗与双人重启');
 cases('mushroom_village','草地／岩地','perimeter 原半砖坡与各房屋','village-entry','主体、房屋及水池','原生随机图、木门半砖、水流海龟、战斗与双人重启');

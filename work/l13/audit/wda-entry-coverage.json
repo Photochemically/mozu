@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 35,
+    "originalTemplateEvidence": 36,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 4,
+    "resourceGraphOnly": 3,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -325,12 +325,12 @@
       "startPool": "dungeons_arise:haunted/infested_temple/infested_temple_start",
       "biomeSelector": "#dungeons_arise:has_structure/infested_temple_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "核对正高度偏移后的落脚处及原接近路线",
+      "environment": "草地／岩地，按原基座对齐",
+      "entry": "perimeter 原西侧台阶至底层外廊",
+      "level": "原模板",
+      "file": "audit/infested-entry-audit.json",
+      "label": "24 组四层外壳、12 层内部及原房间/刷怪件",
+      "remaining": "原生完整率、实际台阶和内部/上层通行、原战斗和双人重启",
       "runtimeAccepted": false
     },
     {

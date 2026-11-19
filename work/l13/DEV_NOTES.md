@@ -408,3 +408,13 @@ Coverage now 31 of 39 with original-template entry evidence, eight resource-only
 - 核查锁定 Forge 原类：StructureTemplatePool codec 读取 fallback/elements，不使用池 JSON 残留的 aquatic name 来注册；实际路径/群系为沙漠。StructureSettings 缺省 terrain_adaptation=NONE，故不人为添加其他建筑的 12 格扩展。JigsawPlacement 高度计算及 RotatedPillarBlock 的 X/Z 轴旋转与本适配一致。原始 API 提取仅留本地忽略文件。
 - 新增 6 项 Java 测试；16 组完整原件样例（四旋转 × 两干地 × 两高度），每组查 1～4 个出口及全部原内容；缺件/重复/错位/旋转/尺寸、骨轴/宝箱表/原方块改变、阻挡/后期阻挡、错误环境/高度及整体搬迁负例通过。一次完整离线 build 成功（3m33s），全套 **305 项、0 失败、0 错误**，仅保留已有 Forge 加载 API 弃用警告。
 - JAR 694974 字节，SHA256 7AB7E86FEEA40F8C88A977257DF78735E396C19FE00E1226A5BCDDE1509B9F3C；核对 6 个尸骨生产类，无原始 NBT/嵌套模组/开发标记打入 JAR。入口静态证据 35/39、0 实机；辅助包 34 份说明 + 1 开发标记，七类入口命令未增加。正式开关关闭、桥接未安装。下一批 infested_temple（蚀败之楼），46 模板、原高度 +54、首件 layout_part_1_middle；先核查完整图和入口。
+
+## 2026-11-19 蚀败之楼完整图、原西侧入口及宝箱种子兼容
+
+- 46 份原模板；四布局、32 外壳、四内部件和 12 个原楼层为必需核心，所有选中房间/刷怪接口必须唯一接入。布局/角件共享的水平接口按原设计保留，不误判为双份建筑。原高处根为名义地面 +53，基座低于根 64 格；施工首个空层取基座 +1，即名义值 −10。完整外壳 63×128×63，地形适配缺省 NONE。
+- 原西侧局部 (4,0,31)/(5,1,31) 两级云杉台阶接入底层外廊，逐一检查全部指定出口，不增删通路方块。原上下层/内部石英边界和房间全部保留，尚未验证全部房间无需挖掘可达。
+- 保留原 LootTable、SpawnData/SpawnPotentials、生成间隔/数量/范围、激活范围和邻近上限；分批核对内容，保留蜘蛛乘客、装备与效果。原模板无直接实体附件，刷怪笼在世界中正常工作；本批不是正式外部怪物联动或分级奖励。
+- 六项新测试，24 组完整原件样例，覆盖全部 46 模板、四向旋转、三楼层循环、两干地与 1～4 个出口，样例各 12 层/32 房间、156 或 157 件、128 或 129 个容器/刷怪件。缺件/重复/错位/错误 aligned 朝向、台阶/出口/施工末阻挡、原数据改变、地面/环境错误和搬迁均有负例。
+- 定向六项先通过（2m25s），随后完整回归 311 项通过（3m36s）。之后 javap 核查锁定 Forge 的 StructureTemplate.placeInWorld：首次放置 RandomizableContainerBlockEntity 时使用 RandomSource.nextLong 写入 LootTableSeed。删除了将随机种子误当模板常量的比较，增加变化种子允许案例；不改写种子、不重抽奖励。Delay 也保留原生计时行为。
+- 最终 build test --tests '*InfestedAuditTest' 成功（1m16s），改动后的六项通过。未重复未改模块的 305 项；其输入指纹与完整回归快照一致。infested-regression-audit.json 保留此前完整结果与指纹，build-summary.json 清楚区分保留回归/最新定向，共 311 个不同测试；最新 XML 仅包含六项。后续全量验证需要重写旧 validationMode/validationRuns。
+- JAR 712631 字节，SHA256 AB8259FC8DC0D0F334A4F7E6215659EB9E04E32CF681F8D10450202D86E2688F；核对七个新生产类，无 NBT/嵌套模组/开发标记打入 JAR。静态入口覆盖 36/39、0 实机；辅助包 35 份说明 + 1 标记，七类命令不变。正式开关关闭、桥接未安装。下一批 plague_asylum，33 模板、绝对高度 0、bury，需核对地下完整图和入口。

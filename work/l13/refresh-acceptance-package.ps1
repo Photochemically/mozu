@@ -46,6 +46,7 @@ $taskEntries = [ordered]@{
     'COLISEUM_ENTRY.md'='COLISEUM_ENTRY.md'
     'MONASTERY_ENTRY.md'='MONASTERY_ENTRY.md'
     'HIND_ENTRY.md'='HIND_ENTRY.md'
+    'INFESTED_TEMPLE_ENTRY.md'='INFESTED_TEMPLE_ENTRY.md'
     'test-fixtures/expedition-development-world.json'='test-fixtures/expedition-development-world.json'
 }
 $taskStream = [IO.File]::Open($taskTemporary,[IO.FileMode]::Create)
@@ -69,6 +70,8 @@ try {
 Move-Item -LiteralPath $taskTemporary -Destination $taskTarget -Force
 $taskReceipt = [ordered]@{
     tests=($taskBuild.suites | Measure-Object -Property tests -Sum).Sum
+    validationMode=$taskBuild.validationMode; validationRuns=$taskBuild.validationRuns
+    buildLogLocalOnly=$taskBuild.buildLogLocalOnly
     buildLog=$taskBuild.buildLog; jarBytes=$taskBuild.bytes; jarSha256=$taskBuild.sha256
     helperPackage='outputs/L13验收辅助/七类验收入口-准备包.zip'; helperSha256=(Get-FileHash -LiteralPath $taskTarget -Algorithm SHA256).Hash
     helperEntries=@($taskEntries.Keys); runtimeTested=$false; installed=$false

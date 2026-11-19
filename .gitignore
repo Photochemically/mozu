@@ -49,6 +49,8 @@ work/l13/audit/kubejs-forge-2001.6.5-build.26.json
 work/l13/audit/dimdoors-builtin-packs.json
 work/l13/audit/gradle-dependencies.log
 work/l13/audit/decompile-generation.log
+# New raw build logs stay local; commit structured validation receipts instead.
+work/l13/audit/*.log
 
 *.tmp
 *.bak

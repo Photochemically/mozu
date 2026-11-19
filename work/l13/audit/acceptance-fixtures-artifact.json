@@ -1,10 +1,35 @@
 {
-  "tests": 305.0,
-  "buildLog": "hind-build.log",
-  "jarBytes": 694974,
-  "jarSha256": "7AB7E86FEEA40F8C88A977257DF78735E396C19FE00E1226A5BCDDE1509B9F3C",
+  "tests": 311.0,
+  "validationMode": "305 unchanged test results retained from the full 311-test regression; corrected six-test infested suite rebuilt and rerun. Hash confirms other src inputs unchanged. Counts are unique tests, not the size of the final filtered run.",
+  "validationRuns": [
+    {
+      "buildLog": "infested-build.log",
+      "sourceReport": "infested-regression-audit.json",
+      "executedTests": 311,
+      "retainedTests": 305
+    },
+    {
+      "buildLog": "infested-final-build.log",
+      "executedTests": 6,
+      "retainedTests": 6,
+      "changedSourceSha256": [
+        {
+          "path": "work/l13/bridge/src/main/java/dev/expedition/bridge/content/wda/InfestedLayout.java",
+          "sha256": "29ea9214ba3dfb0a582d5e3daaeaebf9dccb78fd3b2d542172876fcf6a6c9994"
+        },
+        {
+          "path": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/InfestedAuditTest.java",
+          "sha256": "a1084e10787f052ff83a2311752260c6ae65516471304a3cf941a910371f7d03"
+        }
+      ]
+    }
+  ],
+  "buildLogLocalOnly": true,
+  "buildLog": "infested-final-build.log",
+  "jarBytes": 712631,
+  "jarSha256": "AB8259FC8DC0D0F334A4F7E6215659EB9E04E32CF681F8D10450202D86E2688F",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "FDE73D1AA784EE1F67713F3B99AF033D9273145E7CB5DF4C529D8800A2F7E141",
+  "helperSha256": "7FD4F5520A3E721EBFE70988775B15268893434629E245AC6E40997E2D9C6812",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -40,6 +65,7 @@
     "COLISEUM_ENTRY.md",
     "MONASTERY_ENTRY.md",
     "HIND_ENTRY.md",
+    "INFESTED_TEMPLE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,
