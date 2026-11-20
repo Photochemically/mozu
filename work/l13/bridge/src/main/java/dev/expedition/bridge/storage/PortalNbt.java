@@ -33,6 +33,8 @@ public final class PortalNbt {
         ListTag links=new ListTag();record.internalLinks().forEach((source,target)->{
             var link=new CompoundTag();link.put("Source",site(source));link.put("Target",site(target));links.add(link);
         });tag.put("InternalLinks",links);
+        ListTag protection=new ListTag();record.protectedBlocks().stream().sorted(java.util.Comparator.comparing(PortalRecord.Site::key))
+                .forEach(pos->protection.add(site(pos)));tag.put("ProtectedBlocks",protection);
         tag.putBoolean("HasArrived",record.visits().enteredBefore());
         ListTag bosses=new ListTag(); record.defeatedBosses().forEach(id->bosses.add(StringTag.valueOf(id)));tag.put("DefeatedBosses",bosses);
         return tag;
@@ -69,6 +71,19 @@ public final class PortalNbt {
             throw new IllegalArgumentException("Invalid saved native links");
         for(Tag child:tag.getList("InternalLinks",Tag.TAG_COMPOUND)) {
             var link=(CompoundTag)child;record.registerInternalLink(readSite(link.getCompound("Source")),readSite(link.getCompound("Target")));
+        }
+        if(tag.contains("ProtectedBlocks")) {
+            if(!(tag.get("ProtectedBlocks") instanceof ListTag protection) || (!protection.isEmpty()&&protection.getElementType()!=Tag.TAG_COMPOUND)
+                    || protection.size()>PortalRecord.MAX_PROTECTED_BLOCKS)
+                throw new IllegalArgumentException("Invalid saved block protection");
+            var positions=new java.util.ArrayList<PortalRecord.Site>();
+            for(var child:protection) {
+                var pos=(CompoundTag)child;
+                for(var axis:java.util.List.of("X","Y","Z"))if(!pos.contains(axis,Tag.TAG_INT))
+                    throw new IllegalArgumentException("Missing protected block coordinate");
+                positions.add(readSite(pos));
+            }
+            record.restoreProtectedBlocks(positions);
         }
         return record;
     }

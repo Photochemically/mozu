@@ -46,6 +46,6 @@ class TravelPersistenceTest {
         var old=data.save(new CompoundTag());old.putInt("Schema",1);old.remove("Travel");
         var restored=ExpeditionSavedData.load(old);
         assertTrue(restored.travel().operations().isEmpty());assertTrue(restored.get(portal.id()).exits().isEmpty());
-        assertEquals(5,restored.save(new CompoundTag()).getInt("Schema"));
+        assertEquals(6,restored.save(new CompoundTag()).getInt("Schema"));
     }
 }

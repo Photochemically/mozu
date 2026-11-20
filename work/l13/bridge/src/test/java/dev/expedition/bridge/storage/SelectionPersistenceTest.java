@@ -25,7 +25,7 @@ class SelectionPersistenceTest {
     }
     @Test void schemaTwoWithoutSelectionsIsReadWithoutCreatingOrGuessingContent() {
         var portal=portal();var data=new ExpeditionSavedData();data.add(portal);var saved=data.save(new CompoundTag());saved.putInt("Schema",2);
-        var loaded=ExpeditionSavedData.load(saved);assertNull(loaded.get(portal.id()).selection());assertEquals(5,loaded.save(new CompoundTag()).getInt("Schema"));
+        var loaded=ExpeditionSavedData.load(saved);assertNull(loaded.get(portal.id()).selection());assertEquals(6,loaded.save(new CompoundTag()).getInt("Schema"));
     }
     @Test void configurationRoundTripIsExactAndFractionalIntegersAreRejected() {
         var spec=choice().content();var json=DungeonSpecJson.write(spec);assertEquals(spec,DungeonSpecJson.read(spec.id(),json));

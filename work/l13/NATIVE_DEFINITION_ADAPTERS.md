@@ -2,6 +2,8 @@
 
 2026-11-20。针对 DD 5.4.4，完成六份定义的代码适配；没有自动纳入正式地牢池，也没有实际生成或运行验收。
 
+后续进度：已增加[局部设备保护的记录和事件拦截](LOCAL_DEVICE_PROTECTION.md)，保存格式现为 6。下文六间适配当批的生成/路线规则继续保留；labfinal 仍拒绝，未因基础保护代码而增加定义通过数。
+
 ## 实现方式
 
 `NativeDefinitionAdapter` 只接收桥接正在创建的精确同标识房间。原定义未提供 builder 时，仅对白名单中的六间，在独立副本中补上原生 `dimdoors:lazy_gen_pocket`；随后仍执行严格的 `NativeGeneratorPolicy`。已有 lazy 定义也复制后验证。显式其他 builder、错误目标、未审查附加组件不会被覆盖或删除。

@@ -33,6 +33,8 @@ public final class PortalRecord {
     private final Set<UUID> livingVisitors=new LinkedHashSet<>();
     private final Set<Site> exits=new LinkedHashSet<>();
     private final Map<Site,Site> internalLinks=new LinkedHashMap<>();
+    private final Set<Site> protectedBlocks=new LinkedHashSet<>();
+    public static final int MAX_PROTECTED_BLOCKS=4096;
     private Phase phase;
     private Destination destination;
     private String structureId;
@@ -96,6 +98,22 @@ public final class PortalRecord {
         if(internalLinks.putIfAbsent(source,target)!=null)throw new IllegalArgumentException("Duplicate native internal link");
     }
     public boolean isInternalDevice(Site site) {return internalLinks.containsKey(site)||internalLinks.containsValue(site);}
+    public Set<Site> protectedBlocks(){return Set.copyOf(protectedBlocks);}
+    public boolean isProtectedBlock(Site site){return protectedBlocks.contains(site);}
+    /** Validate the whole batch before recording any position. Never grows from later player construction. */
+    public void installProtectedBlocks(java.util.Collection<Site> sites) {
+        require(Phase.GENERATING);restoreProtectedBlocks(sites);
+    }
+    public void restoreProtectedBlocks(java.util.Collection<Site> sites) {
+        if(!protectedBlocks.isEmpty() || sites.size()>MAX_PROTECTED_BLOCKS)
+            throw new IllegalArgumentException("Invalid protected block batch");
+        var validated=new LinkedHashSet<Site>();
+        for(var site:sites) {
+            if(site==null || destination==null || !NativeRiftPlan.inside(destination,site) || !validated.add(site))
+                throw new IllegalArgumentException("Duplicate or out-of-instance protected block");
+        }
+        protectedBlocks.addAll(validated);
+    }
     public void registerExit(Site site) {
         if(destination==null || !site.dimension().equals(destination.dimension()) || !destination.bounds().contains(site.x(),site.y(),site.z()))
             throw new IllegalArgumentException("Exit outside instance");

@@ -1,0 +1,221 @@
+{
+  "runtimeTested": false,
+  "adapterEnabled": false,
+  "sourceSchematicSha256": "ae9b9cb6fad915cef3430779e5e4049cbb0b8e16d6a8e0842e3da478ecd93d8d",
+  "size": [
+    24,
+    108,
+    88
+  ],
+  "machineComponents": [
+    {
+      "position": {
+        "x": 12,
+        "y": 90,
+        "z": 58
+      },
+      "state": "minecraft:sticky_piston[extended\u003dtrue,facing\u003dup]"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 90,
+        "z": 59
+      },
+      "state": "minecraft:redstone_wire[east\u003dnone,north\u003dside,power\u003d14,south\u003dside,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 90,
+        "z": 60
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dside,power\u003d15,south\u003dnone,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": 90,
+        "z": 60
+      },
+      "state": "minecraft:repeater[delay\u003d1,facing\u003deast,locked\u003dfalse,powered\u003dtrue]"
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 90,
+        "z": 60
+      },
+      "state": "minecraft:redstone_wire[east\u003dnone,north\u003dnone,power\u003d10,south\u003dup,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 91,
+        "z": 58
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d15,south\u003dside,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 91,
+        "z": 58
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d14,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 91,
+        "z": 58
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d13,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 91,
+        "z": 58
+      },
+      "state": "minecraft:sticky_piston[extended\u003dtrue,facing\u003deast]"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 91,
+        "z": 58
+      },
+      "state": "minecraft:piston_head[facing\u003deast,short\u003dfalse,type\u003dsticky]"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 91,
+        "z": 58
+      },
+      "state": "minecraft:piston_head[facing\u003dup,short\u003dfalse,type\u003dsticky]"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 91,
+        "z": 59
+      },
+      "state": "minecraft:repeater[delay\u003d3,facing\u003dsouth,locked\u003dfalse,powered\u003dtrue]"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 91,
+        "z": 60
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dside,power\u003d9,south\u003dnone,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 91,
+        "z": 60
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d10,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 91,
+        "z": 60
+      },
+      "state": "minecraft:redstone_wire[east\u003dnone,north\u003dnone,power\u003d11,south\u003dside,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 91,
+        "z": 61
+      },
+      "state": "minecraft:redstone_wire[east\u003dup,north\u003dside,power\u003d12,south\u003dnone,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 91,
+        "z": 61
+      },
+      "state": "minecraft:redstone_wire[east\u003dnone,north\u003dside,power\u003d11,south\u003dup,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 92,
+        "z": 58
+      },
+      "state": "minecraft:slime_block"
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 92,
+        "z": 61
+      },
+      "state": "minecraft:redstone_wire[east\u003dnone,north\u003dnone,power\u003d13,south\u003dside,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 92,
+        "z": 62
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dside,power\u003d14,south\u003dnone,west\u003dnone]"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 92,
+        "z": 62
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d15,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 92,
+        "z": 62
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d14,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": 92,
+        "z": 62
+      },
+      "state": "minecraft:redstone_wire[east\u003dside,north\u003dnone,power\u003d13,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 92,
+        "z": 62
+      },
+      "state": "minecraft:redstone_wire[east\u003dnone,north\u003dside,power\u003d12,south\u003dnone,west\u003dside]"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 94,
+        "z": 62
+      },
+      "state": "minecraft:lever[face\u003dfloor,facing\u003dnorth,powered\u003dtrue]"
+    }
+  ],
+  "componentCount": 25,
+  "componentsAndNonAirBelowCount": 46,
+  "candidateCellsAreNotFinalProtectionProfile": true,
+  "originalEntityTypes": {
+    "minecraft:armor_stand": 6,
+    "minecraft:painting": 1,
+    "minecraft:skeleton": 25
+  },
+  "remaining": "Trusted native piston motion, slime adhesion, complete functional-device scope, indirect writes and live entity/route behavior require verification; whole-room addon remains unchanged and refused."
+}

@@ -1,29 +1,20 @@
 {
-  "tests": 340.0,
-  "validationMode": "340 distinct passing tests: unchanged 330 retained from initial full run, plus 10 tests in the adapter/policy/native-hook suites rerun after test resource-path correction, sixth adapter enrollment and spawner registry contract. Final XML contains only 10 tests; retained source input hashes verified.",
+  "tests": 352.0,
+  "validationMode": "Full Gradle build and complete 352-test run passed, zero failures/errors. Current XML contains all 352 tests; supersedes prior scoped validation.",
   "validationRuns": [
     {
-      "buildLog": "native-adapters-build.log",
-      "executedTests": 339,
-      "failures": 1,
-      "errors": 0,
-      "retainedPassingTests": 330,
-      "evidence": "native-adapters-regression-audit.json",
-      "note": "One test read three classic-pack definitions from the default pack path. Nine original native suite results superseded by the final ten-test run."
-    },
-    {
-      "buildLog": "native-adapters-final-build.log",
-      "executedTests": 10,
+      "buildLog": "device-protection-build.log",
+      "executedTests": 352,
       "failures": 0,
       "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "native-adapters-final-build.log",
-  "jarBytes": 769977,
-  "jarSha256": "83B7B367A60875C11AB4E2C7485E6D23587AED184C27E90DC9DA662358F25EC9",
+  "buildLog": "device-protection-build.log",
+  "jarBytes": 775364,
+  "jarSha256": "34F8B3016D50C8730029A17986C46FF3DB503EF139ED8EA6361660774D70C0E0",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "00111AB6092008122C07F1E92A91AD2F8C40DDFC157F44D4B034525657FAD127",
+  "helperSha256": "63BB6158D151A121F7BC17B1753B9E1FCAAEE316A07AE414B93EDA1C31AE9D37",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -31,6 +22,7 @@
     "NATIVE_ROOM_RESERVATIONS.md",
     "NATIVE_ROOM_ROUTES.md",
     "NATIVE_DEFINITION_ADAPTERS.md",
+    "LOCAL_DEVICE_PROTECTION.md",
     "WDA_TEMPLATE_GAPS.md",
     "WATER_ENVIRONMENTS.md",
     "SHIP_BOARDING.md",

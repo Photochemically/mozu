@@ -1,17 +1,17 @@
 {
   "date": "2026-11-20",
-  "scope": "Six original DD immediate room definitions adapted on isolated generator copies to native lazy placement, exact assets and pinned API contracts; static only",
+  "scope": "Exact protected device coordinates, schema 6 migration/validation, original native endpoint capture and Forge mutation events; labfinal machine source survey remains unenrolled",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
-  "buildTask": "build test --tests '*NativeDefinitionAdapterTest' --tests '*NativeContentPolicyAuditTest' --tests '*NativeHookContractTest'",
-  "buildLog": "native-adapters-final-build.log",
+  "buildTask": "build",
+  "buildLog": "device-protection-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 769977,
-  "sha256": "83B7B367A60875C11AB4E2C7485E6D23587AED184C27E90DC9DA662358F25EC9",
-  "saveSchema": 5,
+  "bytes": 775364,
+  "sha256": "34F8B3016D50C8730029A17986C46FF3DB503EF139ED8EA6361660774D70C0E0",
+  "saveSchema": 6,
   "suites": [
     {
       "name": "dev.expedition.bridge.content.NativeContentPolicyAuditTest",
@@ -34,6 +34,12 @@
     {
       "name": "dev.expedition.bridge.content.NativeHookContractTest",
       "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.NativeLabProtectionAuditTest",
+      "tests": 1,
       "failures": 0,
       "errors": 0
     },
@@ -344,6 +350,12 @@
       "errors": 0
     },
     {
+      "name": "dev.expedition.bridge.domain.ProtectedBlockPlanTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
       "name": "dev.expedition.bridge.domain.ReservationGeometryTest",
       "tests": 2,
       "failures": 0,
@@ -416,6 +428,18 @@
       "errors": 0
     },
     {
+      "name": "dev.expedition.bridge.portal.BlockMutationFootprintTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.ProtectionEventContractTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
       "name": "dev.expedition.bridge.storage.InteriorEntryPersistenceTest",
       "tests": 4,
       "failures": 0,
@@ -436,6 +460,12 @@
     {
       "name": "dev.expedition.bridge.storage.PortalPersistenceTest",
       "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.ProtectedBlocksPersistenceTest",
+      "tests": 5,
       "failures": 0,
       "errors": 0
     },
@@ -497,20 +527,11 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "340 distinct passing tests: unchanged 330 retained from initial full run, plus 10 tests in the adapter/policy/native-hook suites rerun after test resource-path correction, sixth adapter enrollment and spawner registry contract. Final XML contains only 10 tests; retained source input hashes verified.",
+  "validationMode": "Full Gradle build and complete 352-test run passed, zero failures/errors. Current XML contains all 352 tests; supersedes prior scoped validation.",
   "validationRuns": [
     {
-      "buildLog": "native-adapters-build.log",
-      "executedTests": 339,
-      "failures": 1,
-      "errors": 0,
-      "retainedPassingTests": 330,
-      "evidence": "native-adapters-regression-audit.json",
-      "note": "One test read three classic-pack definitions from the default pack path. Nine original native suite results superseded by the final ten-test run."
-    },
-    {
-      "buildLog": "native-adapters-final-build.log",
-      "executedTests": 10,
+      "buildLog": "device-protection-build.log",
+      "executedTests": 352,
       "failures": 0,
       "errors": 0
     }
@@ -519,5 +540,6 @@
   "plagueEvidence": "plague-entry-audit.json: 56 original-template graphs (four rotations x14 branch/decor cycles), all 33 templates, 21..35 selected pieces, 14..29 final content checks and 1..4 distinct-room exits. Native absolute start -1 and bury expansion preserved. Dense normal cells retain native replacement of the default corridor cell; no route writes. Native random generation, complete traversal, collision/combat, fluid behavior, performance and multiplayer restart remain untested.",
   "shirazEvidence": "shiraz-entry-audit.json: 24 complete original-template graphs, all 27 shell cubes and 61 original encounter attachments, all 41 reachable templates out of 42 source files; husk_elite_0 remains unenrolled as upstream. Each checks 1..4 exits, 2286 source content points and nine supported scaffolds to the original wet stairs/north garden. Native random generator, full palace traversal, collision, fluid/fire, combat, performance and multiplayer restart untested.",
   "thornbornEvidence": "thornborn-entry-audit.json: 128 original-template graphs, all 34 source resources via the existing medium-terminator alias, two main towers, hanging branches, embedded rooms and original encounters. Each 32..44 selected pieces, 31..46 content checks and all 1..4 exits; two original bridge access routes. No native random generator, complete internal traversal, real collision/jumping/scaffolds, combat, performance or multiplayer restart acceptance.",
-  "nativeDefinitionAdaptersEvidence": "native-definition-adapters.json: six original immediate templates, full dimensions/device metadata/rift markers; valid minecraft:mob_spawner block entity ID confirmed against Minecraft registration. labfinal whole-room protection remains blocked. Runtime generation, puzzles, load, multiplayer and restart pending."
+  "nativeDefinitionAdaptersEvidence": "native-definition-adapters.json: six original immediate templates, full dimensions/device metadata/rift markers; valid minecraft:mob_spawner block entity ID confirmed against Minecraft registration. labfinal whole-room protection remains blocked. Runtime generation, puzzles, load, multiplayer and restart pending.",
+  "deviceProtectionEvidence": "native-lab-protection-audit.json: pinned 24x108x88 source room, 25 machine components / 46 preliminary component-and-support cells, 32 original entities. Runtime event enforcement and native piston exceptions untested; labfinal still refused. ProtectedBlocks save schema 6, old formats readable."
 }

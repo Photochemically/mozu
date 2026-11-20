@@ -46,6 +46,8 @@ public final class StateAuditSnapshot {
             var links=new JsonArray();p.internalLinks().entrySet().stream().sorted(Comparator.comparing(e->e.getKey().key())).forEach(e->{
                 var link=new JsonObject();link.add("source",site(e.getKey()));link.add("target",site(e.getValue()));links.add(link);
             });row.add("internalLinks",links);
+            var protection=new JsonArray();p.protectedBlocks().stream().sorted(Comparator.comparing(PortalRecord.Site::key))
+                    .forEach(pos->protection.add(site(pos)));row.add("protectedBlocks",protection);
             row.add("closureBlockers",closureBlockers(p));rows.add(row);
         });root.add("portals",rows);root.addProperty("portalCount",rows.size());
         var transits=new JsonArray();operations.stream().sorted(Comparator.comparing(o->o.id().toString())).forEach(o->{

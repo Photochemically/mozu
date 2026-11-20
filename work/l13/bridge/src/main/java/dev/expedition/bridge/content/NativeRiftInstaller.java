@@ -27,6 +27,8 @@ public final class NativeRiftInstaller {
         }
         // Plan and validate every internal endpoint before changing the first exit.
         var plan=NativeRiftPlan.create(portal.destination(),rifts.keySet(),locals,inactive,portal.kind()==PortalKind.GOLD);
+        // Persist exact original device positions before replacement can remove their block entities.
+        portal.installProtectedBlocks(ProtectedBlockPlan.routes(portal.destination(),plan));
         for(var source:plan.exits()) {
             rifts.get(source).setDestination(new ManagedExitTarget(portal.id()));portal.registerExit(source);
         }

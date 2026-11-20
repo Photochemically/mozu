@@ -15,7 +15,7 @@ class NativeLinksPersistenceTest {
     }
     @Test void internalRoutesAndCompletionSurviveReloadWithoutRebuilding() {
         var p=room();p.registerInternalLink(a,b);p.registerInternalLink(b,a);p.recordBossDefeat("test:finished");
-        var data=new ExpeditionSavedData();data.add(p);var saved=data.save(new CompoundTag());assertEquals(5,saved.getInt("Schema"));
+        var data=new ExpeditionSavedData();data.add(p);var saved=data.save(new CompoundTag());assertEquals(6,saved.getInt("Schema"));
         var restored=ExpeditionSavedData.load(saved).get(p.id());
         assertEquals(p.internalLinks(),restored.internalLinks());assertEquals(Set.of(start),restored.exits());
         assertEquals(PortalRecord.Phase.READY,restored.phase());assertEquals(p.destination(),restored.destination());

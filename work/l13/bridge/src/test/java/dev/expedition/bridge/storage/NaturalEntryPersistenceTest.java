@@ -24,7 +24,7 @@ class NaturalEntryPersistenceTest {
     @Test void previousSchemasDoNotInventNaturalEntries() {
         for(int version=1;version<=3;version++) {
             var tag=new CompoundTag();tag.putInt("Schema",version);var data=ExpeditionSavedData.load(tag);
-            assertNull(data.naturalPolicy());assertTrue(data.records().isEmpty());assertEquals(5,data.save(new CompoundTag()).getInt("Schema"));
+            assertNull(data.naturalPolicy());assertTrue(data.records().isEmpty());assertEquals(6,data.save(new CompoundTag()).getInt("Schema"));
         }
     }
 }

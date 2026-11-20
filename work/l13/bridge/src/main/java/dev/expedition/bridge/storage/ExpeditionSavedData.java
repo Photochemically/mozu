@@ -9,7 +9,7 @@ import net.minecraft.world.level.saveddata.SavedData;
 import java.util.*;
 
 public final class ExpeditionSavedData extends SavedData {
-    public static final int SCHEMA=5;
+    public static final int SCHEMA=6;
     private final Map<UUID,PortalRecord> records=new LinkedHashMap<>();
     private final Map<String,UUID> entrances=new HashMap<>();
     private final TravelLedger travel=new TravelLedger();
@@ -37,6 +37,8 @@ public final class ExpeditionSavedData extends SavedData {
         if(schema<1 || schema>SCHEMA)throw new IllegalStateException("Unsupported expedition save schema; refusing to discard portal state");
         var data=new ExpeditionSavedData();
         for(Tag child:tag.getList("Portals",Tag.TAG_COMPOUND)) {
+            if(schema>=6 && !((CompoundTag)child).contains("ProtectedBlocks"))
+                throw new IllegalArgumentException("Missing saved block protection; refusing to discard it");
             PortalRecord record=PortalNbt.read((CompoundTag)child);
             record.recoverInterruptedGeneration(); data.add(record);
         }
