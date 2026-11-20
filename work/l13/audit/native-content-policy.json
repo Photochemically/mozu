@@ -2,133 +2,184 @@
   "runtimeAcceptancePassed": false,
   "definitionPolicyOnly": true,
   "automaticPoolEnrollment": false,
+  "adaptedImmediateDefinitions": 6,
   "rooms": [
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/broken_pillars.schem",
       "target": "dimdoors:classic/ruins/broken_pillars",
+      "generatorTarget": "dimdoors:classic/ruins/broken_pillars",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/buggy_top_entry.schem",
       "target": "dimdoors:classic/ruins/buggy_top_entry",
+      "generatorTarget": "dimdoors:classic/ruins/buggy_top_entry",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/collapsed_single_tunnel.schem",
       "target": "dimdoors:classic/ruins/collapsed_single_tunnel",
+      "generatorTarget": "dimdoors:classic/ruins/collapsed_single_tunnel",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/crumbled_hall.schem",
       "target": "dimdoors:classic/ruins/crumbled_hall",
+      "generatorTarget": "dimdoors:classic/ruins/crumbled_hall",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/door_totem_ruins.schem",
       "target": "dimdoors:classic/ruins/door_totem_ruins",
+      "generatorTarget": "dimdoors:classic/ruins/door_totem_ruins",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/exit_cube.schem",
       "target": "dimdoors:classic/ruins/exit_cube",
+      "generatorTarget": "dimdoors:classic/ruins/exit_cube",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/exit_ruins_with_hidden_door.schem",
       "target": "dimdoors:classic/ruins/exit_ruins_with_hidden_door",
+      "generatorTarget": "dimdoors:classic/ruins/exit_ruins_with_hidden_door",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/heart_of_disorder.schem",
       "target": "dimdoors:classic/ruins/heart_of_disorder",
+      "generatorTarget": "dimdoors:classic/ruins/heart_of_disorder",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/hot_suspense.schem",
       "target": "dimdoors:classic/ruins/hot_suspense",
+      "generatorTarget": "dimdoors:classic/ruins/hot_suspense",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/jump_pass.schem",
       "target": "dimdoors:classic/ruins/jump_pass",
+      "generatorTarget": "dimdoors:classic/ruins/jump_pass",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/rope_bridge.schem",
       "target": "dimdoors:classic/ruins/rope_bridge",
+      "generatorTarget": "dimdoors:classic/ruins/rope_bridge",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/ruins_oh_no.schem",
       "target": "dimdoors:classic/ruins/ruins_oh_no",
+      "generatorTarget": "dimdoors:classic/ruins/ruins_oh_no",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_drop_hall.schem",
       "target": "dimdoors:classic/ruins/simple_drop_hall",
+      "generatorTarget": "dimdoors:classic/ruins/simple_drop_hall",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_small_t.schem",
       "target": "dimdoors:classic/ruins/simple_small_t",
+      "generatorTarget": "dimdoors:classic/ruins/heart_of_disorder",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "pending_adapter",
       "reason": "Managed native room requires its exact lazy schematic and direct reference"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_stairs_down.schem",
       "target": "dimdoors:classic/ruins/simple_stairs_down",
+      "generatorTarget": "dimdoors:classic/ruins/simple_stairs_down",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/simple_stairs_up.schem",
       "target": "dimdoors:classic/ruins/simple_stairs_up",
+      "generatorTarget": "dimdoors:classic/ruins/simple_stairs_up",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_desert.schem",
       "target": "dimdoors:classic/ruins/small_desert",
+      "generatorTarget": "dimdoors:classic/ruins/small_desert",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_exit_prison.schem",
       "target": "dimdoors:classic/ruins/small_exit_prison",
+      "generatorTarget": "dimdoors:classic/ruins/small_exit_prison",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_maze.schem",
       "target": "dimdoors:classic/ruins/small_maze",
+      "generatorTarget": "dimdoors:classic/ruins/hot_suspense",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "pending_adapter",
       "reason": "Managed native room requires its exact lazy schematic and direct reference"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/small_pond.schem",
       "target": "dimdoors:classic/ruins/small_pond",
+      "generatorTarget": "dimdoors:classic/ruins/small_pond",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/spiral_hallway.schem",
       "target": "dimdoors:classic/ruins/spiral_hallway",
+      "generatorTarget": "dimdoors:classic/ruins/spiral_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/transfer_tunnel.schem",
       "target": "dimdoors:classic/ruins/transfer_tunnel",
+      "generatorTarget": "dimdoors:classic/ruins/spiral_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "pending_adapter",
       "reason": "Managed native room requires its exact lazy schematic and direct reference"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/u_trap_right.schem",
       "target": "dimdoors:classic/ruins/u_trap_right",
+      "generatorTarget": "dimdoors:classic/ruins/u_trap_right",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/u_turn_left.schem",
       "target": "dimdoors:classic/ruins/u_turn_left",
+      "generatorTarget": "dimdoors:classic/ruins/u_turn_left",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/classic/data/dimdoors/pockets/schematic/classic/ruins/u_turn_right.schem",
       "target": "dimdoors:classic/ruins/u_turn_right",
+      "generatorTarget": "dimdoors:classic/ruins/u_turn_right",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
@@ -209,46 +260,64 @@
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/beach.schem",
       "target": "dimdoors:dungeon/beach",
+      "generatorTarget": "dimdoors:dungeon/beach",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/break_block_boom.schem",
       "target": "dimdoors:dungeon/break_block_boom",
+      "generatorTarget": "dimdoors:dungeon/break_block_boom",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/cage_monolithless.schem",
       "target": "dimdoors:dungeon/cage_monolithless",
+      "generatorTarget": "dimdoors:dungeon/cage_monolithless",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/chain_crossing.schem",
       "target": "dimdoors:dungeon/chain_crossing",
+      "generatorTarget": "dimdoors:dungeon/chain_crossing",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/chain_t.schem",
       "target": "dimdoors:dungeon/chain_t",
+      "generatorTarget": "dimdoors:dungeon/chain_t",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/decaying_chain_tunnel.schem",
       "target": "dimdoors:dungeon/decaying_chain_tunnel",
+      "generatorTarget": "dimdoors:dungeon/decaying_chain_tunnel",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/freeroam_empty_street.schem",
       "target": "dimdoors:dungeon/freeroam_empty_street",
+      "generatorTarget": "dimdoors:dungeon/freeroam_empty_street",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/freeroam_graveyard.schem",
       "target": "dimdoors:dungeon/freeroam_graveyard",
+      "generatorTarget": "dimdoors:dungeon/freeroam_graveyard",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/honey_parkour.schem",
       "target": "dimdoors:dungeon/honey_parkour",
+      "generatorTarget": "dimdoors:dungeon/honey_parkour",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
@@ -259,343 +328,479 @@
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom.schem",
       "target": "dimdoors:dungeon/lantredom",
+      "generatorTarget": "dimdoors:dungeon/lantredom",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom_end.schem",
       "target": "dimdoors:dungeon/lantredom_end",
+      "generatorTarget": "dimdoors:dungeon/lantredom_end",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom_red.schem",
       "target": "dimdoors:dungeon/lantredom_red",
+      "generatorTarget": "dimdoors:dungeon/lantredom_red",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lava_trap.schem",
       "target": "dimdoors:dungeon/lava_trap",
+      "generatorTarget": "dimdoors:dungeon/lava_trap",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/line_walker.schem",
       "target": "dimdoors:dungeon/line_walker",
+      "generatorTarget": "dimdoors:dungeon/line_walker",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/long_corridor.schem",
       "target": "dimdoors:dungeon/long_corridor",
+      "generatorTarget": "dimdoors:dungeon/long_corridor",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/mob_prison.schem",
       "target": "dimdoors:dungeon/mob_prison",
+      "generatorTarget": "dimdoors:dungeon/mob_prison",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/monolith_cage.schem",
       "target": "dimdoors:dungeon/monolith_cage",
+      "generatorTarget": "dimdoors:dungeon/monolith_cage",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/party.schem",
       "target": "dimdoors:dungeon/party",
+      "generatorTarget": "dimdoors:dungeon/party",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/random_arrow_chance.schem",
       "target": "dimdoors:dungeon/random_arrow_chance",
+      "generatorTarget": "dimdoors:dungeon/random_arrow_chance",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/returning_eye.schem",
       "target": "dimdoors:dungeon/returning_eye",
+      "generatorTarget": "dimdoors:dungeon/returning_eye",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/rising_hand.schem",
       "target": "dimdoors:dungeon/rising_hand",
+      "generatorTarget": "dimdoors:dungeon/rising_hand",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/river_road_twin_bridges.schem",
       "target": "dimdoors:dungeon/river_road_twin_bridges",
+      "generatorTarget": "dimdoors:dungeon/river_road_twin_bridges",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_caged_warps.schem",
       "target": "dimdoors:dungeon/ruins_caged_warps",
+      "generatorTarget": "dimdoors:dungeon/ruins_caged_warps",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_camp_station.schem",
       "target": "dimdoors:dungeon/ruins_camp_station",
+      "generatorTarget": "dimdoors:dungeon/ruins_camp_station",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_corrupted_endportal.schem",
       "target": "dimdoors:dungeon/ruins_corrupted_endportal",
+      "generatorTarget": "dimdoors:dungeon/ruins_corrupted_endportal",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_deepslate_hub.schem",
       "target": "dimdoors:dungeon/ruins_deepslate_hub",
+      "generatorTarget": "dimdoors:dungeon/ruins_deepslate_hub",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_diamond_tnt_trap_a.schem",
       "target": "dimdoors:dungeon/ruins_diamond_tnt_trap_a",
+      "generatorTarget": "dimdoors:dungeon/ruins_diamond_tnt_trap_a",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_diamond_tnt_trap_b.schem",
       "target": "dimdoors:dungeon/ruins_diamond_tnt_trap_b",
+      "generatorTarget": "dimdoors:dungeon/ruins_diamond_tnt_trap_b",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_elevator_tnt_trap.schem",
       "target": "dimdoors:dungeon/ruins_elevator_tnt_trap",
+      "generatorTarget": "dimdoors:dungeon/ruins_elevator_tnt_trap",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_fire_charge_timing.schem",
       "target": "dimdoors:dungeon/ruins_fire_charge_timing",
+      "generatorTarget": "dimdoors:dungeon/ruins_fire_charge_timing",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_items4life.schem",
       "target": "dimdoors:dungeon/ruins_items4life",
+      "generatorTarget": "dimdoors:dungeon/ruins_items4life",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_lava_trap.schem",
       "target": "dimdoors:dungeon/ruins_lava_trap",
+      "generatorTarget": "dimdoors:dungeon/ruins_lava_trap",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_long_stairwell_down.schem",
       "target": "dimdoors:dungeon/ruins_long_stairwell_down",
+      "generatorTarget": "dimdoors:dungeon/ruins_long_stairwell_down",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_mansion_combination_puzzle.schem",
       "target": "dimdoors:dungeon/ruins_mansion_combination_puzzle",
+      "generatorTarget": "dimdoors:dungeon/ruins_mansion_combination_puzzle",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_multiple_warppoints.schem",
       "target": "dimdoors:dungeon/ruins_multiple_warppoints",
+      "generatorTarget": "dimdoors:dungeon/ruins_multiple_warppoints",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_pressure_plate_riddle.schem",
       "target": "dimdoors:dungeon/ruins_pressure_plate_riddle",
+      "generatorTarget": "dimdoors:dungeon/ruins_pressure_plate_riddle",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_push_into_void_trap.schem",
       "target": "dimdoors:dungeon/ruins_push_into_void_trap",
+      "generatorTarget": "dimdoors:dungeon/ruins_push_into_void_trap",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_simple_door.schem",
       "target": "dimdoors:dungeon/ruins_simple_door",
+      "generatorTarget": "dimdoors:dungeon/ruins_simple_door",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_simple_door_trap.schem",
       "target": "dimdoors:dungeon/ruins_simple_door_trap",
+      "generatorTarget": "dimdoors:dungeon/ruins_simple_door_trap",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_simple_door_troll.schem",
       "target": "dimdoors:dungeon/ruins_simple_door_troll",
+      "generatorTarget": "dimdoors:dungeon/ruins_simple_door_troll",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_small_pressure_plate_maze.schem",
       "target": "dimdoors:dungeon/ruins_small_pressure_plate_maze",
+      "generatorTarget": "dimdoors:dungeon/ruins_small_pressure_plate_maze",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_sprike_traps.schem",
       "target": "dimdoors:dungeon/ruins_sprike_traps",
+      "generatorTarget": "dimdoors:dungeon/ruins_sprike_traps",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_stairs_up_down_warp.schem",
       "target": "dimdoors:dungeon/ruins_stairs_up_down_warp",
+      "generatorTarget": "dimdoors:dungeon/ruins_stairs_up_down_warp",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_stairwell_up.schem",
       "target": "dimdoors:dungeon/ruins_stairwell_up",
+      "generatorTarget": "dimdoors:dungeon/ruins_stairwell_up",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/ruins_target_practise.schem",
       "target": "dimdoors:dungeon/ruins_target_practise",
+      "generatorTarget": "dimdoors:dungeon/ruins_target_practise",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/schopophobia.schem",
       "target": "dimdoors:dungeon/schopophobia",
+      "generatorTarget": "dimdoors:dungeon/schopophobia",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/silverfish_bridge.schem",
       "target": "dimdoors:dungeon/silverfish_bridge",
+      "generatorTarget": "dimdoors:dungeon/silverfish_bridge",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_deepslatebricks_hallway.schem",
       "target": "dimdoors:dungeon/small_deepslatebricks_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_deepslatebricks_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_endbrick_hallway.schem",
       "target": "dimdoors:dungeon/small_endbrick_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_endbrick_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_ice_hallway.schem",
       "target": "dimdoors:dungeon/small_ice_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_ice_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_netherbricks_hallway.schem",
       "target": "dimdoors:dungeon/small_netherbricks_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_netherbricks_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_prismarine_hallway.schem",
       "target": "dimdoors:dungeon/small_prismarine_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_prismarine_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_purpurbricks_hallway.schem",
       "target": "dimdoors:dungeon/small_purpurbricks_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_purpurbricks_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_red_sandstone_hallway.schem",
       "target": "dimdoors:dungeon/small_red_sandstone_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_red_sandstone_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_river.schem",
       "target": "dimdoors:dungeon/small_river",
+      "generatorTarget": "dimdoors:dungeon/small_river",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/small_sandstone_hallway.schem",
       "target": "dimdoors:dungeon/small_sandstone_hallway",
+      "generatorTarget": "dimdoors:dungeon/small_sandstone_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/smile_6.schem",
       "target": "dimdoors:dungeon/smile_6",
+      "generatorTarget": "dimdoors:dungeon/smile_6",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/stone_brick_bridge.schem",
       "target": "dimdoors:dungeon/stone_brick_bridge",
+      "generatorTarget": "dimdoors:dungeon/stone_brick_bridge",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/string_field.schem",
       "target": "dimdoors:dungeon/string_field",
+      "generatorTarget": "dimdoors:dungeon/string_field",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/trap_rib_tunnel.schem",
       "target": "dimdoors:dungeon/trap_rib_tunnel",
+      "generatorTarget": "dimdoors:dungeon/trap_rib_tunnel",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/upwards_pillars.schem",
       "target": "dimdoors:dungeon/upwards_pillars",
+      "generatorTarget": "dimdoors:dungeon/upwards_pillars",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/upwards_t_treasure.schem",
       "target": "dimdoors:dungeon/upwards_t_treasure",
+      "generatorTarget": "dimdoors:dungeon/upwards_t_treasure",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_path_of_fear.schem",
       "target": "dimdoors:dungeon/void_path_of_fear",
+      "generatorTarget": "dimdoors:dungeon/void_path_of_fear",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_railroad_a.schem",
       "target": "dimdoors:dungeon/void_railroad_a",
+      "generatorTarget": "dimdoors:dungeon/void_railroad_a",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_railroad_b.schem",
       "target": "dimdoors:dungeon/void_railroad_b",
+      "generatorTarget": "dimdoors:dungeon/void_railroad_b",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_why.schem",
       "target": "dimdoors:dungeon/void_why",
+      "generatorTarget": "dimdoors:dungeon/void_why",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/void_whyless.schem",
       "target": "dimdoors:dungeon/void_whyless",
+      "generatorTarget": "dimdoors:dungeon/void_whyless",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/waiting_room.schem",
       "target": "dimdoors:dungeon/waiting_room",
+      "generatorTarget": "dimdoors:dungeon/waiting_room",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/white_fabric_maze.schem",
       "target": "dimdoors:dungeon/white_fabric_maze",
+      "generatorTarget": "dimdoors:dungeon/white_fabric_maze",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/example/purpur_hallway.schem",
       "target": "dimdoors:example/purpur_hallway",
-      "status": "pending_adapter",
-      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+      "generatorTarget": "dimdoors:example/purpur_hallway",
+      "originalBuilder": "implicit_immediate",
+      "status": "definition_policy_pass",
+      "adapter": "isolated_native_lazy_builder"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/lab_01.schem",
       "target": "dimdoors:lab/lab_01",
+      "generatorTarget": "dimdoors:lab/lab_01",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/lab_experimentation.schem",
       "target": "dimdoors:lab/lab_experimentation",
+      "generatorTarget": "dimdoors:lab/lab_experimentation",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/lab_hallway.schem",
       "target": "dimdoors:lab/lab_hallway",
+      "generatorTarget": "dimdoors:lab/lab_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/labfinal.schem",
       "target": "dimdoors:lab/labfinal",
+      "generatorTarget": "dimdoors:lab/labfinal",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "pending_adapter",
       "reason": "Native addon needs a reviewed adapter"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/left_lab_hallway.schem",
       "target": "dimdoors:lab/left_lab_hallway",
+      "generatorTarget": "dimdoors:lab/left_lab_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/reception.schem",
       "target": "dimdoors:lab/reception",
+      "generatorTarget": "dimdoors:lab/reception",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/right_lab_hallway.schem",
       "target": "dimdoors:lab/right_lab_hallway",
+      "generatorTarget": "dimdoors:lab/right_lab_hallway",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
@@ -606,39 +811,51 @@
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/telecommunications.schem",
       "target": "dimdoors:lab/telecommunications",
+      "generatorTarget": "dimdoors:lab/telecommunications",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
       "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/myth/eden.schem",
       "target": "dimdoors:myth/eden",
-      "status": "pending_adapter",
-      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+      "generatorTarget": "dimdoors:myth/eden",
+      "originalBuilder": "implicit_immediate",
+      "status": "definition_policy_pass",
+      "adapter": "isolated_native_lazy_builder"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/myth/sewer.schem",
       "target": "dimdoors:myth/sewer",
-      "status": "pending_adapter",
-      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+      "generatorTarget": "dimdoors:myth/sewer",
+      "originalBuilder": "implicit_immediate",
+      "status": "definition_policy_pass",
+      "adapter": "isolated_native_lazy_builder"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/myth/timoria.schem",
       "target": "dimdoors:myth/timoria",
-      "status": "pending_adapter",
-      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+      "generatorTarget": "dimdoors:myth/timoria",
+      "originalBuilder": "implicit_immediate",
+      "status": "definition_policy_pass",
+      "adapter": "isolated_native_lazy_builder"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/nether/nether_farm.schem",
       "target": "dimdoors:nether/nether_farm",
-      "status": "pending_adapter",
-      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+      "generatorTarget": "dimdoors:nether/nether_farm",
+      "originalBuilder": "implicit_immediate",
+      "status": "definition_policy_pass",
+      "adapter": "isolated_native_lazy_builder"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/nether/nether_spawners.schem",
       "target": "dimdoors:nether/nether_spawners",
-      "status": "pending_adapter",
-      "reason": "Managed native room requires its exact lazy schematic and direct reference"
+      "generatorTarget": "dimdoors:nether/nether_spawners",
+      "originalBuilder": "implicit_immediate",
+      "status": "definition_policy_pass",
+      "adapter": "isolated_native_lazy_builder"
     }
   ],
   "schematics": 125,
-  "definitionPolicyPasses": 98
+  "definitionPolicyPasses": 104
 }

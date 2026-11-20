@@ -1,0 +1,206 @@
+{
+  "runtimeTested": false,
+  "automaticPoolEnrollment": false,
+  "assetWritesPerformed": false,
+  "rooms": [
+    {
+      "id": "example/purpur_hallway",
+      "size": [
+        9,
+        5,
+        5
+      ],
+      "offset": [
+        58,
+        4,
+        248
+      ],
+      "schematicSha256": "d28d4fa2e2fd7351da00a29c9a222dc868659f26cff58c7f621d9616d871de42",
+      "entities": 0,
+      "blockEntities": {
+        "dimdoors:entrance_rift": 8
+      },
+      "riftMarkers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "riftTargetTypes": {
+        "dimdoors:id_marker": 8
+      },
+      "unmatchedDeclaredMarkers": [],
+      "definitionAdapted": true
+    },
+    {
+      "id": "myth/eden",
+      "size": [
+        1913,
+        34,
+        35
+      ],
+      "offset": [
+        -1129,
+        0,
+        239
+      ],
+      "schematicSha256": "c83abb5f7e5c08c4f3f0a53c9d3900779cdde542227b4d2cc49b70347a4ae7eb",
+      "entities": 0,
+      "blockEntities": {
+        "dimdoors:entrance_rift": 2,
+        "minecraft:bed": 2,
+        "minecraft:campfire": 2,
+        "minecraft:chest": 3,
+        "minecraft:chiseled_bookshelf": 1,
+        "minecraft:sign": 9,
+        "minecraft:smoker": 1
+      },
+      "riftMarkers": [
+        1,
+        2
+      ],
+      "riftTargetTypes": {
+        "dimdoors:id_marker": 2
+      },
+      "unmatchedDeclaredMarkers": [],
+      "definitionAdapted": true
+    },
+    {
+      "id": "myth/sewer",
+      "size": [
+        12,
+        21,
+        1013
+      ],
+      "offset": [
+        250,
+        3,
+        243
+      ],
+      "schematicSha256": "f18e481b6a89fb2a477518bae53cf14bfbbe12231b232c0ab5d302cdc12a561a",
+      "entities": 0,
+      "blockEntities": {
+        "dimdoors:entrance_rift": 2,
+        "dimdoors:tesselating_loom": 1,
+        "minecraft:barrel": 6,
+        "minecraft:blast_furnace": 1,
+        "minecraft:calibrated_sculk_sensor": 2,
+        "minecraft:chest": 4,
+        "minecraft:dropper": 1,
+        "minecraft:ender_chest": 1,
+        "minecraft:furnace": 1,
+        "minecraft:lectern": 2,
+        "minecraft:sculk_shrieker": 1,
+        "minecraft:smoker": 1
+      },
+      "riftMarkers": [
+        1
+      ],
+      "riftTargetTypes": {
+        "dimdoors:global": 1,
+        "dimdoors:id_marker": 1
+      },
+      "unmatchedDeclaredMarkers": [
+        2
+      ],
+      "definitionAdapted": true
+    },
+    {
+      "id": "myth/timoria",
+      "size": [
+        31,
+        31,
+        31
+      ],
+      "offset": [
+        240,
+        0,
+        240
+      ],
+      "schematicSha256": "91ac3da9c7c69ceb22aecb8ac2a85b0a7899902c11b282c9f787cfbf8bc1aa8c",
+      "entities": 0,
+      "blockEntities": {
+        "dimdoors:entrance_rift": 3,
+        "minecraft:bed": 2,
+        "minecraft:blast_furnace": 1,
+        "minecraft:chest": 4,
+        "minecraft:hopper": 4,
+        "minecraft:jukebox": 1,
+        "minecraft:sign": 2,
+        "minecraft:smoker": 1
+      },
+      "riftMarkers": [
+        1,
+        2,
+        3
+      ],
+      "riftTargetTypes": {
+        "dimdoors:id_marker": 3
+      },
+      "unmatchedDeclaredMarkers": [],
+      "definitionAdapted": true
+    },
+    {
+      "id": "nether/nether_farm",
+      "size": [
+        31,
+        31,
+        31
+      ],
+      "offset": [
+        240,
+        0,
+        240
+      ],
+      "schematicSha256": "3ee7554742e7f1a2a0180e616d42ac23ae3627a0c28b7a4f14e1b3cc964cbdc9",
+      "entities": 0,
+      "blockEntities": {
+        "dimdoors:entrance_rift": 2,
+        "minecraft:campfire": 1,
+        "minecraft:chest": 1
+      },
+      "riftMarkers": [
+        1,
+        2
+      ],
+      "riftTargetTypes": {
+        "dimdoors:id_marker": 2
+      },
+      "unmatchedDeclaredMarkers": [],
+      "definitionAdapted": true
+    },
+    {
+      "id": "nether/nether_spawners",
+      "size": [
+        31,
+        31,
+        31
+      ],
+      "offset": [
+        240,
+        0,
+        752
+      ],
+      "schematicSha256": "08e2959262edddb950c25df970e28e1f1c4729a4de513df142bb90bad26b56a3",
+      "entities": 0,
+      "blockEntities": {
+        "dimdoors:entrance_rift": 2,
+        "minecraft:chest": 1,
+        "minecraft:mob_spawner": 9
+      },
+      "riftMarkers": [
+        1,
+        2
+      ],
+      "riftTargetTypes": {
+        "dimdoors:id_marker": 2
+      },
+      "unmatchedDeclaredMarkers": [],
+      "definitionAdapted": true
+    }
+  ]
+}

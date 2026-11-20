@@ -1,35 +1,36 @@
 {
-  "tests": 332.0,
-  "validationMode": "332 distinct passing tests: unchanged 325 retained from initial full run plus seven Thornborn tests rerun after correcting an overlapping hand-assembled fixture. Final XML contains only seven focused tests; retained input hashes verified.",
+  "tests": 340.0,
+  "validationMode": "340 distinct passing tests: unchanged 330 retained from initial full run, plus 10 tests in the adapter/policy/native-hook suites rerun after test resource-path correction, sixth adapter enrollment and spawner registry contract. Final XML contains only 10 tests; retained source input hashes verified.",
   "validationRuns": [
     {
-      "buildLog": "thornborn-build.log",
-      "executedTests": 332,
+      "buildLog": "native-adapters-build.log",
+      "executedTests": 339,
       "failures": 1,
       "errors": 0,
-      "retainedPassingTests": 325,
-      "evidence": "thornborn-regression-audit.json",
-      "note": "One failed Thornborn hand-assembled branch overlap; six initial Thornborn passes superseded by the final focused run."
+      "retainedPassingTests": 330,
+      "evidence": "native-adapters-regression-audit.json",
+      "note": "One test read three classic-pack definitions from the default pack path. Nine original native suite results superseded by the final ten-test run."
     },
     {
-      "buildLog": "thornborn-final-build.log",
-      "executedTests": 7,
+      "buildLog": "native-adapters-final-build.log",
+      "executedTests": 10,
       "failures": 0,
       "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "thornborn-final-build.log",
-  "jarBytes": 768605,
-  "jarSha256": "3D22E34C806C1A7031EA1CAD7C310CBCBDC7CCE1BF437593FD191342849C290B",
+  "buildLog": "native-adapters-final-build.log",
+  "jarBytes": 769977,
+  "jarSha256": "83B7B367A60875C11AB4E2C7485E6D23587AED184C27E90DC9DA662358F25EC9",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "E8D398EBAC685C3D6BA54B774F1618E772F058A060F3245BC471028257704304",
+  "helperSha256": "00111AB6092008122C07F1E92A91AD2F8C40DDFC157F44D4B034525657FAD127",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
     "WDA_RESOURCE_ALIASES.md",
     "NATIVE_ROOM_RESERVATIONS.md",
     "NATIVE_ROOM_ROUTES.md",
+    "NATIVE_DEFINITION_ADAPTERS.md",
     "WDA_TEMPLATE_GAPS.md",
     "WATER_ENVIRONMENTS.md",
     "SHIP_BOARDING.md",

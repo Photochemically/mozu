@@ -61,7 +61,7 @@ public final class NativeGenerationGuard implements AutoCloseable {
             reference.getType().toNbt(ref);
         }
         var tag=(CompoundTag)original.toNbt(new CompoundTag(),false);
-        NativeGeneratorPolicy.validate(tag,ref,template.getPath());return tag;
+        return NativeDefinitionAdapter.prepare(tag,ref,template.getPath());
     }
     public static Pocket allocate(PocketDirectory directory,Pocket.PocketBuilder<?,?> builder) {
         var scope=ACTIVE.get();
