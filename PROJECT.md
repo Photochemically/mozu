@@ -8,6 +8,8 @@
 
 依次阅读 [当前进度](PROGRESS.md)、[下一任务](NEXT_TASK.md)、[依赖还原](DEPENDENCIES.md)；开发约定见 [AGENTS.md](AGENTS.md)。原有 README 和初始提交保留。
 
+2026-11-20 验收约定更新：由开发会话在适当节点主动提出范围明确的小批运行测试，提前准备步骤、成功条件与结果收集，阶段性回答具体问题。每轮结束将真实结果、发现的问题、必要修改及下一步同步到仓库并核对远程；仍保留最终完整验收。此约定不表示已安装自动化工具或已完成任何实机测试。
+
 | 内容 | 权威位置 |
 | --- | --- |
 | 模块化 KubeJS、配方、材料、城市补给、贴图 | `work/integration/`；修改 `modules/` 和 `assets/`，由 `build.cjs` 生成 |
@@ -17,7 +19,7 @@
 | 总体设计与批次 | [开发计划](outputs/维度门-WDA口袋地牢整合-开发计划.md)、[批次总览](outputs/开发批次与进度总览.md) |
 | 技术设计、历史实现记录 | `work/l13/*.md`，其中 `DEV_NOTES.md` 按历史追加 |
 | 静态审查证据、版本与构建回执 | `work/l13/audit/`；历史失败记录不是最新结果，最新入口为 `build-summary.json` |
-| 集中实机验收方案 | [验收方案](outputs/L12-L13集中验收方案.md)、[开发验收夹具](work/l13/ACCEPTANCE_FIXTURES.md) |
+| 阶段性及最终实机验收 | 小批测试流程见 [开发约定](AGENTS.md)；[验收方案](outputs/L12-L13集中验收方案.md)、[开发验收夹具](work/l13/ACCEPTANCE_FIXTURES.md) |
 | 终局材料方向 | [水中合成设计](outputs/终局目标-水中合成设计.md) |
 
 `work/build-integration.cjs`、`integration-model.json`、`install-integration.ps1` 和 `prepare-stage2-source.cjs` 是第一阶段/迁移历史，不能代替现行模块化源码。`work/install-stage2.ps1` 是本地升级工具，执行前必须审查目标与版本。下载源码、反编译输出、原始模组资源和发布包可重新生成，未随仓库上传。

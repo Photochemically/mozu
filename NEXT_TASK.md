@@ -7,7 +7,8 @@
 3. 继续审查三份目标不一致的生成器：classic/ruins/simple_small_t → heart_of_disorder，small_maze → hot_suspense，transfer_tunnel → spiral_hallway。源文件在 classic 资源包，不是 default 包；不能把目标不同直接视为可互换别名。17 份无同路径定义包含 8 blank、7 unused、jungle_riddle_fixed、lab/telecommunication；先厘清原用途，不为提高通过数启用空白素材。
 4. 本批已纠正刷怪笼标识误判：minecraft:mob_spawner 是当前 Minecraft 的有效方块实体注册名，minecraft:spawner 是方块名。nether_spawners 九份原数据已保留，不做不必要迁移。sewer 的声明标记 2 不存在，但另一端是实际 global 裂隙；沿用现有启用前出口转换。eden 长 1913、sewer 长 1013，不能裁剪；首次缓存、空间分配和按区块生成的真实负载待测。
 5. WDA 39/39 已有入口或路线静态证据，0 座实机验收。不重复未改建筑检查。随后继续正式候选与五级难度、Born in Chaos/Mutant Monsters/神化战斗与破坏限制、首领最终死亡/一次性奖励、III+ 成长材料。L12 实施 0%，终局合成未完成。
-6. 保留集中实机验收：原生/WDA 完整生成、谜题与怪物、环境高度、首次负载、两人返回和真正重启；六间本批房间尚无新增自动生成快捷案例。当前不启动游戏、不安装桥接、不启用正式候选/自然入口、不改生产存档。若静态分析确实不足，先说明最小测试范围。
+6. 按用户 2026-11-20 新约定，在关键模块具备验证条件或静态分析不能确认关键假设时，主动告知用户可以进行一轮小批测试。提前列明问题、成功条件、步骤及需要用户协助的操作，尽量一次启动完成同批项目。阶段性验证后，仍保留最终原生/WDA 完整生成、谜题与怪物、环境高度、首次负载、两人返回和真正重启验收。六间本批房间尚无新增自动生成快捷案例；当前不启动游戏、不自动安装桥接、不启用正式候选/自然入口、不改生产存档。
+7. mc-pilot 和 MC-Runtime-Test 已做只读可行性研究，尚未安装或接入；以后可按测试需要评估前者的玩家/多人操作与后者的启动/GameTest 检查，不将工具的通用版本支持视为本整合包兼容性已确认。每轮测试结束，无论通过或失败，都记录实际执行范围、结果、问题复现和下一步，更新交接文档并提交/推送必要修改，核对远程。仅同步可提交的摘要与脚本，不上传原日志或存档。
 
 当前验证：native-adapters-build.log 完整执行 339 项，1 项测试资源路径错误，其余通过。修正测试路径、补齐第六间白名单及刷怪笼注册检查后，native-adapters-final-build.log 的 build 与三个定向测试组成功（1m5s），10 项通过。保留未受改动影响的 330 项结果，共 340 项不同测试通过。最终 XML 只有 10 项；输入指纹已核对，见 build-summary.json、native-adapters-regression-audit.json。后续完整运行时须替换 validationMode/validationRuns，不沿用旧分范围说明。
 
