@@ -1,20 +1,20 @@
 {
-  "tests": 319.0,
-  "validationMode": "Full 319-test regression and build on current source. Replaces the earlier infested retained-plus-focused validation scope.",
+  "tests": 325.0,
+  "validationMode": "Full 325-test regression and build on current source, including six new Shiraz tests; no game execution.",
   "validationRuns": [
     {
-      "buildLog": "plague-final-build.log",
-      "executedTests": 319,
+      "buildLog": "shiraz-final-build.log",
+      "executedTests": 325,
       "failures": 0,
       "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "plague-final-build.log",
-  "jarBytes": 729708,
-  "jarSha256": "1DA700C892958746594AC1AEAAF521B9CD85F47F9517E39F58AC8D6ABEEA3CA7",
+  "buildLog": "shiraz-final-build.log",
+  "jarBytes": 748238,
+  "jarSha256": "C4D828655E64068F48DD8FFB8AEE8063CA3D47B295602020A76F0A6D1346DAD6",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "41216963642471F4DF18A0644003B3FB4D6C64B313DC81BBA750D8EEDD5D0F3D",
+  "helperSha256": "A91C70300E3320D37164F9930F566FF82D1BF3EC17DE0F47566E896D480DC92B",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -52,6 +52,7 @@
     "HIND_ENTRY.md",
     "INFESTED_TEMPLE_ENTRY.md",
     "PLAGUE_ASYLUM_ENTRY.md",
+    "SHIRAZ_PALACE_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

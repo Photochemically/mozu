@@ -104,3 +104,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 蚀败之楼 infested_temple 使用 grass/rock 的 perimeter，boarding 关闭。保留原高处根节点及完整四层外壳、12 层内部和选中房间/刷怪附件；背景首个空层取原基座加 1（名义值减 10）。经原西侧两级台阶进入底层外廊，不自动拆墙或改建内部通路。核对原宝箱和刷怪配置，实际随机图及完整上下层探索待验收。[蚀败之楼入口](INFESTED_TEMPLE_ENTRY.md)。
 
 瘟疫疯人院 `dungeons_arise:plague_asylum` 必须用 `rock/start_room`。原绝对起点及 bury 扩展保留，完整范围上方至少四格岩层；不套用地表入口。正式等级/权重与地表高度仍需另行配置，不因本批适配而自动纳入正式池。见 [地下原房间入口](PLAGUE_ASYLUM_ENTRY.md)。
+
+繁花之宫 `dungeons_arise:shiraz_palace` 使用 grass/rock 的 perimeter，boarding 关闭。保留原 +16 高度图偏移，岛面首个空层派生为基座 +33（名义值 +16），经两端支撑的九格脚手架桥连接原北侧花园。正式环境/等级仍未定案；原目录 42 模板中只有 41 份在池，不自动启用 husk_elite_0。见 [繁花之宫入口](SHIRAZ_PALACE_ENTRY.md)。

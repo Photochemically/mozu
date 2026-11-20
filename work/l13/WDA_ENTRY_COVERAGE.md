@@ -1,6 +1,6 @@
 # WDA 建筑环境与入口覆盖表
 
-WDA 2.1.58 共 39 座建筑。37 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，2 座目前只完成资源图审查。游戏内验收为 0 座。
+WDA 2.1.58 共 39 座建筑。38 座有原模板路线或入口几何证据，0 座有开发案例且仍待核对原路线，1 座目前只完成资源图审查。游戏内验收为 0 座。
 
 生成器栏的 WDA 指自定义 generic_structures，其余为原版 jigsaw。高度图一栏给出原始高度来源与偏移。绝对表示原定义没有投影高度图。样例的范围见对应报告，正式分级和权重待定。
 
@@ -38,7 +38,7 @@ WDA 2.1.58 共 39 座建筑。37 座有原模板路线或入口几何证据，0 
 | mushroom_village | jigsaw | WORLD_SURFACE_WG 0 | 草地／岩地 | perimeter 原半砖坡与各房屋 | 原模板 · [192 组主体、房屋及水池](audit/village-entry-audit.json) | 原生随机图、木门半砖、水流海龟、战斗与双人重启 |
 | plague_asylum | jigsaw | 绝对 0 | 厚岩层 | start_room 原地下房间 | 原模板 · [56 组地下分支、病房与原设备组合](audit/plague-entry-audit.json) | 原生完整图、跨房间/上下层通行、陷阱水流与双人重启 |
 | scorched_mines | jigsaw | WORLD_SURFACE_WG -14 | 岩地 | start_well | 原模板 · [16 组井与大厅](audit/scorched-well-audit.json) | 熔岩释放、随机支路和竖井下坠 |
-| shiraz_palace | jigsaw | WORLD_SURFACE_WG 16 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对正高度偏移后的落脚处及原接近路线 |
+| shiraz_palace | jigsaw | WORLD_SURFACE_WG 16 | 草地／岩地，高台对齐 | perimeter 北侧花园支撑桥 | 原模板 · [24 组完整三层主体与原遭遇](audit/shiraz-entry-audit.json) | 原生完整图、桥/含水台阶、内部上层、流体点火与双人重启 |
 | small_blimp | jigsaw | WORLD_SURFACE_WG 100 | 干地 | start_ladder | 原模板 · [12 组梯链／船体](audit/blimp-ladder-audit.json) | 实际悬梯稳定性、铁门及完整随机图 |
 | small_prairie_house | jigsaw | WORLD_SURFACE_WG 0 | 干地 | perimeter 原门与废墟机关走道 | 原模板 · [8 组完好屋与废墟](audit/prairie-house-entry-audit.json) | 实际开门、红石时序、TNT 与双人重启 |
 | thornborn_towers | jigsaw | 绝对 130 | 待定 | 通用岛缘待核对 | 资源图 · [资源引用](audit/wda-alias-audit.json) | 核对绝对起点、周边地形和原入口高差 |

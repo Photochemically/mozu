@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 37,
+    "originalTemplateEvidence": 38,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 2,
+    "resourceGraphOnly": 1,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -537,12 +537,12 @@
       "startPool": "dungeons_arise:desertic/shiraz_palace/shiraz_palace_start",
       "biomeSelector": "#dungeons_arise:has_structure/shiraz_palace_biomes",
       "originalMissingReferences": [],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "核对正高度偏移后的落脚处及原接近路线",
+      "environment": "草地／岩地，高台对齐",
+      "entry": "perimeter 北侧花园支撑桥",
+      "level": "原模板",
+      "file": "audit/shiraz-entry-audit.json",
+      "label": "24 组完整三层主体与原遭遇",
+      "remaining": "原生完整图、桥/含水台阶、内部上层、流体点火与双人重启",
       "runtimeAccepted": false
     },
     {

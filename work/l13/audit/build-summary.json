@@ -1,16 +1,16 @@
 {
   "date": "2026-11-19",
-  "scope": "Plague asylum original underground graph, dense native cell replacement, original loot/traps/spawners/water, start room and distributed exits; static only",
+  "scope": "Shiraz palace complete 27-cube shell and original encounters, high terrace and supported north garden bridge, original loot and water/lava retained; static only",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
   "buildTask": "build",
-  "buildLog": "plague-final-build.log",
+  "buildLog": "shiraz-final-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 729708,
-  "sha256": "1DA700C892958746594AC1AEAAF521B9CD85F47F9517E39F58AC8D6ABEEA3CA7",
+  "bytes": 748238,
+  "sha256": "C4D828655E64068F48DD8FFB8AEE8063CA3D47B295602020A76F0A6D1346DAD6",
   "saveSchema": 5,
   "suites": [
     {
@@ -166,6 +166,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.ShipBoardingAuditTest",
       "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.ShirazAuditTest",
+      "tests": 6,
       "failures": 0,
       "errors": 0
     },
@@ -479,15 +485,16 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "Full 319-test regression and build on current source. Replaces the earlier infested retained-plus-focused validation scope.",
+  "validationMode": "Full 325-test regression and build on current source, including six new Shiraz tests; no game execution.",
   "validationRuns": [
     {
-      "buildLog": "plague-final-build.log",
-      "executedTests": 319,
+      "buildLog": "shiraz-final-build.log",
+      "executedTests": 325,
       "failures": 0,
       "errors": 0
     }
   ],
   "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested.",
-  "plagueEvidence": "plague-entry-audit.json: 56 original-template graphs (four rotations x14 branch/decor cycles), all 33 templates, 21..35 selected pieces, 14..29 final content checks and 1..4 distinct-room exits. Native absolute start -1 and bury expansion preserved. Dense normal cells retain native replacement of the default corridor cell; no route writes. Native random generation, complete traversal, collision/combat, fluid behavior, performance and multiplayer restart remain untested."
+  "plagueEvidence": "plague-entry-audit.json: 56 original-template graphs (four rotations x14 branch/decor cycles), all 33 templates, 21..35 selected pieces, 14..29 final content checks and 1..4 distinct-room exits. Native absolute start -1 and bury expansion preserved. Dense normal cells retain native replacement of the default corridor cell; no route writes. Native random generation, complete traversal, collision/combat, fluid behavior, performance and multiplayer restart remain untested.",
+  "shirazEvidence": "shiraz-entry-audit.json: 24 complete original-template graphs, all 27 shell cubes and 61 original encounter attachments, all 41 reachable templates out of 42 source files; husk_elite_0 remains unenrolled as upstream. Each checks 1..4 exits, 2286 source content points and nine supported scaffolds to the original wet stairs/north garden. Native random generator, full palace traversal, collision, fluid/fire, combat, performance and multiplayer restart untested."
 }

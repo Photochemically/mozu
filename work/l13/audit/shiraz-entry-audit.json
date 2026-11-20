@@ -1,0 +1,415 @@
+{
+  "jarSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
+  "structure": "dungeons_arise:shiraz_palace",
+  "cases": [
+    {
+      "scaffolds": 9,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "NONE",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "NONE",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_90",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_90",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_180",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "CLOCKWISE_180",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "GRASS",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 0,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 1,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    },
+    {
+      "scaffolds": 9,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "surface": "ROCK",
+      "sourceContentChecks": 2286,
+      "pieces": 88,
+      "variant": 2,
+      "exitCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "groundY": 112
+    }
+  ],
+  "sourceTemplates": [
+    "axe_illusion_2",
+    "crossbow_illusion_1",
+    "husk_garden_0",
+    "husk_garden_2",
+    "husk_garden_exterior_0",
+    "husk_tower_0",
+    "part_0",
+    "part_1",
+    "part_10",
+    "part_11",
+    "part_12",
+    "part_13",
+    "part_14",
+    "part_15",
+    "part_16",
+    "part_17",
+    "part_18",
+    "part_19",
+    "part_2",
+    "part_20",
+    "part_21",
+    "part_22",
+    "part_23",
+    "part_24",
+    "part_25",
+    "part_26",
+    "part_3",
+    "part_4",
+    "part_5",
+    "part_6",
+    "part_7",
+    "part_8",
+    "part_9",
+    "skeleton_elite_0",
+    "skeleton_garden_1",
+    "skeleton_garden_exterior_1",
+    "skeleton_illusion_0",
+    "skeleton_library_0",
+    "skeleton_tower_1",
+    "spider_0",
+    "spider_1"
+  ],
+  "unusedSourceTemplates": [
+    "husk_elite_0"
+  ],
+  "nativeGeneratorExecuted": false,
+  "runtimeTested": false,
+  "scope": "24 complete original-template graphs: 27 shell cubes, 61 original encounters, all 41 reachable templates (one of 42 files not enrolled upstream). Original waterlogged stairs, 128 containers, 1873 water and 224 lava blocks retained. Nine supported scaffolds connect the northern garden; 1..4 exits. Native generator, full palace traversal, collisions, fluid/fire behavior, combat and multiplayer restart untested."
+}
