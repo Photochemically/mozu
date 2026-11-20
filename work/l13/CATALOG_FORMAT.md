@@ -106,3 +106,5 @@ WDA出口支持岛屿边缘、地下原房间和空中原平台选址，不能�
 瘟疫疯人院 `dungeons_arise:plague_asylum` 必须用 `rock/start_room`。原绝对起点及 bury 扩展保留，完整范围上方至少四格岩层；不套用地表入口。正式等级/权重与地表高度仍需另行配置，不因本批适配而自动纳入正式池。见 [地下原房间入口](PLAGUE_ASYLUM_ENTRY.md)。
 
 繁花之宫 `dungeons_arise:shiraz_palace` 使用 grass/rock 的 perimeter，boarding 关闭。保留原 +16 高度图偏移，岛面首个空层派生为基座 +33（名义值 +16），经两端支撑的九格脚手架桥连接原北侧花园。正式环境/等级仍未定案；原目录 42 模板中只有 41 份在池，不自动启用 husk_elite_0。见 [繁花之宫入口](SHIRAZ_PALACE_ENTRY.md)。
+
+荆棘城堡 thornborn_towers 采用 grass/rock + perimeter、boarding=false。保持原绝对根 Y=129，背景首个空层按全部选中组件最低 Y 派生；从原断桥或原封口侧边接入，不填埋下层塔身。沿用原 medium_terminator 的 2→3 资源别名；不是新替代。见 [荆棘城堡入口](THORNBORN_TOWERS_ENTRY.md)。

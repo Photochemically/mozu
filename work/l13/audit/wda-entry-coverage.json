@@ -3,9 +3,9 @@
   "wdaSha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90",
   "summary": {
     "structures": 39,
-    "originalTemplateEvidence": 38,
+    "originalTemplateEvidence": 39,
     "fixtureOnly": 0,
-    "resourceGraphOnly": 1,
+    "resourceGraphOnly": 0,
     "runtimeAccepted": 0
   },
   "rows": [
@@ -587,12 +587,12 @@
       "originalMissingReferences": [
         "template:dungeons_arise:thornborn_towers/thornborn_towers_hanging_bridge_2_medium_terminator"
       ],
-      "environment": "待定",
-      "entry": "通用岛缘待核对",
-      "level": "资源图",
-      "file": "audit/wda-alias-audit.json",
-      "label": "资源引用",
-      "remaining": "核对绝对起点、周边地形和原入口高差",
+      "environment": "草地／岩地，完整图最低处",
+      "entry": "perimeter 原断桥／封口侧边支撑攀爬",
+      "level": "原模板",
+      "file": "audit/thornborn-entry-audit.json",
+      "label": "128 组双塔、悬挂分支、原房间与遭遇",
+      "remaining": "原生随机图/拒绝率、完整上下层、跳跃和脚手架、骑乘战斗与双人重启",
       "runtimeAccepted": false
     },
     {

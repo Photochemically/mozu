@@ -1,20 +1,29 @@
 {
-  "tests": 325.0,
-  "validationMode": "Full 325-test regression and build on current source, including six new Shiraz tests; no game execution.",
+  "tests": 332.0,
+  "validationMode": "332 distinct passing tests: unchanged 325 retained from initial full run plus seven Thornborn tests rerun after correcting an overlapping hand-assembled fixture. Final XML contains only seven focused tests; retained input hashes verified.",
   "validationRuns": [
     {
-      "buildLog": "shiraz-final-build.log",
-      "executedTests": 325,
+      "buildLog": "thornborn-build.log",
+      "executedTests": 332,
+      "failures": 1,
+      "errors": 0,
+      "retainedPassingTests": 325,
+      "evidence": "thornborn-regression-audit.json",
+      "note": "One failed Thornborn hand-assembled branch overlap; six initial Thornborn passes superseded by the final focused run."
+    },
+    {
+      "buildLog": "thornborn-final-build.log",
+      "executedTests": 7,
       "failures": 0,
       "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "shiraz-final-build.log",
-  "jarBytes": 748238,
-  "jarSha256": "C4D828655E64068F48DD8FFB8AEE8063CA3D47B295602020A76F0A6D1346DAD6",
+  "buildLog": "thornborn-final-build.log",
+  "jarBytes": 768605,
+  "jarSha256": "3D22E34C806C1A7031EA1CAD7C310CBCBDC7CCE1BF437593FD191342849C290B",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "A91C70300E3320D37164F9930F566FF82D1BF3EC17DE0F47566E896D480DC92B",
+  "helperSha256": "E8D398EBAC685C3D6BA54B774F1618E772F058A060F3245BC471028257704304",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -53,6 +62,7 @@
     "INFESTED_TEMPLE_ENTRY.md",
     "PLAGUE_ASYLUM_ENTRY.md",
     "SHIRAZ_PALACE_ENTRY.md",
+    "THORNBORN_TOWERS_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,

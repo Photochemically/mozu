@@ -53,6 +53,7 @@ cases('ceryneian_hind','草地／岩地，保留原埋藏高度','perimeter 三�
 cases('infested_temple','草地／岩地，按原基座对齐','perimeter 原西侧台阶至底层外廊','infested-entry','四层外壳、12 层内部及原房间/刷怪件','原生完整率、实际台阶和内部/上层通行、原战斗和双人重启');
 cases('plague_asylum','厚岩层','start_room 原地下房间','plague-entry','地下分支、病房与原设备组合','原生完整图、跨房间/上下层通行、陷阱水流与双人重启');
 cases('shiraz_palace','草地／岩地，高台对齐','perimeter 北侧花园支撑桥','shiraz-entry','完整三层主体与原遭遇','原生完整图、桥/含水台阶、内部上层、流体点火与双人重启');
+cases('thornborn_towers','草地／岩地，完整图最低处','perimeter 原断桥／封口侧边支撑攀爬','thornborn-entry','双塔、悬挂分支、原房间与遭遇','原生随机图/拒绝率、完整上下层、跳跃和脚手架、骑乘战斗与双人重启');
 cases('bandit_towers','草地／岩地，按完整图最低处派生','perimeter 支撑脚手架与原断桥平台','bandit-towers-entry','双塔、横桥、房间与原刷怪件','原生完整率、脚手架碰撞、各层探索、刷怪和双人重启');
 cases('illager_fort','草地／岩地','perimeter 外侧脚手架与原通道','fort-entry','八件主体、房间与原敌人组合','原生完整率、脚手架和台阶、上下层探索、战斗与双人重启');
 cases('mushroom_village','草地／岩地','perimeter 原半砖坡与各房屋','village-entry','主体、房屋及水池','原生随机图、木门半砖、水流海龟、战斗与双人重启');

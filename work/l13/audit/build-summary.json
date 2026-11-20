@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-19",
-  "scope": "Shiraz palace complete 27-cube shell and original encounters, high terrace and supported north garden bridge, original loot and water/lava retained; static only",
+  "date": "2026-11-20",
+  "scope": "Thornborn complete selected native graph, lowest-component terrain, original broken and capped bridge access, native loot/spawner contents; static only",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
-  "buildTask": "build",
-  "buildLog": "shiraz-final-build.log",
+  "buildTask": "build test --tests '*ThornbornAuditTest'",
+  "buildLog": "thornborn-final-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 748238,
-  "sha256": "C4D828655E64068F48DD8FFB8AEE8063CA3D47B295602020A76F0A6D1346DAD6",
+  "bytes": 768605,
+  "sha256": "3D22E34C806C1A7031EA1CAD7C310CBCBDC7CCE1BF437593FD191342849C290B",
   "saveSchema": 5,
   "suites": [
     {
@@ -184,6 +184,12 @@
     {
       "name": "dev.expedition.bridge.content.wda.TerrainHeightmapTest",
       "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.content.wda.ThornbornAuditTest",
+      "tests": 7,
       "failures": 0,
       "errors": 0
     },
@@ -485,16 +491,26 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "Full 325-test regression and build on current source, including six new Shiraz tests; no game execution.",
+  "validationMode": "332 distinct passing tests: unchanged 325 retained from initial full run plus seven Thornborn tests rerun after correcting an overlapping hand-assembled fixture. Final XML contains only seven focused tests; retained input hashes verified.",
   "validationRuns": [
     {
-      "buildLog": "shiraz-final-build.log",
-      "executedTests": 325,
+      "buildLog": "thornborn-build.log",
+      "executedTests": 332,
+      "failures": 1,
+      "errors": 0,
+      "retainedPassingTests": 325,
+      "evidence": "thornborn-regression-audit.json",
+      "note": "One failed Thornborn hand-assembled branch overlap; six initial Thornborn passes superseded by the final focused run."
+    },
+    {
+      "buildLog": "thornborn-final-build.log",
+      "executedTests": 7,
       "failures": 0,
       "errors": 0
     }
   ],
   "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested.",
   "plagueEvidence": "plague-entry-audit.json: 56 original-template graphs (four rotations x14 branch/decor cycles), all 33 templates, 21..35 selected pieces, 14..29 final content checks and 1..4 distinct-room exits. Native absolute start -1 and bury expansion preserved. Dense normal cells retain native replacement of the default corridor cell; no route writes. Native random generation, complete traversal, collision/combat, fluid behavior, performance and multiplayer restart remain untested.",
-  "shirazEvidence": "shiraz-entry-audit.json: 24 complete original-template graphs, all 27 shell cubes and 61 original encounter attachments, all 41 reachable templates out of 42 source files; husk_elite_0 remains unenrolled as upstream. Each checks 1..4 exits, 2286 source content points and nine supported scaffolds to the original wet stairs/north garden. Native random generator, full palace traversal, collision, fluid/fire, combat, performance and multiplayer restart untested."
+  "shirazEvidence": "shiraz-entry-audit.json: 24 complete original-template graphs, all 27 shell cubes and 61 original encounter attachments, all 41 reachable templates out of 42 source files; husk_elite_0 remains unenrolled as upstream. Each checks 1..4 exits, 2286 source content points and nine supported scaffolds to the original wet stairs/north garden. Native random generator, full palace traversal, collision, fluid/fire, combat, performance and multiplayer restart untested.",
+  "thornbornEvidence": "thornborn-entry-audit.json: 128 original-template graphs, all 34 source resources via the existing medium-terminator alias, two main towers, hanging branches, embedded rooms and original encounters. Each 32..44 selected pieces, 31..46 content checks and all 1..4 exits; two original bridge access routes. No native random generator, complete internal traversal, real collision/jumping/scaffolds, combat, performance or multiplayer restart acceptance."
 }

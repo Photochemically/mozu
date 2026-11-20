@@ -70,6 +70,7 @@ public final class WdaStructurePlanner {
         boolean hind = id.toString().equals(HindLayout.TARGET);
         boolean infested = id.toString().equals(InfestedLayout.TARGET);
         boolean shiraz = id.toString().equals(ShirazLayout.TARGET);
+        boolean thornborn = id.toString().equals(ThornbornLayout.TARGET);
         boolean plague = id.toString().equals(PlagueLayout.TARGET);
         if(plague) PlagueLayout.validateEnvironment(environment);
         boolean coliseum = id.toString().equals(ColiseumLayout.TARGET);
@@ -97,7 +98,7 @@ public final class WdaStructurePlanner {
         if(type==null || !(type.toString().equals("minecraft:jigsaw") || type.toString().equals("dungeons_arise:generic_structures")))
             throw new IllegalArgumentException("Unsupported structure generator "+type);
         boolean aerial=environment.surface()==IslandPlan.Surface.VOID;
-        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || plague || shiraz || fort) && !type.toString().equals("minecraft:jigsaw"))
+        if ((id.toString().equals(BathhouseLayout.TARGET) || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || plague || shiraz || thornborn || fort) && !type.toString().equals("minecraft:jigsaw"))
             throw new IllegalArgumentException("Expected the original jigsaw generator for " + id);
         if (isLighthouse && !type.toString().equals("dungeons_arise:generic_structures")) {
             throw new IllegalArgumentException("Lighthouse requires the native custom height check");
@@ -127,6 +128,7 @@ public final class WdaStructurePlanner {
         var hindPlanner = hind ? new HindPlanner() : null;
         var infestedPlanner = infested ? new InfestedPlanner() : null;
         var shirazPlanner = shiraz ? new ShirazPlanner() : null;
+        var thornbornPlanner = thornborn ? new ThornbornPlanner() : null;
         var plaguePlanner = plague ? new PlaguePlanner() : null;
         var coliseumPlanner = coliseum ? new ColiseumPlanner() : null;
         var towersPlanner = towers ? new BanditTowersPlanner() : null;
@@ -140,7 +142,7 @@ public final class WdaStructurePlanner {
                     || (pool.getElement().getClass()!=SinglePoolElement.class && pool.getElement().getClass()!=LegacySinglePoolElement.class))
                 throw new IllegalStateException("Unsupported piece; refusing partial placement: "+piece.getClass().getName());
             var tag = validateElement(server,registries,pool.getElement());
-            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || plague || shiraz || fort || bath != null) {
+            if (windmill || merchantCamp || illagerCamp || groundHouse || fishingHut || wishingWell || giantMushroom || treeHouse || temple || pub || village || bandit || towers || coliseum || monastery || hind || infested || plague || shiraz || thornborn || fort || bath != null) {
                 if (bath != null) bath.read(server, pool, tag);
                 else if (pubPlanner != null) pubPlanner.read(server,pool,tag);
                 else if (villagePlanner != null) villagePlanner.validate(pool,tag);
@@ -152,6 +154,7 @@ public final class WdaStructurePlanner {
                 if (hindPlanner != null) hindPlanner.read(server,pool,tag);
                 if (infestedPlanner != null) infestedPlanner.read(server,pool,tag,perimeterPieces.size());
                 if (shirazPlanner != null) shirazPlanner.read(server,pool,tag,perimeterPieces.size());
+                if (thornbornPlanner != null) thornbornPlanner.read(server,pool,tag,perimeterPieces.size());
                 if (plaguePlanner != null) plaguePlanner.read(server,pool,tag,perimeterPieces.size());
                 if (coliseumPlanner != null) coliseumPlanner.read(server,pool,tag);
                 if (towersPlanner != null) towersPlanner.read(server,pool,tag,perimeterPieces.size());
@@ -180,6 +183,7 @@ public final class WdaStructurePlanner {
         if (hindPlanner != null) perimeterLayout = HindLayout.inspect(perimeterPieces,environment,hindPlanner.features);
         if (infestedPlanner != null) perimeterLayout = InfestedLayout.inspect(perimeterPieces,environment,infestedPlanner.sockets,infestedPlanner.features);
         if (shirazPlanner != null) perimeterLayout = ShirazLayout.inspect(perimeterPieces,environment,shirazPlanner.sockets,shirazPlanner.features);
+        if (thornbornPlanner != null) perimeterLayout = ThornbornLayout.inspect(perimeterPieces,environment,thornbornPlanner.sockets,thornbornPlanner.features);
         if (coliseumPlanner != null) perimeterLayout = ColiseumLayout.inspect(perimeterPieces,environment,coliseumPlanner.devices);
         if (towersPlanner != null) perimeterLayout = BanditTowersLayout.inspect(perimeterPieces,environment,towersPlanner.sockets,towersPlanner.features);
         if (fortPlanner != null) perimeterLayout = FortLayout.inspect(perimeterPieces,environment,fortPlanner.sockets,fortPlanner.features);
@@ -202,6 +206,7 @@ public final class WdaStructurePlanner {
         if (perimeterLayout instanceof MonasteryLayout monasteryLayout) groundY = monasteryLayout.groundY();
         if (perimeterLayout instanceof InfestedLayout infestedLayout) groundY = infestedLayout.groundY();
         if (perimeterLayout instanceof ShirazLayout palace) groundY = palace.groundY();
+        if (perimeterLayout instanceof ThornbornLayout thornbornLayout) groundY = thornbornLayout.groundY();
         if (perimeterLayout instanceof ColiseumLayout arena) groundY = arena.groundY();
         if (perimeterLayout instanceof BanditTowersLayout towerLayout) groundY = towerLayout.groundY();
         if (perimeterLayout instanceof TreeHouseLayout tree) groundY = tree.groundY();
