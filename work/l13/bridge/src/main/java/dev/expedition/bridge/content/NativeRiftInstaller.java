@@ -19,8 +19,14 @@ public final class NativeRiftInstaller {
         var rifts=new LinkedHashMap<PortalRecord.Site,RiftBlockEntity>();
         var locals=new LinkedHashMap<PortalRecord.Site,PortalRecord.Site>();var inactive=new HashSet<PortalRecord.Site>();
         for(var pos:positions) {
-            if(!world.hasChunkAt(pos) || !(world.getBlockEntity(pos) instanceof RiftBlockEntity rift))
-                throw new IllegalStateException("Original native rift unavailable");
+            var location=site(world.dimension().location().toString(),pos);
+            if(!NativeRiftPlan.inside(portal.destination(),location))
+                throw new IllegalStateException("Original native rift outside reservation: "+pos);
+            // No player occupies this pocket yet. A previous build tick's chunk can already be unloaded.
+            // Reacquire only the captured endpoint chunk; never regenerate the template or add resident tickets.
+            var chunk=world.getChunk(pos.getX()>>4,pos.getZ()>>4);
+            if(!(chunk.getBlockEntity(pos) instanceof RiftBlockEntity rift))
+                throw new IllegalStateException("Original native rift unavailable in loaded chunk: "+pos);
             var source=site(world.dimension().location().toString(),pos);rifts.put(source,rift);
             var target=localTarget(rift,source);if(target!=null)locals.put(source,target);
             if(rift.getDestination()==null || rift.getDestination()==VirtualTarget.NoneTarget.INSTANCE)inactive.add(source);

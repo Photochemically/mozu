@@ -26,6 +26,9 @@ public final class FirstVisitService {
         var server=player.server;var data=ExpeditionSavedData.get(server);var portal=data.get(id);
         if(portal==null || portal.kind()==PortalKind.GOLD || source==null || !portal.entrance().equals(GoldPortalService.site(source))
                 || !nearEntrance(player,portal))return false;
+        if(portal.phase()==PortalRecord.Phase.FAILED) {
+            player.sendSystemMessage(Component.literal("这处空间生成失败，已停止等待并保留现场。请联系管理员；不会自动重建。"));return false;
+        }
         if(portal.phase()!=PortalRecord.Phase.NEW && portal.phase()!=PortalRecord.Phase.GENERATING && portal.phase()!=PortalRecord.Phase.READY)return false;
         if(portal.phase()==PortalRecord.Phase.NEW && portal.selection()==null && !DungeonCatalogLoader.current().enabled()) {
             message(player,"这扇探索门尚未开放。");return false;
@@ -103,6 +106,9 @@ public final class FirstVisitService {
         var data=ExpeditionSavedData.get(server);data.setDirty();
         try{PortalCheckpoint.write(server,data);}catch(java.io.IOException save){failure.addSuppressed(save);}
         ExpeditionBridge.LOGGER.error("Instance {} quarantined; no content replacement, regeneration or cleanup",portal.id(),failure);
+        for(var player:server.getPlayerList().getPlayers())
+            if(portal.visits().snapshot().get(player.getUUID())==VisitLedger.Presence.ENTERING)
+                player.sendSystemMessage(Component.literal("空间生成失败，已停止等待并保留现场。实例："+portal.id()+"。请联系管理员；不会自动重建。"));
     }
     @SubscribeEvent public void stopping(ServerStoppingEvent event) {
         var build=active.get(event.getServer());

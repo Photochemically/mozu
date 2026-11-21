@@ -1,6 +1,6 @@
 {
   "tests": 365.0,
-  "validationMode": "Scoped compile/test/reobfJar passed: 13 natural-generation tests; remaining tests retain previous scoped evidence. Fix not runtime-accepted.",
+  "validationMode": "Scoped compile/test/reobfJar passed: 78 related checks. No new tests; other checks retain prior results. No runtime pass for this fix.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -22,12 +22,18 @@
       "executedTests": 13,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "native-rift-runtime-fix.log",
+      "executedTests": 78,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "structure-manager-runtime-fix.log",
-  "jarBytes": 784796,
-  "jarSha256": "F74D540FB1FEEFEA626E4D400432F11AC482A4F7CEBB552E204D2C8007192C04",
+  "buildLog": "native-rift-runtime-fix.log",
+  "jarBytes": 785471,
+  "jarSha256": "F8CADF3C30D58699DEDE4C9B06AA5FB280706ECAAA150179BD0C38D270D9A287",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
   "helperSha256": "1BE26D12CFECC51F3C59A5AA4EDC154CB2DA7544888B6D96127314B7997C9644",
   "helperEntries": [
@@ -75,6 +81,6 @@
   ],
   "runtimeTested": true,
   "installed": true,
-  "runtimeAcceptance": "FAILED on prior b231b7d build during world creation; this fix awaits runtime retest",
+  "runtimeAcceptance": "World creation/re-entry and NEW lazy entrance verified on 13b4db0. First native generation failed before exits. Current fix awaits runtime retest.",
   "installationScope": "Isolated development instance only"
 }
