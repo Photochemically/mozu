@@ -30,7 +30,11 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
     options.release = 17
 }
-tasks.named('test', Test) { useJUnitPlatform() }
+tasks.named('test', Test) {
+    useJUnitPlatform()
+    // Contract tests inspect the same production method mappings as reobfJar, including fresh checkouts.
+    dependsOn 'createMcpToSrg'
+}
 tasks.named('jar', Jar) {
     manifest.attributes(['Specification-Title':'Expedition Dimensional Doors Bridge',
                          'Implementation-Version':project.version,

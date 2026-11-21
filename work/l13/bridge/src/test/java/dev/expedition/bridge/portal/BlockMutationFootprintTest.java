@@ -6,6 +6,14 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BlockMutationFootprintTest {
+    @Test void stickyRetractionIncludesInFlightCompletionEvenWithNoResolvedPull() {
+        var base=new BlockPos(-4,50,-9);
+        for(var facing:Direction.values()) {
+            var pending=base.relative(facing,2);
+            assertEquals(Set.of(base,base.relative(facing),pending),
+                    BlockMutationFootprint.piston(base,facing,false,List.of(),List.of(),List.of(pending)));
+        }
+    }
     @Test void extensionChecksMovedDestinationsAndDestroyedBlocksInEveryDirection() {
         var base=new BlockPos(-20,50,-20);
         for(var direction:Direction.values()) {

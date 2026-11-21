@@ -1,20 +1,29 @@
 {
-  "tests": 352.0,
-  "validationMode": "Full Gradle build and complete 352-test run passed, zero failures/errors. Current XML contains all 352 tests; supersedes prior scoped validation.",
+  "tests": 365.0,
+  "validationMode": "Scoped compile/test/reobfJar passed: 211 tests executed (13 new), zero failures/errors. 154 unchanged tests retain the prior full-build result at ffa342c28ead1e171bb21546b6e373a37ccf53a2; not re-executed. Current XML contains only 211 tests. 365 distinct tests represented, not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
+      "baselineCommit": "ffa342c28ead1e171bb21546b6e373a37ccf53a2",
       "executedTests": 352,
+      "retainedTests": 154,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "buildLog": "block-replacement-build.log",
+      "executedTests": 211,
+      "newTests": 13,
       "failures": 0,
       "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "device-protection-build.log",
-  "jarBytes": 775364,
-  "jarSha256": "34F8B3016D50C8730029A17986C46FF3DB503EF139ED8EA6361660774D70C0E0",
+  "buildLog": "block-replacement-build.log",
+  "jarBytes": 784608,
+  "jarSha256": "5C227E95EFA44DBFA8C78FF9926C18C72D181E96360505B927B23F8754FABD61",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "63BB6158D151A121F7BC17B1753B9E1FCAAEE316A07AE414B93EDA1C31AE9D37",
+  "helperSha256": "1BE26D12CFECC51F3C59A5AA4EDC154CB2DA7544888B6D96127314B7997C9644",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",

@@ -10,6 +10,7 @@ import net.minecraftforge.event.level.ExplosionEvent;
 import net.minecraftforge.event.level.PistonEvent;
 import net.minecraftforge.event.entity.living.LivingDestroyBlockEvent;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.piston.PistonMovingBlockEntity;
 import java.util.List;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -45,7 +46,14 @@ public final class ManagedDoorProtection {
             var helper=event.getStructureHelper();
             if(helper!=null && helper.resolve()){moved=helper.getToPush();destroyed=helper.getToDestroy();}
         }
-        if(BlockMutationFootprint.piston(event.getPos(),event.getDirection(),extending,moved,destroyed)
+        // Retraction can finish a moving block two cells ahead without including it in the resolver lists.
+        var finish=event.getPos().relative(event.getDirection(),2);
+        boolean finishesMoving=!extending && event.getState().is(Blocks.STICKY_PISTON)
+                && level.getBlockState(finish).is(Blocks.MOVING_PISTON)
+                && level.getBlockEntity(finish) instanceof PistonMovingBlockEntity moving
+                && moving.getDirection()==event.getDirection() && moving.isExtending();
+        if(BlockMutationFootprint.piston(event.getPos(),event.getDirection(),extending,moved,destroyed,
+                    finishesMoving?List.of(finish):List.of())
                 .stream().anyMatch(pos->protectedAt(level,pos)))event.setCanceled(true);
     }
     @SubscribeEvent(priority=EventPriority.HIGHEST)
@@ -60,12 +68,31 @@ public final class ManagedDoorProtection {
     public void mobDestroy(LivingDestroyBlockEvent event) {
         if(event.getEntity().level() instanceof ServerLevel level && protectedAt(level,event.getPos()))event.setCanceled(true);
     }
-    private boolean protectedAt(ServerLevel level, BlockPos pos) {
+    public static boolean protectedAt(ServerLevel level, BlockPos pos) {
+        if(recordedAt(level,pos))return true;
+        // Event-only fallback for an existing rift whose native pocket identity needs repair.
+        // Never use this lookup in a chunk write hook: reading entities there could generate other chunks.
         var data=ExpeditionSavedData.get(level.getServer());
+        if(data.records().isEmpty() || !level.hasChunkAt(pos))return false;
+        for(int dy=-1;dy<=1;dy++) {
+            var candidate=pos.offset(0,dy,0);
+            if(level.getBlockEntity(candidate) instanceof RiftBlockEntity exit
+                    && exit.getDestination() instanceof ManagedExitTarget target) {
+                var owner=data.get(target.portalId());
+                if(owner!=null && owner.exits().contains(site(level,candidate)))return true;
+            }
+        }
+        return false;
+    }
+    /** Saved coordinates and the in-memory native directory only; no world or block-entity reads. */
+    public static boolean recordedAt(ServerLevel level,BlockPos pos) {
+        var data=ExpeditionSavedData.get(level.getServer());
+        if(data.records().isEmpty())return false;
+        PortalRecord owner=null;
         if(level.dimension().equals(ModDimensions.DUNGEON)) {
             var pocket=DimensionalRegistry.getPocketDirectory(ModDimensions.DUNGEON).getPocketAt(pos);
             if(pocket!=null && pocket.hasAddon(PocketIdentity.ID)) {
-                PocketIdentity identity=pocket.getAddon(PocketIdentity.ID);var owner=data.get(identity.portalId());
+                PocketIdentity identity=pocket.getAddon(PocketIdentity.ID);owner=data.get(identity.portalId());
                 if(owner!=null && owner.isProtectedBlock(site(level,pos)))return true;
             }
         }
@@ -74,18 +101,7 @@ public final class ManagedDoorProtection {
             // Placement events may be posted after the original block entity has been replaced.
             if(r!=null && r.phase()!=PortalRecord.Phase.CLOSED)return true;
             var candidate=new PortalRecord.Site(level.dimension().location().toString(),pos.getX(),pos.getY()+dy,pos.getZ());
-            if(level.getBlockEntity(pos.offset(0,dy,0)) instanceof RiftBlockEntity exit
-                    && exit.getDestination() instanceof ManagedExitTarget target) {
-                var owner=data.get(target.portalId());
-                if(owner!=null && owner.exits().contains(candidate))return true;
-            }
-            if(level.dimension().equals(ModDimensions.DUNGEON)) {
-                var pocket=DimensionalRegistry.getPocketDirectory(ModDimensions.DUNGEON).getPocketAt(pos.offset(0,dy,0));
-                if(pocket!=null && pocket.hasAddon(PocketIdentity.ID)) {
-                    PocketIdentity identity=pocket.getAddon(PocketIdentity.ID);var owner=data.get(identity.portalId());
-                    if(owner!=null && (owner.isInternalDevice(candidate)||owner.exits().contains(candidate)))return true;
-                }
-            }
+            if(owner!=null && (owner.isInternalDevice(candidate)||owner.exits().contains(candidate)))return true;
         }
         return false;
     }

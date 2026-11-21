@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-21",
+  "runtimeTested": false,
+  "installed": false,
+  "baselineCommit": "ffa342c28ead1e171bb21546b6e373a37ccf53a2",
+  "executedTests": 211,
+  "retainedTests": 154,
+  "newTests": 13,
+  "failures": 0,
+  "errors": 0,
+  "buildLog": "block-replacement-build.log",
+  "buildLogLocalOnly": true,
+  "buildSeconds": 116,
+  "jarSha256": "5c227e95efa44dbfa8c78ff9926c18c72d181e96360505b927b23f8754fabd61",
+  "packagedClasses": [
+    "dev/expedition/bridge/mixin/ProtectedBlockReplacementMixin.class",
+    "dev/expedition/bridge/mixin/ProtectedBlockDestroyMixin.class",
+    "dev/expedition/bridge/domain/EntranceWritePolicy.class",
+    "dev/expedition/bridge/portal/ManagedBlockWrites.class",
+    "dev/expedition/bridge/portal/ExactBlockWrite.class"
+  ],
+  "forbiddenPackagedResources": [],
+  "retainedSourceEvidence": [
+    {
+      "suite": "dev.expedition.bridge.content.wda.AerialEntryAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/AerialEntryAuditTest.java",
+      "sha256": "46bdd918aa9312af62ba5c33d9d35eb0326b854752ebb62b8a59a113f542e83b"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.BanditAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/BanditAuditTest.java",
+      "sha256": "876837f5f4159dfa16093ad919167a981f2566796ff03874ca794e1740539ecf"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.BanditTowersAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/BanditTowersAuditTest.java",
+      "sha256": "d5a2028e5c9a1f250b2738fcc27d9498c55f6a6cb8ab0d7c920d26109f38422b"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.BathhouseAuditTest",
+      "tests": 7,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/BathhouseAuditTest.java",
+      "sha256": "228495f516cddb1e43e6008ac5d393c423783b58a892156f45e8a66b8e6c3bc4"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.BlimpLadderAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/BlimpLadderAuditTest.java",
+      "sha256": "2e0e7a2334e738539854a7d4c1e371644d23a4dee5157d4a2964b186246a795c"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.ColiseumAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/ColiseumAuditTest.java",
+      "sha256": "7bebc96af329bdd2f37a014f1c81046526596cd5314de4d95a2a11981f6c07d8"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.FishingHutAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/FishingHutAuditTest.java",
+      "sha256": "7e9ea0e6ff22b834542ee7d0e150f125cf2e77eb5717da067206b32e4c8ff35a"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.FortAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/FortAuditTest.java",
+      "sha256": "1a6f7521bae3e171eb3d8ecaacf6f9a7c265c20e5732ba46c4573f9b946520c7"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.GiantMushroomAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/GiantMushroomAuditTest.java",
+      "sha256": "bb2f985a9750530138f8687f7adb7eb2eb963855441220333946041bb3326f03"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.GroundHouseAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/GroundHouseAuditTest.java",
+      "sha256": "a27ee5a77ba43f149ffc376094b736293bcebc9367d373d2ca310769d3a41122"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.HindAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/HindAuditTest.java",
+      "sha256": "218c8ade5d0156273a5179fa2c8acdcd6b403fd637fd96ccdc5bcc0a8e7476c6"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.IllagerCampAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/IllagerCampAuditTest.java",
+      "sha256": "145d1aff4e7347c1daea9240e51421186b1ae50dda338b1721f6408a70e59357"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.InfestedAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/InfestedAuditTest.java",
+      "sha256": "a1084e10787f052ff83a2311752260c6ae65516471304a3cf941a910371f7d03"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.LighthouseAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/LighthouseAuditTest.java",
+      "sha256": "4d1828eb578d3c1a7814d9aba6fcd822ac0a87bf8e5ace181b53c9c51d4a3235"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.MechanicalBridgeAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/MechanicalBridgeAuditTest.java",
+      "sha256": "00f6e43a74590921a84bd51ae68f94560086432186be7f08ae6b66ff3afd0916"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.MerchantCampAuditTest",
+      "tests": 4,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/MerchantCampAuditTest.java",
+      "sha256": "043232fa24266987c9b73de8b8b1c39b298c5602ee328589e817e4294ef37ee9"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.MonasteryAuditTest",
+      "tests": 7,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/MonasteryAuditTest.java",
+      "sha256": "6c6c93224ba579cc998ebf9c9e5943555c85322d7a75f7e738ba2c8c225b0aa1"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.MushroomMineAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/MushroomMineAuditTest.java",
+      "sha256": "09b4980a94b861034c2cb4fa91d31240533338b98c3b27d6f5bbe47271d0863c"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.PlagueAuditTest",
+      "tests": 8,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/PlagueAuditTest.java",
+      "sha256": "0d66769871cef0e763f8bdd1c4e44d580cb520edad9f24bb03da3381950f0c33"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.PubAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/PubAuditTest.java",
+      "sha256": "a1878dc1946c0991f59bd03a0bf6eb590add181ac9ad3247378f18689ba9d513"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.ScorchedWellAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/ScorchedWellAuditTest.java",
+      "sha256": "18ea3a08ea5ce5d414eb566f7ff22f9b57306e844bbf2f9fae6fbb2dc954b6fa"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.ShipBoardingAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/ShipBoardingAuditTest.java",
+      "sha256": "650b27b5c7f7d9d27acfa9614d94465b685892eada19c850140ea87033855b21"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.ShirazAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/ShirazAuditTest.java",
+      "sha256": "56277935521b0736907515edd7f7c7d1fa5aaaa091b9da96feddc30ac253f961"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.TempleAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/TempleAuditTest.java",
+      "sha256": "93f87a585f53fd383c21309f6f3eb88cb19334d2579db4dad2bb7207b1d26e85"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.TerrainHeightmapTest",
+      "tests": 3,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/TerrainHeightmapTest.java",
+      "sha256": "cf55bf6cadb4bbe61890738b7ecefba3ca53b2c4acd8d4eaa49855d681f5498a"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.ThornbornAuditTest",
+      "tests": 7,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/ThornbornAuditTest.java",
+      "sha256": "b0884da184d9a7b75c37976afd07b2c3e28293a07cf1edb5ecd6ebc606f87efa"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.TreeHouseAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/TreeHouseAuditTest.java",
+      "sha256": "c55144da234a1f2966fda1bff8287892514acdae87917fdecf2d295f30ec434b"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.TyphonDiveAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/TyphonDiveAuditTest.java",
+      "sha256": "4ccfc698102f7829fca69d5c53f87ee334368e0a8bc735baf4681a7a23505376"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.UndergroundEntryAuditTest",
+      "tests": 1,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/UndergroundEntryAuditTest.java",
+      "sha256": "09107d1e6a6b03a6aaa4d9b5e2049a9d785c9f59ff5cb66b24ab8c2af7211e4d"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.VillageAuditTest",
+      "tests": 6,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/VillageAuditTest.java",
+      "sha256": "aad3e7fccff5e50db193e4c4cdf52e29c30b5b5797b82d0662a64723e5c87e6c"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.WindmillAuditTest",
+      "tests": 4,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/WindmillAuditTest.java",
+      "sha256": "d6821c096e9b3c08abb1da6caea609e1d70b57a405f0a3fa87b4dcacc8851ebf"
+    },
+    {
+      "suite": "dev.expedition.bridge.content.wda.WishingWellAuditTest",
+      "tests": 5,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/content/wda/WishingWellAuditTest.java",
+      "sha256": "a849ce536493af6681df76fe023eba55f027d2d675c0e12ee7f178764cf5226c"
+    },
+    {
+      "suite": "dev.expedition.bridge.diagnostics.AcceptanceFixturesTest",
+      "tests": 4,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/diagnostics/AcceptanceFixturesTest.java",
+      "sha256": "55e61bf20ab3bee33144737e42b16567119a0736f126a5961c9768b092754285"
+    },
+    {
+      "suite": "dev.expedition.bridge.diagnostics.DevelopmentWorldGateTest",
+      "tests": 2,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/diagnostics/DevelopmentWorldGateTest.java",
+      "sha256": "fb298a61bd7f55d1f254aa2e1b0a45afee6711af967d50f656afe99d97b47494"
+    },
+    {
+      "suite": "dev.expedition.bridge.diagnostics.PlanAuditReportTest",
+      "tests": 3,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/diagnostics/PlanAuditReportTest.java",
+      "sha256": "0b6e8be893172a39b9ff8b3191ef8f63abc5446ad0e920660d4de8ff0b77ccf3"
+    },
+    {
+      "suite": "dev.expedition.bridge.diagnostics.PlanningAuditArgumentsTest",
+      "tests": 2,
+      "source": "work/l13/bridge/src/test/java/dev/expedition/bridge/diagnostics/PlanningAuditArgumentsTest.java",
+      "sha256": "8b9f510b212714abe3e437a6ad43205819da05a9cb6f1f4279892aefc046bc7f"
+    }
+  ],
+  "limitations": [
+    "No live Mixin application or Minecraft world test",
+    "No labfinal trusted piston motion adapter",
+    "No Create assembly or direct block-entity mutation contract",
+    "Worker-thread world-generation writes are outside this guard"
+  ]
+}

@@ -80,8 +80,8 @@ public final class PortalVisitEvents {
         try { PortalCheckpoint.write(server,data); }
         catch(java.io.IOException failure) { dev.expedition.bridge.ExpeditionBridge.LOGGER.error("Cannot checkpoint special entrance closure {}",portal.id(),failure);return; }
         rift.unregister();
-        level.setBlock(pos.above(),Blocks.AIR.defaultBlockState(),Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE);
-        level.setBlock(pos,Blocks.AIR.defaultBlockState(),Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE);
+        ManagedBlockWrites.setEntranceBlock(level,portal,pos.above(),Blocks.AIR.defaultBlockState(),Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE);
+        ManagedBlockWrites.setEntranceBlock(level,portal,pos,Blocks.AIR.defaultBlockState(),Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE);
         if(level.isEmptyBlock(pos) && level.isEmptyBlock(pos.above())) { portal.entranceRemoved();data.setDirty(); }
     }
 }

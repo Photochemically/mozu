@@ -37,8 +37,8 @@ public final class GoldEntranceFactory {
         var lower=door.defaultBlockState().setValue(DoorBlock.FACING,facing).setValue(DoorBlock.HALF,DoubleBlockHalf.LOWER);
         var upper=lower.setValue(DoorBlock.HALF,DoubleBlockHalf.UPPER);
         try {
-            if(!level.setBlock(pos,lower,Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE)
-                    || !level.setBlock(pos.above(),upper,Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE))
+            if(!ManagedBlockWrites.setEntranceBlock(level,portal,pos,lower,Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE)
+                    || !ManagedBlockWrites.setEntranceBlock(level,portal,pos.above(),upper,Block.UPDATE_CLIENTS|Block.UPDATE_KNOWN_SHAPE))
                 throw new IllegalStateException("Reward door placement failed");
             if(!(level.getBlockEntity(pos) instanceof EntranceRiftBlockEntity rift))
                 throw new IllegalStateException("Reward door has no native rift block entity");

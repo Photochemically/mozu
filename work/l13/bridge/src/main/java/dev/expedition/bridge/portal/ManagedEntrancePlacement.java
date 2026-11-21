@@ -30,10 +30,10 @@ public final class ManagedEntrancePlacement {
         try {
             // Selected diagnostic content is included in this first checkpoint, before either door half exists.
             PortalCheckpoint.write(level.getServer(),data);
-            if(!level.setBlock(pos,lower,18) || !(level.getBlockEntity(pos) instanceof EntranceRiftBlockEntity rift))
+            if(!ManagedBlockWrites.setEntranceBlock(level,portal,pos,lower,18) || !(level.getBlockEntity(pos) instanceof EntranceRiftBlockEntity rift))
                 throw new IllegalStateException("Entrance placement failed");
             rift.setDestination(new ManagedEntranceTarget(portal.id()));rift.register();rift.setChanged();
-            if(!level.setBlock(pos.above(),lower.setValue(DoorBlock.HALF,DoubleBlockHalf.UPPER),18))
+            if(!ManagedBlockWrites.setEntranceBlock(level,portal,pos.above(),lower.setValue(DoorBlock.HALF,DoubleBlockHalf.UPPER),18))
                 throw new IllegalStateException("Entrance upper half placement failed");
             level.blockUpdated(pos,block);level.blockUpdated(pos.above(),block);return portal;
         } catch(IOException|RuntimeException failure) {
