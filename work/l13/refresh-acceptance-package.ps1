@@ -79,7 +79,7 @@ $taskReceipt = [ordered]@{
     buildLogLocalOnly=$taskBuild.buildLogLocalOnly
     buildLog=$taskBuild.buildLog; jarBytes=$taskBuild.bytes; jarSha256=$taskBuild.sha256
     helperPackage='outputs/L13验收辅助/七类验收入口-准备包.zip'; helperSha256=(Get-FileHash -LiteralPath $taskTarget -Algorithm SHA256).Hash
-    helperEntries=@($taskEntries.Keys); runtimeTested=$false; installed=$false
+    helperEntries=@($taskEntries.Keys); runtimeTested=$taskBuild.runtimeTested; installed=$taskBuild.installed; runtimeAcceptance=$taskBuild.runtimeAcceptance; installationScope=$taskBuild.installationScope
 }
 $taskReceipt | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $PSScriptRoot 'audit\acceptance-fixtures-artifact.json') -Encoding utf8
-[ordered]@{ tests=$taskReceipt.tests; helperEntries=$taskEntries.Count; helperSha256=$taskReceipt.helperSha256; installed=$false } | ConvertTo-Json -Compress
+[ordered]@{ tests=$taskReceipt.tests; helperEntries=$taskEntries.Count; helperSha256=$taskReceipt.helperSha256; installed=$taskBuild.installed } | ConvertTo-Json -Compress

@@ -1,5 +1,7 @@
 # 下一任务：保护挂接小测与实验室可信机关运动
 
+最新运行状态：2026-11-21 已安装到隔离实例；主菜单成功、创建世界失败。已修复与 Lost Cities 字段访问变换的冲突，编译通过、实机复测待执行。先读 [本轮记录](work/l13/RUNTIME_SMOKE_20261121.md)；下文旧“未安装/未启动”指该批历史状态。
+
 更新：2026-11-21。先读 PROJECT.md、PROGRESS.md、[局部设备保护](work/l13/LOCAL_DEVICE_PROTECTION.md)、[即时定义适配](work/l13/NATIVE_DEFINITION_ADAPTERS.md)、[原生路线](work/l13/NATIVE_ROOM_ROUTES.md)，再读对应源码。最新用户玩法优先。
 
 1. 在第一批精确保存/Forge 事件基础上，第二批已接入 LevelChunk 方块替换、Level 标准销毁和 FlowingFluid 冲刷前拦截；主线程只读保存坐标/内存目录，不触发其他区块加载。同种方块状态更新正常。入口放置/关闭使用 ExactBlockWrite 单次精确许可，别用宽泛线程开关替代它。新增原版黏性活塞缩回第二格移动完成位置检查。保存格式仍为 6，旧记录不重扫、重建。

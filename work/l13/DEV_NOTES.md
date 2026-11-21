@@ -459,3 +459,11 @@ Coverage now 31 of 39 with original-template entry evidence, eight resource-only
 本次离线 test + jar/reobfJar 一次成功（1m56s），211 项相关测试通过，新增 13 项；154 项未改动测试保留 ffa342c 的上轮结果并记录源码指纹。共代表 365 项，不是本轮全量运行。当前 XML 仅 211 项。构建 JAR 784608 字节，SHA256 5C227E95EFA44DBFA8C78FF9926C18C72D181E96360505B927B23F8754FABD61。打包核对新增类/八个 Mixin 配置，无第三方模板、嵌套 JAR 或开发标记。源码映射检查依赖 createMcpToSrg，补齐测试任务依赖以支持新检出。
 
 LOCAL_DEVICE_PROTECTION.md 已准备启动/生成、保护对照、标准命令销毁、金门单人关闭和一次保存重启的小批运行步骤与结果模板。未启动 Minecraft、未安装桥接/测试工具、未启用正式候选或自然入口。原生定义仍 104/125，WDA 39/39 仍仅入口静态证据；L12/战斗/终局进度未因此改变。原始日志、存档、JAR 不上传。
+
+## 2026-11-21 首轮运行失败与修复待复测
+
+已在独立测试实例安装桥接，65 个联动文件与仓库一致。Forge 47.4.10 下主菜单加载成功，但创建超平坦测试世界于 18:32:57 发生服务器 tick 崩溃。根因：StructureManagerMixin 的 Shadow 别名 f_220460_ 遇到 Lost Cities 7.5.7 的访问变换（将该字段设为 public），触发 Non-private field cannot be aliased。不是玩家操作或存档玩法错误。
+
+修复改为在 StructureManager 的精确构造方法 RETURN 处保存 LevelAccessor 参数，使用 Unique 字段，不再 Shadow/alias 原字段；保留失落城市和自然入口功能。编译及 13 项自然生成相关测试通过（1m16s）。新 JAR 784796 字节，SHA256 F74D540FB1FEEFEA626E4D400432F11AC482A4F7CEBB552E204D2C8007192C04。该修复尚待游戏复测。首次生成、传送、保护、金门关闭与持久化均未验收；进入主菜单不能算服务器挂接通过。
+
+下一步：只替换隔离实例桥接，保留失败存档，重新启动并创建新的 L13小测-2 世界；若能进入再保存回主菜单并加入开发标记。正式实例、正式开关保持不动。完整日志和存档不上传。

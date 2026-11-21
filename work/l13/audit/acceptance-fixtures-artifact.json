@@ -1,6 +1,6 @@
 {
   "tests": 365.0,
-  "validationMode": "Scoped compile/test/reobfJar passed: 211 tests executed (13 new), zero failures/errors. 154 unchanged tests retain the prior full-build result at ffa342c28ead1e171bb21546b6e373a37ccf53a2; not re-executed. Current XML contains only 211 tests. 365 distinct tests represented, not a new full-suite run.",
+  "validationMode": "Scoped compile/test/reobfJar passed: 13 natural-generation tests; remaining tests retain previous scoped evidence. Fix not runtime-accepted.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -16,12 +16,18 @@
       "newTests": 13,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "structure-manager-runtime-fix.log",
+      "executedTests": 13,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "block-replacement-build.log",
-  "jarBytes": 784608,
-  "jarSha256": "5C227E95EFA44DBFA8C78FF9926C18C72D181E96360505B927B23F8754FABD61",
+  "buildLog": "structure-manager-runtime-fix.log",
+  "jarBytes": 784796,
+  "jarSha256": "F74D540FB1FEEFEA626E4D400432F11AC482A4F7CEBB552E204D2C8007192C04",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
   "helperSha256": "1BE26D12CFECC51F3C59A5AA4EDC154CB2DA7544888B6D96127314B7997C9644",
   "helperEntries": [
@@ -67,6 +73,8 @@
     "THORNBORN_TOWERS_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
-  "runtimeTested": false,
-  "installed": false
+  "runtimeTested": true,
+  "installed": true,
+  "runtimeAcceptance": "FAILED on prior b231b7d build during world creation; this fix awaits runtime retest",
+  "installationScope": "Isolated development instance only"
 }

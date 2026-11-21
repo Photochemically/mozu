@@ -3,10 +3,18 @@ package dev.expedition.bridge.mixin;
 import dev.expedition.bridge.worldgen.StructureLevelAccess;
 import net.minecraft.world.level.*;
 import org.spongepowered.asm.mixin.*;
+import net.minecraft.world.level.levelgen.WorldOptions;
+import net.minecraft.world.level.levelgen.structure.StructureCheck;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Exact official/SRG aliases from pinned 1.20.1 mappings; no reflective access or off-thread SavedData reads. */
+/** Capture the constructor argument without aliasing a field other mods may widen with access transformers. */
 @Mixin(value=StructureManager.class,remap=false)
 public abstract class StructureManagerMixin implements StructureLevelAccess {
-    @Shadow(aliases={"f_220460_"},remap=false) @Final private LevelAccessor level;
-    @Override public LevelAccessor expedition$level(){return level;}
+    @Unique private LevelAccessor expedition$level;
+    @Inject(method="<init>(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/structure/StructureCheck;)V",at=@At("RETURN"),require=1,remap=false)
+    private void expedition$captureLevel(LevelAccessor level,WorldOptions options,StructureCheck check,CallbackInfo callback) {
+        expedition$level=level;
+    }
+    @Override public LevelAccessor expedition$level(){return expedition$level;}
 }
