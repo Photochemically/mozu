@@ -1,16 +1,16 @@
 {
   "date": "2026-11-22",
-  "scope": "Safe approach from the original entrance with an unobstructed forward step and yaw away from the return door; distinct arrival-clearance notice.",
+  "scope": "Allow deliberate reverse travel after body clears managed portal trigger; preserve same-transit outcome and throttle transient feedback.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
-  "buildTask": "test --tests *EntryApproach* --tests *Travel* --tests *Portal* jar",
-  "buildLog": "entry-approach-build.log",
+  "buildTask": "test (7 full classes: TravelLedgerTest, TravelPersistenceTest, ManagedTriggerClearanceTest, TransitNoticeTest, EntryApproachTest, PortalLifecycleTest, PortalPersistenceTest) jar",
+  "buildLog": "transit-clearance-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 789283,
-  "sha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
+  "bytes": 793736,
+  "sha256": "A5587B9ECA9C7A2890DD4F4AFAC967130DBB3EE80FE158CADC4FCB1151D4F72F",
   "saveSchema": 6,
   "suites": [
     {
@@ -399,7 +399,7 @@
     },
     {
       "name": "dev.expedition.bridge.domain.TravelLedgerTest",
-      "tests": 8,
+      "tests": 11,
       "failures": 0,
       "errors": 0
     },
@@ -495,7 +495,7 @@
     },
     {
       "name": "dev.expedition.bridge.storage.TravelPersistenceTest",
-      "tests": 4,
+      "tests": 5,
       "failures": 0,
       "errors": 0
     },
@@ -504,12 +504,24 @@
       "tests": 4,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.ManagedTriggerClearanceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.TransitNoticeTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "offlineAuditToolTests": 3,
-  "testsRunForThisBuild": 31,
-  "runtimeTested": true,
-  "installed": true,
+  "testsRunForThisBuild": 42,
+  "runtimeTested": false,
+  "installed": false,
   "catalogEnabled": false,
   "naturalEntrancesEnabled": false,
   "offlineAuditToolTestsEvidence": "3 tests from preceding content-audit turn; not repeated for unchanged offline tool",
@@ -551,7 +563,7 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "Scoped compile/test/reobfJar passed: 31 checks, including 4 new approach tests. Other checks retain prior evidence; not a new full-suite run.",
+  "validationMode": "Scoped compile/test/reobfJar passed: 42 tests in 7 complete classes, 11 new. Unchanged suites retain prior results; not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -586,6 +598,13 @@
       "newTests": 4,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "transit-clearance-build.log",
+      "executedTests": 42,
+      "newTests": 11,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested.",
@@ -595,7 +614,16 @@
   "nativeDefinitionAdaptersEvidence": "native-definition-adapters.json: six original immediate templates, full dimensions/device metadata/rift markers; valid minecraft:mob_spawner block entity ID confirmed against Minecraft registration. labfinal whole-room protection remains blocked. Runtime generation, puzzles, load, multiplayer and restart pending.",
   "deviceProtectionEvidence": "native-lab-protection-audit.json: pinned 24x108x88 source room, 25 machine components / 46 preliminary component-and-support cells, 32 original entities. Runtime event enforcement and native piston exceptions untested; labfinal still refused. ProtectedBlocks save schema 6, old formats readable.",
   "blockReplacementEvidence": "block-replacement-validation.json; LOCAL_DEVICE_PROTECTION.md. Main-thread block replacement guard, pre-drop destruction/flow guards, narrow entry write grants and sticky-retraction completion. Runtime and complete machine/mover protection pending.",
-  "runtimeAcceptance": "PARTIAL_PASS_WITH_OPEN_ISSUES: first single-player smoke round completed; see runtime-smoke-20261122-summary.json. Full acceptance not passed.",
-  "installationScope": "Isolated development instance only",
-  "runtimeEvidence": "runtime-smoke-20261122-summary.json"
+  "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. Prior artifact: PARTIAL_PASS_WITH_OPEN_ISSUES in runtime-smoke-20261122-summary.json. Full acceptance not passed.",
+  "installationScope": "Current artifact not installed; previous smoke build remains the isolated test baseline",
+  "runtimeEvidence": "runtime-smoke-20261122-summary.json",
+  "previousRuntimeBuild": {
+    "sha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
+    "bytes": 789283,
+    "codeCommit": "1afdffef64f7ed3e0aa913abf2b5972b6614098f",
+    "installed": true,
+    "runtimeEvidence": "runtime-smoke-20261122-summary.json",
+    "scope": "Previous isolated single-player smoke build only"
+  },
+  "transitClearanceEvidence": "transit-clearance-validation.json; TRANSIT_CLEARANCE.md. Trigger-body clearance, one-tick managed arrival guard, persisted outcomes and throttled action-bar feedback; runtime retest pending."
 }

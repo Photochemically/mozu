@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-22",
+  "baselineCommit": "8bab58297385b3f7472dc7fb6fbb334ce85f7480",
+  "scope": "Allow deliberate reverse travel after body clears managed portal trigger; preserve same-transit outcome and throttle transient feedback.",
+  "build": "SUCCESS",
+  "executedTests": 42,
+  "newTests": 11,
+  "suites": [
+    {
+      "name": "dev.expedition.bridge.domain.PortalLifecycleTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.TravelLedgerTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.EntryApproachTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.ManagedTriggerClearanceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.TransitNoticeTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.PortalPersistenceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.storage.TravelPersistenceTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "jarBytes": 793736,
+  "jarSha256": "A5587B9ECA9C7A2890DD4F4AFAC967130DBB3EE80FE158CADC4FCB1151D4F72F",
+  "saveSchema": 6,
+  "installed": false,
+  "runtimeTested": false,
+  "previousRuntimeBuild": {
+    "sha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
+    "bytes": 789283,
+    "codeCommit": "1afdffef64f7ed3e0aa913abf2b5972b6614098f",
+    "installed": true,
+    "runtimeEvidence": "runtime-smoke-20261122-summary.json",
+    "scope": "Previous isolated single-player smoke build only"
+  },
+  "compatibility": [
+    "Existing ReleaseAfter deadlines remain readable; new successful arrivals wait one tick",
+    "PREPARED outcome, player-specific anchor and unrelated failed instance retained",
+    "Ordinary living-space routes unchanged",
+    "Formal catalog and natural entries remain disabled"
+  ],
+  "pending": [
+    "Actual DD movement callback ordering and portal cooldown with the full modpack",
+    "Immediate reversal and absence of automatic bounce in the existing chain_t fixture",
+    "Command-rescue Limbo revisit root cause remains unconfirmed"
+  ],
+  "evidence": "TRANSIT_CLEARANCE.md"
+}

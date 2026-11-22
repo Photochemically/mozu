@@ -27,7 +27,7 @@ public final class FirstVisitService {
         if(portal==null || portal.kind()==PortalKind.GOLD || source==null || !portal.entrance().equals(GoldPortalService.site(source))
                 || !nearEntrance(player,portal))return false;
         if(portal.phase()==PortalRecord.Phase.FAILED) {
-            player.sendSystemMessage(Component.literal("这处空间生成失败，已停止等待并保留现场。请联系管理员；不会自动重建。"));return false;
+            message(player,"这处空间生成失败，已停止等待并保留现场。请联系管理员；不会自动重建。");return false;
         }
         if(portal.phase()!=PortalRecord.Phase.NEW && portal.phase()!=PortalRecord.Phase.GENERATING && portal.phase()!=PortalRecord.Phase.READY)return false;
         if(portal.phase()==PortalRecord.Phase.NEW && portal.selection()==null && !DungeonCatalogLoader.current().enabled()) {
@@ -52,6 +52,8 @@ public final class FirstVisitService {
                 start(server,portal);
             }
             message(player,"空间正在形成，请在门旁稍候。");return false;
+        } catch(TravelLedger.ArrivalNotClearedException waiting) {
+            TransitNotice.waiting(player);return false;
         } catch(Exception failure) {
             ExpeditionBridge.LOGGER.error("Exploration entrance {} unavailable; selection and travel outcomes retained",id,failure);
             message(player,"空间暂不可用。已有地牢不会被重置。");return false;
@@ -119,5 +121,5 @@ public final class FirstVisitService {
         return player.level().dimension().location().toString().equals(a.dimension()) && Math.abs((long)p.getX()-a.x())<=3
                 && Math.abs((long)p.getY()-a.y())<=3 && Math.abs((long)p.getZ()-a.z())<=3;
     }
-    private static void message(ServerPlayer player,String text){player.displayClientMessage(Component.literal(text),true);}
+    private static void message(ServerPlayer player,String text){TransitNotice.show(player,text);}
 }

@@ -34,12 +34,11 @@ class TravelLedgerTest {
         assertSame(first,ledger.begin(player,portal,TravelRoute.EXPLORATION_ENTER,door,door,()->9999));
         assertThrows(IllegalStateException.class,()->first.bindLanding(room));
     }
-    @Test void completedTravelRequiresCooldownAndLeavingBothTriggersBeforeNewDraw() {
+    @Test void completedTravelRequiresNextTickAndLeavingTriggerBeforeNewDraw() {
         var ledger=new TravelLedger();var op=ledger.begin(player,portal,TravelRoute.GOLD_ENTER,door,door,()->0);
         op.bindLanding(room);op.landed(100);
-        assertFalse(ledger.releaseIfClear(player,room,200));assertFalse(ledger.releaseIfClear(player,door,200));
-        var clear=new PortalRecord.Site(room.dimension(),110,20,200);
-        assertFalse(ledger.releaseIfClear(player,clear,119));assertTrue(ledger.releaseIfClear(player,clear,120));
+        assertFalse(ledger.releaseIfClear(player,false,200));
+        assertFalse(ledger.releaseIfClear(player,true,100));assertTrue(ledger.releaseIfClear(player,true,101));
         var next=ledger.begin(player,portal,TravelRoute.GOLD_EXIT,room,door,()->0);assertNotEquals(op.id(),next.id());
     }
     @Test void failedDoorDoesNotBlockAnotherDoorAndKeepsItsOwnPreviousOutcome() {
@@ -48,7 +47,7 @@ class TravelLedgerTest {
         var other=ledger.begin(player,UUID.randomUUID(),TravelRoute.EXPLORATION_ENTER,otherDoor,otherDoor,()->9999);
         assertNotEquals(first.id(),other.id());assertEquals(2,ledger.operations().size());
         assertSame(first,ledger.begin(player,portal,TravelRoute.UNSTABLE_ENTER,door,door,()->9999));
-        assertFalse(ledger.releaseIfClear(player,otherDoor,10000));
+        assertFalse(ledger.releaseIfClear(player,true,10000));
     }
     @Test void twoPlayersHaveIndependentTransitsAndCannotOverwriteAnchors() {
         var ledger=new TravelLedger();var a=ledger.begin(player,portal,TravelRoute.EXPLORATION_ENTER,door,door,()->0);
@@ -67,5 +66,35 @@ class TravelLedgerTest {
         var ledger=new TravelLedger();var first=ledger.begin(player,portal,TravelRoute.EXPLORATION_EXIT,room,door,()->0);
         var anotherExit=new PortalRecord.Site(room.dimension(),500,20,600);
         assertSame(first,ledger.begin(player,portal,TravelRoute.EXPLORATION_EXIT,anotherExit,door,()->{throw new AssertionError("Exit change rerolled");}));
+    }
+    @Test void directReverseAtSafeLandingDrawsOnceAfterClearanceWithoutWalkingAwayFromLanding() {
+        var ledger=new TravelLedger();var draws=new AtomicInteger();
+        var entry=ledger.begin(player,portal,TravelRoute.EXPLORATION_ENTER,door,door,()->{draws.incrementAndGet();return 9999;});
+        entry.bindLanding(room);entry.landed(100);
+        assertThrows(TravelLedger.ArrivalNotClearedException.class,()->ledger.begin(player,portal,TravelRoute.EXPLORATION_EXIT,room,door,
+                ()->{throw new AssertionError("Same-tick reverse must not draw");}));
+        // Entry approach places the player outside the door. No movement from the landing is required.
+        assertTrue(ledger.releaseIfClear(player,true,101));
+        var exit=ledger.begin(player,portal,TravelRoute.EXPLORATION_EXIT,room,door,()->{draws.incrementAndGet();return 0;});
+        assertEquals(TravelOperation.Outcome.LIMBO,exit.outcome());
+        assertSame(exit,ledger.begin(player,portal,exit.route(),room,door,()->{throw new AssertionError("Repeated collision rerolled");}));
+        assertEquals(2,draws.get());
+    }
+    @Test void continuousOverlapAndOtherPlayerCannotClearArrivedTravel() {
+        var ledger=new TravelLedger();var op=ledger.begin(player,portal,TravelRoute.UNSTABLE_ENTER,door,door,()->9999);
+        op.bindLanding(room);op.landed(100);
+        for(long now=100;now<200;now++)assertFalse(ledger.releaseIfClear(player,false,now));
+        assertFalse(ledger.releaseIfClear(UUID.randomUUID(),true,200));assertTrue(ledger.hasLanded(player));
+        assertSame(op,ledger.begin(player,portal,op.route(),door,door,()->{throw new AssertionError("Overlap rerolled");}));
+        assertTrue(ledger.releaseIfClear(player,true,200));assertFalse(ledger.hasLanded(player));
+    }
+    @Test void limboArrivalCanClearWithoutChangingFailedDoorOutcomeOrResettingOtherPlayer() {
+        var ledger=new TravelLedger();var other=UUID.randomUUID();
+        var failed=ledger.begin(player,UUID.randomUUID(),TravelRoute.EXPLORATION_ENTER,door,door,()->9999);
+        var op=ledger.begin(player,portal,TravelRoute.EXPLORATION_ENTER,door,door,()->0);
+        op.bindLanding(new PortalRecord.Site("dimdoors:limbo",1,100,1));op.landed(100);
+        var companion=ledger.begin(other,portal,TravelRoute.EXPLORATION_ENTER,door,door,()->0);
+        assertTrue(ledger.releaseIfClear(player,true,101));
+        assertEquals(java.util.List.of(failed,companion),java.util.List.copyOf(ledger.operations()));
     }
 }

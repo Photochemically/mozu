@@ -5,7 +5,7 @@ import java.util.function.IntSupplier;
 
 public final class TravelLedger {
     public static final class ArrivalNotClearedException extends IllegalStateException {
-        public ArrivalNotClearedException(){super("Move clear of the previous arrival before another managed transit");}
+        public ArrivalNotClearedException(){super("Previous transit must finish and clear the portal trigger before another transit");}
     }
     private final Map<UUID,TravelOperation> active=new LinkedHashMap<>();
     public Collection<TravelOperation> operations(){return List.copyOf(active.values());}
@@ -29,7 +29,10 @@ public final class TravelLedger {
         var op=new TravelOperation(UUID.randomUUID(),player,portal,route,source,anchor,outcome,TravelOperation.State.PREPARED,null,0);
         active.put(op.id(),op);return op;
     }
-    public boolean releaseIfClear(UUID player,PortalRecord.Site observed,long now) {
-        return active.values().removeIf(op->op.player().equals(player) && op.mayRelease(observed,now));
+    public boolean hasLanded(UUID player) {
+        return active.values().stream().anyMatch(op->op.player().equals(player) && op.state()==TravelOperation.State.LANDED);
+    }
+    public boolean releaseIfClear(UUID player,boolean clearOfTriggers,long now) {
+        return active.values().removeIf(op->op.player().equals(player) && op.mayRelease(clearOfTriggers,now));
     }
 }

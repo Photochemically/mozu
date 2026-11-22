@@ -9,7 +9,6 @@ import dev.expedition.bridge.storage.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Rotations;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
@@ -48,13 +47,15 @@ public final class GoldPortalService {
             }
             if(portal.exits().isEmpty())return false; // Legacy dev rooms require explicit migration; never leave their chain routes active.
             return ManagedTransit.enterGold(player,portal);
+        } catch(TravelLedger.ArrivalNotClearedException waiting) {
+            TransitNotice.waiting(player);return false;
         } catch(Exception failure) {
             if(allocating) {
                 portal.quarantine(failure.toString());data.setDirty();
                 try { PortalCheckpoint.write(server,data); } catch(java.io.IOException checkpoint){failure.addSuppressed(checkpoint);}
             }
             ExpeditionBridge.LOGGER.error("Gold portal {} failed; no automatic regeneration or pocket deletion",id,failure);
-            player.displayClientMessage(Component.literal("奖励房暂不可用，请查看服务器记录。已有空间不会被重置。"),false);
+            TransitNotice.show(player,"奖励房暂不可用，请查看服务器记录。已有空间不会被重置。");
             return false;
         }
     }

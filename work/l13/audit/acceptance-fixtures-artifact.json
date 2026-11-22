@@ -1,6 +1,6 @@
 {
-  "tests": 369.0,
-  "validationMode": "Scoped compile/test/reobfJar passed: 31 checks, including 4 new approach tests. Other checks retain prior evidence; not a new full-suite run.",
+  "tests": 380.0,
+  "validationMode": "Scoped compile/test/reobfJar passed: 42 tests in 7 complete classes, 11 new. Unchanged suites retain prior results; not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -35,14 +35,21 @@
       "newTests": 4,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "transit-clearance-build.log",
+      "executedTests": 42,
+      "newTests": 11,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "entry-approach-build.log",
-  "jarBytes": 789283,
-  "jarSha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
+  "buildLog": "transit-clearance-build.log",
+  "jarBytes": 793736,
+  "jarSha256": "A5587B9ECA9C7A2890DD4F4AFAC967130DBB3EE80FE158CADC4FCB1151D4F72F",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "1BE26D12CFECC51F3C59A5AA4EDC154CB2DA7544888B6D96127314B7997C9644",
+  "helperSha256": "7897DC29C13E47A188C2F4AFDDDCA80372DD8970424F096C5835503EE04EF309",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
@@ -51,6 +58,7 @@
     "NATIVE_ROOM_ROUTES.md",
     "NATIVE_DEFINITION_ADAPTERS.md",
     "LOCAL_DEVICE_PROTECTION.md",
+    "TRANSIT_CLEARANCE.md",
     "WDA_TEMPLATE_GAPS.md",
     "WATER_ENVIRONMENTS.md",
     "SHIP_BOARDING.md",
@@ -86,8 +94,8 @@
     "THORNBORN_TOWERS_ENTRY.md",
     "test-fixtures/expedition-development-world.json"
   ],
-  "runtimeTested": true,
-  "installed": true,
-  "runtimeAcceptance": "PARTIAL_PASS_WITH_OPEN_ISSUES: first single-player smoke round completed; see runtime-smoke-20261122-summary.json. Full acceptance not passed.",
-  "installationScope": "Isolated development instance only"
+  "runtimeTested": false,
+  "installed": false,
+  "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. Prior artifact: PARTIAL_PASS_WITH_OPEN_ISSUES in runtime-smoke-20261122-summary.json. Full acceptance not passed.",
+  "installationScope": "Current artifact not installed; previous smoke build remains the isolated test baseline"
 }

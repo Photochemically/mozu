@@ -5,7 +5,6 @@ import dev.expedition.bridge.domain.*;
 import dev.expedition.bridge.storage.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.*;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.phys.Vec3;
@@ -60,7 +59,7 @@ public final class ManagedTransit {
             if(landing.isEmpty()){unavailable(player);return false;}
             return perform(player,portal,op,landing.get());
         } catch(TravelLedger.ArrivalNotClearedException waiting) {
-            player.displayClientMessage(Component.literal("请先离开刚刚到达的位置，再返回门口使用出口，避免连续传送。"),false);return false;
+            TransitNotice.waiting(player);return false;
         } catch(Exception failure) {
             ExpeditionBridge.LOGGER.error("Managed exit failed for {}; keeping persisted transit outcome",portalId,failure);
             unavailable(player);return false;
@@ -83,7 +82,8 @@ public final class ManagedTransit {
         player.getPersistentData().putUUID(TravelEvents.PLAYER_MARKER,op.id());
         player.stopRiding();player.teleportTo(world,landing.x()+0.5,landing.y(),landing.z()+0.5,yaw,pitch);
         if(!atLanding(player,op))return false;
-        player.setDeltaMovement(Vec3.ZERO);player.fallDistance=0;player.setPortalCooldown();
+        // Only managed arrivals use the one-tick guard. Native living-space travel keeps its own cooldown.
+        player.setDeltaMovement(Vec3.ZERO);player.fallDistance=0;player.setPortalCooldown(1);
         // Persist actual player position before committing. A restart at the planned landing can reconcile an uncommitted operation.
         player.server.getPlayerList().saveAll();
         finish(player,portal,op);PortalCheckpoint.write(player.server,data);return true;
@@ -102,6 +102,6 @@ public final class ManagedTransit {
         op.landed(player.server.overworld().getGameTime());ExpeditionSavedData.get(player.server).setDirty();
     }
     private static void unavailable(ServerPlayer player) {
-        player.displayClientMessage(Component.literal("暂时无法完成安全传送，已保留当前位置和返回记录。请稍后重试。"),false);
+        TransitNotice.show(player,"暂时无法完成安全传送，已保留当前位置和返回记录。请稍后重试。");
     }
 }

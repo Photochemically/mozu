@@ -26,7 +26,8 @@ public final class TravelEvents {
                 try { ManagedTransit.finish(player,portal,op);PortalCheckpoint.write(server,data); }
                 catch(Exception failure){ExpeditionBridge.LOGGER.error("Cannot reconcile transit {}",op.id(),failure);}
             }
-            if(data.travel().releaseIfClear(player.getUUID(),SafeLanding.site(player.serverLevel(),player.blockPosition()),server.overworld().getGameTime()))data.setDirty();
+            if(data.travel().hasLanded(player.getUUID()) && data.travel().releaseIfClear(player.getUUID(),
+                    ManagedTriggerClearance.isClear(player,data),server.overworld().getGameTime()))data.setDirty();
         }
     }
     @SubscribeEvent public void dimensionChanged(PlayerEvent.PlayerChangedDimensionEvent event) {

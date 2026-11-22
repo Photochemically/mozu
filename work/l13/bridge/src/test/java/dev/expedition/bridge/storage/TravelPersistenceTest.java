@@ -38,8 +38,21 @@ class TravelPersistenceTest {
         var op=data.travel().begin(player,portal.id(),TravelRoute.GOLD_ENTER,portal.entrance(),portal.entrance(),()->0);
         op.bindLanding(portal.destination().arrival());op.landed(500);
         var loaded=ExpeditionSavedData.load(data.save(new CompoundTag()));var restored=loaded.travel().operations().iterator().next();
-        assertEquals(TravelOperation.State.LANDED,restored.state());assertEquals(520,restored.releaseAfter());
-        assertFalse(loaded.travel().releaseIfClear(player,restored.landing(),10000));
+        assertEquals(TravelOperation.State.LANDED,restored.state());assertEquals(501,restored.releaseAfter());
+        assertFalse(loaded.travel().releaseIfClear(player,false,10000));
+        assertSame(restored,loaded.travel().begin(player,portal.id(),restored.route(),restored.source(),restored.anchor(),
+                ()->{throw new AssertionError("Reloaded completed transit rerolled");}));
+        assertFalse(loaded.travel().releaseIfClear(player,true,500));
+        assertTrue(loaded.travel().releaseIfClear(player,true,501));
+    }
+    @Test void oldTwentyTickDeadlineRemainsReadableAndClearsWithoutLargeLandingRadius() {
+        var portal=portal();var data=new ExpeditionSavedData();data.add(portal);
+        var old=new TravelOperation(UUID.randomUUID(),player,portal.id(),TravelRoute.GOLD_ENTER,portal.entrance(),portal.entrance(),
+                TravelOperation.Outcome.DESTINATION,TravelOperation.State.LANDED,portal.destination().arrival(),520);
+        data.travel().restore(old);var loaded=ExpeditionSavedData.load(data.save(new CompoundTag()));
+        assertFalse(loaded.travel().releaseIfClear(player,true,519));
+        assertTrue(loaded.travel().releaseIfClear(player,true,520));
+        assertEquals(6,loaded.save(new CompoundTag()).getInt("Schema"));
     }
     @Test void schemaOneMigratesWithoutInventingHistoryOrExits() {
         var data=new ExpeditionSavedData();var portal=portal();data.add(portal);

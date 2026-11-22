@@ -46,13 +46,10 @@ public final class TravelOperation {
     public void landed(long now) {
         if(landing==null)throw new IllegalStateException("Missing landing intent");
         if(state==State.LANDED)return;
-        state=State.LANDED;releaseAfter=Math.addExact(now,20);
+        // Keep this server tick journaled, including duplicate upper/lower door callbacks.
+        state=State.LANDED;releaseAfter=Math.addExact(now,1);
     }
-    public boolean mayRelease(PortalRecord.Site observed,long now) {
-        return state==State.LANDED && now>=releaseAfter && !near(observed,source) && !near(observed,landing);
-    }
-    private static boolean near(PortalRecord.Site a,PortalRecord.Site b) {
-        return a.dimension().equals(b.dimension()) && Math.abs((long)a.x()-b.x())<=2
-                && Math.abs((long)a.y()-b.y())<=3 && Math.abs((long)a.z()-b.z())<=2;
+    public boolean mayRelease(boolean clearOfTriggers,long now) {
+        return state==State.LANDED && now>=releaseAfter && clearOfTriggers;
     }
 }
