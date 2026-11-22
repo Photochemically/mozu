@@ -595,6 +595,7 @@
   "nativeDefinitionAdaptersEvidence": "native-definition-adapters.json: six original immediate templates, full dimensions/device metadata/rift markers; valid minecraft:mob_spawner block entity ID confirmed against Minecraft registration. labfinal whole-room protection remains blocked. Runtime generation, puzzles, load, multiplayer and restart pending.",
   "deviceProtectionEvidence": "native-lab-protection-audit.json: pinned 24x108x88 source room, 25 machine components / 46 preliminary component-and-support cells, 32 original entities. Runtime event enforcement and native piston exceptions untested; labfinal still refused. ProtectedBlocks save schema 6, old formats readable.",
   "blockReplacementEvidence": "block-replacement-validation.json; LOCAL_DEVICE_PROTECTION.md. Main-thread block replacement guard, pre-drop destruction/flow guards, narrow entry write grants and sticky-retraction completion. Runtime and complete machine/mover protection pending.",
-  "runtimeAcceptance": "Prior build: native room generated, return/re-entry reported, arrival-facing issue reproduced. Current approach fix awaits runtime retest.",
-  "installationScope": "Isolated development instance only"
+  "runtimeAcceptance": "PARTIAL_PASS_WITH_OPEN_ISSUES: first single-player smoke round completed; see runtime-smoke-20261122-summary.json. Full acceptance not passed.",
+  "installationScope": "Isolated development instance only",
+  "runtimeEvidence": "runtime-smoke-20261122-summary.json"
 }

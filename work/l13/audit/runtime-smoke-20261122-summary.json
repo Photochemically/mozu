@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-22",
+  "scope": "First isolated single-player smoke round",
+  "result": "PARTIAL_PASS_WITH_OPEN_ISSUES",
+  "testedCodeCommit": "1afdffef64f7ed3e0aa913abf2b5972b6614098f",
+  "jarSha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
+  "latestSnapshotUtc": "2026-11-22T15:11:50.23805Z",
+  "evidence": [
+    "User confirmed full game exit/relaunch and requested checks completed",
+    "Fresh startup log confirms Forge 47.4.10 and bridge initialization",
+    "Current snapshot confirms persisted portal state; raw snapshot excluded"
+  ],
+  "passed": [
+    "World creation and reload after StructureManager fix",
+    "NEW entrance before first allocation",
+    "Native chain_t generation, return and re-entry after rift chunk fix",
+    "Arrival door behind player after orientation fix",
+    "Ordinary marker stone retained after full restart (user observation)",
+    "One tested exit door and support resist direct breaking (user observation)",
+    "Gold reward room entered and exited; entrance disappeared",
+    "Gold CLOSED state persists after restart; same-location creation does not rebuild"
+  ],
+  "snapshotSummary": {
+    "gold": {
+      "phase": "CLOSED",
+      "hasConfirmedArrival": true,
+      "allParticipantsSafelyExited": true,
+      "exits": 3,
+      "protectedBlocks": 9
+    },
+    "exploration": {
+      "phase": "READY",
+      "hasConfirmedArrival": true,
+      "exits": 3,
+      "protectedBlocks": 9
+    },
+    "oldFailure": {
+      "phase": "FAILED",
+      "pendingOperations": 1
+    },
+    "catalogEnabled": false,
+    "naturalEntrancesEnabled": false
+  },
+  "openIssues": [
+    "Immediate intentional return overblocked and repeated chat notices",
+    "Command rescue followed by Limbo revisit reported, not reproduced or causally established",
+    "Overworld entrance mobs perceived too difficult; superflat environment must be distinguished",
+    "No mobs observed in sampled dungeon/Limbo; spawn audit pending"
+  ],
+  "notTested": [
+    "Multiplayer, disconnect/death closure",
+    "Piston/mover/indirect destruction protections",
+    "Full WDA generation and performance",
+    "Chest contents and one-time boss rewards across restart",
+    "Statistical Limbo probabilities and duplicate event draw behavior",
+    "All exits and all rooms",
+    "Formal encounter, reward and worldgen balance"
+  ],
+  "fullAcceptancePassed": false
+}

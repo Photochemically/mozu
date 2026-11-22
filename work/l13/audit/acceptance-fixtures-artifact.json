@@ -88,6 +88,6 @@
   ],
   "runtimeTested": true,
   "installed": true,
-  "runtimeAcceptance": "Prior build: native room generated, return/re-entry reported, arrival-facing issue reproduced. Current approach fix awaits runtime retest.",
+  "runtimeAcceptance": "PARTIAL_PASS_WITH_OPEN_ISSUES: first single-player smoke round completed; see runtime-smoke-20261122-summary.json. Full acceptance not passed.",
   "installationScope": "Isolated development instance only"
 }
