@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.function.IntSupplier;
 
 public final class TravelLedger {
+    public static final class ArrivalNotClearedException extends IllegalStateException {
+        public ArrivalNotClearedException(){super("Move clear of the previous arrival before another managed transit");}
+    }
     private final Map<UUID,TravelOperation> active=new LinkedHashMap<>();
     public Collection<TravelOperation> operations(){return List.copyOf(active.values());}
     public void restore(TravelOperation op) {
@@ -19,7 +22,7 @@ public final class TravelLedger {
             return existing; // Includes retries after restart and repeated callbacks after success.
         }
         if(active.values().stream().anyMatch(op->op.player().equals(player) && op.state()==TravelOperation.State.LANDED))
-            throw new IllegalStateException("Move clear of the previous arrival before another managed transit");
+            throw new ArrivalNotClearedException();
         int sample=route.limboBasisPoints()==0?9999:draw.getAsInt();
         if(sample<0 || sample>=10000)throw new IllegalArgumentException("Invalid probability sample");
         var outcome=sample<route.limboBasisPoints()?TravelOperation.Outcome.LIMBO:TravelOperation.Outcome.DESTINATION;

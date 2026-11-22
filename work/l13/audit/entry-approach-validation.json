@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-22",
+  "runtimeTested": false,
+  "source": "Read-only saved READY chain_t room after user exploration",
+  "originalEntrance": [
+    754,
+    1,
+    260
+  ],
+  "bounds": [
+    752,
+    0,
+    256,
+    771,
+    4,
+    265
+  ],
+  "observedDirections": {
+    "north": "air floor",
+    "east": "solid wall",
+    "south": "three stone-brick support cells with clear feet/head",
+    "west": "solid wall"
+  },
+  "plannedLanding": [
+    754,
+    1,
+    262
+  ],
+  "plannedForward": "SOUTH",
+  "plannedYaw": 0,
+  "testsExecuted": 31,
+  "newTests": 4,
+  "jarSha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
+  "limitations": [
+    "Stored geometry is not a live collision or visual acceptance test",
+    "No world mutation or original door relocation",
+    "Compact rooms require at least two consecutive safe cells; stair-only or blocked approaches can refuse travel",
+    "Other native/WDA/reward rooms require runtime coverage"
+  ]
+}

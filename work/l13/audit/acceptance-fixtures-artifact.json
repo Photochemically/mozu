@@ -1,6 +1,6 @@
 {
-  "tests": 365.0,
-  "validationMode": "Scoped compile/test/reobfJar passed: 78 related checks. No new tests; other checks retain prior results. No runtime pass for this fix.",
+  "tests": 369.0,
+  "validationMode": "Scoped compile/test/reobfJar passed: 31 checks, including 4 new approach tests. Other checks retain prior evidence; not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -28,12 +28,19 @@
       "executedTests": 78,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "entry-approach-build.log",
+      "executedTests": 31,
+      "newTests": 4,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "native-rift-runtime-fix.log",
-  "jarBytes": 785471,
-  "jarSha256": "F8CADF3C30D58699DEDE4C9B06AA5FB280706ECAAA150179BD0C38D270D9A287",
+  "buildLog": "entry-approach-build.log",
+  "jarBytes": 789283,
+  "jarSha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
   "helperSha256": "1BE26D12CFECC51F3C59A5AA4EDC154CB2DA7544888B6D96127314B7997C9644",
   "helperEntries": [
@@ -81,6 +88,6 @@
   ],
   "runtimeTested": true,
   "installed": true,
-  "runtimeAcceptance": "World creation/re-entry and NEW lazy entrance verified on 13b4db0. First native generation failed before exits. Current fix awaits runtime retest.",
+  "runtimeAcceptance": "Prior build: native room generated, return/re-entry reported, arrival-facing issue reproduced. Current approach fix awaits runtime retest.",
   "installationScope": "Isolated development instance only"
 }

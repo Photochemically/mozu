@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-21",
-  "scope": "Reacquire generated endpoint chunks before native rift installation; notify waiting visitors on generation failure.",
+  "date": "2026-11-22",
+  "scope": "Safe approach from the original entrance with an unobstructed forward step and yaw away from the return door; distinct arrival-clearance notice.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
-  "buildTask": "test --tests *Native* --tests *Travel* --tests *Portal* jar",
-  "buildLog": "native-rift-runtime-fix.log",
+  "buildTask": "test --tests *EntryApproach* --tests *Travel* --tests *Portal* jar",
+  "buildLog": "entry-approach-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 785471,
-  "sha256": "F8CADF3C30D58699DEDE4C9B06AA5FB280706ECAAA150179BD0C38D270D9A287",
+  "bytes": 789283,
+  "sha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
   "saveSchema": 6,
   "suites": [
     {
@@ -498,10 +498,16 @@
       "tests": 4,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.portal.EntryApproachTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "offlineAuditToolTests": 3,
-  "testsRunForThisBuild": 78,
+  "testsRunForThisBuild": 31,
   "runtimeTested": true,
   "installed": true,
   "catalogEnabled": false,
@@ -545,7 +551,7 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "Scoped compile/test/reobfJar passed: 78 related checks. No new tests; other checks retain prior results. No runtime pass for this fix.",
+  "validationMode": "Scoped compile/test/reobfJar passed: 31 checks, including 4 new approach tests. Other checks retain prior evidence; not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -573,6 +579,13 @@
       "executedTests": 78,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "entry-approach-build.log",
+      "executedTests": 31,
+      "newTests": 4,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested.",
@@ -582,6 +595,6 @@
   "nativeDefinitionAdaptersEvidence": "native-definition-adapters.json: six original immediate templates, full dimensions/device metadata/rift markers; valid minecraft:mob_spawner block entity ID confirmed against Minecraft registration. labfinal whole-room protection remains blocked. Runtime generation, puzzles, load, multiplayer and restart pending.",
   "deviceProtectionEvidence": "native-lab-protection-audit.json: pinned 24x108x88 source room, 25 machine components / 46 preliminary component-and-support cells, 32 original entities. Runtime event enforcement and native piston exceptions untested; labfinal still refused. ProtectedBlocks save schema 6, old formats readable.",
   "blockReplacementEvidence": "block-replacement-validation.json; LOCAL_DEVICE_PROTECTION.md. Main-thread block replacement guard, pre-drop destruction/flow guards, narrow entry write grants and sticky-retraction completion. Runtime and complete machine/mover protection pending.",
-  "runtimeAcceptance": "World creation/re-entry and NEW lazy entrance verified on 13b4db0. First native generation failed before exits. Current fix awaits runtime retest.",
+  "runtimeAcceptance": "Prior build: native room generated, return/re-entry reported, arrival-facing issue reproduced. Current approach fix awaits runtime retest.",
   "installationScope": "Isolated development instance only"
 }

@@ -52,6 +52,14 @@ public final class SafeLanding {
             }
         return Optional.empty();
     }
+    public static Optional<EntryApproach.Choice> explorationEntry(ServerPlayer player,ServerLevel world,BlockPos door,BlockBounds allowed) {
+        return EntryApproach.find(door,allowed,p->{
+            world.getChunk(p.getX()>>4,p.getZ()>>4);
+            if(world.getBlockState(p).getBlock() instanceof DoorBlock || world.getBlockState(p.above()).getBlock() instanceof DoorBlock
+                    || world.getBlockEntity(p) instanceof org.dimdev.dimdoors.block.entity.RiftBlockEntity)return false;
+            return safe(player,world,p);
+        });
+    }
     private static Optional<PortalRecord.Site> surface(ServerPlayer player,ServerLevel world,int x,int z) {
         var column=new BlockPos(x,world.getMinBuildHeight(),z);
         if(!world.getWorldBorder().isWithinBounds(column))return Optional.empty();

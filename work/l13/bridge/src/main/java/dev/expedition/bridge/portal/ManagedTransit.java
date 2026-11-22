@@ -36,9 +36,9 @@ public final class ManagedTransit {
         if(portal.phase()!=PortalRecord.Phase.READY || !GoldPortalService.nativeIdentityMatches(player.server,portal))return false;
         var arrival=portal.destination().arrival();var world=player.server.getLevel(ResourceKey.create(Registries.DIMENSION,ResourceLocation.parse(arrival.dimension())));
         if(world==null)return false;
-        var landing=SafeLanding.nearConnection(player,world,new BlockPos(arrival.x(),arrival.y(),arrival.z()),portal.destination().bounds());
+        var landing=SafeLanding.explorationEntry(player,world,new BlockPos(arrival.x(),arrival.y(),arrival.z()),portal.destination().bounds());
         if(landing.isEmpty()){unavailable(player);return false;}
-        return perform(player,portal,op,landing.get());
+        return perform(player,portal,op,SafeLanding.site(world,landing.get().feet()),landing.get().forward().toYRot(),0);
     }
     public static boolean leave(ServerPlayer player,UUID portalId,Location source) {
         var data=ExpeditionSavedData.get(player.server);var portal=data.get(portalId);
@@ -59,6 +59,8 @@ public final class ManagedTransit {
             var landing=SafeLanding.overworld(player,op.anchor(),op.id().getMostSignificantBits()^op.id().getLeastSignificantBits());
             if(landing.isEmpty()){unavailable(player);return false;}
             return perform(player,portal,op,landing.get());
+        } catch(TravelLedger.ArrivalNotClearedException waiting) {
+            player.displayClientMessage(Component.literal("请先离开刚刚到达的位置，再返回门口使用出口，避免连续传送。"),false);return false;
         } catch(Exception failure) {
             ExpeditionBridge.LOGGER.error("Managed exit failed for {}; keeping persisted transit outcome",portalId,failure);
             unavailable(player);return false;
@@ -72,11 +74,14 @@ public final class ManagedTransit {
         return perform(player,portal,op,landing.get());
     }
     private static boolean perform(ServerPlayer player,PortalRecord portal,TravelOperation op,PortalRecord.Site landing) throws IOException {
+        return perform(player,portal,op,landing,player.getYRot(),player.getXRot());
+    }
+    private static boolean perform(ServerPlayer player,PortalRecord portal,TravelOperation op,PortalRecord.Site landing,float yaw,float pitch) throws IOException {
         var world=player.server.getLevel(ResourceKey.create(Registries.DIMENSION,ResourceLocation.parse(landing.dimension())));
         if(world==null || !SafeLanding.safe(player,world,new BlockPos(landing.x(),landing.y(),landing.z())))return false;
         var data=ExpeditionSavedData.get(player.server);op.bindLanding(landing);data.setDirty();PortalCheckpoint.write(player.server,data);
         player.getPersistentData().putUUID(TravelEvents.PLAYER_MARKER,op.id());
-        player.stopRiding();player.teleportTo(world,landing.x()+0.5,landing.y(),landing.z()+0.5,player.getYRot(),player.getXRot());
+        player.stopRiding();player.teleportTo(world,landing.x()+0.5,landing.y(),landing.z()+0.5,yaw,pitch);
         if(!atLanding(player,op))return false;
         player.setDeltaMovement(Vec3.ZERO);player.fallDistance=0;player.setPortalCooldown();
         // Persist actual player position before committing. A restart at the planned landing can reconcile an uncommitted operation.
