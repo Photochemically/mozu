@@ -19,3 +19,5 @@
 本批 block-replacement-build.log 的定向 test + jar/reobfJar 成功（1m56s），执行 211 项测试全部通过，0 失败/错误，其中新增 13 项。其余 154 项沿用基线 ffa342c 的完整 352 项结果，源码指纹见 audit/block-replacement-validation.json。合计 365 个不同测试，不是本轮全量运行；当前 XML 仅含 211 项，见 audit/build-summary.json。原实验室结构审查仍见 audit/native-lab-protection-audit.json，runtimeTested=false、adapterEnabled=false。JAR：784608 字节，SHA256 5C227E95EFA44DBFA8C78FF9926C18C72D181E96360505B927B23F8754FABD61。
 
 每阶段更新交接文档，检查敏感信息并逐文件提交/推送，核对远程。辅助包本批增加说明后为 40 说明 + 1 标记，七类快捷命令不变、未安装。原日志、第三方 JAR/原 NBT、存档、缓存和辅助 ZIP 不上传。
+
+最新补充：完整快照当前无残留 LIMBO/LANDED 旅程。用户更正异常只在命令救援后观察到，正常边狱红色方块脱离未复现；不要认定正常边狱出口有问题或旧概率已证实复用。只剩旧失败实例的 PREPARED 记录，保持隔离。继续金门单人小测，主动返回/提示刷屏与命令救援恢复另待修复或复现。
