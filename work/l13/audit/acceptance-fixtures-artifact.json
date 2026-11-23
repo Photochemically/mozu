@@ -103,7 +103,7 @@
     "test-fixtures/expedition-development-world.json"
   ],
   "runtimeTested": false,
-  "installed": false,
+  "installed": true,
   "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. Prior artifact: PARTIAL_PASS_WITH_OPEN_ISSUES in runtime-smoke-20261122-summary.json. Full acceptance not passed.",
-  "installationScope": "Current artifact not installed; previous smoke build remains the isolated test baseline"
+  "installationScope": "Isolated development instance only; installed and hash verified 2026-11-23 with user-confirmed game closure"
 }

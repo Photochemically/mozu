@@ -533,7 +533,7 @@
   "offlineAuditToolTests": 3,
   "testsRunForThisBuild": 28,
   "runtimeTested": false,
-  "installed": false,
+  "installed": true,
   "catalogEnabled": false,
   "naturalEntrancesEnabled": false,
   "offlineAuditToolTestsEvidence": "3 tests from preceding content-audit turn; not repeated for unchanged offline tool",
@@ -634,7 +634,7 @@
   "deviceProtectionEvidence": "native-lab-protection-audit.json: pinned 24x108x88 source room, 25 machine components / 46 preliminary component-and-support cells, 32 original entities. Runtime event enforcement and native piston exceptions untested; labfinal still refused. ProtectedBlocks save schema 6, old formats readable.",
   "blockReplacementEvidence": "block-replacement-validation.json; LOCAL_DEVICE_PROTECTION.md. Main-thread block replacement guard, pre-drop destruction/flow guards, narrow entry write grants and sticky-retraction completion. Runtime and complete machine/mover protection pending.",
   "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. Prior artifact: PARTIAL_PASS_WITH_OPEN_ISSUES in runtime-smoke-20261122-summary.json. Full acceptance not passed.",
-  "installationScope": "Current artifact not installed; previous smoke build remains the isolated test baseline",
+  "installationScope": "Isolated development instance only; installed and hash verified 2026-11-23 with user-confirmed game closure",
   "runtimeEvidence": "runtime-smoke-20261122-summary.json",
   "previousRuntimeBuild": {
     "sha256": "CC8A8B80736BBF5E77D8C26A3959CEA6A0AFF517250959CAF502D7DB6BE8160E",
