@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-22",
-  "scope": "Allow deliberate reverse travel after body clears managed portal trigger; preserve same-transit outcome and throttle transient feedback.",
+  "date": "2026-11-23",
+  "scope": "WDA runtime build diagnostics: live queue progress, bounded stage timing and local terminal reports; no gameplay or activation changes.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
   "build": "SUCCESS",
-  "buildTask": "test (7 full classes: TravelLedgerTest, TravelPersistenceTest, ManagedTriggerClearanceTest, TransitNoticeTest, EntryApproachTest, PortalLifecycleTest, PortalPersistenceTest) jar",
-  "buildLog": "transit-clearance-build.log",
+  "buildTask": "test (7 full classes: WdaBuildReportTest, WdaBuildReportWriterTest, StateAuditSnapshotTest, AcceptanceFixturesTest, PlanAuditReportTest, StructureIndexGridTest, ConstructionFluidBufferTest) jar",
+  "buildLog": "wda-build-report-build.log",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 793736,
-  "sha256": "A5587B9ECA9C7A2890DD4F4AFAC967130DBB3EE80FE158CADC4FCB1151D4F72F",
+  "bytes": 802495,
+  "sha256": "1819B894B939965DEA6F0C166D80ACC8D22310286E4FD1C767EA35DF657DA4CD",
   "saveSchema": 6,
   "suites": [
     {
@@ -516,10 +516,22 @@
       "tests": 3,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.WdaBuildReportTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.WdaBuildReportWriterTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "offlineAuditToolTests": 3,
-  "testsRunForThisBuild": 42,
+  "testsRunForThisBuild": 28,
   "runtimeTested": false,
   "installed": false,
   "catalogEnabled": false,
@@ -563,7 +575,7 @@
   "coliseumEvidence": "coliseum-entry-audit.json: 32 complete four-quadrant assemblies, all 6 templates, four roots/rotations and two dry surfaces. Each checks 1..4 exits, 11 skeletons and one phantom spawner. 6 Java tests. Static route ends at the original outer arcade; native generation, full stands/arena traversal, combat and multiplayer restart untested.",
   "monasteryEvidence": "monastery-entry-audit.json: 216 original-template assemblies covering all 27 main-room choices, all 20 templates, four rotations, two dry surfaces and both bridge inlet heights; each checks 1..4 exits, source containers/garden water levels and neutral entity transforms. 64 cases use five supported scaffolds across the original window. 7 Java tests. Native random graph, collision, fluid restoration, upper traversal and multiplayer restart untested.",
   "hindEvidence": "hind-entry-audit.json: 16 complete original-template assemblies, all three 48-cube sections, four rotations, two dry surfaces and two planning heights. Each checks 1..4 exits and all 4523 original non-jigsaw block records including rotated bone axes, two gold blocks and original buried treasure. No added/removed route blocks; six Java tests. Native generator, collisions, excavation/opening treasure, performance and multiplayer restart untested.",
-  "validationMode": "Scoped compile/test/reobfJar passed: 42 tests in 7 complete classes, 11 new. Unchanged suites retain prior results; not a new full-suite run.",
+  "validationMode": "Scoped compile/test/reobfJar passed: 28 tests in 7 complete classes, 10 new. 362 unchanged tests retain prior evidence; not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -605,6 +617,13 @@
       "newTests": 11,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "wda-build-report-build.log",
+      "executedTests": 28,
+      "newTests": 10,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "infestedEvidence": "infested-entry-audit.json: 24 complete original-template assemblies, all 46 templates, four shell tiers, twelve floors, 32 selected rooms in these samples, four rotations, three floor cycles and two surfaces. Each checks 1..4 exits and original loot/spawner data/settings. Native container seed assignment accepted after API review; no route blocks added. Native random generator, full inner/upper traversal, collision, combat and multiplayer restart untested.",
@@ -625,5 +644,6 @@
     "runtimeEvidence": "runtime-smoke-20261122-summary.json",
     "scope": "Previous isolated single-player smoke build only"
   },
-  "transitClearanceEvidence": "transit-clearance-validation.json; TRANSIT_CLEARANCE.md. Trigger-body clearance, one-tick managed arrival guard, persisted outcomes and throttled action-bar feedback; runtime retest pending."
+  "transitClearanceEvidence": "transit-clearance-validation.json; TRANSIT_CLEARANCE.md. Trigger-body clearance, one-tick managed arrival guard, persisted outcomes and throttled action-bar feedback; runtime retest pending.",
+  "wdaBuildReportEvidence": "wda-build-report-validation.json; WDA_RUNTIME_BATCH1.md. Stage/progress diagnostics and first WDA camp runtime checklist prepared, not installed or runtime tested."
 }

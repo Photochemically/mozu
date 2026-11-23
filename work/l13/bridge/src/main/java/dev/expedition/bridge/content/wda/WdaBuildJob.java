@@ -47,7 +47,7 @@ final class WdaBuildJob {
     private Stage stage=Stage.ISLAND;
     private final StructureIndexGrid indexGrid;
     private final Set<StructureIndexGrid.Anchor> indexed=new HashSet<>();
-    private long blocks,chunkPlacements,maxUnitNanos;
+    private long blocks,chunkPlacements,indexedChunks,maxUnitNanos;
 
     WdaBuildJob(ServerLevel world,PortalRecord portal,WdaStructurePlan plan) {
         this.world=world;this.portal=portal;this.plan=plan;island=new IslandCursor(plan.island());
@@ -64,6 +64,10 @@ final class WdaBuildJob {
     long blocks() { return blocks; }
     long chunkPlacements() { return chunkPlacements; }
     long maxUnitNanos() { return maxUnitNanos; }
+    void describeProgress(dev.expedition.bridge.diagnostics.WdaBuildReport report) {
+        report.progress(stage.name(),blocks,chunkPlacements,
+                ((long)maxChunkX-minChunkX+1)*((long)maxChunkZ-minChunkZ+1),indexedChunks,fluidTicks.remaining());
+    }
     List<PortalRecord.Site> interiorSites(){return dive!=null?dive.sites():interior==null?List.of():interior.sites();}
     boolean deferFluidTick(BlockPos pos,FluidState fluid) {
         return fluidTicks.defer(pos.getX(),pos.getY(),pos.getZ(),kind(fluid));
@@ -238,6 +242,7 @@ final class WdaBuildJob {
                 // Without these references WDA's full/piece spawn overrides disappear after manual placement.
                 var chunk=world.getChunk(chunkX,chunkZ);
                 chunk.addReferenceForStructure(structure,anchorPos.toLong());chunk.setUnsaved(true);
+                indexedChunks++;
                 if(!advance()) {
                     if(interior!=null||dive!=null)portal.resolveWdaStartRoomArrival(interiorSites().get(0));
                     var a=portal.destination().arrival();var feet=new BlockPos(a.x(),a.y(),a.z());

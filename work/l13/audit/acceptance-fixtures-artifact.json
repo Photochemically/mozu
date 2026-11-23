@@ -1,6 +1,6 @@
 {
-  "tests": 380.0,
-  "validationMode": "Scoped compile/test/reobfJar passed: 42 tests in 7 complete classes, 11 new. Unchanged suites retain prior results; not a new full-suite run.",
+  "tests": 390.0,
+  "validationMode": "Scoped compile/test/reobfJar passed: 28 tests in 7 complete classes, 10 new. 362 unchanged tests retain prior evidence; not a new full-suite run.",
   "validationRuns": [
     {
       "buildLog": "device-protection-build.log",
@@ -42,17 +42,25 @@
       "newTests": 11,
       "failures": 0,
       "errors": 0
+    },
+    {
+      "buildLog": "wda-build-report-build.log",
+      "executedTests": 28,
+      "newTests": 10,
+      "failures": 0,
+      "errors": 0
     }
   ],
   "buildLogLocalOnly": true,
-  "buildLog": "transit-clearance-build.log",
-  "jarBytes": 793736,
-  "jarSha256": "A5587B9ECA9C7A2890DD4F4AFAC967130DBB3EE80FE158CADC4FCB1151D4F72F",
+  "buildLog": "wda-build-report-build.log",
+  "jarBytes": 802495,
+  "jarSha256": "1819B894B939965DEA6F0C166D80ACC8D22310286E4FD1C767EA35DF657DA4CD",
   "helperPackage": "outputs/L13验收辅助/七类验收入口-准备包.zip",
-  "helperSha256": "7897DC29C13E47A188C2F4AFDDDCA80372DD8970424F096C5835503EE04EF309",
+  "helperSha256": "D1865360674316AB2E29169ED5DFAC5E8CE31430E842A6E994147CB027D4D47B",
   "helperEntries": [
     "README.md",
     "WDA_COMPLETENESS_STAGE1.md",
+    "WDA_RUNTIME_BATCH1.md",
     "WDA_RESOURCE_ALIASES.md",
     "NATIVE_ROOM_RESERVATIONS.md",
     "NATIVE_ROOM_ROUTES.md",

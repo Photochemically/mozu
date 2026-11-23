@@ -3,6 +3,7 @@ package dev.expedition.bridge.diagnostics;
 import com.google.gson.*;
 import dev.expedition.bridge.ExpeditionBridge;
 import dev.expedition.bridge.content.DungeonCatalogLoader;
+import dev.expedition.bridge.content.wda.WdaBuildQueue;
 import dev.expedition.bridge.domain.PortalRecord;
 import dev.expedition.bridge.storage.ExpeditionSavedData;
 import dev.expedition.bridge.worldgen.NaturalEntryConfig;
@@ -38,6 +39,8 @@ public final class StateAuditCommands {
             report.addProperty("saveSchema",ExpeditionSavedData.SCHEMA);report.addProperty("scope",id==null?"all_instances":id.toString());
             report.addProperty("catalogEnabled",DungeonCatalogLoader.current().enabled());
             report.addProperty("naturalEntrancesEnabled",NaturalEntryConfig.ENABLED.get());
+            report.add("activeWdaBuild",WdaBuildQueue.INSTANCE.activeReport(server,id));
+            report.getAsJsonArray("limitations").add("activeWdaBuild is the current queue only; null does not prove completion. Terminal measurements are local wda-build-*.json files");
             var versions=new JsonObject();for(String mod:List.of("minecraft","forge","dimdoors","dungeons_arise",ExpeditionBridge.MOD_ID))
                 versions.addProperty(mod,ModList.get().getModContainerById(mod).map(m->m.getModInfo().getVersion().toString()).orElse("unavailable"));
             report.add("versions",versions);

@@ -4,6 +4,9 @@ import dev.expedition.bridge.ExpeditionBridge;
 import dev.expedition.bridge.content.*;
 import dev.expedition.bridge.domain.*;
 import dev.expedition.bridge.storage.*;
+import dev.expedition.bridge.diagnostics.WdaBuildReport;
+import dev.expedition.bridge.diagnostics.WdaBuildReportWriter;
+import com.google.gson.JsonObject;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.*;
 import net.minecraft.resources.ResourceLocation;
@@ -28,10 +31,15 @@ public final class WdaBuildQueue {
     public record ContentResult(PortalRecord.Destination destination,IslandPlan island,List<PortalRecord.Site> interiorSites,long islandBlocks,long placementChunks,long slowestStepNanos) {
         public ContentResult {interiorSites=List.copyOf(interiorSites);}
     }
-    private record Pending(WdaBuildJob job,CompletableFuture<ContentResult> result) {}
+    private record Pending(WdaBuildJob job,CompletableFuture<ContentResult> result,WdaBuildReport report) {}
     private final Map<MinecraftServer,Pending> pending=new IdentityHashMap<>();
     private WdaBuildQueue() {}
     public boolean busy(MinecraftServer server){return pending.containsKey(server);}
+    public JsonObject activeReport(MinecraftServer server,UUID portal) {
+        if(!server.isSameThread())throw new IllegalStateException("Build observation off server thread");
+        var item=pending.get(server);
+        return item==null || (portal!=null && !item.job.portal.id().equals(portal))?null:item.report.snapshot(System.nanoTime());
+    }
     public boolean deferFluidTick(ServerLevel world,BlockPos pos,net.minecraft.world.level.material.FluidState state) {
         var item=pending.get(world.getServer());
         return item!=null && item.job.world==world && item.job.deferFluidTick(pos,state);
@@ -49,10 +57,14 @@ public final class WdaBuildQueue {
         var data=ExpeditionSavedData.get(server);
         if(data.get(portal.id())!=portal || portal.phase()!=PortalRecord.Phase.NEW || portal.kind()==PortalKind.GOLD)
             throw new IllegalArgumentException("Requires a registered, ungenerated exploration entrance");
+        var report=new WdaBuildReport(portal.id(),structure.toString(),portal.seed(),System.nanoTime());
         try {
+            report.begin("PREPARATION",System.nanoTime(),0);
             portal.preparationStarted(structure.toString());PortalCheckpoint.write(server,data);
+            report.end(System.nanoTime());report.begin("PLANNING",System.nanoTime(),0);
             long planningStarted=System.nanoTime();
             var plan=new WdaStructurePlanner().prepare(server,structure,portal.seed(),environment);
+            report.end(System.nanoTime());report.begin("ALLOCATION",System.nanoTime(),0);
             ExpeditionBridge.LOGGER.info("WDA native planning for {}: {} pieces, {} ms, full bounds {}",
                     portal.id(),plan.start().getPieces().size(),(System.nanoTime()-planningStarted)/1_000_000.0,plan.island().completeBounds());
             var world=Objects.requireNonNull(server.getLevel(ModDimensions.DUNGEON));
@@ -70,10 +82,13 @@ public final class WdaBuildQueue {
             writeManifest(server,portal,plan);
             portal.generationStarted();PortalCheckpoint.write(server,data);
             var result=new CompletableFuture<ContentResult>();
-            pending.put(server,new Pending(new WdaBuildJob(world,portal,plan),result));
+            var job=new WdaBuildJob(world,portal,plan);
+            report.planned(plan.start().getPieces().size(),plan.island().building(),reservation.allocation());
+            report.end(System.nanoTime());job.describeProgress(report);
+            pending.put(server,new Pending(job,result,report));
             return result;
         } catch(IOException|RuntimeException failure) {
-            fail(server,portal,failure);
+            report.end(System.nanoTime());fail(server,portal,failure);finishReport(server,portal,report);
             throw failure;
         }
     }
@@ -83,22 +98,39 @@ public final class WdaBuildQueue {
         var server=event.getServer();var item=pending.get(server);if(item==null)return;
         try {
             // Provisional technical work budget, independent of unapproved gameplay weights/difficulty.
-            item.job.step(8192,4_000_000);
+            item.report.begin(item.job.stage().name(),System.nanoTime(),4_000_000);
+            try { item.job.step(8192,4_000_000); }
+            finally { item.report.end(System.nanoTime());item.job.describeProgress(item.report); }
             if(item.job.stage()==WdaBuildJob.Stage.CONTENT_READY) {
                 pending.remove(server);
                 var job=item.job;
                 ExpeditionBridge.LOGGER.info("WDA content staged for {}: {} terrain blocks, {} placement chunks, slowest step {} ms; portal finalization still required",
                         job.portal.id(),job.blocks(),job.chunkPlacements(),job.maxUnitNanos()/1_000_000.0);
+                item.report.begin("FINALIZATION",System.nanoTime(),0);
+                // Existing synchronous completion installs exits, saves and activates the instance.
                 item.result.complete(new ContentResult(job.portal.destination(),job.plan.island(),job.interiorSites(),job.blocks(),job.chunkPlacements(),job.maxUnitNanos()));
+                item.report.end(System.nanoTime());finishReport(server,job.portal,item.report);
             }
         } catch(RuntimeException failure) {
             pending.remove(server);fail(server,item.job.portal,failure);item.result.completeExceptionally(failure);
+            finishReport(server,item.job.portal,item.report);
         }
     }
     @SubscribeEvent public void stopping(ServerStoppingEvent event) {
         var item=pending.remove(event.getServer());if(item==null)return;
         var failure=new IllegalStateException("Server stopped during generation; reserved content retained, automatic replay disabled");
         fail(event.getServer(),item.job.portal,failure);item.result.completeExceptionally(failure);
+        finishReport(event.getServer(),item.job.portal,item.report);
+    }
+    private void finishReport(MinecraftServer server,PortalRecord portal,WdaBuildReport report) {
+        try {
+            report.finish(portal.phase().name(),portal.failure(),System.nanoTime());
+            var file=WdaBuildReportWriter.write(server.getWorldPath(LevelResource.ROOT).resolve("expedition_reports"),report,System.nanoTime());
+            ExpeditionBridge.LOGGER.info("WDA build diagnostic saved for {}: {}; not an acceptance verdict",portal.id(),file);
+        } catch(IOException|RuntimeException diagnosticFailure) {
+            // Reports are not saved gameplay state. An unavailable report directory cannot undo READY or cause a replay.
+            ExpeditionBridge.LOGGER.warn("Cannot save WDA build diagnostic for {}; gameplay state unchanged",portal.id(),diagnosticFailure);
+        }
     }
     private void fail(MinecraftServer server,PortalRecord portal,Exception failure) {
         if(portal.phase()!=PortalRecord.Phase.FAILED)portal.quarantine(failure.toString());

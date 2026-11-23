@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-23",
+  "baselineCommit": "7c8c17d40076f3feb424cfdf5d4a9817ecde6fa4",
+  "scope": "WDA runtime build diagnostics: live queue progress, bounded stage timing and local terminal reports; no gameplay or activation changes.",
+  "build": "SUCCESS",
+  "buildDuration": "1m57s",
+  "executedTests": 28,
+  "newTests": 10,
+  "suites": [
+    {
+      "name": "dev.expedition.bridge.diagnostics.AcceptanceFixturesTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.PlanAuditReportTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.WdaBuildReportTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.diagnostics.WdaBuildReportWriterTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.ConstructionFluidBufferTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.StateAuditSnapshotTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "dev.expedition.bridge.domain.StructureIndexGridTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "jarBytes": 802495,
+  "jarSha256": "1819B894B939965DEA6F0C166D80ACC8D22310286E4FD1C767EA35DF657DA4CD",
+  "saveSchema": 6,
+  "installed": false,
+  "runtimeTested": false,
+  "staticChecks": [
+    "Partial generation and completed content cannot claim READY before portal activation",
+    "Failed planning and stopped jobs retain partial counters without invented destinations",
+    "Aggregate timing includes planning, allocation, cooperative steps and finalization",
+    "Snapshot copies cannot mutate counters or planned bounds",
+    "Unwritable report directory does not alter report state; existing reports are retained",
+    "Final report I/O is caught separately from gameplay failure in queue"
+  ],
+  "limits": [
+    "Actual WDA complete random generation, island fit and spatial isolation still untested",
+    "Planning, native placement and save barrier still contain indivisible synchronous calls",
+    "Report timing is not whole-server TPS or proof of hard per-tick limits",
+    "Process crash can lose in-memory metrics; no recovery or generation replay added",
+    "SM-01 transit fix remains pending runtime retest"
+  ],
+  "nextRuntime": "WDA_RUNTIME_BATCH1.md: oak_camp only plus existing dark_oak_exits reversal check"
+}
