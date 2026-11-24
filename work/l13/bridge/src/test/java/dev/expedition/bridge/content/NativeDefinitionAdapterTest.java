@@ -59,13 +59,34 @@ class NativeDefinitionAdapterTest {
             assertThrows(IllegalArgumentException.class,()->NativeDefinitionAdapter.prepare(original,reference(id),"myth/eden"));
         }
     }
-    @Test void protectionAndDifferentTemplateTargetsRemainExplicitGaps() throws Exception {
+    @Test void misdirectedTemplateTargetsRemainExplicitGaps() throws Exception {
         try(var jar=new ZipFile("libs/dimdoors-5.4.4.jar")) {
-            for(var id:List.of("lab/labfinal","classic/ruins/simple_small_t","classic/ruins/small_maze","classic/ruins/transfer_tunnel")) {
+            for(var id:List.of("classic/ruins/simple_small_t","classic/ruins/small_maze","classic/ruins/transfer_tunnel")) {
                 var config=definition(jar,id);var original=config.copy();
                 assertThrows(IllegalArgumentException.class,()->NativeDefinitionAdapter.prepare(config,reference(id),id),id);
                 assertEquals(original,config);
             }
+        }
+    }
+    @Test void labFinalAddonIsReplacedOnlyInBridgeCopiesAndOriginalStaysUntouched() throws Exception {
+        try(var jar=new ZipFile("libs/dimdoors-5.4.4.jar")) {
+            var id="lab/labfinal";var original=definition(jar,id);var snapshot=original.copy();
+            assertEquals("dimdoors:prevent_block_modification",
+                    original.getCompound("builder").getList("addons",Tag.TAG_COMPOUND).getCompound(0).getString("type"));
+            var adapted=NativeDefinitionAdapter.prepare(original,reference(id),id);
+            // The whole-room ban is gone from the bridge-owned copy and replaced by the verified local profile.
+            assertFalse(adapted.getCompound("builder").contains("addons"));
+            assertEquals(snapshot,original);
+            // Re-preparing an adapted copy stays idempotent: the addon is already absent and the copy remains valid.
+            var again=NativeDefinitionAdapter.prepare(adapted,reference(id),id);
+            assertEquals(adapted,again);
+            // A changed addon profile (extra addon or different type) refuses adaptation until re-reviewed.
+            var extra=original.copy();extra.getCompound("builder").getList("addons",Tag.TAG_COMPOUND)
+                    .add(TagParser.parseTag("{type:'dimdoors:sky',effect:'minecraft:overworld'}"));
+            assertThrows(IllegalArgumentException.class,()->NativeDefinitionAdapter.prepare(extra,reference(id),id));
+            var wrong=original.copy();wrong.getCompound("builder").getList("addons",Tag.TAG_COMPOUND).getCompound(0).putString("type","dimdoors:sky");
+            assertThrows(IllegalArgumentException.class,()->NativeDefinitionAdapter.prepare(wrong,reference(id),id));
+            assertEquals(snapshot,original);
         }
     }
     @Test void originalAssetDimensionsRiftsAndSpawnerDataAreRecordedWithoutCropping() throws Exception {

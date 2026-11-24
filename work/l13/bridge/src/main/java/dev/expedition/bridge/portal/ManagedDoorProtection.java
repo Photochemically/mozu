@@ -1,5 +1,6 @@
 package dev.expedition.bridge.portal;
 
+import dev.expedition.bridge.domain.LabMachineProfile;
 import dev.expedition.bridge.domain.PortalRecord;
 import dev.expedition.bridge.storage.ExpeditionSavedData;
 import dev.expedition.bridge.content.PocketIdentity;
@@ -52,9 +53,18 @@ public final class ManagedDoorProtection {
                 && level.getBlockState(finish).is(Blocks.MOVING_PISTON)
                 && level.getBlockEntity(finish) instanceof PistonMovingBlockEntity moving
                 && moving.getDirection()==event.getDirection() && moving.isExtending();
-        if(BlockMutationFootprint.piston(event.getPos(),event.getDirection(),extending,moved,destroyed,
-                    finishesMoving?List.of(finish):List.of())
-                .stream().anyMatch(pos->protectedAt(level,pos)))event.setCanceled(true);
+        var completed=finishesMoving?List.of(finish):List.<BlockPos>of();
+        var footprint=BlockMutationFootprint.piston(event.getPos(),event.getDirection(),extending,moved,destroyed,completed);
+        var affected=footprint.stream().filter(pos->protectedAt(level,pos)).toList();
+        if(affected.isEmpty())return;
+        // A protected piston base can only be the lab machine's own device. Verify its motion
+        // against the pinned profile and grant a short-lived write window; anything else stays blocked.
+        var owner=ownerAt(level,event.getPos());
+        if(owner!=null && LabMachineProfile.permitsMotion(owner,event.getPos(),event.getDirection(),moved,destroyed,pos->protectedAt(level,pos))) {
+            LabMachineMotion.register(level,owner.id(),event.getPos(),event.getDirection(),moved,destroyed,completed);
+            return;
+        }
+        event.setCanceled(true);
     }
     @SubscribeEvent(priority=EventPriority.HIGHEST)
     public void toolChange(BlockEvent.BlockToolModificationEvent event) {
@@ -104,6 +114,24 @@ public final class ManagedDoorProtection {
             if(owner!=null && (owner.isInternalDevice(candidate)||owner.exits().contains(candidate)))return true;
         }
         return false;
+    }
+    /** Journaled record that protects this exact position, or null. Used to recognise owned devices. */
+    public static PortalRecord ownerAt(ServerLevel level,BlockPos pos) {
+        var data=ExpeditionSavedData.get(level.getServer());
+        if(data.records().isEmpty())return null;
+        if(level.dimension().equals(ModDimensions.DUNGEON)) {
+            var pocket=DimensionalRegistry.getPocketDirectory(ModDimensions.DUNGEON).getPocketAt(pos);
+            if(pocket!=null && pocket.hasAddon(PocketIdentity.ID)) {
+                PocketIdentity identity=pocket.getAddon(PocketIdentity.ID);
+                var owner=data.get(identity.portalId());
+                if(owner!=null && owner.isProtectedBlock(site(level,pos)))return owner;
+            }
+        }
+        for(int dy=-1;dy<=1;dy++) {
+            var r=data.at(new PortalRecord.Site(level.dimension().location().toString(),pos.getX(),pos.getY()+dy,pos.getZ()));
+            if(r!=null && r.phase()!=PortalRecord.Phase.CLOSED)return r;
+        }
+        return null;
     }
     private static PortalRecord.Site site(ServerLevel level,BlockPos pos) {
         return new PortalRecord.Site(level.dimension().location().toString(),pos.getX(),pos.getY(),pos.getZ());

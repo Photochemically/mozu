@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-24",
+  "scope": "lab/labfinal local machine protection: pinned component profile, verified placement scan, trusted own-piston motion window and whole-room addon replacement in bridge-owned definition copies only.",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build (compileJava, test, jar, reobfJar)",
+  "suites": 87,
+  "tests": 397,
+  "failures": 0,
+  "errors": 0,
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 814670,
+  "sha256": "16BE4BAF7F32151CDA12DB2688A3E5D731022BACEE6A16B5A470DF44B837648E",
+  "saveSchema": 6,
+  "runtimeTested": false,
+  "installed": false,
+  "catalogEnabled": false,
+  "naturalEntrancesEnabled": false,
+  "definitionPolicy": {
+    "schematics": 125,
+    "passes": 105,
+    "isolatedNativeLazyBuilderAdapters": 6,
+    "labFinalAddonReplaced": true,
+    "remainingGaps": {
+      "missingExactGenerator": 17,
+      "misdirectedGeneratorTargets": 3,
+      "notes": "17 = 8 blank, 7 classic/ruins/unused, dungeon/jungle_riddle_fixed, lab/telecommunication. 3 = simple_small_t, small_maze, transfer_tunnel pointing at other real templates."
+    }
+  },
+  "labFinalEvidence": {
+    "sourceSchematicSha256": "ae9b9cb6fad915cef3430779e5e4049cbb0b8e16d6a8e0842e3da478ecd93d8d",
+    "templateSize": [24, 108, 88],
+    "machineComponents": 25,
+    "componentKinds": {
+      "minecraft:redstone_wire": 17,
+      "minecraft:sticky_piston": 2,
+      "minecraft:piston_head": 2,
+      "minecraft:slime_block": 1,
+      "minecraft:repeater": 2,
+      "minecraft:lever": 1
+    },
+    "originalEntities": {
+      "minecraft:skeleton": 25,
+      "minecraft:painting": 1,
+      "minecraft:armor_stand": 6
+    },
+    "profileVerification": "verifyComponents anchors to the two real pistons (up/east geometry) and checks all 25 component cells; supports below non-air cells are added from the placed world during GENERATING.",
+    "motionPermission": "Only the machine's own base, head and (up piston) slime payload may be touched while protected. A short 64-tick write window covers the moving-block corridor, destroyed and completion cells; foreign protected positions stay blocked. Runtime acceptance pending.",
+    "wholeRoomAddon": "dimdoors:prevent_block_modification removed only from the bridge-owned definition copy after an exact single-addon check; PocketLoader definitions untouched."
+  },
+  "offlineAuditTool": "audit-labfinal-machine.cjs surveys the locked template with audit-lib.cjs; read-only.",
+  "notes": "Full 87-class test run; previous artifact's runtime status unchanged (NOT_RUNTIME_TESTED). Not installed to any instance; formal pools and natural entrances remain closed. Lab machine motion, slime adhesion, lever cycle and entity behavior still require in-game acceptance."
+}

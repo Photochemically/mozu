@@ -40,9 +40,9 @@ class NativeContentPolicyAuditTest {
         assertEquals(125,rows.size());
         assertTrue(accepted.containsAll(Set.of("dungeon/lantredom","dungeon/lantredom_end","dungeon/lantredom_red",
                 "dungeon/ruins_mansion_combination_puzzle","lab/lab_experimentation","lab/telecommunications","classic/ruins/heart_of_disorder")));
-        assertFalse(accepted.contains("lab/labfinal"));
+        assertTrue(accepted.contains("lab/labfinal"));
         assertTrue(accepted.containsAll(Set.of("example/purpur_hallway","myth/eden","myth/sewer","myth/timoria","nether/nether_farm","nether/nether_spawners")));
-        assertEquals(104,accepted.size());assertEquals(6,adapted);report.addProperty("adaptedImmediateDefinitions",adapted);
+        assertEquals(105,accepted.size());assertEquals(6,adapted);report.addProperty("adaptedImmediateDefinitions",adapted);
         report.add("rooms",rows);report.addProperty("schematics",rows.size());report.addProperty("definitionPolicyPasses",accepted.size());
         var path=Path.of("build/reports/native-content-policy.json");Files.createDirectories(path.getParent());
         Files.writeString(path,new GsonBuilder().setPrettyPrinting().create().toJson(report),StandardCharsets.UTF_8);

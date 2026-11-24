@@ -15,6 +15,9 @@ public final class ManagedBlockWrites {
     public static boolean denyReplacement(ServerLevel level,BlockPos pos,BlockState before,BlockState after) {
         // Consume before callbacks, even if this write would not otherwise require an exemption.
         if(ExactBlockWrite.consume(level,pos,before,after))return false;
+        // Verified lab machine piston operations span several ticks; their corridor stays writable
+        // for a short window so moving block entities and completion writes are not misread as griefing.
+        if(LabMachineMotion.permits(level,pos))return false;
         if(before.getBlock()==after.getBlock())return false;
         return protectedPosition(level,pos);
     }
