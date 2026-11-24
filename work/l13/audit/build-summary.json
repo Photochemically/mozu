@@ -645,5 +645,11 @@
     "scope": "Previous isolated single-player smoke build only"
   },
   "transitClearanceEvidence": "transit-clearance-validation.json; TRANSIT_CLEARANCE.md. Trigger-body clearance, one-tick managed arrival guard, persisted outcomes and throttled action-bar feedback; runtime retest pending.",
-  "wdaBuildReportEvidence": "wda-build-report-validation.json; WDA_RUNTIME_BATCH1.md. Stage/progress diagnostics and first WDA camp runtime checklist prepared, not installed or runtime tested."
+  "wdaBuildReportEvidence": "wda-build-report-validation.json; WDA_RUNTIME_BATCH1.md. Stage/progress diagnostics and first WDA camp runtime checklist prepared, not installed or runtime tested.",
+  "runtimeTestSchedule": {
+    "status": "DEFERRED_BY_USER",
+    "date": "2026-11-24",
+    "scope": "B1 oak_camp and SM-01",
+    "resume": "Requires explicit user resumption; batch related checks"
+  }
 }
