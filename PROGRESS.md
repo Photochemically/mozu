@@ -1,5 +1,7 @@
 # 实际开发进度
 
+2026-11-28 恢复审查：管理操作限权限 4；仅已确认分配前三次失败可管理员重试；分配不明继续隔离。重新指派前核对并保存旧原生口袋，WDA 清单按实例和口袋编号分别保存。14 项定向测试通过，含中断且无目的地的回归；编译与打包成功，JAR 指纹 E1500FE5A31E0B1FFF65032D7ECA49ADBE2890EBDB89C65ED502C6B30A3B2C65。新产物未安装，恢复命令与旧空间保留仍待实机。
+
 2026-11-28 保护系统剩余旁路审查与静默移除拦截：`Level.removeBlock` HEAD 拦截受保护位置的无声移除（末影人搬方块、火焰烧尽等），签名契约测试固定；方块实体直写（除裂隙目标）、区块分区直写与任意内存直写按设计不拦截并记录在案。另新增两间重型机关房的验收夹具（jungle_riddle/telecom_lab）与 [实机验收批次准备稿](work/l13/MACHINE_ROOM_RUNTIME_BATCH.md)。全量 432 项测试通过。JAR 851182 字节，SHA-256 `FA029B172B1C0921D1488E0A01D62201F0A249E392C9F5039ED4C28B9933C281`。未安装、未实机。见 [回执](work/l13/audit/silent-removal-guard-build.json) 与 [保护审查](work/l13/LOCAL_DEVICE_PROTECTION.md)。
 
 2026-11-28 重型机关房机械档案静态交付：jungle_riddle_fixed（720 稳定组件+21 易变+49 活塞底座）与 telecommunication（385 稳定组件+48 活塞底座）获得 labfinal 同级机械档案、受信任运动规则与桥接生成器定义（PocketLoader 按资源优先级合并，原 DD 文件不动）。定义策略 105→**107/125**；新增/改名 6+5 项测试，全量 431 项通过。JAR 849897 字节，SHA-256 `6EF23F89DCBE5BB1DE415A8CE58242755DBDAC94A86A8BDA92CA9EE1D13FEB85`。未安装、未实机。见 [重型机关房](work/l13/HEAVY_MACHINE_ROOMS.md) 与 [回执](work/l13/audit/heavy-machine-profiles-build.json)。

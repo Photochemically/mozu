@@ -152,7 +152,7 @@ public final class WdaBuildQueue {
     }
     private void writeManifest(MinecraftServer server,PortalRecord portal,WdaStructurePlan plan) throws IOException {
         var dir=server.getWorldPath(LevelResource.ROOT).resolve("data/expedition_bridge_generation");Files.createDirectories(dir);
-        var target=dir.resolve(portal.id()+".nbt");
+        var target=dir.resolve(portal.id()+"-"+portal.destination().nativePocketId()+".nbt");
         if(Files.exists(target))throw new IOException("Generation manifest already exists; refusing duplicate building generation");
         var tag=new CompoundTag();tag.putInt("Schema",1);tag.putUUID("Portal",portal.id());tag.putLong("Seed",portal.seed());
         tag.put("PortalRecord",PortalNbt.write(portal));

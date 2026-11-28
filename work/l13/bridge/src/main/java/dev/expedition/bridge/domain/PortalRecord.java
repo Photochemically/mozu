@@ -87,7 +87,7 @@ public final class PortalRecord {
     /** Admin reset for an unallocated failure only; allocated instances must use {@link #adminReassign()}. */
     public void adminRetry() {
         if(phase!=Phase.FAILED)throw new IllegalStateException("Only failed entrances can be retried");
-        if(destination!=null)throw new IllegalStateException("Allocated instance requires reassignment, not a retry");
+        if(destination!=null || generationAttempts!=MAX_GENERATION_ATTEMPTS)throw new IllegalStateException("Only proven pre-allocation retry exhaustion can be reopened");
         generationAttempts=0;failure="";structureId="";phase=Phase.NEW;
     }
     /**

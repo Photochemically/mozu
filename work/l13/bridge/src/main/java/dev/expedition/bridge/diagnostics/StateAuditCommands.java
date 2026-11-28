@@ -28,7 +28,7 @@ public final class StateAuditCommands {
         event.getDispatcher().register(Commands.literal("expedition").requires(source->source.hasPermission(2))
                 .then(Commands.literal("audit").then(Commands.literal("snapshot").executes(c->capture(c.getSource(),null))
                         .then(Commands.argument("portal",UuidArgument.uuid()).executes(c->capture(c.getSource(),UuidArgument.getUuid(c,"portal"))))))
-                .then(Commands.literal("admin").then(Commands.literal("recover")
+                .then(Commands.literal("admin").requires(source->source.hasPermission(4)).then(Commands.literal("recover")
                         .then(Commands.argument("portal",UuidArgument.uuid())
                                 .executes(c->recover(c.getSource(),UuidArgument.getUuid(c,"portal"),null))
                                 .then(Commands.literal("retry").executes(c->recover(c.getSource(),UuidArgument.getUuid(c,"portal"),true)))
@@ -42,7 +42,7 @@ public final class StateAuditCommands {
             if(portal==null)throw new IllegalArgumentException("没有这个探索实例："+id);
             if(retry==null) {
                 var plan=portal.phase()!=PortalRecord.Phase.FAILED?"无需恢复"
-                        :portal.destination()==null?"可用 retry：分配前失败，保留内容、种子与旅程记录"
+                        :portal.destination()==null?(portal.generationAttempts()==PortalRecord.MAX_GENERATION_ATTEMPTS?"可用 retry：已达到分配前重试上限":"未能确认分配状态，继续隔离")
                         :"可用 reassign：旧空间保留，下次进入使用新的独立预留";
                 source.sendSuccess(()->Component.literal("实例 "+id+" 状态="+portal.phase()+" 尝试="+portal.generationAttempts()+"/"
                         +PortalRecord.MAX_GENERATION_ATTEMPTS+" 原因="+portal.failure()+"。建议："+plan),false);
@@ -63,6 +63,12 @@ public final class StateAuditCommands {
             if(!(blockEntity instanceof EntranceRiftBlockEntity rift)
                     || !(rift.getDestination() instanceof ManagedEntranceTarget target) || !target.portalId().equals(portal.id()))
                 throw new IllegalStateException("入口已不再是受管探索门，拒绝重新指派");
+            if(portal.phase()!=PortalRecord.Phase.FAILED || portal.destination()==null
+                    || !dev.expedition.bridge.portal.GoldPortalService.nativeIdentityMatches(server,portal))
+                throw new IllegalStateException("无法确认旧口袋预留，继续隔离");
+            // Persist the native allocation before dropping the old destination from the bridge journal.
+            if(!server.saveEverything(true,true,true))
+                throw new IOException("未能保存旧口袋预留，继续隔离");
             portal.adminReassign();
             data.setDirty();PortalCheckpoint.write(server,data);
             source.sendSuccess(()->Component.literal("已重新指派。旧空间保留不删除；内容、种子、旅程与奖励记录保留；玩家下次进入将使用新的独立预留。"),false);

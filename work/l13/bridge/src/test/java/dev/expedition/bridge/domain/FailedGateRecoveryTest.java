@@ -54,6 +54,15 @@ class FailedGateRecoveryTest {
         assertEquals(PortalRecord.Phase.FAILED,generating.phase());
         assertNotNull(generating.destination());
     }
+    @Test void adminRetryDoesNotReopenUnknownAllocationAfterInterruption() {
+        var r=fresh();
+        r.preparationStarted("test:camp");
+        r.recoverInterruptedGeneration();
+        assertNull(r.destination());
+        assertThrows(IllegalStateException.class,r::adminRetry);
+        assertEquals(PortalRecord.Phase.FAILED,r.phase());
+    }
+
     @Test void adminRetryOnlyReopensUnallocatedFailures() {
         var r=fresh();
         r.retryableFailure("first");r.retryableFailure("second");

@@ -1,5 +1,7 @@
 # 失败门恢复：静态设计与验证条件
 
+2026-11-28 恢复审查：管理操作限权限 4；仅已确认分配前三次失败可管理员重试；分配不明继续隔离。重新指派前核对并保存旧原生口袋，WDA 清单按实例和口袋编号分别保存。14 项定向测试通过，含中断且无目的地的回归；编译与打包成功，JAR 指纹 E1500FE5A31E0B1FFF65032D7ECA49ADBE2890EBDB89C65ED502C6B30A3B2C65。新产物未安装，恢复命令与旧空间保留仍待实机。
+
 2026-11-28 · 静态交付，未实机验收。设计依据为 NEXT_TASK.md 交接要求与既有隔离原则：生成失败保留预留及快照并隔离，不自动换房间、重放建筑或删除区块。
 
 ## 分类：分配前失败与分配后失败
@@ -23,7 +25,7 @@
 
 `/expedition admin recover <uuid>`：只读报告当前阶段、尝试计数、失败原因与建议动作。
 
-`/expedition admin recover <uuid> retry`：仅限分配前失败（FAILED 且无 destination）。重置计数与原因，回到 NEW；玩家下次进门重新尝试，沿用锁定内容、种子与旅程记录。
+`/expedition admin recover <uuid> retry`：仅限已记录三次安全分配前失败且无目的地的 FAILED 实例（权限 4）。重置计数与原因，回到 NEW；玩家下次进门重新尝试，沿用锁定内容、种子与旅程记录。
 
 `/expedition admin recover <uuid> reassign`：仅限已分配/部分施工失败。执行前核对入口区块已加载且入口方块实体仍是本实例的受管入口（`EntranceRiftBlockEntity` + `ManagedEntranceTarget.portalId`），否则拒绝。通过后丢弃生成工件（destination/exits/internalLinks/protectedBlocks），保留选择、种子、玩家访问与首领奖励；**旧空间不删除不重写**，下次进入由分配器建立新的独立预留。
 
