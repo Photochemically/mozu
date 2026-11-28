@@ -65,6 +65,23 @@
 
 原生定义通过现为 **107/125**。labfinal 已从缺口移除（替换为局部保护 + 受信任运动）；jungle_riddle_fixed 与 telecommunication 已交付机械档案与桥接生成器定义（2026-11-28，静态）。但“实机验收前不算放行”的口径不变：生成时机械验证失败会直接拒绝该房间，正式池也未纳入。剩余 18 份缺口仍按原规则处理。见 [重型机关房](HEAVY_MACHINE_ROOMS.md)。
 
+## 2026-11-28 剩余旁路审查与静默移除拦截
+
+逐条核对受保护位置上的既有拦截覆盖面：
+
+| 路径 | 现状 |
+| --- | --- |
+| 方块身份变更（放置/生长/流体成块/凋灵玫瑰等） | `LevelChunk.setBlockState` HEAD + `EntityPlaceEvent` 等事件已拦截 |
+| 标准破坏/掉落 | `Level.destroyBlock` HEAD + BreakEvent/ExplosionEvent/LivingDestroyBlockEvent 已拦截 |
+| **静默移除（无掉落无回调：末影人搬方块、火焰烧尽、部分模组怪物/工具）** | **本批新增** `ProtectedBlockRemovalMixin`（`Level.removeBlock` HEAD）；签名由 `SilentRemovalHookTest` 固定 |
+| 活塞搬运 | PistonEvent.Pre + 机器运动窗口 + Create 两侧守卫；静默移除拦截不触碰红石火把烧毁（同类型 setBlock） |
+| 工具改块/流体生成 | BlockToolModificationEvent / FluidPlaceBlockEvent / FluidGenerationMixin |
+| 裂隙目标直接改写 | RiftDestinationGuardMixin（配置工具路径）+ 位置保护 |
+| 方块实体数据直写（除裂隙目标） | **不拦截**：机器房的讲台书等内容本就是谜题交互对象；直接改内存/区块分区直写按设计不宣称保护（主线程操作） |
+| 关键非方块设备/实体 | 两间重型机关房原模板实体数为 0；labfinal 的 25 骷髅/6 盔甲架/1 幅画仍为实机验收项，不预先扩大保护 |
+
+实机验收仍需覆盖：末影人/火焰在受保护位置的静默移除对照、红石火把烧毁回正、真实活塞与 Create 对照。
+
 ## 建议首轮小批运行验证
 
 本批编译通过后，适合先安排一次隔离世界小测，验证运行挂接和保护行为，再继续扩大适配。尚未启动；mc-pilot/MC-Runtime-Test 也尚未安装。沿用 [开发世界标记和七类入口说明](ACCEPTANCE_FIXTURES.md)，准备独立 Forge 1.20.1 验收实例、锁定依赖及本批桥接，不动正式实例、正式开关或生产存档。

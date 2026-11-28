@@ -4,6 +4,6 @@
   "package": "dev.expedition.bridge.mixin",
   "plugin": "dev.expedition.bridge.mixin.ExpeditionMixinPlugin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": ["PrivatePocketExitMixin", "StructureManagerMixin", "NaturalStructureMixin", "NativeSchematicAllocationMixin", "NativeGeneratorReferenceMixin", "FluidGenerationMixin", "ProtectedBlockReplacementMixin", "ProtectedBlockDestroyMixin", "CreateDisassemblyGuardMixin", "RiftDestinationGuardMixin"],
+  "mixins": ["PrivatePocketExitMixin", "StructureManagerMixin", "NaturalStructureMixin", "NativeSchematicAllocationMixin", "NativeGeneratorReferenceMixin", "FluidGenerationMixin", "ProtectedBlockReplacementMixin", "ProtectedBlockDestroyMixin", "ProtectedBlockRemovalMixin", "CreateDisassemblyGuardMixin", "RiftDestinationGuardMixin"],
   "injectors": {"defaultRequire": 1}
 }
