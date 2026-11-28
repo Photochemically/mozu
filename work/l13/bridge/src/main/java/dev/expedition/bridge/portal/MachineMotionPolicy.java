@@ -25,8 +25,9 @@ public final class MachineMotionPolicy {
         if (LabMachineProfile.STRUCTURE_ID.equals(owner.structureId()))
             return LabMachineProfile.permitsMotion(owner, base, facing, footprint, List.of(), isProtected);
         var profile = MachineProfiles.forStructure(level.getServer(), owner.structureId());
-        if (profile == null) return false;
-        return profile.permitsMotion(base, facing, footprint, isProtected,
+        var origin=owner.machineOrigin();
+        if (profile == null || origin==null) return false;
+        return profile.permitsWorldMotion(new BlockPos(origin.x(),origin.y(),origin.z()),base, facing, footprint, isProtected,
                 pos -> profile.allTypes().contains(BuiltInRegistries.BLOCK.getKey(level.getBlockState(pos).getBlock()).toString()));
     }
 }

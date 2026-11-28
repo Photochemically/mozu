@@ -14,6 +14,7 @@ public final class PortalNbt {
         tag.put("Entrance",site(record.entrance())); tag.putLong("Seed",record.seed());
         tag.putString("Phase",record.phase().name()); tag.putString("Structure",record.structureId()); tag.putString("Failure",record.failure());
         tag.putInt("Attempts",record.generationAttempts());
+        if(record.machineOrigin()!=null)tag.put("MachineOrigin",site(record.machineOrigin()));
         if(record.selection()!=null) {
             var s=new CompoundTag();s.putInt("Tier",record.selection().tier());s.putString("Id",record.selection().content().id());
             s.putString("Snapshot",DungeonSpecJson.write(record.selection().content()).toString());tag.put("Selection",s);
@@ -57,6 +58,7 @@ public final class PortalNbt {
         var record=new PortalRecord(tag.getUUID("Id"),PortalKind.valueOf(tag.getString("Kind")),tag.getInt("Tier"),readSite(tag.getCompound("Entrance")),
                 tag.getLong("Seed"),PortalRecord.Phase.valueOf(tag.getString("Phase")),destination,tag.getString("Structure"),new VisitLedger(visits,tag.getBoolean("HasArrived")),bosses,tag.getString("Failure"));
         record.restoreAttempts(tag.getInt("Attempts"));
+        if(tag.contains("MachineOrigin",Tag.TAG_COMPOUND))record.restoreMachineOrigin(readSite(tag.getCompound("MachineOrigin")));
         if(tag.contains("Selection",Tag.TAG_COMPOUND)) {
             var s=tag.getCompound("Selection");record.restoreSelection(new DungeonCatalog.Choice(s.getInt("Tier"),
                     DungeonSpecJson.read(s.getString("Id"),JsonParser.parseString(s.getString("Snapshot")).getAsJsonObject())));

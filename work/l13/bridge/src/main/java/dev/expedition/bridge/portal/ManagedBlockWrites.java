@@ -22,6 +22,10 @@ public final class ManagedBlockWrites {
         return protectedPosition(level,pos);
     }
 
+    public static boolean denySilentRemoval(ServerLevel level,BlockPos pos) {
+        return protectedPosition(level,pos) && !TrustedMachineMotion.permits(level,pos);
+    }
+
     public static boolean protectedPosition(ServerLevel level,BlockPos pos) {
         // Background world-generation writes are not live device operations. Do not access SavedData off-thread.
         if(!level.getServer().isSameThread() || level.getServer().overworld()==null)return false;

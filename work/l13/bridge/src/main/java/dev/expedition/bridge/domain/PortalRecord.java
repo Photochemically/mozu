@@ -39,6 +39,7 @@ public final class PortalRecord {
     public static final int MAX_GENERATION_ATTEMPTS=3;
     private Phase phase;
     private int generationAttempts;
+    private Site machineOrigin;
     private Destination destination;
     private String structureId;
     private String failure;
@@ -98,8 +99,16 @@ public final class PortalRecord {
     public void adminReassign() {
         if(phase!=Phase.FAILED)throw new IllegalStateException("Only failed entrances can be reassigned");
         if(destination==null)throw new IllegalStateException("No reservation to reassign; use adminRetry");
-        destination=null;exits.clear();internalLinks.clear();protectedBlocks.clear();
+        destination=null;machineOrigin=null;exits.clear();internalLinks.clear();protectedBlocks.clear();
         generationAttempts=0;failure="";structureId="";phase=Phase.NEW;
+    }
+    public Site machineOrigin() { return machineOrigin; }
+    public void restoreMachineOrigin(Site origin) {
+        Objects.requireNonNull(origin);
+        if(destination==null || machineOrigin!=null || !destination.dimension().equals(origin.dimension())
+                || !destination.bounds().contains(origin.x(),origin.y(),origin.z()))
+            throw new IllegalArgumentException("Invalid machine origin");
+        machineOrigin=origin;
     }
     public Destination destination() { return destination; }
     public String structureId() { return structureId; }

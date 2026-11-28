@@ -49,6 +49,7 @@ public final class MachineProfileInstaller {
         }
         if (result.size() > PortalRecord.MAX_PROTECTED_BLOCKS)
             throw new IllegalStateException("Machine protection exceeds the instance limit");
+        portal.restoreMachineOrigin(site(destination, MachineProfile.minimumCorner(verified)));
         return Set.copyOf(result);
     }
 

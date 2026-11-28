@@ -179,5 +179,19 @@ public final class MachineProfile {
         return true;
     }
 
+    public static BlockPos minimumCorner(Collection<BlockPos> cells) {
+        int x=Integer.MAX_VALUE,y=Integer.MAX_VALUE,z=Integer.MAX_VALUE;
+        if(cells.isEmpty())throw new IllegalArgumentException("Missing machine components");
+        for(var cell:cells) {
+            x=Math.min(x,cell.getX());y=Math.min(y,cell.getY());z=Math.min(z,cell.getZ());
+        }
+        return new BlockPos(x,y,z);
+    }
+
+    public boolean permitsWorldMotion(BlockPos origin,BlockPos base,Direction facing,Collection<BlockPos> footprint,
+                                      Predicate<BlockPos> isProtected,Predicate<BlockPos> componentAt) {
+        return permitsMotion(base.subtract(origin),facing,footprint,isProtected,componentAt);
+    }
+
     public static Set<String> pistonTypes() { return PISTON_TYPES; }
 }

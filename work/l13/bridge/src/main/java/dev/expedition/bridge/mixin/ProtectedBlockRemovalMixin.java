@@ -17,6 +17,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class ProtectedBlockRemovalMixin {
     @Inject(method={"removeBlock","m_7471_"},at=@At("HEAD"),cancellable=true,require=1,allow=1,remap=false)
     private void expedition$protectSilentRemoval(BlockPos pos,boolean moving,CallbackInfoReturnable<Boolean> result) {
-        if((Object)this instanceof ServerLevel level && ManagedBlockWrites.protectedPosition(level,pos))result.setReturnValue(false);
+        if((Object)this instanceof ServerLevel level && ManagedBlockWrites.denySilentRemoval(level,pos))result.setReturnValue(false);
     }
 }

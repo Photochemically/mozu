@@ -106,4 +106,13 @@ class MachineProfileTest {
     @Test void profilesRejectMalformedResources() {
         assertThrows(IllegalArgumentException.class, () -> MachineProfile.fromJson("x/y", new com.google.gson.JsonObject()));
     }
+    @Test void translatedMachineUsesWorldFootprintWithPinnedLocalPiston() throws Exception {
+        var profile = load("dungeon/jungle_riddle_fixed");
+        var piston = profile.pistonBases().entrySet().iterator().next();
+        var offset = new BlockPos(1000, 60, -400);
+        var base = piston.getKey().offset(offset);
+        var head = base.relative(piston.getValue());
+        assertTrue(profile.permitsWorldMotion(offset,base,piston.getValue(),Set.of(base,head),head::equals,head::equals));
+        assertFalse(profile.permitsWorldMotion(BlockPos.ZERO,base,piston.getValue(),Set.of(base,head),head::equals,head::equals));
+    }
 }
