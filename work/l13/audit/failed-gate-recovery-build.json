@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-28",
+  "scope": "Failed gate recovery static design: bounded pre-allocation retries, allocation quarantine, admin retry/reassign command; no gameplay or activation changes.",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build (compileJava, test, jar, reobfJar)",
+  "buildLogLocalOnly": true,
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 826788,
+  "sha256": "9F92F9CAFCFD96D009BAD11281232BFE0CC87B4B5928AA5414F68865A221B284",
+  "saveSchema": 6,
+  "testsRunForThisBuild": 425,
+  "testClasses": 95,
+  "failures": 0,
+  "errors": 0,
+  "newTests": 13,
+  "newTestClasses": [
+    "dev.expedition.bridge.domain.FailedGateRecoveryTest",
+    "dev.expedition.bridge.storage.FailedGateRecoveryPersistenceTest"
+  ],
+  "runtimeTested": false,
+  "installed": false,
+  "catalogEnabled": false,
+  "naturalEntrancesEnabled": false,
+  "scopeOfChange": "PortalRecord retry attempts and admin recovery; PortalNbt Attempts field (legacy saves default 0); WdaBuildQueue classifies allocation-committed failures; FirstVisitService single classification point with native validation before preparation; StateAuditCommands /expedition admin recover command.",
+  "runtimeAcceptance": "NOT_RUNTIME_TESTED. Retry counting, admin recovery and entrance verification are static deliveries; runtime behavior needs isolated acceptance later."
+}

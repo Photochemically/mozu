@@ -47,8 +47,6 @@ public final class FirstVisitService {
                 if(active.containsKey(server) || WdaBuildQueue.INSTANCE.busy(server)) {
                     message(player,"另一处空间正在形成，请稍后重试。");return false;
                 }
-                // Reject unreviewed native configurations while the instance is still NEW, before preparation.
-                if(portal.selection().content().provider()==DungeonSpec.Provider.NATIVE)NativeRoomProvider.validate(portal.selection().content());
                 start(server,portal);
             }
             message(player,"空间正在形成，请在门旁稍候。");return false;
@@ -56,14 +54,22 @@ public final class FirstVisitService {
             TransitNotice.waiting(player);return false;
         } catch(Exception failure) {
             ExpeditionBridge.LOGGER.error("Exploration entrance {} unavailable; selection and travel outcomes retained",id,failure);
+            // A fresh pre-allocation failure is a bounded retry, not a quarantine.
+            if(portal.phase()==PortalRecord.Phase.NEW && portal.destination()==null && portal.failure().isBlank()) {
+                classify(server,portal,failure);
+                try { PortalCheckpoint.write(server,data); } catch(java.io.IOException save) { failure.addSuppressed(save); }
+            }
             message(player,"空间暂不可用。已有地牢不会被重置。");return false;
         }
     }
     private void start(MinecraftServer server,PortalRecord portal) throws Exception {
         var data=ExpeditionSavedData.get(server);var spec=portal.selection().content();
+        portal.beginRetryAttempt();
         active.put(server,new Build(portal,null));
         try {
             if(spec.provider()==DungeonSpec.Provider.NATIVE) {
+                // Validation runs while the instance is still NEW: a failure here is retryable, before any pocket work.
+                NativeRoomProvider.validate(spec);
                 portal.preparationStarted(spec.target());data.setDirty();PortalCheckpoint.write(server,data);
                 new NativeRoomProvider().generate(server,portal,spec);
                 portal.generationStarted();data.setDirty();PortalCheckpoint.write(server,data);
@@ -104,13 +110,33 @@ public final class FirstVisitService {
     }
     private void failed(MinecraftServer server,PortalRecord portal,Throwable failure) {
         var build=active.get(server);if(build!=null && build.portal().id().equals(portal.id()))active.remove(server);
-        if(portal.phase()!=PortalRecord.Phase.FAILED)portal.quarantine(failure.toString());
-        var data=ExpeditionSavedData.get(server);data.setDirty();
+        var data=ExpeditionSavedData.get(server);
+        if(portal.phase()!=PortalRecord.Phase.FAILED && portal.phase()!=PortalRecord.Phase.CLOSING && portal.phase()!=PortalRecord.Phase.CLOSED
+                && !(portal.phase()==PortalRecord.Phase.NEW && portal.destination()==null && !portal.failure().isBlank())) {
+            // Already classified by the enqueue path or a previous attempt; fresh failures classify once.
+            classify(server,portal,failure);
+        }
+        data.setDirty();
         try{PortalCheckpoint.write(server,data);}catch(java.io.IOException save){failure.addSuppressed(save);}
-        ExpeditionBridge.LOGGER.error("Instance {} quarantined; no content replacement, regeneration or cleanup",portal.id(),failure);
+        if(portal.phase()==PortalRecord.Phase.FAILED)
+            ExpeditionBridge.LOGGER.error("Instance {} quarantined; no content replacement, regeneration or cleanup",portal.id(),failure);
+        else
+            ExpeditionBridge.LOGGER.warn("Instance {} generation retryable ({} of {}); pinned content, seed and travel outcomes retained",
+                    portal.id(),portal.generationAttempts(),PortalRecord.MAX_GENERATION_ATTEMPTS,failure);
+        var failed=portal.phase()==PortalRecord.Phase.FAILED;
         for(var player:server.getPlayerList().getPlayers())
             if(portal.visits().snapshot().get(player.getUUID())==VisitLedger.Presence.ENTERING)
-                player.sendSystemMessage(Component.literal("空间生成失败，已停止等待并保留现场。实例："+portal.id()+"。请联系管理员；不会自动重建。"));
+                player.sendSystemMessage(Component.literal(failed
+                        ?"空间生成失败，已停止等待并保留现场。实例："+portal.id()+"。请联系管理员；不会自动重建。"
+                        :"空间生成暂时失败，可以稍后重试；内容和入口不会改变。实例："+portal.id()));
+    }
+    /** Single classification point: pre-allocation failures retry bounded, everything else quarantines. */
+    private static void classify(MinecraftServer server,PortalRecord portal,Throwable failure) {
+        var data=ExpeditionSavedData.get(server);
+        if(portal.destination()==null && portal.phase()==PortalRecord.Phase.NEW && portal.failure().isBlank())
+            portal.retryableFailure(failure.toString());
+        else portal.quarantine(failure.toString());
+        data.setDirty();
     }
     @SubscribeEvent public void stopping(ServerStoppingEvent event) {
         var build=active.get(event.getServer());

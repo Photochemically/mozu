@@ -13,6 +13,7 @@ public final class PortalNbt {
         tag.putUUID("Id",record.id()); tag.putString("Kind",record.kind().name()); tag.putInt("Tier",record.tier());
         tag.put("Entrance",site(record.entrance())); tag.putLong("Seed",record.seed());
         tag.putString("Phase",record.phase().name()); tag.putString("Structure",record.structureId()); tag.putString("Failure",record.failure());
+        tag.putInt("Attempts",record.generationAttempts());
         if(record.selection()!=null) {
             var s=new CompoundTag();s.putInt("Tier",record.selection().tier());s.putString("Id",record.selection().content().id());
             s.putString("Snapshot",DungeonSpecJson.write(record.selection().content()).toString());tag.put("Selection",s);
@@ -55,6 +56,7 @@ public final class PortalNbt {
         Set<String> bosses=new LinkedHashSet<>();for(Tag child:tag.getList("DefeatedBosses",Tag.TAG_STRING))bosses.add(child.getAsString());
         var record=new PortalRecord(tag.getUUID("Id"),PortalKind.valueOf(tag.getString("Kind")),tag.getInt("Tier"),readSite(tag.getCompound("Entrance")),
                 tag.getLong("Seed"),PortalRecord.Phase.valueOf(tag.getString("Phase")),destination,tag.getString("Structure"),new VisitLedger(visits,tag.getBoolean("HasArrived")),bosses,tag.getString("Failure"));
+        record.restoreAttempts(tag.getInt("Attempts"));
         if(tag.contains("Selection",Tag.TAG_COMPOUND)) {
             var s=tag.getCompound("Selection");record.restoreSelection(new DungeonCatalog.Choice(s.getInt("Tier"),
                     DungeonSpecJson.read(s.getString("Id"),JsonParser.parseString(s.getString("Snapshot")).getAsJsonObject())));

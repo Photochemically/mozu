@@ -35,7 +35,10 @@ public final class PortalRecord {
     private final Map<Site,Site> internalLinks=new LinkedHashMap<>();
     private final Set<Site> protectedBlocks=new LinkedHashSet<>();
     public static final int MAX_PROTECTED_BLOCKS=4096;
+    /** Bounded automatic retries for failures that provably happened before allocation or world writes. */
+    public static final int MAX_GENERATION_ATTEMPTS=3;
     private Phase phase;
+    private int generationAttempts;
     private Destination destination;
     private String structureId;
     private String failure;
@@ -50,7 +53,7 @@ public final class PortalRecord {
         this.entrance=Objects.requireNonNull(entrance); this.seed=seed; this.phase=Objects.requireNonNull(phase);
         this.destination=destination; this.structureId=Objects.requireNonNull(structureId);
         this.visits=Objects.requireNonNull(visits); this.defeatedBosses=new LinkedHashSet<>(defeatedBosses);
-        this.failure=Objects.requireNonNull(failure);
+        this.failure=Objects.requireNonNull(failure);this.generationAttempts=0;
         if ((phase==Phase.RESERVED || phase==Phase.GENERATING || phase==Phase.READY) && destination==null)
             throw new IllegalArgumentException("Active portal is missing a destination");
     }
@@ -60,6 +63,44 @@ public final class PortalRecord {
     public Site entrance() { return entrance; }
     public long seed() { return seed; }
     public Phase phase() { return phase; }
+    public int generationAttempts() { return generationAttempts; }
+    public void restoreAttempts(int attempts) {
+        if(attempts<0)throw new IllegalArgumentException("Invalid saved generation attempts");
+        this.generationAttempts=attempts;
+    }
+    /** Every retry attempt counts fresh; clears the previous attempt's diagnostic before starting again. */
+    public void beginRetryAttempt() {
+        if(phase!=Phase.NEW || destination!=null)throw new IllegalStateException("No retryable generation attempt available");
+        failure="";
+    }
+    /**
+     * Failure before allocation or world writes. Keeps the pinned content, seed and journey outcomes;
+     * bounded by {@link #MAX_GENERATION_ATTEMPTS}, after which the instance quarantines for admin review.
+     */
+    public void retryableFailure(String reason) {
+        if(phase!=Phase.NEW && phase!=Phase.PREPARING)throw new IllegalStateException("Cannot retry generation from "+phase);
+        if(destination!=null)throw new IllegalStateException("Allocated generation cannot be retried automatically");
+        failure=Objects.requireNonNull(reason);generationAttempts++;
+        if(generationAttempts>=MAX_GENERATION_ATTEMPTS)phase=Phase.FAILED;
+        else phase=Phase.NEW;
+    }
+    /** Admin reset for an unallocated failure only; allocated instances must use {@link #adminReassign()}. */
+    public void adminRetry() {
+        if(phase!=Phase.FAILED)throw new IllegalStateException("Only failed entrances can be retried");
+        if(destination!=null)throw new IllegalStateException("Allocated instance requires reassignment, not a retry");
+        generationAttempts=0;failure="";structureId="";phase=Phase.NEW;
+    }
+    /**
+     * Admin recovery for an allocated or partially built failure. Drops only generation artifacts and keeps
+     * the pinned content, seed, visits, anchors and boss rewards; the old space is never deleted or rewritten.
+     * The next entry allocates a new independent reservation and re-verifies the entrance.
+     */
+    public void adminReassign() {
+        if(phase!=Phase.FAILED)throw new IllegalStateException("Only failed entrances can be reassigned");
+        if(destination==null)throw new IllegalStateException("No reservation to reassign; use adminRetry");
+        destination=null;exits.clear();internalLinks.clear();protectedBlocks.clear();
+        generationAttempts=0;failure="";structureId="";phase=Phase.NEW;
+    }
     public Destination destination() { return destination; }
     public String structureId() { return structureId; }
     public String failure() { return failure; }
@@ -154,6 +195,7 @@ public final class PortalRecord {
         phase=Phase.FAILED; failure=Objects.requireNonNull(reason);
     }
     public void recoverInterruptedGeneration() {
+        // An interruption cannot prove whether allocation or world writes happened: quarantine conservatively.
         if (phase==Phase.PREPARING || phase==Phase.GENERATING || phase==Phase.RESERVED)
             generationFailed("Generation interrupted; reservation retained. Automatic regeneration is disabled.");
     }

@@ -58,6 +58,7 @@ public final class WdaBuildQueue {
         if(data.get(portal.id())!=portal || portal.phase()!=PortalRecord.Phase.NEW || portal.kind()==PortalKind.GOLD)
             throw new IllegalArgumentException("Requires a registered, ungenerated exploration entrance");
         var report=new WdaBuildReport(portal.id(),structure.toString(),portal.seed(),System.nanoTime());
+        boolean allocationCommitted=false;
         try {
             report.begin("PREPARATION",System.nanoTime(),0);
             portal.preparationStarted(structure.toString());PortalCheckpoint.write(server,data);
@@ -72,6 +73,8 @@ public final class WdaBuildQueue {
             if(!e.dimension().equals("minecraft:overworld"))throw new IllegalArgumentException("Exploration anchor must be overworld");
             var virtual=VirtualLocation.fromLocation(new Location(server.overworld(),new BlockPos(e.x(),e.y(),e.z())));
             virtual=new VirtualLocation(virtual.getWorld(),virtual.getX(),virtual.getZ(),virtual.getDepth()+1);
+            // From here on the allocator mutates DD registry state: any failure must quarantine, not retry.
+            allocationCommitted=true;
             var reservation=new NativePocketAllocator().reserve(world,plan.island().completeBounds(),16,virtual);
             if(!reservation.pocket().addAddon(new PocketIdentity(portal.id())))throw new IllegalStateException("Pocket identity refused");
             plan.relocateTo(reservation.content());
@@ -88,7 +91,7 @@ public final class WdaBuildQueue {
             pending.put(server,new Pending(job,result,report));
             return result;
         } catch(IOException|RuntimeException failure) {
-            report.end(System.nanoTime());fail(server,portal,failure);finishReport(server,portal,report);
+            report.end(System.nanoTime());fail(server,portal,failure,allocationCommitted);finishReport(server,portal,report);
             throw failure;
         }
     }
@@ -112,14 +115,14 @@ public final class WdaBuildQueue {
                 item.report.end(System.nanoTime());finishReport(server,job.portal,item.report);
             }
         } catch(RuntimeException failure) {
-            pending.remove(server);fail(server,item.job.portal,failure);item.result.completeExceptionally(failure);
+            pending.remove(server);fail(server,item.job.portal,failure,true);item.result.completeExceptionally(failure);
             finishReport(server,item.job.portal,item.report);
         }
     }
     @SubscribeEvent public void stopping(ServerStoppingEvent event) {
         var item=pending.remove(event.getServer());if(item==null)return;
         var failure=new IllegalStateException("Server stopped during generation; reserved content retained, automatic replay disabled");
-        fail(event.getServer(),item.job.portal,failure);item.result.completeExceptionally(failure);
+        fail(event.getServer(),item.job.portal,failure,true);item.result.completeExceptionally(failure);
         finishReport(event.getServer(),item.job.portal,item.report);
     }
     private void finishReport(MinecraftServer server,PortalRecord portal,WdaBuildReport report) {
@@ -132,11 +135,20 @@ public final class WdaBuildQueue {
             ExpeditionBridge.LOGGER.warn("Cannot save WDA build diagnostic for {}; gameplay state unchanged",portal.id(),diagnosticFailure);
         }
     }
-    private void fail(MinecraftServer server,PortalRecord portal,Exception failure) {
-        if(portal.phase()!=PortalRecord.Phase.FAILED)portal.quarantine(failure.toString());
+    private void fail(MinecraftServer server,PortalRecord portal,Exception failure,boolean allocationCommitted) {
+        if(portal.phase()!=PortalRecord.Phase.FAILED) {
+            if(!allocationCommitted && portal.destination()==null
+                    && (portal.phase()==PortalRecord.Phase.NEW || portal.phase()==PortalRecord.Phase.PREPARING))
+                portal.retryableFailure(failure.toString());
+            else portal.quarantine(failure.toString());
+        }
         var data=ExpeditionSavedData.get(server);data.setDirty();
         try { PortalCheckpoint.write(server,data); } catch(IOException checkpoint) { failure.addSuppressed(checkpoint); }
-        ExpeditionBridge.LOGGER.error("WDA generation quarantined for {}; no automatic regeneration",portal.id(),failure);
+        if(portal.phase()==PortalRecord.Phase.FAILED)
+            ExpeditionBridge.LOGGER.error("WDA generation quarantined for {}; no automatic regeneration",portal.id(),failure);
+        else
+            ExpeditionBridge.LOGGER.warn("WDA generation failed before allocation for {}; retry {} of {}; pinned content, seed and travel outcomes retained",
+                    portal.id(),portal.generationAttempts(),PortalRecord.MAX_GENERATION_ATTEMPTS,failure);
     }
     private void writeManifest(MinecraftServer server,PortalRecord portal,WdaStructurePlan plan) throws IOException {
         var dir=server.getWorldPath(LevelResource.ROOT).resolve("data/expedition_bridge_generation");Files.createDirectories(dir);
