@@ -23,7 +23,7 @@ class AcceptanceFixturesTest {
             data.add(record);
         }
         var restored=ExpeditionSavedData.load(data.save(new CompoundTag()));
-        assertEquals(7,restored.records().size());assertNull(restored.naturalPolicy());assertTrue(restored.travel().operations().isEmpty());
+        assertEquals(AcceptanceFixtures.all().size(),restored.records().size());assertNull(restored.naturalPolicy());assertTrue(restored.travel().operations().isEmpty());
         for(var p:data.records()) {
             var copy=restored.get(p.id());assertEquals(p.selection(),copy.selection());assertEquals(p.entrance(),copy.entrance());
             assertEquals(PortalRecord.Phase.NEW,copy.phase());assertNull(copy.destination());assertFalse(restored.naturalAttempted(p.id()));

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "scope": "Protection review: silent block removal guard for protected positions (enderman pickup, fire burnout, modded silent removals). Static delivery; not installed or runtime tested.",
+  "scope": "Protection review batch: silent block removal guard for protected positions plus machine-room acceptance fixtures and runtime batch preparation. Static delivery; not installed or runtime tested.",
   "gradle": "8.8",
   "forge": "1.20.1-47.4.10",
   "java": 17,
@@ -8,8 +8,8 @@
   "buildTask": "build (compileJava, test, jar, reobfJar)",
   "buildLogLocalOnly": true,
   "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
-  "bytes": 850971,
-  "sha256": "3307B521CB6F463304141526C61E008EF024C8E046E76FB998204689F4ADE581",
+  "bytes": 851182,
+  "sha256": "FA029B172B1C0921D1488E0A01D62201F0A249E392C9F5039ED4C28B9933C281",
   "saveSchema": 6,
   "testsRunForThisBuild": 432,
   "testClasses": 97,
@@ -22,7 +22,7 @@
   "installed": false,
   "catalogEnabled": false,
   "naturalEntrancesEnabled": false,
-  "scopeOfChange": "ProtectedBlockRemovalMixin guards Level.removeBlock for protected positions; mixin config updated; LOCAL_DEVICE_PROTECTION.md documents the full remaining-bypass review.",
+  "scopeOfChange": "ProtectedBlockRemovalMixin guards Level.removeBlock for protected positions; mixin config updated; LOCAL_DEVICE_PROTECTION.md documents the full remaining-bypass review; AcceptanceFixtures adds jungle_riddle and telecom_lab native cases; MACHINE_ROOM_RUNTIME_BATCH.md prepares the isolated acceptance steps.",,
   "reviewConclusion": "Remaining documented gaps: direct block-entity data writes other than rift destinations (machine lecterns are puzzle interactions), chunk-section direct writes and arbitrary mod memory writes are out of scope by design; machine-room templates contain zero entities; labfinal entities remain acceptance items.",
   "runtimeAcceptance": "NOT_RUNTIME_TESTED. Enderman/fire silent-removal contrast, torch burnout recovery and real piston/Create comparisons still need isolated acceptance."
 }

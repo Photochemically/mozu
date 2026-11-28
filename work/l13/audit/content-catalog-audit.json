@@ -24,7 +24,8 @@
     "nativeTemplates": 125,
     "structuresWithMissing": 4,
     "structuresWithUnsupported": 0,
-    "nativeDirectGenerators": 105
+    "nativeDirectGenerators": 107,
+    "bridgeProvidedGenerators": 2
   },
   "structures": [
     {
@@ -5165,8 +5166,18 @@
         42,
         54
       ],
-      "directSchematicGenerator": false,
-      "generator": null,
+      "directSchematicGenerator": true,
+      "generator": {
+        "type": "dimdoors:schematic",
+        "id": "dungeon/jungle_riddle_fixed",
+        "builder": {
+          "type": "dimdoors:lazy_gen_pocket"
+        },
+        "modifierTypes": [
+          "dimdoors:rift_data"
+        ],
+        "bridgeProvided": true
+      },
       "originalRifts": [
         {
           "pos": [
@@ -5187,7 +5198,8 @@
       ],
       "dedicatedGoldRoom": false,
       "difficultyTier": null,
-      "reviewStatus": "unassigned_requires_review"
+      "reviewStatus": "unassigned_requires_review",
+      "bridgeProvidedGenerator": true
     },
     {
       "id": "dimdoors:dungeon/lantredom",
@@ -8627,8 +8639,18 @@
         31,
         57
       ],
-      "directSchematicGenerator": false,
-      "generator": null,
+      "directSchematicGenerator": true,
+      "generator": {
+        "type": "dimdoors:schematic",
+        "id": "lab/telecommunication",
+        "builder": {
+          "type": "dimdoors:lazy_gen_pocket"
+        },
+        "modifierTypes": [
+          "dimdoors:rift_data"
+        ],
+        "bridgeProvided": true
+      },
       "originalRifts": [
         {
           "pos": [
@@ -8668,7 +8690,8 @@
       "hazardPalette": [],
       "dedicatedGoldRoom": false,
       "difficultyTier": null,
-      "reviewStatus": "unassigned_requires_review"
+      "reviewStatus": "unassigned_requires_review",
+      "bridgeProvidedGenerator": true
     },
     {
       "id": "dimdoors:lab/telecommunications",

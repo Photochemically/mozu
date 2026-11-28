@@ -23,7 +23,9 @@ public final class AcceptanceFixtures {
             wda("warped_windmill",NaturalEntryPlan.Type.WARPED,"illager_windmill",2,256,96,24,IslandPlan.Surface.GRASS,"多片段建筑、草地岛屿与双出口"),
             wda("crimson_keep",NaturalEntryPlan.Type.CRIMSON,"keep_kayra",4,512,65,32,IslandPlan.Surface.ROCK,"超高完整建筑、岩岛与首次生成负载"),
             new Fixture("gold_reward",NaturalEntryPlan.Type.GOLD,null,256,"专用原生奖励房、多人离开与关闭"),
-            nativeRoom("bamboo_unstable",NaturalEntryPlan.Type.UNSTABLE,3,"dungeon/chain_t","竹门外观、固定测试等级III与多人关闭"));
+            nativeRoom("bamboo_unstable",NaturalEntryPlan.Type.UNSTABLE,3,"dungeon/chain_t","竹门外观、固定测试等级III与多人关闭"),
+            nativeRoom("jungle_riddle",NaturalEntryPlan.Type.DARK_OAK,3,"dungeon/jungle_riddle_fixed","42 黏性活塞谜题房、机械档案验证与受信任运动"),
+            nativeRoom("telecom_lab",NaturalEntryPlan.Type.OAK,2,"lab/telecommunication","48 活塞/观察者/校音传感器通信机关、四裂隙与内部连接"));
     private AcceptanceFixtures(){}
     public static List<Fixture> all(){return ALL;}
     private static Fixture nativeRoom(String id,NaturalEntryPlan.Type type,int tier,String target,String purpose) {
