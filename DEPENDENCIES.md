@@ -4,7 +4,7 @@
 
 ## 最小桥接开发环境
 
-三份本地 JAR 名称、目标名称及 SHA-256 锁定在 [bridge-dependencies.json](scripts/bridge-dependencies.json)。从现有实例的 `mods` 目录还原即可；以下命令在仓库根目录执行，替换示例路径：
+本地 JAR 名称、目标名称及 SHA-256 锁定在 [bridge-dependencies.json](scripts/bridge-dependencies.json)（DD、Architectury、WDA、Create 四份）。从现有实例的 `mods` 目录还原即可；以下命令在仓库根目录执行，替换示例路径：
 
 ```powershell
 .\scripts\prepare-local-deps.ps1 -ModsPath 'D:\MinecraftInstance\mods' -ValidateOnly
@@ -16,7 +16,7 @@ Push-Location work\l13\bridge
 Pop-Location
 ```
 
-脚本先校验全部源文件/已有目标指纹，再复制缺少的依赖，不覆盖不同版本，不改游戏实例。Java 测试直接读取这些锁定 JAR 和已提交审查夹具，因此不能随便升级依赖后沿用旧结论。生产运行还需要 DD/KubeJS 的完整传递依赖，以上三份只表示桥接编译/单元测试输入，不是完整服务器 mods 清单。
+脚本先校验全部源文件/已有目标指纹，再复制缺少的依赖，不覆盖不同版本，不改游戏实例。Java 测试直接读取这些锁定 JAR 和已提交审查夹具，因此不能随便升级依赖后沿用旧结论。Create 仅用于编译与 API 契约测试，其 shaded 库（catnip/registrate/flywheel/ponder）不需要单独获取。生产运行还需要 DD/KubeJS 的完整传递依赖，以上四份只表示桥接编译/单元测试输入，不是完整服务器 mods 清单。
 
 WDA 版本资料见 `work/l13/audit/wda-release-metadata-20261104.json`，原作者项目为 https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise 。其他模组依据 `work/mod-audit/manifest.json` 和 `work/l13/audit/target-versions.json` 匹配具体文件及指纹，从作者发布渠道或用户现有实例取得。不要将缓存或 JAR 加入 Git。
 

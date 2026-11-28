@@ -21,6 +21,7 @@ import dev.expedition.bridge.diagnostics.PlanningAuditCommands;
 import dev.expedition.bridge.diagnostics.StateAuditCommands;
 import dev.expedition.bridge.diagnostics.AcceptanceCommands;
 import dev.expedition.bridge.compat.WdaAliasPacks;
+import dev.expedition.bridge.portal.CreateMovementGuard;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(ExpeditionBridge.MOD_ID)
@@ -44,6 +45,7 @@ public final class ExpeditionBridge {
         MinecraftForge.EVENT_BUS.register(new AcceptanceCommands());
         MinecraftForge.EVENT_BUS.register(new ManagedDoorProtection());
         MinecraftForge.EVENT_BUS.register(WdaBuildQueue.INSTANCE);
+        CreateMovementGuard.register();
         LOGGER.info("Expedition bridge development build; gameplay activation requires a reviewed dungeon catalog.");
     }
 }

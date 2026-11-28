@@ -1,6 +1,19 @@
 # 局部设备保护：记录、事件和方块替换
 
-2026-11-24。代码与静态验证批次；尚未安装或实机验收。`lab/labfinal` 的整房间保护已在桥接副本中替换为验证过的局部机械档案，定义策略通过数 104→105；实机运动与机关行为仍待验收。
+2026-11-24。代码与静态验证批次；尚未安装或实机验收。`lab/labfinal` 的整房间保护已在桥接副本中替换为验证过的局部机械档案，定义策略通过数 104→105；实机运动与机关行为仍待验收。Create 搬运已接入组装/拆卸两侧守卫（2026-11-24），见下节。
+
+## 工具旁路：受管裂隙目标守卫（2026-11-24 新增）
+
+审查 DD 5.4.4 原生工具：rift remover 与 rift blade 只作用于已分离裂隙（DetachedRiftBlockEntity），不会触碰受管出口；但**配置工具（RiftConfigurationToolItem）的左右键路径都直接调用 `RiftBlockEntity.setDestination(new IdMarker(...))`**，能改写任意裂隙目标，绕过全部方块写入拦截。
+
+新增 `RiftDestinationGuardMixin`：当当前目标是桥接所有（ManagedExitTarget/ManagedEntranceTarget）或裂隙位于受保护位置时，拒绝改写为非桥接目标；系统安装路径始终设置桥接目标，不受影响。规则提取为 `ManagedRiftGuard.allowsRewrite` 纯函数。契约测试锁定 `setDestination(VirtualTarget)` 可注入性与工具改写路径。内部连接裂隙仍保留原生目标（仅位置保护），实机工具交互待验收。
+
+## Create 搬运两侧守卫（2026-11-24 新增）
+
+- 组装侧：通过 Create 6.0.8 公开 API `BlockMovementChecks.registerMovementAllowedCheck` 注册检查，受保护位置返回 FAIL、其余 PASS。Create 在捕获结构期间对受保护方块抛 `AssemblyException.unmovableBlock`，发生在任何方块被移除或移动实体生成之前，杜绝“先创建移动实体”的副作用。
+- 拆卸侧：Create 的 `disassemble` 没有公开前置检查，新增 `CreateDisassemblyGuardMixin` 在 HEAD 注入，遍历搬运物全部方块的目标落点，任一落点受保护即整笔取消，避免“半拆卸丢方块”。Create API 通过反射访问（其 shaded catnip 库不作为编译依赖），签名由 `CreateApiContractTest` 对锁定 JAR 锁定。
+- Create 为可选依赖（mods.toml `[6.0.8,7)`）：无 Create 时守卫自动停用（`ExpeditionMixinPlugin` 跳过 Mixin，注册逻辑捕获 LinkageError），底层区块写拦截继续作为兜底。
+- 数据标签（create:non_movable、forge:relocation_not_supported）仍只含金门，未把原版门类全局禁运。
 
 ## labfinal 机械档案与受信任运动（2026-11-24 新增）
 
@@ -8,6 +21,10 @@
 - `LabMachineInstaller` 在 GENERATING 阶段（NativeRiftInstaller 之后）扫描实际世界，验证放置后的机械并保护全部组件及下方非空气支撑；验证失败即拒绝启用该房间。保护名单不再盲信模板偏移，而是锚定到真实放置的活塞。
 - `LabMachineMotion` 为验证过的自有活塞运动提供短时写窗口（64 tick）：覆盖底座、头部、移动方块走廊、被破坏与回缩完成位置。许可只授予机械自身部件（底座、自己的头、朝上活塞的黏液载荷）；其他受保护位置被移动或破坏仍然拒绝。`PistonMovingBlockEntity.tick/finalTick` 的方块实体移除与最终完成写入由此不再被误判为破坏。
 - 桥接副本中剥除 `dimdoors:prevent_block_modification` 仅限恰好一个该附加组件的情形；PocketLoader 定义与生活空间生成器不变。适配幂等：已适配副本再次 prepare 直接通过验证。
+
+## 生活空间例外（2026-11-24 验证）
+
+玩家自建铁门/石英门口袋不携带 PortalRecord 也不携带 PocketIdentity，保护查询只对 journaled 记录的确切位置作答；LivingSpaceExemptionTest 锁定无关地牢位置不命中任何记录查询、保护只覆盖已登记单元格、主世界只有入口单元格命中。探索中临时进入自建空间不受保护系统影响。
 
 ## 已实现
 
@@ -42,7 +59,7 @@
 ## 尚未完成
 
 1. labfinal 自有两只活塞的实机运动、黏液黏连、拉杆供电循环、缩回/伸出的实际写入与断电行为仍未实机验收；运动许可只在静态几何与事件路径上验证。P2 伸出被 P1 头阻挡等原版阻塞行为与被取消事件等效，但真实碰撞/红石时序需游戏内确认。
-2. Create 等机械组装/搬运的整笔操作；直接删方块实体/改区块分区/改 NBT、桶与模组流体的先行副作用、特殊火焰/怪物行为。普通方块替换和原版水流已有拦截，但不能据此把模组搬运兼容性、所有火焰/流体行为标为完成。
+2. Create 搬运的组装/拆卸拒绝已静态交付；移动中的装置（骑乘、钻头/收割机等 actor 对方块的写入）与真实装配/拆卸对照仍需实机验收。DD 配置工具对受管裂隙的改写已静态拦截；实机工具交互待验收，内部连接裂隙仍仅位置保护。直接删方块实体/改区块分区/改 NBT（BlockEntity.setDestination 之外的路径）、桶与模组流体的先行副作用、特殊火焰/怪物行为。普通方块替换和原版水流已有拦截，但不能据此把模组搬运兼容性、所有火焰/流体行为标为完成。
 3. 关键非方块设备/实体和原房完整功能范围。当前不把全部宝箱、告示、普通墙壁一并保护；labfinal 的 25 骷髅、6 盔甲架与 1 幅画的真实放置与行为待验证。
 4. 所有怪物爆炸不破坏探索环境、特殊怪物地形能力等完整 L13 战斗保护需求；爆炸处理仍只排除受保护位置，不是整座地牢的全怪物防破坏系统。
 

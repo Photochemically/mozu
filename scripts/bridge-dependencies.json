@@ -20,6 +20,12 @@
       "target": "DungeonsArise-1.20.x-2.1.58-release.jar",
       "sha256": "F8F1254DBE7ED7C1D5403F20361A36F0D0587C82B71313E3F427C7F1CE7C8A90",
       "purpose": "original resource and geometry tests"
+    },
+    {
+      "source": "create-1.20.1-6.0.8.jar",
+      "target": "create-6.0.8.jar",
+      "sha256": "6FBB910C367DBCE8E4FC7E5BF64B6EDD4DE980906ED00AF8E47E4AF843C0D9B0",
+      "purpose": "compile and movement-check API contract tests"
     }
   ]
 }

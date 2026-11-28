@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-24",
+  "scope": "B2 static closure batch: living-space exemption verification, lab motion window geometry tests, and heavy-machine room survey decisions. No gameplay or activation changes.",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build (compileJava, test, jar, reobfJar)",
+  "suites": 93,
+  "tests": 412,
+  "failures": 0,
+  "errors": 0,
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 821751,
+  "sha256": "1F59B77379AF0ECA0F774DFDBA844303A29A1B2F9D2FF10B8B889B3DD896ACB2",
+  "saveSchema": 6,
+  "runtimeTested": false,
+  "installed": false,
+  "livingSpaceExemption": {
+    "rule": "Player-built iron/quartz door pockets carry no PortalRecord and no PocketIdentity, so no protection query answers for them. Journaled data answers only the exact recorded positions.",
+    "tests": "LivingSpaceExemptionTest locks: unrelated dungeon positions answer no journal queries; protection answers exactly recorded cells only; only the exact entrance cell resolves in the overworld."
+  },
+  "labMotionGeometry": {
+    "refactor": "LabMachineMotion.motionPositions extracted as a pure function (base, head, corridor base+dir*(2..N+1), destroyed, completion cells).",
+    "tests": "LabMachineMotionTest locks bare extension, one-block retraction, twelve-block corridor, destroyed/completion inclusion and immutability."
+  },
+  "heavyMachineRooms": {
+    "survey": "heavy-machine-rooms-survey.json",
+    "decisions": "dungeon/jungle_riddle_fixed (42 sticky pistons) and lab/telecommunication (48 pistons, 48 observers, 48 calibrated sculk sensors) remain unenrolled until labfinal-grade machine profiles and trusted motion windows exist. Definition policy stays 105/125."
+  },
+  "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. No installation to any instance.",
+  "notes": "Full 93-class test run; formal pools and natural entrances remain closed."
+}

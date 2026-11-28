@@ -60,8 +60,8 @@ public final class ManagedDoorProtection {
         // A protected piston base can only be the lab machine's own device. Verify its motion
         // against the pinned profile and grant a short-lived write window; anything else stays blocked.
         var owner=ownerAt(level,event.getPos());
-        if(owner!=null && LabMachineProfile.permitsMotion(owner,event.getPos(),event.getDirection(),moved,destroyed,pos->protectedAt(level,pos))) {
-            LabMachineMotion.register(level,owner.id(),event.getPos(),event.getDirection(),moved,destroyed,completed);
+        if(owner!=null && LabMachineProfile.permitsMotion(owner,event.getPos(),event.getDirection(),footprint,List.of(),pos->protectedAt(level,pos))) {
+            LabMachineMotion.register(level,owner.id(),affected);
             return;
         }
         event.setCanceled(true);

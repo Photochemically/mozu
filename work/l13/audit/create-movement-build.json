@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-24",
+  "scope": "Create 6.0.8 contraption movement guards: assembly refused while protected positions are captured, disassembly refused when blocks would land on protected positions; no gameplay changes.",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build (compileJava, test, jar, reobfJar)",
+  "suites": 89,
+  "tests": 399,
+  "failures": 0,
+  "errors": 0,
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 819834,
+  "sha256": "2A2CF9D8930DB7E5184522F2103A52A4B0A7F05FC3D31EB77134D810DEDF3CE1",
+  "saveSchema": 6,
+  "runtimeTested": false,
+  "installed": false,
+  "create": {
+    "version": "6.0.8",
+    "sourceJarSha256": "6FBB910C367DBCE8E4FC7E5BF64B6EDD4DE980906ED00AF8E47E4AF843C0D9B0",
+    "assemblyGuard": "BlockMovementChecks.registerMovementAllowedCheck; protected positions return CheckResult.FAIL, others PASS. Create raises AssemblyException.unmovableBlock during capture, before any block is removed or a moving entity spawns.",
+    "disassemblyGuard": "CreateDisassemblyGuardMixin injects AbstractContraptionEntity.disassemble at HEAD and cancels when any contraption block would be written onto a protected position. Create API is reached by reflection (the shaded catnip libraries are not compile deps); signatures pinned by CreateApiContractTest.",
+    "optionalRuntime": "CreateMovementGuard catches LinkageError; ExpeditionMixinPlugin applies the disassembly mixin only when the Create runtime exists. mods.toml declares create optional [6.0.8,7).",
+    "remaining": "Contraption movement while riding, drill/harvester actor block writes, and real in-game assembly/disassembly around protected devices still require runtime acceptance; the chunk-write guard remains the backstop for any unchecked path."
+  },
+  "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. No installation to any instance.",
+  "notes": "Full 89-class test run; definition policy remains 105/125 from the labfinal batch. Formal pools and natural entrances remain closed."
+}

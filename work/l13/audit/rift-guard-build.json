@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-24",
+  "scope": "Managed rift destination guard: DD's rift configuration tool rewrites RiftBlockEntity destinations directly, bypassing all block write paths; bridge-owned targets and protected rift positions now refuse foreign targets.",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build (compileJava, test, jar, reobfJar)",
+  "suites": 91,
+  "tests": 404,
+  "failures": 0,
+  "errors": 0,
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 821632,
+  "sha256": "9E8ACA02A39316CB4CB405A976251AF0A3B6752301C59D741D6E644D3AB6AB51",
+  "saveSchema": 6,
+  "runtimeTested": false,
+  "installed": false,
+  "riftGuard": {
+    "rule": "setDestination is refused when the current target is bridge-owned (ManagedExitTarget/ManagedEntranceTarget) or the rift sits on a protected position, unless the next target is also bridge-owned. System installation paths always set bridge-owned targets, so they pass.",
+    "toolAudit": "RiftConfigurationToolItem.onAttackBlock and use both call RiftBlockEntity.setDestination(new IdMarker(...)) on any rift. RiftRemoverItem and RiftBladeItem only target detached rifts (DetachedRiftBlockEntity) and never rewrite ordinary rift destinations.",
+    "contracts": "DimDoorsRiftContractTest pins setDestination(VirtualTarget) injectability and the tool rewrite paths against the locked DD 5.4.4 JAR.",
+    "remaining": "Internal-link rifts keep native destinations and are not bridged-owned; they remain position-protected only. Runtime acceptance for tool interactions and configuration flows is pending."
+  },
+  "runtimeAcceptance": "Current artifact NOT_RUNTIME_TESTED. No installation to any instance.",
+  "notes": "Full 91-class test run; definition policy remains 105/125. Formal pools and natural entrances remain closed."
+}

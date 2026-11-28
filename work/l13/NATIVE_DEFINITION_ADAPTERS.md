@@ -29,7 +29,7 @@
 
 125 份模板现有 **105 份定义策略通过**（原 98 + 即时适配 6 + labfinal 1），剩余：
 
-- 17 份没有同路径生成器：8 份 blank、7 份 classic/ruins/unused、dungeon/jungle_riddle_fixed、lab/telecommunication。仍是素材/定义缺口，不擅自启用 blank/unused。
+- 17 份没有同路径生成器，其中：8 份 blank、7 份 classic/ruins/unused 按设计不启用；`dungeon/jungle_riddle_fixed`（42 黏性活塞+7 活塞+21 头+39 中继器）与 `lab/telecommunication`（48 黏性活塞+48 观察者+48 校音幽匿传感器）是真实内容房，但属重型机关房，需 labfinal 同级的机械档案与受信任运动审查后才能适配（见 [审查回执](audit/heavy-machine-rooms-survey.json)），当前不启用。
 - 3 份生成器指向另一真实模板：simple_small_t → heart_of_disorder，small_maze → hot_suspense，transfer_tunnel → spiral_hallway（均位于 classic/ruins）。不把不同房间当作别名替换。
 - `lab/labfinal` 已适配（2026-11-24）：原 `prevent_block_modification` 确实由 DimensionalDoors 的 BREAK/PLACE 事件检查执行；现仅限桥接副本中剥除该附加组件，由验证过的局部机械档案（25 组件+支撑、受信任自有活塞运动）替代。生成时机械验证失败即拒绝该房间；实机运动与机关行为仍待验收。详见 [局部设备保护](LOCAL_DEVICE_PROTECTION.md)。
 

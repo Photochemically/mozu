@@ -1,4 +1,4 @@
-# Restore only the three exact bridge dependencies from a user-supplied mods directory.
+# Restore only the exact bridge dependencies from a user-supplied mods directory.
 # This never modifies the game instance or downloads/executes mod code.
 param(
     [Parameter(Mandatory = $true)][string]$ModsPath,

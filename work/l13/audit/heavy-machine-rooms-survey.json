@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-24",
+  "scope": "Survey of the two remaining real-content rooms without exact generators (jungle_riddle_fixed, telecommunication). Both are heavy machine rooms and stay unenrolled until they receive labfinal-grade machine profiles and trusted motion windows.",
+  "source": "dimdoors-5.4.4.jar, resourcepacks/default/data/dimdoors/pockets/schematic/",
+  "rooms": [
+    {
+      "id": "dungeon/jungle_riddle_fixed",
+      "size": [44, 42, 54],
+      "rifts": 1,
+      "riftDestinations": ["id_marker 0"],
+      "chests": 3,
+      "entities": 0,
+      "machinery": {
+        "minecraft:sticky_piston": 42,
+        "minecraft:piston": 7,
+        "minecraft:piston_head": 21,
+        "minecraft:repeater": 39,
+        "minecraft:redstone_torch": 23,
+        "minecraft:lever": 3
+      },
+      "decision": "Heavy piston machine (42 sticky pistons across four banks). Requires a verified machine profile and trusted motion windows like lab/labfinal before any enrollment; not enabled."
+    },
+    {
+      "id": "lab/telecommunication",
+      "size": [31, 31, 57],
+      "rifts": 4,
+      "riftDestinations": ["id_marker 1", "relative(1,6,23)", "id_marker 2", "relative(-1,-6,-23)"],
+      "chests": 2,
+      "jukeboxes": 1,
+      "entities": 0,
+      "machinery": {
+        "minecraft:sticky_piston": 48,
+        "minecraft:observer": 48,
+        "minecraft:calibrated_sculk_sensor": 48,
+        "minecraft:lectern": 48,
+        "minecraft:spruce_door": 96,
+        "minecraft:glowstone": 48
+      },
+      "decision": "48-piston sculk/observer machine with lectern book payloads. Requires a verified machine profile, trusted motion windows and reviewed lectern/sensor behaviour; not enabled. Original book/sign text is never extracted."
+    }
+  ],
+  "definitionPolicy": "105/125 remains; these two join the 17 missing-exact-generator gaps as 'real content awaiting machine adaptation', distinct from the 8 blank and 7 unused schematics that stay unenrolled by design.",
+  "runtimeTested": false
+}
