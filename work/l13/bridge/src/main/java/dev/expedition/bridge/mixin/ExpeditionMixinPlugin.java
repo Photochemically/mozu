@@ -18,12 +18,9 @@ public final class ExpeditionMixinPlugin implements IMixinConfigPlugin {
     @Override public String getRefMapperConfig() { return null; }
     @Override public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
         if (CREATE_GUARD.equals(mixinClassName)) {
-            try {
-                Class.forName(CREATE_ENTITY, false, ExpeditionMixinPlugin.class.getClassLoader());
-                return true;
-            } catch (ClassNotFoundException | LinkageError missing) {
-                return false;
-            }
+            // Lookup only the class resource. Defining the class here loads Entity before Create can mix into it.
+            return ExpeditionMixinPlugin.class.getClassLoader()
+                    .getResource(CREATE_ENTITY.replace('.', '/') + ".class") != null;
         }
         return true;
     }

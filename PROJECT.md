@@ -1,5 +1,7 @@
 # mozu：Minecraft 1.20.1 Forge 模组联动开发
 
+2026-11-28 启动回归：B1 初次启动在 Create EntityMixin 准备时报告 Entity 提前加载。桥接可选 Create 检查改为只查找类资源。3 项定向测试、编译及 reobfJar 通过。修复 JAR 已备份替换至隔离实例并校验 F78DEFD5BE53E5B4E436C519A8179048FAC9556CB53536D717DB033B3E3FA53B，重启待验，营地与回头返回尚未测试。
+
 Codex 与 DS 共用仓库接力。[跨模组固有属性统合](CROSS_MOD_PROPERTIES.md) 为后续设计研究，当前处于评审阶段。
 
 2026-11-27 本地纠错：续修活塞直接写入来源校验、Create 拆卸失败时取消、DD 裂隙 setData/copyFrom/handleTargetGone 三条直接改写路径。保留启动时原生存档反序列化。34 项定向测试通过，Gradle 编译及 reobfJar 成功。机关跨重载及实际 Mixin 行为待隔离验收，测试仍暂缓。修正留在工作树，原暂存保留。
