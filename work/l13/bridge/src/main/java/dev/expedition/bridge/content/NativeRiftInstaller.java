@@ -35,8 +35,9 @@ public final class NativeRiftInstaller {
         var plan=NativeRiftPlan.create(portal.destination(),rifts.keySet(),locals,inactive,portal.kind()==PortalKind.GOLD);
         // Persist exact original device positions before replacement can remove their block entities.
         var protectedPositions=new LinkedHashSet<>(ProtectedBlockPlan.routes(portal.destination(),plan));
-        // lab/labfinal replaces its whole-room addon with a verified local machine profile.
+        // lab/labfinal replaces its whole-room addon with a verified local machine profile; heavy machine rooms use bundled profiles.
         protectedPositions.addAll(LabMachineInstaller.installIfLabFinal(world,portal));
+        protectedPositions.addAll(MachineProfileInstaller.install(world,portal));
         portal.installProtectedBlocks(protectedPositions);
         for(var source:plan.exits()) {
             rifts.get(source).setDestination(new ManagedExitTarget(portal.id()));portal.registerExit(source);

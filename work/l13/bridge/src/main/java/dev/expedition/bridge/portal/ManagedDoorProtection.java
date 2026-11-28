@@ -1,6 +1,5 @@
 package dev.expedition.bridge.portal;
 
-import dev.expedition.bridge.domain.LabMachineProfile;
 import dev.expedition.bridge.domain.PortalRecord;
 import dev.expedition.bridge.storage.ExpeditionSavedData;
 import dev.expedition.bridge.content.PocketIdentity;
@@ -57,11 +56,11 @@ public final class ManagedDoorProtection {
         var footprint=BlockMutationFootprint.piston(event.getPos(),event.getDirection(),extending,moved,destroyed,completed);
         var affected=footprint.stream().filter(pos->protectedAt(level,pos)).toList();
         if(affected.isEmpty())return;
-        // A protected piston base can only be the lab machine's own device. Verify its motion
+        // A protected piston base can only be a pinned machine device. Verify its motion
         // against the pinned profile and grant a short-lived write window; anything else stays blocked.
         var owner=ownerAt(level,event.getPos());
-        if(owner!=null && LabMachineProfile.permitsMotion(owner,event.getPos(),event.getDirection(),footprint,List.of(),pos->protectedAt(level,pos))) {
-            LabMachineMotion.register(level,owner.id(),affected);
+        if(owner!=null && MachineMotionPolicy.permitsMotion(owner,level,event.getPos(),event.getDirection(),footprint,pos->protectedAt(level,pos))) {
+            TrustedMachineMotion.register(level,owner.id(),affected);
             return;
         }
         event.setCanceled(true);

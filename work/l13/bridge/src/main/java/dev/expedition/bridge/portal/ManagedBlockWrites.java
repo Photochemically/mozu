@@ -17,7 +17,7 @@ public final class ManagedBlockWrites {
         if(ExactBlockWrite.consume(level,pos,before,after))return false;
         // Verified lab machine piston operations span several ticks; their corridor stays writable
         // for a short window so moving block entities and completion writes are not misread as griefing.
-        if(LabMachineMotion.permits(level,pos))return false;
+        if(TrustedMachineMotion.permits(level,pos))return false;
         if(before.getBlock()==after.getBlock())return false;
         return protectedPosition(level,pos);
     }

@@ -1,0 +1,7093 @@
+{
+  "schema": 1,
+  "id": "dungeon/jungle_riddle_fixed",
+  "template_sha256": "1cce95257dccd788ae60b787eaf4bd53667d83c9b05ce6ebc0ff17b54114e7de",
+  "size": [
+    44,
+    42,
+    54
+  ],
+  "component_types": [
+    "minecraft:glowstone",
+    "minecraft:lever",
+    "minecraft:piston",
+    "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:redstone_wire",
+    "minecraft:repeater",
+    "minecraft:sticky_piston",
+    "minecraft:tripwire_hook"
+  ],
+  "volatile_types": [
+    "minecraft:moving_piston",
+    "minecraft:piston_head"
+  ],
+  "stable": [
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        0,
+        24,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        0,
+        25,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        0,
+        25,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        1,
+        22,
+        26
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        1,
+        24,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        1,
+        25,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        1,
+        26,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        2,
+        17,
+        26
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        2,
+        18,
+        27
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        2,
+        19,
+        27
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        2,
+        20,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        2,
+        21,
+        26
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        2,
+        23,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        2,
+        24,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        2,
+        24,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        2,
+        25,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        3,
+        17,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        3,
+        24,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        3,
+        24,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        3,
+        25,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        4,
+        17,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        4,
+        21,
+        26
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        4,
+        24,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        4,
+        24,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        4,
+        26,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        5,
+        17,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        5,
+        17,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        5,
+        21,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        24,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        5,
+        24,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        5,
+        26,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        6,
+        17,
+        24
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        6,
+        17,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        6,
+        21,
+        25
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        6,
+        21,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:lever",
+      "pos": [
+        6,
+        22,
+        22
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        6,
+        22,
+        24
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        6,
+        25,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        6,
+        26,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        6,
+        26,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        7,
+        17,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        7,
+        17,
+        24
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        7,
+        21,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        7,
+        24,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        7,
+        26,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        7,
+        26,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        17,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        17,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        18,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        8,
+        21,
+        25
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        21,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:lever",
+      "pos": [
+        8,
+        22,
+        22
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        22,
+        24
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        8,
+        24,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        24,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        8,
+        25,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        25,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        8,
+        26,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        9,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        17,
+        18
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        17,
+        19
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        9,
+        17,
+        20
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        17,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        17,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        9,
+        17,
+        31
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        9,
+        17,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        9,
+        17,
+        39
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        9,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        18,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        21,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        9,
+        24,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        9,
+        26,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        10,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        10,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        10,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        10,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        10,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        10,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        10,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        10,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        10,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        10,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        10,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        10,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        10,
+        16,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        10,
+        16,
+        34
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        10,
+        16,
+        40
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        18
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        10,
+        17,
+        29
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        18,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        19,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        20,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        20,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        21,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        21,
+        26
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        21,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        21,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:lever",
+      "pos": [
+        10,
+        22,
+        22
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        22,
+        24
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        22,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        22,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        23,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        10,
+        24,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        10,
+        24,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        11,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        11,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        11,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        17,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        11,
+        17,
+        37
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        23,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        11,
+        25,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        25,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        11,
+        26,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        26,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        12,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        12,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        12,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        12,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        12,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        12,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        12,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        12,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        12,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        12,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        15,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        16,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        16,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        16,
+        40
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        16,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        17,
+        21
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        17,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        12,
+        18,
+        31
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        18,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        12,
+        19,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        19,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        12,
+        19,
+        33
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        19,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        20,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        20,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        20,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        21,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        21,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        22,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        22,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        12,
+        23,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        23,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        12,
+        24,
+        21
+      ],
+      "facing": "DOWN"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        12,
+        26,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        13,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        13,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        13,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        17,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        13,
+        24,
+        40
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        24,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        13,
+        25,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        13,
+        25,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        14,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        14,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        14,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        14,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        14,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        14,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        14,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        14,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        14,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        14,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        14,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        14,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        14,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        15,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        14,
+        16,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        14,
+        16,
+        34
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        14,
+        16,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        16,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        17,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        14,
+        18,
+        39
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        18,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        14,
+        19,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        19,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        19,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        20,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        20,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        20,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        20,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        21,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        21,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        22,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        22,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        22,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        23,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        14,
+        23,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        23,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        23,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        14,
+        25,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        15,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        15,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        15,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        17,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        15,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        15,
+        19,
+        32
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        16,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        16,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        16,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        16,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        16,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        16,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        16,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        16,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        16,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        16,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        15,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        16,
+        34
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        16,
+        36
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        16,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        16,
+        40
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        16,
+        42
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        16,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        16,
+        17,
+        28
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        17,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        16,
+        18,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        18,
+        33
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        16,
+        18,
+        37
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        18,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        19,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        16,
+        19,
+        35
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        19,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        19,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        16,
+        20,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        20,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        20,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        20,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        16,
+        21,
+        19
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        21,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        21,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        16,
+        22,
+        16
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        16,
+        22,
+        17
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        16,
+        22,
+        19
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        22,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        22,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        22,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        23,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        23,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        23,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        16,
+        25,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        16,
+        25,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        17,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        17,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        17,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        17,
+        25,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        18,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        18,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        18,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        18,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        18,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        18,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        18,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        15,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        16,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        16,
+        36
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        16,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        16,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        17,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        18,
+        35
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        18,
+        18,
+        41
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        18,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        18,
+        19,
+        33
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        19,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        18,
+        19,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        19,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        19,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        19,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        19,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        20,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        20,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        20,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        20,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        21,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        21,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        22,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        22,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        22,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        23,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        23,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        23,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        23,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        18,
+        25,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        19,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        19,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        19,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        19,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        20,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        20,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        20,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        20,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        20,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        20,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        20,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        20,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        20,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        20,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        20,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        20,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        15,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        20,
+        16,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        20,
+        16,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        20,
+        16,
+        42
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        16,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        17,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        17,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        20,
+        18,
+        31
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        18,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        19,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        20,
+        19,
+        33
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        19,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        20,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        20,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        20,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        21,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        21,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        22,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        22,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        20,
+        23,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        20,
+        23,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        21,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        21,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        21,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        21,
+        17,
+        37
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        21,
+        23,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        21,
+        25,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        7,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        22,
+        7,
+        48
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        9,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        22,
+        9,
+        46
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        9,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        22,
+        9,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        10,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        10,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:piston",
+      "pos": [
+        22,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        22,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        22,
+        11,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        22,
+        11,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        22,
+        11,
+        50
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        22,
+        13,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        13,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        22,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        14,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        22,
+        15,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        22,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        22,
+        16,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        22,
+        16,
+        36
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        22,
+        16,
+        42
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        22,
+        17,
+        29
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        17,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        17,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        17,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        18,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        19,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        19,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        20,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        20,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        21,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        21,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        22,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        22,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        22,
+        23,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        22,
+        25,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        23,
+        7,
+        45
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        23,
+        9,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        23,
+        10,
+        50
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:tripwire_hook",
+      "pos": [
+        23,
+        11,
+        49
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        14,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        23,
+        15,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        16,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        23,
+        17,
+        31
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        23,
+        17,
+        35
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        23,
+        17,
+        41
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        23,
+        17,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        18,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        18,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        25,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        23,
+        25,
+        49
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        24,
+        14,
+        47
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        17,
+        29
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        32
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        40
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        24,
+        18,
+        41
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        24,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        26,
+        14,
+        47
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        26,
+        16,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        26,
+        18,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        26,
+        20,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        26,
+        22,
+        30
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        26,
+        22,
+        32
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        34
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        37
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        38
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        26,
+        22,
+        40
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        44
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        26,
+        22,
+        46
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        26,
+        22,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        26,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_torch",
+      "pos": [
+        28,
+        24,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        28,
+        24,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        29,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        30,
+        25,
+        35
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        31,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        35,
+        26,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        36,
+        25,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        37,
+        25,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        37,
+        27,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        37,
+        27,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        38,
+        24,
+        34
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        38,
+        26,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        38,
+        27,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        38,
+        27,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        39,
+        25,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        39,
+        25,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        39,
+        27,
+        49
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        39,
+        27,
+        50
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        40,
+        25,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        40,
+        25,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        40,
+        25,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        40,
+        27,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        40,
+        27,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        41,
+        25,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        41,
+        25,
+        22
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        41,
+        25,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        41,
+        26,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        41,
+        27,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        42,
+        24,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        42,
+        25,
+        38
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        42,
+        25,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        42,
+        25,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        42,
+        27,
+        48
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        43,
+        25,
+        21
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:redstone_wall_torch",
+      "pos": [
+        43,
+        25,
+        22
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:repeater",
+      "pos": [
+        43,
+        27,
+        49
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:redstone_wire",
+      "pos": [
+        43,
+        27,
+        50
+      ],
+      "facing": null
+    }
+  ],
+  "volatile": [
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        0,
+        24,
+        36
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        10,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        12,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        12,
+        20,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        12,
+        23,
+        21
+      ],
+      "facing": "DOWN"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        14,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        16,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        16,
+        21,
+        20
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        16,
+        22,
+        20
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        18,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        20,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        22,
+        10,
+        48
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        28,
+        25,
+        35
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        32,
+        25,
+        36
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        33,
+        25,
+        36
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        34,
+        26,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        36,
+        24,
+        34
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        37,
+        25,
+        42
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        37,
+        26,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        38,
+        25,
+        42
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:piston_head",
+      "pos": [
+        43,
+        24,
+        35
+      ],
+      "facing": "NORTH"
+    }
+  ],
+  "piston_bases": [
+    {
+      "pos": [
+        0,
+        25,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        3,
+        24,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        4,
+        24,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        10,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        10,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        10,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        10,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        12,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        12,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        12,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        12,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        12,
+        19,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        12,
+        24,
+        21
+      ],
+      "facing": "DOWN"
+    },
+    {
+      "pos": [
+        14,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        14,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        14,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        16,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        16,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        16,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        16,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        16,
+        21,
+        19
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        16,
+        22,
+        19
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        18,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        18,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        18,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        20,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        20,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        20,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        20,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        22,
+        10,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        22,
+        10,
+        49
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        22,
+        14,
+        44
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        22,
+        15,
+        46
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "pos": [
+        24,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        26,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        29,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        30,
+        25,
+        35
+      ],
+      "facing": "WEST"
+    },
+    {
+      "pos": [
+        31,
+        27,
+        45
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        35,
+        26,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        36,
+        25,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        37,
+        25,
+        37
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        38,
+        24,
+        34
+      ],
+      "facing": "WEST"
+    },
+    {
+      "pos": [
+        38,
+        26,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        39,
+        25,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        40,
+        25,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        41,
+        26,
+        44
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "pos": [
+        42,
+        25,
+        43
+      ],
+      "facing": "NORTH"
+    }
+  ],
+  "note": "Generated from the pinned dimdoors-5.4.4.jar by audit-machine-components.cjs. Never hand-edit; regenerate after re-review."
+}

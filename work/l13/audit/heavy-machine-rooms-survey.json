@@ -1,44 +1,56 @@
 {
-  "date": "2026-11-24",
-  "scope": "Survey of the two remaining real-content rooms without exact generators (jungle_riddle_fixed, telecommunication). Both are heavy machine rooms and stay unenrolled until they receive labfinal-grade machine profiles and trusted motion windows.",
+  "date": "2026-11-28",
+  "scope": "Stage 2: heavy machine rooms received labfinal-grade machine profiles, trusted motion windows and bridge-provided generator definitions. Static delivery; not runtime tested.",
   "source": "dimdoors-5.4.4.jar, resourcepacks/default/data/dimdoors/pockets/schematic/",
+  "stage1": {
+    "date": "2026-11-24",
+    "summary": "Survey of the two remaining real-content rooms without exact generators. Both are heavy machine rooms and stayed unenrolled until they receive labfinal-grade machine profiles and trusted motion windows."
+  },
   "rooms": [
     {
       "id": "dungeon/jungle_riddle_fixed",
       "size": [44, 42, 54],
+      "templateSha256": "1cce95257dccd788ae60b787eaf4bd53667d83c9b05ce6ebc0ff17b54114e7de",
       "rifts": 1,
       "riftDestinations": ["id_marker 0"],
       "chests": 3,
       "entities": 0,
-      "machinery": {
-        "minecraft:sticky_piston": 42,
-        "minecraft:piston": 7,
-        "minecraft:piston_head": 21,
-        "minecraft:repeater": 39,
-        "minecraft:redstone_torch": 23,
-        "minecraft:lever": 3
+      "machineProfile": {
+        "stableComponents": 720,
+        "volatileCells": 21,
+        "pistonBases": 49,
+        "resource": "data/expedition_bridge/machine_profiles/dungeon_jungle_riddle_fixed.json",
+        "componentEvidence": "audit/dungeon-jungle_riddle_fixed-machine-components.json"
       },
-      "decision": "Heavy piston machine (42 sticky pistons across four banks). Requires a verified machine profile and trusted motion windows like lab/labfinal before any enrollment; not enabled."
+      "generator": "bridge resource data/dimdoors/pockets/generators/dungeon/jungle_riddle_fixed.json: lazy schematic, rift_data ids[0] to pocket_entrance",
+      "decision": "Machine profile pins 720 stable components and 49 piston bases; verification tolerates piston state changes (volatile head/moving cells). Bridge generator makes the room definition-policy valid; runtime enrollment still requires isolated acceptance."
     },
     {
       "id": "lab/telecommunication",
       "size": [31, 31, 57],
+      "templateSha256": "bbb881b9fc18d43f830a8b79d0246cc51d74d7f5d7f80236d0146edc599b51e6",
       "rifts": 4,
       "riftDestinations": ["id_marker 1", "relative(1,6,23)", "id_marker 2", "relative(-1,-6,-23)"],
       "chests": 2,
       "jukeboxes": 1,
       "entities": 0,
-      "machinery": {
-        "minecraft:sticky_piston": 48,
-        "minecraft:observer": 48,
-        "minecraft:calibrated_sculk_sensor": 48,
-        "minecraft:lectern": 48,
-        "minecraft:spruce_door": 96,
-        "minecraft:glowstone": 48
+      "machineProfile": {
+        "stableComponents": 385,
+        "volatileCells": 0,
+        "pistonBases": 48,
+        "resource": "data/expedition_bridge/machine_profiles/lab_telecommunication.json",
+        "componentEvidence": "audit/lab-telecommunication-machine-components.json"
       },
-      "decision": "48-piston sculk/observer machine with lectern book payloads. Requires a verified machine profile, trusted motion windows and reviewed lectern/sensor behaviour; not enabled. Original book/sign text is never extracted."
+      "generator": "bridge resource data/dimdoors/pockets/generators/lab/telecommunication.json: lazy schematic, rift_data ids[1] to pocket_entrance; the relative pair stays an internal link, id_marker 2 becomes a managed exit",
+      "decision": "Machine profile pins 385 stable components (48 pistons/observers/sensors/lecterns/note blocks/glowstone, 96 doors, 1 jukebox). Book/sign text is never extracted. Runtime enrollment still requires isolated acceptance."
     }
   ],
-  "definitionPolicy": "105/125 remains; these two join the 17 missing-exact-generator gaps as 'real content awaiting machine adaptation', distinct from the 8 blank and 7 unused schematics that stay unenrolled by design.",
-  "runtimeTested": false
+  "definitionPolicy": "107/125 now passes: the two rooms join via bridge-provided generator definitions (bridge_generator_definition), distinct from isolated lazy-builder injection. 8 blank and 7 classic/ruins/unused stay unenrolled by design; 3 classic generators still point elsewhere.",
+  "runtimeTested": false,
+  "acceptanceItems": [
+    "Both rooms generate completely through the native path with bridge generators merged by PocketLoader",
+    "Machine profile verification passes on placed geometry and rejects tampered geometry",
+    "Own piston motion is permitted only for pinned bases touching only machine components; rifts, routes and supports stay blocked",
+    "Riddle/communication puzzles remain solvable; internal links and managed exits behave; restart and multiplayer re-entry"
+  ]
 }

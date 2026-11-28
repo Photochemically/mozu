@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-28",
+  "scope": "Heavy machine room profiles and bridge generator definitions for dungeon/jungle_riddle_fixed and lab/telecommunication; trusted motion policy generalization. Static delivery; not installed or runtime tested.",
+  "gradle": "8.8",
+  "forge": "1.20.1-47.4.10",
+  "java": 17,
+  "build": "SUCCESS",
+  "buildTask": "build (compileJava, test, jar, reobfJar)",
+  "buildLogLocalOnly": true,
+  "jar": "expedition-dimdoors-bridge-0.3.0-dev.jar",
+  "bytes": 849897,
+  "sha256": "6EF23F89DCBE5BB1DE415A8CE58242755DBDAC94A86A8BDA92CA9EE1D13FEB85",
+  "saveSchema": 6,
+  "testsRunForThisBuild": 431,
+  "testClasses": 96,
+  "failures": 0,
+  "errors": 0,
+  "newTestClasses": [
+    "dev.expedition.bridge.domain.MachineProfileTest"
+  ],
+  "renamedTestClasses": [
+    "dev.expedition.bridge.portal.LabMachineMotionTest -> TrustedMachineMotionTest"
+  ],
+  "updatedTestClasses": [
+    "dev.expedition.bridge.content.NativeContentPolicyAuditTest (definition policy now 107/125 with bridge generator definitions)"
+  ],
+  "runtimeTested": false,
+  "installed": false,
+  "catalogEnabled": false,
+  "naturalEntrancesEnabled": false,
+  "scopeOfChange": "New MachineProfile domain model + bundled profile resources generated from the pinned dimdoors jar; MachineProfileInstaller scan/verify/protection; MachineMotionPolicy dispatcher; LabMachineMotion renamed to TrustedMachineMotion; bridge generator resources under data/dimdoors/pockets/generators; ManagedDoorProtection/ManagedBlockWrites/NativeRiftInstaller wiring.",
+  "definitionPolicy": "107/125 (native-content-policy.json regenerated; jungle_riddle_fixed and lab/telecommunication marked bridge_generator_definition)",
+  "runtimeAcceptance": "NOT_RUNTIME_TESTED. PocketLoader merging of bridge generators, placed-geometry verification, puzzle solvability and real piston motion windows need isolated acceptance."
+}

@@ -1,0 +1,3879 @@
+{
+  "schema": 1,
+  "id": "lab/telecommunication",
+  "template_sha256": "bbb881b9fc18d43f830a8b79d0246cc51d74d7f5d7f80236d0146edc599b51e6",
+  "size": [
+    31,
+    31,
+    57
+  ],
+  "component_types": [
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:glowstone",
+    "minecraft:jukebox",
+    "minecraft:lectern",
+    "minecraft:note_block",
+    "minecraft:observer",
+    "minecraft:spruce_door",
+    "minecraft:sticky_piston"
+  ],
+  "volatile_types": [
+    "minecraft:moving_piston",
+    "minecraft:piston_head"
+  ],
+  "stable": [
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        6
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        10
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        18
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        22
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        24
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        28
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        32
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        36
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        40
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        44
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        5,
+        5,
+        46
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        5
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        6
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        9
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        10
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        13
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        14
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        18
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        22
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        24
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        25
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        27
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        28
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        31
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        32
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        35
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        36
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        40
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        43
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        44
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        5,
+        6,
+        46
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        5,
+        6,
+        47
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        5
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        9
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        13
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        27
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        5,
+        7,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        5
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        9
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        13
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        17
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        21
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        25
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        27
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        31
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        35
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        39
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        43
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        6,
+        8,
+        47
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        7
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        15
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        19
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        21
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        25
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        29
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        37
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        41
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        5,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        7
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        15
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        19
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        21
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        25
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        29
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        37
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        41
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        43
+      ],
+      "facing": "NORTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        7,
+        6,
+        47
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        5
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        9
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        13
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        27
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        7,
+        8,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        7
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        11
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        15
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        19
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        23
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        29
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        33
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        37
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        41
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        5,
+        45
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        7
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        11
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        15
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        19
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        23
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        29
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        33
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        37
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        41
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        9,
+        6,
+        45
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        9
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        13
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        9,
+        8,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        9
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        13
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        17
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        21
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        25
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        31
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        35
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        39
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        43
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        10,
+        8,
+        47
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        8
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        12
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        16
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        20
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        24
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        30
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        34
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        38
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        42
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        11,
+        5,
+        46
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        9
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        12
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        13
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        16
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        20
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        24
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        25
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        30
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        31
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        34
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        35
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        38
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        42
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        43
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        11,
+        6,
+        46
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        11,
+        6,
+        47
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        9
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        13
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        21
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        31
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        35
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        43
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        11,
+        7,
+        47
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        17
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        20
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        23
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        30
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        36
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        39
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        42
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        5,
+        45
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        17
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        20
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        23
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        30
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        36
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        39
+      ],
+      "facing": "SOUTH"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        42
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        14,
+        6,
+        45
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        16,
+        8,
+        8
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        16,
+        8,
+        11
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        16,
+        8,
+        14
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        16,
+        8,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        16,
+        8,
+        20
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        16,
+        8,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:jukebox",
+      "pos": [
+        16,
+        11,
+        25
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        17,
+        8,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        17,
+        8,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        17,
+        8,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        17,
+        8,
+        17
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        17,
+        8,
+        20
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        17,
+        8,
+        23
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        9
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        12
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        15
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        18
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        21
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        24
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        31
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        34
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        37
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        40
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        43
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        18,
+        5,
+        46
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        8
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        9
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        11
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        12
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        14
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        15
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        18
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        20
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        21
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        23
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        24
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        30
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        31
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        33
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        34
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        36
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        37
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        40
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        42
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        43
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        18,
+        6,
+        45
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        18,
+        6,
+        46
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        8
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        11
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        14
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        20
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        18,
+        7,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        19,
+        8,
+        30
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        19,
+        8,
+        33
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        19,
+        8,
+        36
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        19,
+        8,
+        39
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        19,
+        8,
+        42
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        19,
+        8,
+        45
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        20,
+        8,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        20,
+        8,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        20,
+        8,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        20,
+        8,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        20,
+        8,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        20,
+        8,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        5
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        17
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        20
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        23
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        27
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        30
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        36
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        39
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        42
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        5,
+        45
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        5
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        17
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        20
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        23
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        27
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        30
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        36
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        39
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        42
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:spruce_door",
+      "pos": [
+        21,
+        6,
+        45
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        5
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        8
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        11
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        14
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        20
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        27
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:note_block",
+      "pos": [
+        23,
+        8,
+        45
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        5
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        8
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        11
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        14
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        17
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        20
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        23
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        27
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        30
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        33
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        36
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        39
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        42
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:observer",
+      "pos": [
+        24,
+        8,
+        45
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        6
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        9
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        12
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        15
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        18
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        21
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        24
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        28
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        31
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        34
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        37
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        40
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        43
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:lectern",
+      "pos": [
+        25,
+        5,
+        46
+      ],
+      "facing": "WEST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        5
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        6
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        8
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        9
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        11
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        12
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        14
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        15
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        18
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        20
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        21
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        23
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        24
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        27
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        28
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        30
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        31
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        33
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        34
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        36
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        37
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        40
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        42
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        43
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:sticky_piston",
+      "pos": [
+        25,
+        6,
+        45
+      ],
+      "facing": "UP"
+    },
+    {
+      "type": "minecraft:calibrated_sculk_sensor",
+      "pos": [
+        25,
+        6,
+        46
+      ],
+      "facing": "EAST"
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        5
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        8
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        11
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        14
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        17
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        20
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        23
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        27
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        30
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        33
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        36
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        39
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        42
+      ],
+      "facing": null
+    },
+    {
+      "type": "minecraft:glowstone",
+      "pos": [
+        25,
+        7,
+        45
+      ],
+      "facing": null
+    }
+  ],
+  "volatile": [],
+  "piston_bases": [
+    {
+      "pos": [
+        5,
+        6,
+        5
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        9
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        13
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        25
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        27
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        31
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        35
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        43
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        47
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        9
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        13
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        21
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        25
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        31
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        35
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        43
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        47
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        8
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        11
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        14
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        20
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        23
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        30
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        33
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        36
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        42
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        45
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        5
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        8
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        11
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        14
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        17
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        20
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        23
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        27
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        30
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        33
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        36
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        39
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        42
+      ],
+      "facing": "UP"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        45
+      ],
+      "facing": "UP"
+    }
+  ],
+  "note": "Generated from the pinned dimdoors-5.4.4.jar by audit-machine-components.cjs. Never hand-edit; regenerate after re-review."
+}

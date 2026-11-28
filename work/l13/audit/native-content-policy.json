@@ -323,7 +323,10 @@
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/jungle_riddle_fixed.schem",
       "target": "dimdoors:dungeon/jungle_riddle_fixed",
-      "status": "missing_exact_generator"
+      "generatorTarget": "dimdoors:dungeon/jungle_riddle_fixed",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
+      "status": "definition_policy_pass",
+      "adapter": "bridge_generator_definition"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/lantredom.schem",
@@ -779,8 +782,7 @@
       "target": "dimdoors:lab/labfinal",
       "generatorTarget": "dimdoors:lab/labfinal",
       "originalBuilder": "dimdoors:lazy_gen_pocket",
-      "status": "pending_adapter",
-      "reason": "Native addon needs a reviewed adapter"
+      "status": "definition_policy_pass"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/left_lab_hallway.schem",
@@ -806,7 +808,10 @@
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/telecommunication.schem",
       "target": "dimdoors:lab/telecommunication",
-      "status": "missing_exact_generator"
+      "generatorTarget": "dimdoors:lab/telecommunication",
+      "originalBuilder": "dimdoors:lazy_gen_pocket",
+      "status": "definition_policy_pass",
+      "adapter": "bridge_generator_definition"
     },
     {
       "schematic": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/telecommunications.schem",
@@ -857,5 +862,5 @@
     }
   ],
   "schematics": 125,
-  "definitionPolicyPasses": 104
+  "definitionPolicyPasses": 107
 }

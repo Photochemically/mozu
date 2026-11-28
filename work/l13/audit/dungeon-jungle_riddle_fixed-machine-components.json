@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-28",
+  "source": "dimdoors-5.4.4.jar",
+  "entry": "resourcepacks/default/data/dimdoors/pockets/schematic/dungeon/jungle_riddle_fixed.schem",
+  "jarSha256": "ee8193a36d07827e52d540a81d07460e3b47a0bda6366adef1873d9b02a83b52",
+  "entrySha256": "1cce95257dccd788ae60b787eaf4bd53667d83c9b05ce6ebc0ff17b54114e7de",
+  "version": 2,
+  "size": [
+    44,
+    42,
+    54
+  ],
+  "offset": [
+    188,
+    4,
+    266
+  ],
+  "counts": {
+    "minecraft:redstone_wire": 409,
+    "minecraft:repeater": 39,
+    "minecraft:redstone_wall_torch": 63,
+    "minecraft:tripwire_hook": 42,
+    "minecraft:piston": 7,
+    "minecraft:piston_head": 21,
+    "minecraft:sticky_piston": 42,
+    "minecraft:redstone_torch": 23,
+    "minecraft:glowstone": 92,
+    "minecraft:lever": 3
+  },
+  "stableCount": 720,
+  "volatileCount": 21,
+  "pistonBaseCount": 49,
+  "note": "Template-relative coordinates are 0-based (Offset recorded separately); no original book/sign text is extracted."
+}

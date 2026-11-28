@@ -1,7 +1,6 @@
 package dev.expedition.bridge.portal;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import java.util.*;
 import net.minecraft.world.level.Level;
@@ -10,32 +9,32 @@ import net.minecraft.world.level.block.piston.PistonBaseBlock;
 import net.minecraft.world.level.block.piston.PistonMovingBlockEntity;
 
 /**
- * Short-lived write exemptions for a verified lab machine piston operation. A piston move spans
+ * Short-lived write exemptions for a verified machine piston operation. A piston move spans
  * multiple ticks (moving block entities and final completion writes), so a single exact write
  * grant is not enough; positions registered here cover the base, head, the contiguous corridor
  * the moving blocks travel through, and any destroyed or completion cells. Entries expire by
  * game time and are lazily removed; the window is too short to serve as a building exemption.
  */
-public final class LabMachineMotion {
+public final class TrustedMachineMotion {
     private record Motion(ServerLevel level, UUID portalId, Set<BlockPos> positions, long expiry) {}
     private static final List<Motion> ACTIVE = new ArrayList<>();
     private static final long TICKS = 64;
     private static final StackWalker CALLERS = StackWalker.getInstance(StackWalker.Option.RETAIN_CLASS_REFERENCE);
     private static final Set<Class<?>> WRITE_INFRASTRUCTURE = Set.of(
-            LabMachineMotion.class, ManagedBlockWrites.class, LevelChunk.class, Level.class, ServerLevel.class);
+            TrustedMachineMotion.class, ManagedBlockWrites.class, LevelChunk.class, Level.class, ServerLevel.class);
 
-    private LabMachineMotion() {}
+    private TrustedMachineMotion() {}
 
-    public static void register(ServerLevel level, UUID portalId, Collection<BlockPos> verifiedProtectedPositions) {
+    public static void register(ServerLevel level, UUID portalId, Collection<BlockPos> affectedPositions) {
         if (level == null || portalId == null || !level.getServer().isSameThread())
-            throw new IllegalStateException("Lab machine motion must be registered on the server thread");
+            throw new IllegalStateException("Machine motion must be registered on the server thread");
         prune(level);
         ACTIVE.add(new Motion(level, portalId,
-                Set.copyOf(verifiedProtectedPositions), level.getGameTime() + TICKS));
+                Set.copyOf(affectedPositions), level.getGameTime() + TICKS));
     }
 
     /** Pure position set: base, head, the contiguous corridor the moving blocks travel through, plus destroyed and completion cells. */
-    public static Set<BlockPos> motionPositions(BlockPos base, Direction direction,
+    public static Set<BlockPos> motionPositions(BlockPos base, net.minecraft.core.Direction direction,
                                                 Collection<BlockPos> moved, Collection<BlockPos> destroyed,
                                                 Collection<BlockPos> completed) {
         var positions = new HashSet<BlockPos>();

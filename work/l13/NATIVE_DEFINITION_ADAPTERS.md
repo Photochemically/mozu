@@ -25,12 +25,13 @@
 
 `eden` 和 `sewer` 的范围明显偏大。虽然继续按区块施工，DD 首次构建模板缓存、空间分配和每区块处理仍可能造成高开销，不能以分批施工推断实际负载合格。正式启用前须测首次峰值、耗时、全部区块完成及重进/重启。六份被审查的原即时模板均无独立 Entities 列表内容；这不是其他原生房间实体处理已经验收的结论。
 
-## 仍拒绝的 20 份
+## 仍拒绝的 18 份
 
-125 份模板现有 **105 份定义策略通过**（原 98 + 即时适配 6 + labfinal 1），剩余：
+125 份模板现有 **107 份定义策略通过**（原 98 + 即时适配 6 + labfinal 1 + 重型机关房桥接生成器 2），剩余：
 
-- 17 份没有同路径生成器，其中：8 份 blank、7 份 classic/ruins/unused 按设计不启用；`dungeon/jungle_riddle_fixed`（42 黏性活塞+7 活塞+21 头+39 中继器）与 `lab/telecommunication`（48 黏性活塞+48 观察者+48 校音幽匿传感器）是真实内容房，但属重型机关房，需 labfinal 同级的机械档案与受信任运动审查后才能适配（见 [审查回执](audit/heavy-machine-rooms-survey.json)），当前不启用。
+- 15 份没有同路径生成器：8 份 blank、7 份 classic/ruins/unused 按设计不启用。
 - 3 份生成器指向另一真实模板：simple_small_t → heart_of_disorder，small_maze → hot_suspense，transfer_tunnel → spiral_hallway（均位于 classic/ruins）。不把不同房间当作别名替换。
+- `dungeon/jungle_riddle_fixed`（42 黏性活塞+7 活塞+21 头+39 中继器）与 `lab/telecommunication`（48 黏性活塞+48 观察者+48 校音幽匿传感器）已于 2026-11-28 交付 labfinal 同级机械档案与桥接生成器定义，定义策略通过；实机验收未完成。见 [重型机关房](HEAVY_MACHINE_ROOMS.md)。
 - `lab/labfinal` 已适配（2026-11-24）：原 `prevent_block_modification` 确实由 DimensionalDoors 的 BREAK/PLACE 事件检查执行；现仅限桥接副本中剥除该附加组件，由验证过的局部机械档案（25 组件+支撑、受信任自有活塞运动）替代。生成时机械验证失败即拒绝该房间；实机运动与机关行为仍待验收。详见 [局部设备保护](LOCAL_DEVICE_PROTECTION.md)。
 
 审查纠正：`nether_spawners` 中 `minecraft:mob_spawner` 不是兼容缺口。核对当前 Minecraft BlockEntityType 的实际注册代码后，确认它正是有效方块实体标识，与方块标识 `minecraft:spawner` 不同。保留全部九份数据，无需迁移或改名；已加入注册契约检查，不能再依据名称把它误判为过期数据。

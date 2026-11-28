@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-28",
+  "source": "dimdoors-5.4.4.jar",
+  "entry": "resourcepacks/default/data/dimdoors/pockets/schematic/lab/telecommunication.schem",
+  "jarSha256": "ee8193a36d07827e52d540a81d07460e3b47a0bda6366adef1873d9b02a83b52",
+  "entrySha256": "bbb881b9fc18d43f830a8b79d0246cc51d74d7f5d7f80236d0146edc599b51e6",
+  "version": 2,
+  "size": [
+    31,
+    31,
+    57
+  ],
+  "offset": [
+    240,
+    0,
+    240
+  ],
+  "counts": {
+    "minecraft:spruce_door": 96,
+    "minecraft:lectern": 48,
+    "minecraft:sticky_piston": 48,
+    "minecraft:calibrated_sculk_sensor": 48,
+    "minecraft:glowstone": 48,
+    "minecraft:observer": 48,
+    "minecraft:note_block": 48,
+    "minecraft:jukebox": 1
+  },
+  "stableCount": 385,
+  "volatileCount": 0,
+  "pistonBaseCount": 48,
+  "note": "Template-relative coordinates are 0-based (Offset recorded separately); no original book/sign text is extracted."
+}
